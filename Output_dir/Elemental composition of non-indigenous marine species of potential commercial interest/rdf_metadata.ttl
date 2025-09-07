@@ -1,0 +1,201 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix lw: <https://kos.lifewatch.eu/ontologies/lw/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://semantics.lifewatchitaly.eu/resource#dcat:Catalog-id:61175251-1672-4795-b23b-b35b0dd0a294> dcat:dataset <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:c1316c23-0dbb-49ee-af7c-7b9e56df6b80> .
+
+<http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:c1316c23-0dbb-49ee-af7c-7b9e56df6b80> a owl:NamedIndividual,
+        dcat:Dataset ;
+    dct:description "This dataset includes the elemental composition of 76 specimens. Elemental composition analysis was carried out on seven alien marine species (i.e. Anadara kagoshimensis, A. transversa, Siganus luridus, S. rivulatus, Sparisoma cretense, Pterois miles, Callincetes sapidus) within the Mediterranean Sea and the concentration of 25 elements was determined and expressed in the dataset as mg/kg (ppm) of dry weight. The dataset includes temporal and geographic information (e.g. date, water body, country, coordinates) of the different sampling events in which the specimens were collected and morphometric indices of the analysed individuals (e.g. wet and dry weights, lenght, etc.). Specimens were collected during different sampling campaigns and were stored for subsequent analysis at the laboratories of the CNR IRBIM Ancona and of the University of Salento. Elemental composition analyses were carried out at the University of Salento within the USEit project."@en ;
+    dct:identifier "c1316c23-0dbb-49ee-af7c-7b9e56df6b80" ;
+    dct:issued "2025-03-11"^^xsd:date ;
+    dct:language "English"@en ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:rights "Free for use, including sharing and adaptation, by all individuals provided that the owners are acknowledged in any use or publication."@en ;
+    dct:spatial <http://semantics.lifewatchitaly.eu/resource#dct:Spatial-id:c1316c23-0dbb-49ee-af7c-7b9e56df6b80> ;
+    dct:temporal <http://semantics.lifewatchitaly.eu/resource#dct:Temporal-id:c1316c23-0dbb-49ee-af7c-7b9e56df6b80> ;
+    dct:title "Elemental composition of non-indigenous marine species of potential commercial interest"@en ;
+    dwc:measurementMethod "The total concentration of 25 elements (i.e. Al, As, B, Ba, Be, Ca, Cd, Co, Cr, Cu, Fe, Hg, K, Li, Mg, Mn, Na, Ni, P, Pb, Se, Sr, Te, Tl, Zn) was determined by wet digestion. Tissue samples (whole soft body for bivalves and muscle tissue for the rest of the specimens) were dried, weighed, and mixed with 4 ml of water and 6 ml nitric acid at 180°C for 10 minutes using a microwave digestion system (Milestone START D). Samples were subsequently cooled, diluted with ultrapure water to a final volume of 25 ml, filtered through Whatman No. 42 filters and finally used for elemental analysis using an inductively coupled plasma atomic emission spectrometer (ICP-AES; Thermo Scientific iCap 6000 Series). Results of the analysis are expressed in mg/kg of dry weight."@en ;
+    dwc:samplingProtocol "Specimens represent seven invasive alien species in the Mediterranean and include two bivalve mollusks (Anadara kagoshimensis and A. transversa) collected during the SoleMon survey, four fish species (Siganus luridus, S. rivulatus, Sparisoma cretense and Pterois miles) collected by small-fishers in Greece and in Cyprus, and crustacean decapods (Callinectes sapidus) captured in the Ugento ponds (Lecce, Italy) using crab traps. After specimen collection, bivalves were preserved frozen, while fish were sampled from the dorsal muscle after carefully removing the skin and sterilizing the tools for each individual. For C. sapidus, muscle samples were dissected from the chelipeds. Tissue samples from fish and C. sapidus were then preserved in the freezer."@en,
+        "Specimens used for elemental composition analysis were collected at four marine sites of the Adriatic and Ionian Sea (Ravenna and Ugento, Italy), Aegean Sea (Fodele, Greece) and Levantine Sea (Zygi, Cyprus) in four different sampling occasions in 2022."@en ;
+    dcat:distribution <http://semantics.lifewatchitaly.eu/resource#dcat:Distribution-id:https%3A%2F%2Fdata.lifewatchitaly.eu%2Fhandle%2F123456789%2F129630> ;
+    dcat:keyword <http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Fdata.loterre.fr%2Fark%3A%2F67375%2FBLH-SQMKT4H5-7>,
+        <http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Feurovoc.europa.eu%2F3809>,
+        <http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F20556>,
+        <http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F20557>,
+        <http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:https%3A%2F%2Fkos.lifewatch.eu%2Fthesauri%2Ftraits%2Fc_b2468112> ;
+    prov:qualifiedAttribution <http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:3516221500>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:4232262898>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:4469071626>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:7542123858>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:8251321600>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:9660681720>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionContact-id:0326734651>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionCreator-id:2344343521>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionCreator-id:7382388667>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionCreator-id:9233142192>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionMetadataProvider-id:0297242366>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionMetadataProvider-id:0660695776>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionPublisher-id:1626808148> ;
+    prov:wasAttributedTo "This work has been funded by the USEit project: https://www.lifewatchitaly.eu/en/pg-related-projects/useit/"@en ;
+    prov:wasGeneratedBy <http://semantics.lifewatchitaly.eu/resource#foaf:Project-id:1304235588> .
+
+<http://semantics.lifewatchitaly.eu/resource#dcat:Distribution-id:https%3A%2F%2Fdata.lifewatchitaly.eu%2Fhandle%2F123456789%2F129630> a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL <https://data.lifewatchitaly.eu/handle/123456789/129630> .
+
+<http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Fdata.loterre.fr%2Fark%3A%2F67375%2FBLH-SQMKT4H5-7> a owl:NamedIndividual,
+        skos:Concept ;
+    rdfs:label "invasive alien species" ;
+    dct:type <http://data.loterre.fr/ark:/67375/BLH-SQMKT4H5-7> .
+
+<http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Feurovoc.europa.eu%2F3809> a owl:NamedIndividual,
+        skos:Concept ;
+    rdfs:label "chemical element" ;
+    dct:type <http://eurovoc.europa.eu/3809> .
+
+<http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F20556> a owl:NamedIndividual,
+        skos:Concept ;
+    rdfs:label "marine fish" ;
+    dct:type <http://vocabs.lter-europe.net/EnvThes/20556> .
+
+<http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F20557> a owl:NamedIndividual,
+        skos:Concept ;
+    rdfs:label "marine invertebrate" ;
+    dct:type <http://vocabs.lter-europe.net/EnvThes/20557> .
+
+<http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:https%3A%2F%2Fkos.lifewatch.eu%2Fthesauri%2Ftraits%2Fc_b2468112> a owl:NamedIndividual,
+        skos:Concept ;
+    rdfs:label "Elemental composition" ;
+    dct:type <https://kos.lifewatch.eu/thesauri/traits/c_b2468112> .
+
+<http://semantics.lifewatchitaly.eu/resource#dct:Spatial-id:c1316c23-0dbb-49ee-af7c-7b9e56df6b80> a dct:Location ;
+    dct:description "Specimens used for elemental composition analysis were collected at four marine sites of the Adriatic and Ionian Sea (Italy), Aegean Sea (Greece) and Levantine Sea (Cyprus)." ;
+    lw:eastBoundCoordinate "33.332565"^^xsd:LocationStructure ;
+    lw:northBoundCoordinate "44.287450"^^xsd:LocationStructure ;
+    lw:southBoundCoordinate "34.720200"^^xsd:LocationStructure ;
+    lw:westBoundCoordinate "12.388700"^^xsd:LocationStructure .
+
+<http://semantics.lifewatchitaly.eu/resource#dct:Temporal-id:c1316c23-0dbb-49ee-af7c-7b9e56df6b80> a dct:PeriodOfTime ;
+    dcat:endDate "2022-10-20"^^xsd:date ;
+    dcat:startDate "2022-03-12"^^xsd:date .
+
+<http://semantics.lifewatchitaly.eu/resource#foaf:Project-id:1304235588> a foaf:Project ;
+    dct:description "Biological invasions represent today one of the greatest threats to global biodiversity, with negative impacts on human health and the economy of our country. The USEit project addresses this problem by involving a number of marine and terrestrial institutes of the National Research Council of Italy (CNR) and the University of Salento. Our main goal is to empower the scientific research on invasive species and to transform this challenge into new opportunities and new growth strategies." ;
+    dct:title "USEit: Using operational synergies for the study and integrated management of invasive alien species in Italy" .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:LifeWatch%20Italy> a owl:NamedIndividual,
+        prov:Agent ;
+    foaf:mbox "lifewatchitaly@gmail.com" ;
+    foaf:name "LifeWatch Italy" .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0002-0327-482X> a owl:NamedIndividual,
+        prov:Agent,
+        prov:Person ;
+    dct:identifier <https://orcid.org/0000-0002-0327-482X> ;
+    prov:actedOnBehalfOf "University of Salento" ;
+    foaf:familyName "Migoni" ;
+    foaf:mbox "danilo.migoni@unisalento.it" ;
+    foaf:name "Danilo" .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0003-3422-7230> a owl:NamedIndividual,
+        prov:Agent,
+        prov:Person ;
+    dct:identifier <https://orcid.org/0000-0003-3422-7230> ;
+    prov:actedOnBehalfOf "National Research Council (CNR), Institute of Research on Terrestrial Ecosystems (IRET)" ;
+    foaf:familyName "Rosati" ;
+    foaf:mbox "ilaria.rosati@cnr.it" ;
+    foaf:name "Ilaria" .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0003-4072-0662> a owl:NamedIndividual,
+        prov:Agent,
+        prov:Person ;
+    dct:identifier <https://orcid.org/0000-0003-4072-0662> ;
+    prov:actedOnBehalfOf "National Research Council (CNR), Institute of Research on Terrestrial Ecosystems (IRET)" ;
+    foaf:familyName "Di Muri" ;
+    foaf:mbox "cristina.dimuri@cnr.it" ;
+    foaf:name "Cristina" .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:3516221500> a prov:Attribution ;
+    dcat:hadRole "Associated Party" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0003-3073-5772> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:4232262898> a prov:Attribution ;
+    dcat:hadRole "Associated Party" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0003-3422-7230> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:4469071626> a prov:Attribution ;
+    dcat:hadRole "Associated Party" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0003-4072-0662> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:7542123858> a prov:Attribution ;
+    dcat:hadRole "Associated Party" .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:8251321600> a prov:Attribution ;
+    dcat:hadRole "Associated Party" .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:9660681720> a prov:Attribution ;
+    dcat:hadRole "Associated Party" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0002-0327-482X> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionContact-id:0326734651> a prov:Attribution ;
+    dcat:hadRole "Contact" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0002-5833-7322> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionCreator-id:2344343521> a prov:Attribution ;
+    dcat:hadRole "Creator" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0002-9401-2509> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionCreator-id:7382388667> a prov:Attribution ;
+    dcat:hadRole "Creator" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0002-5833-7322> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionCreator-id:9233142192> a prov:Attribution ;
+    dcat:hadRole "Creator" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0003-3073-5772> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionMetadataProvider-id:0297242366> a prov:Attribution ;
+    dcat:hadRole "Metadata Provider" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0002-5833-7322> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionMetadataProvider-id:0660695776> a prov:Attribution ;
+    dcat:hadRole "Metadata Provider" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0002-9401-2509> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionPublisher-id:1626808148> a prov:Attribution ;
+    dcat:hadRole "Publisher" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:LifeWatch%20Italy> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0002-9401-2509> a owl:NamedIndividual,
+        prov:Agent,
+        prov:Person ;
+    dct:identifier <https://orcid.org/0000-0002-9401-2509> ;
+    prov:actedOnBehalfOf "National Research Council of Italy (CNR), Institute for Marine Biological Resources and Biotechnology (IRBIM)" ;
+    foaf:familyName "Chiappi" ;
+    foaf:name "Marina" .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0003-3073-5772> a owl:NamedIndividual,
+        prov:Agent,
+        prov:Person ;
+    dct:identifier <https://orcid.org/0000-0003-3073-5772> ;
+    prov:actedOnBehalfOf "University of Salento" ;
+    foaf:familyName "Fanizzi" ;
+    foaf:mbox "fp.fanizzi@unisalento.it" ;
+    foaf:name "Francesco Paolo" .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0002-5833-7322> a owl:NamedIndividual,
+        prov:Agent,
+        prov:Person ;
+    dct:identifier <https://orcid.org/0000-0002-5833-7322> ;
+    prov:actedOnBehalfOf "University Of Salento" ;
+    foaf:familyName "Mancinelli" ;
+    foaf:mbox "giorgio.mancinelli@unisalento.it" ;
+    foaf:name "Giorgio" .
+

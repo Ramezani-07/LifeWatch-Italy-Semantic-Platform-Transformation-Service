@@ -1,0 +1,111 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix lw: <https://kos.lifewatch.eu/ontologies/lw/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://semantics.lifewatchitaly.eu/resource#dcat:Catalog-id:61175251-1672-4795-b23b-b35b0dd0a294> dcat:dataset <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:a59a398b-1a4d-4fee-a9d7-e4982bd2209f> .
+
+<http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:a59a398b-1a4d-4fee-a9d7-e4982bd2209f> a owl:NamedIndividual,
+        dcat:Dataset ;
+    dct:description "This dataset was compiled as part of a global meta-analysis investigating how environmental and methodological factors influence the detection probability of environmental DNA (eDNA) in aquatic ecosystems. It contains harmonized data extracted from 22 published studies that compared eDNA-based detection methods with traditional biodiversity surveys across various aquatic environments. Key environmental variables include temperature, UV radiation, and salinity. Methodological descriptors include filter pore size and DNA fragment length."@en ;
+    dct:identifier "a59a398b-1a4d-4fee-a9d7-e4982bd2209f" ;
+    dct:issued "2025-05-20"^^xsd:date ;
+    dct:language "English"@en ;
+    dct:license <http://creativecommons.org/licenses/by/4.0/> ;
+    dct:rights "Free for use, including sharing and adaptation, by all individuals provided that the owners are acknowledged in any use or publication."@en ;
+    dct:spatial <http://semantics.lifewatchitaly.eu/resource#dct:Spatial-id:a59a398b-1a4d-4fee-a9d7-e4982bd2209f> ;
+    dct:temporal <http://semantics.lifewatchitaly.eu/resource#dct:Temporal-id:a59a398b-1a4d-4fee-a9d7-e4982bd2209f> ;
+    dct:title "A global dataset on aquatic species occurrence through eDNA and traditional methods."@en ;
+    dwc:measurementMethod """This dataset was generated through a systematic literature review conducted on Web of Science between September 2023 and May 2024. We searched for peer-reviewed studies comparing species detections using both eDNA metabarcoding and traditional morphological methods in aquatic macroorganisms. Boolean combinations of terms including "eDNA", "metabarcoding", "morphological identification", "temperature", "UV", "fragment size", "filter", and "salinity" were used. From over 1,000 records screened, 22 studies met all inclusion criteria.
+For each selected study, we extracted data on species detected by both methods, geographic coordinates, ecosystem type, filter pore size, DNA fragment length, and available environmental variables. When information on water temperature remained unavailable, we sourced the data from the European Space Agency Climate Change Initiative (Merchant et al., 2019; Merchant and Embury, 2020), and the ERA5-Land dataset of the Copernicus Climate Data Store (Muñoz Sabater, 2019) for marine and freshwater environments, respectively. Additionally, we obtained salinity data from the NOAA CoastalWatch Data Portal when it was not provided in the studies. To analyse DNA-damage potential from UV exposure, we used the “Clear-sky DNA-damage UV dose” dataset provided by the Tropospheric Emission Monitoring Internet Service (TEMIS) (Van Geffen et al., 2017)."""@en ;
+    dcat:distribution <http://semantics.lifewatchitaly.eu/resource#dcat:Distribution-id:https%3A%2F%2Fdata.lifewatchitaly.eu%2Fhandle%2F123456789%2F129786> ;
+    dcat:keyword <http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Faims.fao.org%2Faos%2Fagrovoc%2Fc_1375281890023>,
+        <http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Faims.fao.org%2Faos%2Fagrovoc%2Fc_4091f5e2>,
+        <http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F21673>,
+        <http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F22313>,
+        <http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:https%3A%2F%2Fkos.lifewatch.eu%2Fthesauri%2Fsandybeachthes%2Fc_405860a8> ;
+    prov:qualifiedAttribution <http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:1229961250>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionContact-id:0773419531>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionCreator-id:0515972697>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionMetadataProvider-id:5502379078> .
+
+<http://semantics.lifewatchitaly.eu/resource#dcat:Distribution-id:https%3A%2F%2Fdata.lifewatchitaly.eu%2Fhandle%2F123456789%2F129786> a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL <https://data.lifewatchitaly.eu/handle/123456789/129786> .
+
+<http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Faims.fao.org%2Faos%2Fagrovoc%2Fc_1375281890023> a owl:NamedIndividual,
+        skos:Concept ;
+    rdfs:label "Traditional methods" ;
+    dct:type <http://aims.fao.org/aos/agrovoc/c_1375281890023> .
+
+<http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Faims.fao.org%2Faos%2Fagrovoc%2Fc_4091f5e2> a owl:NamedIndividual,
+        skos:Concept ;
+    rdfs:label "Environmental DNA" ;
+    dct:type <http://aims.fao.org/aos/agrovoc/c_4091f5e2> .
+
+<http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F21673> a owl:NamedIndividual,
+        skos:Concept ;
+    rdfs:label "biodiversity" ;
+    dct:type <http://vocabs.lter-europe.net/EnvThes/21673> .
+
+<http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F22313> a owl:NamedIndividual,
+        skos:Concept ;
+    rdfs:label "water temperature" ;
+    dct:type <http://vocabs.lter-europe.net/EnvThes/22313> .
+
+<http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:https%3A%2F%2Fkos.lifewatch.eu%2Fthesauri%2Fsandybeachthes%2Fc_405860a8> a owl:NamedIndividual,
+        skos:Concept ;
+    rdfs:label "Environmental factors" ;
+    dct:type <https://kos.lifewatch.eu/thesauri/sandybeachthes/c_405860a8> .
+
+<http://semantics.lifewatchitaly.eu/resource#dct:Spatial-id:a59a398b-1a4d-4fee-a9d7-e4982bd2209f> a dct:Location ;
+    dct:description "The dataset contains information at a global level." ;
+    lw:eastBoundCoordinate "180"^^xsd:LocationStructure ;
+    lw:northBoundCoordinate "90"^^xsd:LocationStructure ;
+    lw:southBoundCoordinate "-90"^^xsd:LocationStructure ;
+    lw:westBoundCoordinate "-180"^^xsd:LocationStructure .
+
+<http://semantics.lifewatchitaly.eu/resource#dct:Temporal-id:a59a398b-1a4d-4fee-a9d7-e4982bd2209f> a dct:PeriodOfTime ;
+    dcat:endDate "2020-09-15"^^xsd:date ;
+    dcat:startDate "2011-10-01"^^xsd:date .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0009-0001-9691-1989> a owl:NamedIndividual,
+        prov:Agent,
+        prov:Person ;
+    dct:identifier <https://orcid.org/0009-0001-9691-1989> ;
+    prov:actedOnBehalfOf "University of Salento" ;
+    foaf:familyName "Pulieri" ;
+    foaf:mbox "martina.pulieri@unisalento.it" ;
+    foaf:name "Martina" .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:1229961250> a prov:Attribution ;
+    dcat:hadRole "Associated Party" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0009-0001-9691-1989> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionContact-id:0773419531> a prov:Attribution ;
+    dcat:hadRole "Contact" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0003-3330-2163> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionCreator-id:0515972697> a prov:Attribution ;
+    dcat:hadRole "Creator" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0003-3330-2163> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionMetadataProvider-id:5502379078> a prov:Attribution ;
+    dcat:hadRole "Metadata Provider" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0003-3330-2163> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0003-3330-2163> a owl:NamedIndividual,
+        prov:Agent,
+        prov:Person ;
+    dct:identifier <https://orcid.org/0000-0003-3330-2163> ;
+    prov:actedOnBehalfOf "LifeWatch ERIC" ;
+    foaf:familyName "Tzafesta" ;
+    foaf:mbox "eftychia.tzafesta@lifewatch.eu" ;
+    foaf:name "Eftychia" .
+

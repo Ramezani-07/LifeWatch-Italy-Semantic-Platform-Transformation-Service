@@ -1,0 +1,190 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix lw: <https://kos.lifewatch.eu/ontologies/lw/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://semantics.lifewatchitaly.eu/resource#dcat:Catalog-id:61175251-1672-4795-b23b-b35b0dd0a294> dcat:dataset <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:52ca2aff-8eca-4b28-bad1-6358a2b0568a> .
+
+<http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:52ca2aff-8eca-4b28-bad1-6358a2b0568a> a owl:NamedIndividual,
+        dcat:Dataset ;
+    dct:description "This dataset describes the metabolic responses of the groundwater crustacean Spelaeomysis bottazzii to abiotic factors in experimental conditions. The dataset includes variations of oxygen consumption and Standard Metabolic Rate (SMR) of 54 individuals of S. bottazzii under different temperatures (17°C, 21°C, and 25°C) and salinity levels  (2, 4, and 6). Constant Volume Respirometry (CVR) was used to measure oxygen consumption across temperatures and salinity levels. Specimens' biomass and sex information are included in the dataset as such variables can modulate individuals' SMR. In addition, the growth rate of five different individuals of S. bottazzii was also evaluated at different time intervals over eight months."@en ;
+    dct:identifier "52ca2aff-8eca-4b28-bad1-6358a2b0568a" ;
+    dct:issued "2025-04-07"^^xsd:date ;
+    dct:language "English"@en ;
+    dct:license <http://creativecommons.org/licenses/by/4.0/> ;
+    dct:rights "Free for use, including sharing and adaptation, by all individuals provided that the owners are acknowledged in any use or publication."@en ;
+    dct:spatial <http://semantics.lifewatchitaly.eu/resource#dct:Spatial-id:Specimens%20of%20Spelaeomysis%20bottazzii%20used%20in%20this%20study%20have%20been%20collected%20from%20a%20cave%20in%20the%20locality%20of%20Sant%E2%80%99Isidoro%20%28Nard%C3%B2%20Municipality%20-%20Apulia%2C%20Italy%29.> ;
+    dct:temporal <http://semantics.lifewatchitaly.eu/resource#dct:Temporal-id:52ca2aff-8eca-4b28-bad1-6358a2b0568a> ;
+    dct:title "Standard metabolic rate of Spelaeomysis bottazzii at different temperatures and salinities and growth rates"@en ;
+    dwc:measurementMethod """Plastic trays measuring 23 x 35 x 10 cm were used to house the animals throughout the experiment (ca. 18 individuals for tray), except for the specimens designated for growth rate measurements. The trays were inspected weekly to ensure both food and water were available. During the inspection, excreta and any remaining organic residues were removed using a pipette to keep the trays clean. The water level was maintained at a fixed mark, with the trays filled using a mixture of deionized and field water to contrast evaporation and keep the salinity consistently around 2. For feeding, the animals received a weekly ration consisting of 37 mg per capita of dry fish food containing 36% spirulina (Sera© Nature Micron) diluted into field water. Additionally, stones collected from the field were provided as environmental enrichment, offering natural hiding spots or resting areas.
+
+To evaluate standard aerobic metabolic rates under varying temperature and salinity conditions, Constant Volume Respirometry (CVR) assays were conducted on three groups of S. bottazzii, each consisting of 18 individuals with a similar size distribution (total: 54 specimens randomly selected from the field sample). After collection and acclimation to laboratory conditions, each group was maintained at a constant temperature of 17°C, 21°C, or 25°C for 2 weeks. After the first CVR assay at the natural salinity level (2), specimens were exposed in sequence to salinity levels of 4 and 6, each for 24 hours, and their oxygen consumption was measured at each salinity step. Thus, three repeated measurements at different salinity levels were obtained for each specimen, whereas no repeated measurements were taken across different temperatures. The specimens Respiration Rate (RR, mg h-1 ) was calculated from the slope (b) of the linear regression oxygen concentration in the respiration chamber (mg ml-1) over time (sec), so that RR = (b*V*3600). The obtained values were converted in Standard Metabolic Rate (SMR, J day-1), using an oxy-joule equivalent of 14.06 J mgO2-1. After measurements, each individual's Dry Weight (DW, mg) was determined by drying specimens at 60°C for 48 hours in an oven and weighing them using an analytical balance."""@en,
+        "To measure growth rates, six of the smallest sampled individuals were isolated in separate microcosms to allow individual recognition. These specimens were maintained in darkness, in natural water at 17°C and salinity of 2, mirroring the conditions at the collection site, and were fed ad libitum. Body length was measured regularly over 262 days. The specimens were placed in a transparent plastic glass 6 cm in diameter. The bottom of the containers were transparent and placed on a sheet of graph paper. Photographs of the individuals were taken at different time intervals: once per week initially, then every two weeks. All images were taken using an iPhone SE (2022), ensuring that the device was perpendicular to the container by using the built-in level to prevent image distortion. The growth rate was assessed by measuring the body length, defined as the distance from the anterior margin of the carapace to the posterior margin of the telson without spines, in each image using ImageJ (version 1.54g), with graph paper as reference scale."@en ;
+    dwc:samplingProtocol "Specimens of Spelaeomysis bottazzii were collected using a simple trapping method. Three weighted buckets were placed horizontally in the water with its opening facing the deeper part of the cave. Approximately 10 g of chicken liver bait was placed inside, attracting S. bottazzii to feed and remain in the bucket. By quickly lifting the buckets into a vertical position, the specimens were trapped. The trap was checked after 24 hours, and the captured animals were collected. S. bottazzii was the only species observed and collected at this site using this method. After field collection, the specimens were transported to the laboratory in an insulated thermos container and placed in plastic trays with field water to minimize potential osmoregulatory stress."@en,
+        "The specimens of Spelaeomysis bottazzii used in this study have been collected from a cave in the locality of Sant’Isidoro, (Nardò Municipality - Apulia, Italy)  (40.222 N - 17.929 E). The site is located along the wide coastal plain of the Ionian Sea. The about 25 km-long coastal stretch ​​comprised between Torre Castiglione (Municipality of Porto Cesareo) to the north, and Serra Cicora (Municipality of Nardò) to the south, is characterized by numerous collapse dolines."@en ;
+    dcat:distribution <http://semantics.lifewatchitaly.eu/resource#dcat:Distribution-id:https%3A%2F%2Fdata.lifewatchitaly.eu%2Fhandle%2F123456789%2F129683> ;
+    dcat:keyword <http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Faims.fao.org%2Faos%2Fagrovoc%2Fc_87e413f9>,
+        <http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Fdata.loterre.fr%2Fark%3A%2F67375%2FBLH-G57D2QQR-3>,
+        <http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Fdata.loterre.fr%2Fark%3A%2F67375%2FBLH-WNMPKQ7Z-J>,
+        <http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Fpurl.dataone.org%2Fodo%2FECSO_00000505>,
+        <http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F10060>,
+        <http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F21316>,
+        <http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F21317> ;
+    prov:qualifiedAttribution <http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:1751765513>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:7702817051>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionContact-id:5653137969>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionContact-id:9145591366>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionCreator-id:1651424535>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionCreator-id:4946482721>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionCreator-id:7205353460>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionMetadataProvider-id:2997162562>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionPublisher-id:2042135581> ;
+    prov:wasAttributedTo "The dataset creators thank Salvatore Inguscio for his invaluable knowledge and essential support in specimens collection, and Efrain M. Chávez Solís for sharing his expertise on stygofauna respirometry."@en ;
+    prov:wasGeneratedBy <http://semantics.lifewatchitaly.eu/resource#foaf:Project-id:8934229371> .
+
+<http://semantics.lifewatchitaly.eu/resource#dcat:Distribution-id:https%3A%2F%2Fdata.lifewatchitaly.eu%2Fhandle%2F123456789%2F129683> a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL <https://data.lifewatchitaly.eu/handle/123456789/129683> .
+
+<http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Faims.fao.org%2Faos%2Fagrovoc%2Fc_87e413f9> a owl:NamedIndividual,
+        skos:Concept ;
+    rdfs:label "stygofauna" ;
+    dct:type <http://aims.fao.org/aos/agrovoc/c_87e413f9> .
+
+<http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Fdata.loterre.fr%2Fark%3A%2F67375%2FBLH-G57D2QQR-3> a owl:NamedIndividual,
+        skos:Concept ;
+    rdfs:label "climate change" ;
+    dct:type <http://data.loterre.fr/ark:/67375/BLH-G57D2QQR-3> .
+
+<http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Fdata.loterre.fr%2Fark%3A%2F67375%2FBLH-WNMPKQ7Z-J> a owl:NamedIndividual,
+        skos:Concept ;
+    rdfs:label "abiotic factor" ;
+    dct:type <http://data.loterre.fr/ark:/67375/BLH-WNMPKQ7Z-J> .
+
+<http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Fpurl.dataone.org%2Fodo%2FECSO_00000505> a owl:NamedIndividual,
+        skos:Concept ;
+    rdfs:label "Experiment" ;
+    dct:type <http://purl.dataone.org/odo/ECSO_00000505> .
+
+<http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F10060> a owl:NamedIndividual,
+        skos:Concept ;
+    rdfs:label "growth rate" ;
+    dct:type <http://vocabs.lter-europe.net/EnvThes/10060> .
+
+<http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F21316> a owl:NamedIndividual,
+        skos:Concept ;
+    rdfs:label "metabolic rate" ;
+    dct:type <http://vocabs.lter-europe.net/EnvThes/21316> .
+
+<http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F21317> a owl:NamedIndividual,
+        skos:Concept ;
+    rdfs:label "metabolism" ;
+    dct:type <http://vocabs.lter-europe.net/EnvThes/21317> .
+
+<http://semantics.lifewatchitaly.eu/resource#dct:Spatial-id:Specimens%20of%20Spelaeomysis%20bottazzii%20used%20in%20this%20study%20have%20been%20collected%20from%20a%20cave%20in%20the%20locality%20of%20Sant%E2%80%99Isidoro%20%28Nard%C3%B2%20Municipality%20-%20Apulia%2C%20Italy%29.> a dct:Location ;
+    dct:description "Specimens of Spelaeomysis bottazzii used in this study have been collected from a cave in the locality of Sant’Isidoro (Nardò Municipality - Apulia, Italy)." ;
+    lw:eastBoundCoordinate "17.929000"^^xsd:LocationStructure ;
+    lw:northBoundCoordinate "40.222000"^^xsd:LocationStructure ;
+    lw:southBoundCoordinate "40.222000"^^xsd:LocationStructure ;
+    lw:westBoundCoordinate "17.929000"^^xsd:LocationStructure .
+
+<http://semantics.lifewatchitaly.eu/resource#dct:Temporal-id:52ca2aff-8eca-4b28-bad1-6358a2b0568a> a dct:PeriodOfTime ;
+    dcat:endDate "2024-12-14"^^xsd:date ;
+    dcat:startDate "2024-08-21"^^xsd:date .
+
+<http://semantics.lifewatchitaly.eu/resource#foaf:Project-id:8934229371> a foaf:Project ;
+    dct:description "The PRIN 2022 project STIGE – CLIMAQUIFERI (STygofauna at the Interface between surficial and Groundwater Ecosystem: CLIMate change effects on AQUatic Invertebrates Fitness, Energy and Resource use in Italian aquifers) aims to study the energetic and behavioral patterns of mobile aquatic organisms, with a particular focus on stygofauna. STIGE – CLIMAQUIFERI integrates ecological theory, field observations, laboratory experiments, and modeling approaches. Specifically, the Pace of Life Syndrome hypothesis (POLS) posits that closely related species or populations experiencing different ecological conditions should exhibit differences in a range of energetic, physiological, and behavioral traits. Investigating the implications of POLS in organisms exposed to different levels of environmental variability (i.e., epigean vs. hypogean aquatic invertebrates) supports the understanding of ecological responses to novel environmental conditions." ;
+    dct:title "PRIN 2022 STIGE-CLIMAQUIFERI" .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:LifeWatch%20Italy> a owl:NamedIndividual,
+        prov:Agent ;
+    foaf:mbox "lifewatchitaly@gmail.com" ;
+    foaf:name "LifeWatch Italy" .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0001-8148-0365> a owl:NamedIndividual,
+        prov:Agent,
+        prov:Person ;
+    dct:identifier <https://orcid.org/0000-0001-8148-0365> ;
+    prov:actedOnBehalfOf "University of Salento" ;
+    foaf:familyName "Fumarola" ;
+    foaf:mbox "laramarastella.fumarola@unisalento.it" ;
+    foaf:name "Lara Marastella" .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0003-4072-0662> a owl:NamedIndividual,
+        prov:Agent,
+        prov:Person ;
+    dct:identifier <https://orcid.org/0000-0003-4072-0662> ;
+    prov:actedOnBehalfOf "National Research Council (CNR), Institute of Research on Terrestrial Ecosystems (IRET)" ;
+    foaf:familyName "Di Muri" ;
+    foaf:mbox "cristina.dimuri@cnr.it" ;
+    foaf:name "Cristina" .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0009-0001-9691-1989> a owl:NamedIndividual,
+        prov:Agent,
+        prov:Person ;
+    dct:identifier <https://orcid.org/0009-0001-9691-1989> ;
+    prov:actedOnBehalfOf "University of Salento" ;
+    foaf:familyName "Pulieri" ;
+    foaf:mbox "martina.pulieri@unisalento.it" ;
+    foaf:name "Martina" .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:1751765513> a prov:Attribution ;
+    dcat:hadRole "Associated Party" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0009-0001-9691-1989> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:7702817051> a prov:Attribution ;
+    dcat:hadRole "Associated Party" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0003-4072-0662> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionContact-id:5653137969> a prov:Attribution ;
+    dcat:hadRole "Contact" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0001-7105-6704> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionContact-id:9145591366> a prov:Attribution ;
+    dcat:hadRole "Contact" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0002-6413-0977> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionCreator-id:1651424535> a prov:Attribution ;
+    dcat:hadRole "Creator" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0002-6413-0977> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionCreator-id:4946482721> a prov:Attribution ;
+    dcat:hadRole "Creator" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0001-7105-6704> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionCreator-id:7205353460> a prov:Attribution ;
+    dcat:hadRole "Creator" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0001-8148-0365> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionMetadataProvider-id:2997162562> a prov:Attribution ;
+    dcat:hadRole "Metadata Provider" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0001-7105-6704> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionPublisher-id:2042135581> a prov:Attribution ;
+    dcat:hadRole "Publisher" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:LifeWatch%20Italy> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0002-6413-0977> a owl:NamedIndividual,
+        prov:Agent,
+        prov:Person ;
+    dct:identifier <https://orcid.org/0000-0002-6413-0977> ;
+    prov:actedOnBehalfOf "National Research Council of Italy (CNR), Research Institute on Terrestrial Ecosystems (IRET)" ;
+    foaf:familyName "Cozzoli" ;
+    foaf:mbox "francesco.cozzoli@cnr.it" ;
+    foaf:name "Francesco" .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0001-7105-6704> a owl:NamedIndividual,
+        prov:Agent,
+        prov:Person ;
+    dct:identifier <https://orcid.org/0000-0001-7105-6704> ;
+    prov:actedOnBehalfOf "National Research Council of Italy (CNR), Research Institute on Terrestrial Ecosystems (IRET)" ;
+    foaf:familyName "Boulamail" ;
+    foaf:mbox "sarahboulamail@cnr.it" ;
+    foaf:name "Sarah" .
+

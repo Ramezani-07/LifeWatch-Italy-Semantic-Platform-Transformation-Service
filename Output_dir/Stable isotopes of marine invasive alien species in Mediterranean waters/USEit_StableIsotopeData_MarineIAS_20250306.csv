@@ -1,0 +1,87 @@
+catalogNumber;year;month;locality;waterBody;country;decimalLatitude;decimalLongitude;depth;acceptedNameUsage;acceptedNameUsageID;scientificNameAuthorship;taxonRank;wetWeight;bodyLength;carbon13;percentCarbon;nitrogen15;percentNitrogen
+1;2022;NA;Rimini;Adriatic Sea;Italy;44.226119;12.65565;20;Anadara kagoshimensis;urn:lsid:marinespecies.org:taxname:504360;(Tokunaga, 1906);species;31.25;4.35;-19.08;44.86;8.57;10.11
+2;2022;NA;Rimini;Adriatic Sea;Italy;44.226119;12.65565;20;Anadara kagoshimensis;urn:lsid:marinespecies.org:taxname:504360;(Tokunaga, 1906);species;31.1;4.42;-19.07;44.69;8.15;10.79
+3;2022;NA;Rimini;Adriatic Sea;Italy;44.226119;12.65565;20;Anadara kagoshimensis;urn:lsid:marinespecies.org:taxname:504360;(Tokunaga, 1906);species;34.1;5;-18.85;39.53;8.51;9.46
+4;2022;NA;Rimini;Adriatic Sea;Italy;44.226119;12.65565;20;Anadara kagoshimensis;urn:lsid:marinespecies.org:taxname:504360;(Tokunaga, 1906);species;28;4.07;-19.07;44.5;8.66;10.93
+5;2022;NA;Rimini;Adriatic Sea;Italy;44.226119;12.65565;20;Anadara kagoshimensis;urn:lsid:marinespecies.org:taxname:504360;(Tokunaga, 1906);species;31.6;4.46;-19.24;37.93;8.41;8.62
+6;2022;NA;Rimini;Adriatic Sea;Italy;44.226119;12.65565;20;Anadara kagoshimensis;urn:lsid:marinespecies.org:taxname:504360;(Tokunaga, 1906);species;30.1;4.11;-19.26;39.79;8.18;8.74
+7;2022;NA;Rimini;Adriatic Sea;Italy;44.226119;12.65565;20;Anadara kagoshimensis;urn:lsid:marinespecies.org:taxname:504360;(Tokunaga, 1906);species;29.1;4.33;-19.03;45.74;8.49;10.82
+8;2022;NA;Rimini;Adriatic Sea;Italy;44.226119;12.65565;20;Anadara kagoshimensis;urn:lsid:marinespecies.org:taxname:504360;(Tokunaga, 1906);species;22.2;3.82;-19.23;43.01;8.26;9.53
+9;2022;NA;Rimini;Adriatic Sea;Italy;44.226119;12.65565;20;Anadara transversa;urn:lsid:marinespecies.org:taxname:156734;(Say, 1822);species;14.2;3.81;-19.28;38.69;7.74;9.67
+10;2022;NA;Rimini;Adriatic Sea;Italy;44.226119;12.65565;20;Anadara transversa;urn:lsid:marinespecies.org:taxname:156734;(Say, 1822);species;12;3.56;-19.37;41.49;7.5;10.58
+11;2022;NA;Rimini;Adriatic Sea;Italy;44.226119;12.65565;20;Anadara transversa;urn:lsid:marinespecies.org:taxname:156734;(Say, 1822);species;12.8;3.5;-19.27;42.69;7.55;9.67
+12;2022;NA;Rimini;Adriatic Sea;Italy;44.226119;12.65565;20;Anadara transversa;urn:lsid:marinespecies.org:taxname:156734;(Say, 1822);species;10.7;3.27;-19.38;39.18;7.25;9.62
+13;2022;NA;Rimini;Adriatic Sea;Italy;44.226119;12.65565;20;Anadara transversa;urn:lsid:marinespecies.org:taxname:156734;(Say, 1822);species;8.6;3.35;-19.28;44.7;7.34;10.95
+14;2022;NA;Rimini;Adriatic Sea;Italy;44.226119;12.65565;20;Anadara transversa;urn:lsid:marinespecies.org:taxname:156734;(Say, 1822);species;8.7;3.49;-19.53;38.65;7.71;9.35
+15;2022;NA;Rimini;Adriatic Sea;Italy;44.226119;12.65565;20;Anadara transversa;urn:lsid:marinespecies.org:taxname:156734;(Say, 1822);species;10.6;3.58;-19.37;42.13;8.18;10.77
+16;2022;NA;Rimini;Adriatic Sea;Italy;44.226119;12.65565;20;Anadara transversa;urn:lsid:marinespecies.org:taxname:156734;(Say, 1822);species;6.3;3;-19.55;39.63;8.08;9.67
+17;2022;NA;Rimini;Adriatic Sea;Italy;44.226119;12.65565;20;Anadara transversa;urn:lsid:marinespecies.org:taxname:156734;(Say, 1822);species;7.6;3.2;-19.56;40.24;7.21;9.42
+18;2022;NA;Rimini;Adriatic Sea;Italy;44.226119;12.65565;20;Anadara transversa;urn:lsid:marinespecies.org:taxname:156734;(Say, 1822);species;9.7;3.3;-19.52;46.2;7.58;10.55
+19;2022;05;Heraklion;Aegean Sea;Greece;35.334219;25.297126;3;Siganus rivulatus;urn:lsid:marinespecies.org:taxname:127045;Forsskål & Niebuhr, 1775;species;66;20.3;-13.94;43.41;5.42;12
+20;2022;05;Heraklion;Aegean Sea;Greece;35.334219;25.297126;3;Siganus rivulatus;urn:lsid:marinespecies.org:taxname:127045;Forsskål & Niebuhr, 1775;species;25.3;12.5;-16.17;44.38;5.99;12.56
+21;2022;05;Heraklion;Aegean Sea;Greece;35.334219;25.297126;3;Siganus rivulatus;urn:lsid:marinespecies.org:taxname:127045;Forsskål & Niebuhr, 1775;species;NA;20;-14.83;47.87;4.11;12.35
+22;2022;05;Heraklion;Aegean Sea;Greece;35.334219;25.297126;3;Siganus rivulatus;urn:lsid:marinespecies.org:taxname:127045;Forsskål & Niebuhr, 1775;species;NA;18;-16.71;43.75;4.64;12.35
+23;2022;05;Heraklion;Aegean Sea;Greece;35.334219;25.297126;3;Siganus rivulatus;urn:lsid:marinespecies.org:taxname:127045;Forsskål & Niebuhr, 1775;species;NA;18;-15.64;22.85;8.05;6.64
+24;2022;05;Heraklion;Aegean Sea;Greece;35.334219;25.297126;3;Siganus rivulatus;urn:lsid:marinespecies.org:taxname:127045;Forsskål & Niebuhr, 1775;species;NA;19;-17.29;45.63;7.2;13.16
+25;2022;05;Heraklion;Aegean Sea;Greece;35.334219;25.297126;3;Siganus rivulatus;urn:lsid:marinespecies.org:taxname:127045;Forsskål & Niebuhr, 1775;species;NA;18.5;-15.39;44.43;4.96;13.16
+26;2022;05;Heraklion;Aegean Sea;Greece;35.334219;25.297126;3;Siganus rivulatus;urn:lsid:marinespecies.org:taxname:127045;Forsskål & Niebuhr, 1775;species;NA;21;-15.27;43.93;5.06;12.82
+27;2022;05;Heraklion;Aegean Sea;Greece;35.334219;25.297126;3;Siganus rivulatus;urn:lsid:marinespecies.org:taxname:127045;Forsskål & Niebuhr, 1775;species;NA;20;-17.62;46.71;4.75;12.04
+28;2022;05;Heraklion;Aegean Sea;Greece;35.334219;25.297126;3;Siganus rivulatus;urn:lsid:marinespecies.org:taxname:127045;Forsskål & Niebuhr, 1775;species;NA;19;-17.39;44.62;4.71;12.55
+29;2022;05;Heraklion;Aegean Sea;Greece;35.334219;25.297126;3;Siganus luridus;urn:lsid:marinespecies.org:taxname:127044;(Rüppell, 1829);species;28.7;13.2;-11.39;46.16;6.66;12.76
+30;2022;05;Heraklion;Aegean Sea;Greece;35.334219;25.297126;3;Siganus luridus;urn:lsid:marinespecies.org:taxname:127044;(Rüppell, 1829);species;31.1;14;-14.19;46.09;5.94;12.84
+31;2022;05;Heraklion;Aegean Sea;Greece;35.334219;25.297126;3;Siganus luridus;urn:lsid:marinespecies.org:taxname:127044;(Rüppell, 1829);species;27;13.5;-16.32;48.31;4.49;12.81
+32;2022;05;Heraklion;Aegean Sea;Greece;35.334219;25.297126;3;Siganus luridus;urn:lsid:marinespecies.org:taxname:127044;(Rüppell, 1829);species;26.3;12.7;-16.04;47.49;5.44;13.32
+33;2022;05;Heraklion;Aegean Sea;Greece;35.334219;25.297126;3;Siganus luridus;urn:lsid:marinespecies.org:taxname:127044;(Rüppell, 1829);species;40.2;14.5;-15.45;44.46;4.87;11.77
+34;2022;05;Heraklion;Aegean Sea;Greece;35.334219;25.297126;3;Siganus luridus;urn:lsid:marinespecies.org:taxname:127044;(Rüppell, 1829);species;35.5;14.3;-14.61;48.28;6.02;12.7
+35;2022;05;Heraklion;Aegean Sea;Greece;35.334219;25.297126;3;Siganus luridus;urn:lsid:marinespecies.org:taxname:127044;(Rüppell, 1829);species;28.1;12.8;-13.71;41.3;6.58;12.04
+36;2022;05;Heraklion;Aegean Sea;Greece;35.334219;25.297126;3;Siganus luridus;urn:lsid:marinespecies.org:taxname:127044;(Rüppell, 1829);species;36.1;13.6;-12.76;45.74;5.92;12.15
+37;2022;05;Heraklion;Aegean Sea;Greece;35.334219;25.297126;3;Siganus luridus;urn:lsid:marinespecies.org:taxname:127044;(Rüppell, 1829);species;17.1;11.2;-16.45;47.31;5.53;11.85
+38;2022;05;Heraklion;Aegean Sea;Greece;35.334219;25.297126;3;Siganus luridus;urn:lsid:marinespecies.org:taxname:127044;(Rüppell, 1829);species;26.2;12.5;-12.61;47.88;6.27;11.41
+39;2022;05;Heraklion;Aegean Sea;Greece;35.334219;25.297126;3;Pterois miles;urn:lsid:marinespecies.org:taxname:218077;(Bennett, 1828);species;NA;23;-17.15;44.83;7.12;13.73
+40;2022;05;Heraklion;Aegean Sea;Greece;35.334219;25.297126;3;Pterois miles;urn:lsid:marinespecies.org:taxname:218077;(Bennett, 1828);species;NA;24;-17.27;46.94;6.81;12.41
+41;2022;05;Heraklion;Aegean Sea;Greece;35.334219;25.297126;3;Pterois miles;urn:lsid:marinespecies.org:taxname:218077;(Bennett, 1828);species;NA;22;-17.18;45.38;6.73;13.44
+42;2022;05;Heraklion;Aegean Sea;Greece;35.334219;25.297126;3;Pterois miles;urn:lsid:marinespecies.org:taxname:218077;(Bennett, 1828);species;NA;26;-17.4;46.29;6.9;13.11
+43;2022;05;Heraklion;Aegean Sea;Greece;35.334219;25.297126;3;Pterois miles;urn:lsid:marinespecies.org:taxname:218077;(Bennett, 1828);species;NA;21;-16.48;50.67;7.74;10.92
+44;2022;05;Heraklion;Aegean Sea;Greece;35.334219;25.297126;3;Pterois miles;urn:lsid:marinespecies.org:taxname:218077;(Bennett, 1828);species;NA;15;-17.3;45.18;6.78;12.93
+45;2022;05;Heraklion;Aegean Sea;Greece;35.334219;25.297126;3;Pterois miles;urn:lsid:marinespecies.org:taxname:218077;(Bennett, 1828);species;NA;16;-16.84;46.53;6.78;12.23
+46;2022;05;Heraklion;Aegean Sea;Greece;35.334219;25.297126;3;Pterois miles;urn:lsid:marinespecies.org:taxname:218077;(Bennett, 1828);species;NA;17;-17.95;46.23;7.16;16.47
+47;2022;05;Heraklion;Aegean Sea;Greece;35.334219;25.297126;3;Pterois miles;urn:lsid:marinespecies.org:taxname:218077;(Bennett, 1828);species;NA;12;-17.06;44.42;7.13;12.95
+48;2022;05;Heraklion;Aegean Sea;Greece;35.334219;25.297126;3;Pterois miles;urn:lsid:marinespecies.org:taxname:218077;(Bennett, 1828);species;NA;13;-16.54;45.44;7.5;12.91
+49;2022;10;Zygi;Levantine Sea;Cyprus;34.725361;33.341521;10;Pterois miles;urn:lsid:marinespecies.org:taxname:218077;(Bennett, 1828);species;375;32;-17.32;44.32;7.04;12.25
+50;2022;10;Zygi;Levantine Sea;Cyprus;34.725361;33.341521;10;Pterois miles;urn:lsid:marinespecies.org:taxname:218077;(Bennett, 1828);species;142.09;23.1;-17.53;46.51;6.88;12.57
+51;2022;10;Zygi;Levantine Sea;Cyprus;34.725361;33.341521;10;Pterois miles;urn:lsid:marinespecies.org:taxname:218077;(Bennett, 1828);species;252.13;28.2;-17.28;57.19;6.23;12.98
+52;2022;10;Zygi;Levantine Sea;Cyprus;34.725361;33.341521;10;Pterois miles;urn:lsid:marinespecies.org:taxname:218077;(Bennett, 1828);species;341.1;30.7;-16.69;46.27;6.84;12.9
+53;2022;10;Zygi;Levantine Sea;Cyprus;34.725361;33.341521;10;Pterois miles;urn:lsid:marinespecies.org:taxname:218077;(Bennett, 1828);species;87.36;20.3;-16.53;46.16;6.57;13.27
+54;2022;10;Zygi;Levantine Sea;Cyprus;34.725361;33.341521;10;Pterois miles;urn:lsid:marinespecies.org:taxname:218077;(Bennett, 1828);species;192.29;26.6;-17.57;42.52;6.62;12.56
+55;2022;10;Zygi;Levantine Sea;Cyprus;34.725361;33.341521;10;Pterois miles;urn:lsid:marinespecies.org:taxname:218077;(Bennett, 1828);species;139.29;23.4;-17.33;47.15;6.67;12.82
+56;2022;10;Zygi;Levantine Sea;Cyprus;34.725361;33.341521;10;Pterois miles;urn:lsid:marinespecies.org:taxname:218077;(Bennett, 1828);species;298.03;29.6;-17.73;43.5;6.68;12.83
+57;2022;10;Zygi;Levantine Sea;Cyprus;34.725361;33.341521;10;Pterois miles;urn:lsid:marinespecies.org:taxname:218077;(Bennett, 1828);species;150.2;25.2;-17.63;48.87;6.37;12.79
+58;2022;10;Zygi;Levantine Sea;Cyprus;34.725361;33.341521;10;Siganus luridus;urn:lsid:marinespecies.org:taxname:127044;(Rüppell, 1829);species;52;16.3;-13.66;47.67;3.35;11.39
+59;2022;10;Zygi;Levantine Sea;Cyprus;34.725361;33.341521;10;Siganus luridus;urn:lsid:marinespecies.org:taxname:127044;(Rüppell, 1829);species;46.18;16.3;-16.53;46.22;2.89;13.02
+60;2022;10;Zygi;Levantine Sea;Cyprus;34.725361;33.341521;10;Siganus luridus;urn:lsid:marinespecies.org:taxname:127044;(Rüppell, 1829);species;69.74;17.6;-20.48;47.13;3.38;10.35
+61;2022;10;Zygi;Levantine Sea;Cyprus;34.725361;33.341521;10;Siganus luridus;urn:lsid:marinespecies.org:taxname:127044;(Rüppell, 1829);species;55.25;17.8;-17.43;49.76;3.95;12.29
+62;2022;10;Zygi;Levantine Sea;Cyprus;34.725361;33.341521;10;Siganus luridus;urn:lsid:marinespecies.org:taxname:127044;(Rüppell, 1829);species;63.21;18.1;-18.32;46.31;3.27;28.12
+63;2022;10;Zygi;Levantine Sea;Cyprus;34.725361;33.341521;10;Siganus luridus;urn:lsid:marinespecies.org:taxname:127044;(Rüppell, 1829);species;66.16;18.2;-16.83;47.42;3.97;12.3
+64;2022;10;Zygi;Levantine Sea;Cyprus;34.725361;33.341521;10;Siganus luridus;urn:lsid:marinespecies.org:taxname:127044;(Rüppell, 1829);species;66.99;17.5;-16.18;45.91;3.89;11.77
+65;2022;10;Zygi;Levantine Sea;Cyprus;34.725361;33.341521;10;Sparisoma cretense;urn:lsid:marinespecies.org:taxname:231441;(Linnaeus, 1758);species;97;NA;-19.07;45.47;3.75;12.89
+66;2022;10;Zygi;Levantine Sea;Cyprus;34.725361;33.341521;10;Sparisoma cretense;urn:lsid:marinespecies.org:taxname:231441;(Linnaeus, 1758);species;202;22.1;-15.99;48.51;4.19;13.46
+67;2022;10;Zygi;Levantine Sea;Cyprus;34.725361;33.341521;10;Sparisoma cretense;urn:lsid:marinespecies.org:taxname:231441;(Linnaeus, 1758);species;91;16;-18.19;45.97;5.27;13.16
+68;2022;10;Zygi;Levantine Sea;Cyprus;34.725361;33.341521;10;Sparisoma cretense;urn:lsid:marinespecies.org:taxname:231441;(Linnaeus, 1758);species;62;14.1;-19.05;47.86;3.87;13.35
+69;2022;10;Zygi;Levantine Sea;Cyprus;34.725361;33.341521;10;Sparisoma cretense;urn:lsid:marinespecies.org:taxname:231441;(Linnaeus, 1758);species;76;14.6;-17.37;47.41;3.96;13.78
+70;2022;10;Zygi;Levantine Sea;Cyprus;34.725361;33.341521;10;Sparisoma cretense;urn:lsid:marinespecies.org:taxname:231441;(Linnaeus, 1758);species;102;16.3;-18.67;46.6;4.12;13.28
+71;2022;10;Zygi;Levantine Sea;Cyprus;34.725361;33.341521;10;Sarpa salpa;urn:lsid:marinespecies.org:taxname:127064;(Linnaeus, 1758);species;57;17;-18.87;48.78;5.42;13.4
+72;2022;10;Zygi;Levantine Sea;Cyprus;34.725361;33.341521;10;Sarpa salpa;urn:lsid:marinespecies.org:taxname:127064;(Linnaeus, 1758);species;43;15.5;-12.73;46.74;4.6;13.18
+73;2022;10;Zygi;Levantine Sea;Cyprus;34.725361;33.341521;10;Sarpa salpa;urn:lsid:marinespecies.org:taxname:127064;(Linnaeus, 1758);species;50;16.5;-19.33;49.73;4.53;12.8
+74;2022;10;Zygi;Levantine Sea;Cyprus;34.725361;33.341521;10;Sarpa salpa;urn:lsid:marinespecies.org:taxname:127064;(Linnaeus, 1758);species;40;14.2;-16.8;48.57;3.96;13.25
+75;2022;10;Zygi;Levantine Sea;Cyprus;34.725361;33.341521;10;Sarpa salpa;urn:lsid:marinespecies.org:taxname:127064;(Linnaeus, 1758);species;69;19;-16.05;48.16;3.84;13.54
+76;2022;10;Zygi;Levantine Sea;Cyprus;34.725361;33.341521;10;Sarpa salpa;urn:lsid:marinespecies.org:taxname:127064;(Linnaeus, 1758);species;64;18.3;-14.91;48.54;4.82;13.1
+77;2022;10;Zygi;Levantine Sea;Cyprus;34.725361;33.341521;10;Sarpa salpa;urn:lsid:marinespecies.org:taxname:127064;(Linnaeus, 1758);species;45;15.1;-14.38;49.72;4.45;14.04
+78;2022;10;Zygi;Levantine Sea;Cyprus;34.725361;33.341521;10;Sarpa salpa;urn:lsid:marinespecies.org:taxname:127064;(Linnaeus, 1758);species;51;16.4;-18.01;49.75;4.51;13.12
+79;2022;10;Zygi;Levantine Sea;Cyprus;34.725361;33.341521;10;Sarpa salpa;urn:lsid:marinespecies.org:taxname:127064;(Linnaeus, 1758);species;43;14.5;-16.2;47.39;4.37;13.29
+80;2022;11;Zygi;Levantine Sea;Cyprus;34.725361;33.341521;10;Sarpa salpa;urn:lsid:marinespecies.org:taxname:127064;(Linnaeus, 1758);species;42;15.4;-15.23;47.46;4.07;13.4
+81;2022;11;Zygi;Levantine Sea;Cyprus;34.725361;33.341521;10;Siganus rivulatus;urn:lsid:marinespecies.org:taxname:127045;Forsskål & Niebuhr, 1775;species;120;21.1;-15.45;56.17;3.93;12.95
+82;2022;11;Zygi;Levantine Sea;Cyprus;34.725361;33.341521;10;Siganus rivulatus;urn:lsid:marinespecies.org:taxname:127045;Forsskål & Niebuhr, 1775;species;103;19.1;-18.94;50.21;8.05;13.86
+83;2022;11;Zygi;Levantine Sea;Cyprus;34.725361;33.341521;10;Siganus rivulatus;urn:lsid:marinespecies.org:taxname:127045;Forsskål & Niebuhr, 1775;species;122;21;-16.22;49.4;7.1;13.03
+84;2022;11;Zygi;Levantine Sea;Cyprus;34.725361;33.341521;10;Siganus rivulatus;urn:lsid:marinespecies.org:taxname:127045;Forsskål & Niebuhr, 1775;species;138;20.3;-16.45;48.85;7.69;13.89
+85;2022;11;Zygi;Levantine Sea;Cyprus;34.725361;33.341521;10;Siganus rivulatus;urn:lsid:marinespecies.org:taxname:127045;Forsskål & Niebuhr, 1775;species;116;20.8;-17.44;50.21;3.75;11.5
+86;2022;11;Zygi;Levantine Sea;Cyprus;34.725361;33.341521;10;Siganus rivulatus;urn:lsid:marinespecies.org:taxname:127045;Forsskål & Niebuhr, 1775;species;88;19.2;-16.44;48.72;10.21;12.02

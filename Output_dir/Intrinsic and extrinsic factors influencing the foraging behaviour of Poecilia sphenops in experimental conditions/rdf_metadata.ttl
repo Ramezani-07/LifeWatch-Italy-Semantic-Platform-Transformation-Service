@@ -1,0 +1,144 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://semantics.lifewatchitaly.eu/resource#dcat:Catalog-id:61175251-1672-4795-b23b-b35b0dd0a294> dcat:dataset <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:9cb5258f-5aac-4a78-9c04-7cc4422c3c71> .
+
+<http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:9cb5258f-5aac-4a78-9c04-7cc4422c3c71> a owl:NamedIndividual,
+        dcat:Dataset ;
+    dct:description "This dataset includes the individual traits of 30 specimens of Poecilia sphenops (i.e. body length, wet weight, sex, and standard metabolic rate) kept under controlled laboratory settings at two different temperatures (25°C and 28°C). The dataset also includes measures of the time spent in resource patches (with or without available resources) used as a measure of foraging behavior."@en ;
+    dct:identifier "9cb5258f-5aac-4a78-9c04-7cc4422c3c71" ;
+    dct:issued "2025-06-27"^^xsd:date ;
+    dct:language "English"@en ;
+    dct:license <http://creativecommons.org/licenses/by/4.0/> ;
+    dct:rights "Free for use, including sharing and adaptation, by all individuals provided that the owners are acknowledged in any use or publication."@en ;
+    dct:spatial <http://semantics.lifewatchitaly.eu/resource#dct:Spatial-id:9cb5258f-5aac-4a78-9c04-7cc4422c3c71> ;
+    dct:temporal <http://semantics.lifewatchitaly.eu/resource#dct:Temporal-id:9cb5258f-5aac-4a78-9c04-7cc4422c3c71> ;
+    dct:title "Intrinsic and extrinsic factors influencing the foraging behaviour of Poecilia sphenops in experimental conditions"@en ;
+    dwc:measurementMethod "After 24 h from the behavioural trial, fish SMR was estimated by measuring individual oxygen uptake rate using intermittent-flow respirometry. Fish oxygen uptake rate was used as a proxy of fish whole-body aerobic metabolism. Respirometry trials started between 14:00 and 16:00 then continued overnight. The respirometer system included sixteen parallel cylindrical glass chambers submerged into a large water basin (79.5 x 59.0 x 21 cm, 5.6 L of water), containing filtered freshwater maintained oxygenated by an air stone and at the group assigned temperature, i.e. 28 ± 0.010° C or 25 ± 0.010° C, using a thermostat and sump. Due to variation in fish size, a total of eleven small (43.56 ml) and five large cylindrical chambers (72.03 ml) were used. Each chamber was connected to a second flow-through chamber containing oxygen sensors (Firesting loggers). A single fish was placed in each chamber with two of the chambers left empty as a control (blanks). In addition, oxygen depletion in each chamber was measured for 30 minutes before the fish went into the chamber (pre-blank) and at the end of each trial, when the fish were removed (post-blank). Blanks allowed to account for microbial (background) oxygen consumption within each chamber. To minimise background respiration, the water in the respirometry system was UV-treated for the all duration of the measurements. All sixteen respirometry chambers were intermittently flushed with clean oxygenated water by a set of four flush pumps, which were automated to flush for three minutes followed by a three-minute closed phase during which dissolved oxygen was automatically recorded every two seconds. Water mixing within the respirometer was achieved with the use of a peristaltic pump (Masterflex L/S pump). Eye interaction among fish during metabolic measurements was prevented with black corrugated plastic placed between the chambers. Recording continued overnight and lasted for an average of 21± 2 hours (mean ± S. D.). The slopes of the decrease in the oxygen values during closed phases were estimated using the FishResp R package. Fish oxygen uptake rate was calculated for each individual by multiplying the obtained slopes by the volume of the respirometry chamber after removing the volume of the fish and background microbial respiration.  Data from all the fish were used to estimate their individual SMR."@en,
+        "Fish foraging behaviour was measured in an experimental maze with heterogeneous food resource distribution. Each fish was tested separately. The experimental maze consisted of a circular plexiglass arena (40 cm diameter) divided into four equal patches by 0.4 mm thick PVC separators. All patches were interconnected with each other with a 3.5 cm diameter circular hole, allowing the fish to move freely across patches and explore the maze. Two of the four patches were empty while the other two contained a food resource. The resource patches were distinguished in high and low amounts of resource, respectively with 0.30 g and 0.15 g of fish food pellets. The food was placed in a small net of 0.5 mm mesh size and mixed with small stones in order to sink to the bottom, avoiding any floating that could be a source of disturbance during video recording. The maze design was based on P. spheanops behavioural requirements since they usually rely on their sense of vision and smell for food detection. The maze was filled with fresh water (18.85 L), heated to the appropriate temperature for the group being tested (25°C or 28°C). The temperature was maintained throughout the trial using a combination of room temperature regulation, a coil heater system and heaters. A trial was conducted for each individual, water and food resources were renewed before the start of every trial. Fish were starved for 24 hours prior to the foraging behaviour tests. Each behavioural trial started by gently placing a fish, using a beaker to avoid air exposure, inside a transparent cylinder positioned in a randomly chosen empty patch of the experimental maze for 2 minutes of acclimation. The transparent cylinder was then remotely removed using a pulley system and the fish was free to explore the maze for 20 minutes. During this time, the fish movements were video recorded with a Logitech HD 1080p camera placed at a fixed distance above the maze. The room was dark, except for the arena which was illuminated with Lepro Desk Lamp (3000 K-6500 K) laterally placed, avoiding any light reflection on the water surface. The videos were analysed using Ethovision XT15 (Noldus) in order to track the fish and obtain measurements of their foraging behaviour, measured as the time spent in the foraging areas (1 frame per second intervals). Foraging behaviour assays started the same week for both treatments, as well as respirometry assay."@en,
+        "Poecilia sphenops individuals were reared in the laboratory facilities of the School of Biodiversity, One Health and Veterinary Medicine, University of Glasgow. A total of 30 differently sized juvenile and adult individuals of both sexes (16 males and 14 females) were included in this study. Fish were acclimated and kept under controlled conditions at 25˚ C, pH of 7.3, dissolved oxygen level maintained at 7.8 ± 0.4 mg/l, with a 14h:10h of light:dark photoperiod in two large holding tanks (70x50x50 cm) for 4 weeks before experimental measurements began. Repeated measurements of standard metabolic rate (SMR), foraging behaviour and body mass (wet weight) were taken for each individual at two temperature levels, 25˚ C and 28˚ C, resulting in 130 different measurements. Individual recognition was ensured by keeping each individual separated using plastic dividers with meshes within the holding tanks. Each individual was assigned a unique ID used throughout the duration of the experiment for identification. Each section (20x37x26 cm) within the holding tanks was continuously aerated and enriched with a single stand of ornamental plants for environmental enrichment and a layer of aquarium gravel (2 cm high). At the start of the experiment, each individual was assigned to one of two treatments (8 males and 6 females in each treatment) based on the order in which they experienced each temperature level: treatment one first experienced 28˚ C for three weeks (28 ± 0.3°C mean ± SD), while treatment two experienced 25˚ C for the first three weeks (25 ± 0.3°C mean ± SD). Measurements of foraging behaviour and SMR were carried out once a week. Fish in each treatment were subjected to a 24-hour starvation period before the foraging behaviour assay, after which they were returned to their tank and left unfed for an additional 24 hours before SMR measurements were taken via intermittent-flow respirometry. In addition, after the SMR measurements each fish was weighed (E14130, OHAUS, Switzerland) to the nearest hundredth of a gram (0.556 ± 0.23 g, mean ± SE) and the total body length was measured to the nearest hundredth of a centimetre with a precision digital calliper (29.20 ± 2.31 mm, mean ± SE). After the first set of measurements, fish from each treatment had seven days of recovery before behaviour, SMR and body mass measurements were repeated at the second temperature level. The temperature varied moderately 0.5°C/day during the acclimatisation week. In this way, each treatment reached the second temperature level envisaged in the second part of the experiment by day 6 of the acclimation week."@en ;
+    dcat:distribution <http://semantics.lifewatchitaly.eu/resource#dcat:Distribution-id:https%3A%2F%2Fdata.lifewatchitaly.eu%2Fhandle%2F123456789%2F208418> ;
+    dcat:keyword <http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F20560>,
+        <http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F20564>,
+        <http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F21316>,
+        <http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F21524> ;
+    prov:qualifiedAttribution <http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:1164278971>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionContact-id:3529098191>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionContact-id:6065831826>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionCreator-id:4387161717>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionCreator-id:5152542199>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionCreator-id:6919174430>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionMetadataProvider-id:3273070781>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionPublisher-id:5172248190> ;
+    prov:wasAttributedTo "We would like to thank the Company of Biologists for the travelling fellowship, reference number of the grant (JEBTF2208817). All the technicians of the University of Glasgow Institute of Biodiversity, Animal Health and Comparative Medicine, College of Medical, Veterinary and Life Sciences, Graham Kerr Building."@en .
+
+<http://semantics.lifewatchitaly.eu/resource#dcat:Distribution-id:https%3A%2F%2Fdata.lifewatchitaly.eu%2Fhandle%2F123456789%2F208418> a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL <https://data.lifewatchitaly.eu/handle/123456789/208418> .
+
+<http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F20560> a owl:NamedIndividual,
+        skos:Concept ;
+    rdfs:label "teleost fish" ;
+    dct:type <http://vocabs.lter-europe.net/EnvThes/20560> .
+
+<http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F20564> a owl:NamedIndividual,
+        skos:Concept ;
+    rdfs:label "foraging behavior" ;
+    dct:type <http://vocabs.lter-europe.net/EnvThes/20564> .
+
+<http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F21316> a owl:NamedIndividual,
+        skos:Concept ;
+    rdfs:label "metabolic rate" ;
+    dct:type <http://vocabs.lter-europe.net/EnvThes/21316> .
+
+<http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F21524> a owl:NamedIndividual,
+        skos:Concept ;
+    rdfs:label "temperature" ;
+    dct:type <http://vocabs.lter-europe.net/EnvThes/21524> .
+
+<http://semantics.lifewatchitaly.eu/resource#dct:Spatial-id:9cb5258f-5aac-4a78-9c04-7cc4422c3c71> a dct:Location .
+
+<http://semantics.lifewatchitaly.eu/resource#dct:Temporal-id:9cb5258f-5aac-4a78-9c04-7cc4422c3c71> a dct:PeriodOfTime ;
+    dcat:endDate "2023-03-15"^^xsd:date ;
+    dcat:startDate "2023-01-14"^^xsd:date .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:LifeWatch%20Italy> a owl:NamedIndividual,
+        prov:Agent ;
+    foaf:mbox "lifewatchitaly@gmail.com" ;
+    foaf:name "LifeWatch Italy" .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0003-4072-0662> a owl:NamedIndividual,
+        prov:Agent,
+        prov:Person ;
+    dct:identifier <https://orcid.org/0000-0003-4072-0662> ;
+    prov:actedOnBehalfOf "National Research Council (CNR), Institute of Research on Terrestrial Ecosystems (IRET)" ;
+    foaf:familyName "Di Muri" ;
+    foaf:mbox "cristina.dimuri@cnr.it" ;
+    foaf:name "Cristina" .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0003-4949-3988> a owl:NamedIndividual,
+        prov:Agent,
+        prov:Person ;
+    dct:identifier <https://orcid.org/0000-0003-4949-3988> ;
+    prov:actedOnBehalfOf "University of Glasgow" ;
+    foaf:familyName "Killen" ;
+    foaf:mbox "shaun.killen@glasgow.ac.uk" ;
+    foaf:name "Shaun" .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:1164278971> a prov:Attribution ;
+    dcat:hadRole "Associated Party" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0003-4072-0662> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionContact-id:3529098191> a prov:Attribution ;
+    dcat:hadRole "Contact" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0002-6413-0977> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionContact-id:6065831826> a prov:Attribution ;
+    dcat:hadRole "Contact" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0001-7105-6704> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionCreator-id:4387161717> a prov:Attribution ;
+    dcat:hadRole "Creator" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0002-6413-0977> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionCreator-id:5152542199> a prov:Attribution ;
+    dcat:hadRole "Creator" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0001-7105-6704> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionCreator-id:6919174430> a prov:Attribution ;
+    dcat:hadRole "Creator" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0003-4949-3988> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionMetadataProvider-id:3273070781> a prov:Attribution ;
+    dcat:hadRole "Metadata Provider" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0001-7105-6704> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionPublisher-id:5172248190> a prov:Attribution ;
+    dcat:hadRole "Publisher" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:LifeWatch%20Italy> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0002-6413-0977> a owl:NamedIndividual,
+        prov:Agent,
+        prov:Person ;
+    dct:identifier <https://orcid.org/0000-0002-6413-0977> ;
+    prov:actedOnBehalfOf "National Research Council of Italy (CNR), Research Institute on Terrestrial Ecosystems (IRET)" ;
+    foaf:familyName "Cozzoli" ;
+    foaf:mbox "francesco.cozzoli@cnr.it" ;
+    foaf:name "Francesco" .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0001-7105-6704> a owl:NamedIndividual,
+        prov:Agent,
+        prov:Person ;
+    dct:identifier <https://orcid.org/0000-0001-7105-6704> ;
+    prov:actedOnBehalfOf "National Research Council of Italy (CNR), Research Institute on Terrestrial Ecosystems (IRET)" ;
+    foaf:familyName "Boulamail" ;
+    foaf:mbox "sarahboulamail@cnr.it" ;
+    foaf:name "Sarah" .
+

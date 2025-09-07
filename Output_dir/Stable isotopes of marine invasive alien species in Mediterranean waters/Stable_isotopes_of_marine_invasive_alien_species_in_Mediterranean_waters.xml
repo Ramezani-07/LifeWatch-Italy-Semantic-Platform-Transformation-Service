@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="3364e6f6-911b-4242-847d-ae8350352455" system="https://data.lifewatchitaly.eu" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd" scope="system">
+  <dataset>
+    <alternateIdentifier>https://data.lifewatchitaly.eu/handle/123456789/129617</alternateIdentifier>
+    <title>Stable isotopes of marine invasive alien species in Mediterranean waters</title>
+    <creator>
+      <individualName>
+        <givenName>Marco</givenName>
+        <surName>Lauteri</surName>
+      </individualName>
+      <organizationName>National Research Council (CNR), Research Institute on Terrestrial Ecosystems (IRET)</organizationName>
+      <positionName>Research Director</positionName>
+      <electronicMailAddress>marco.lauteri@cnr.it</electronicMailAddress>
+      <userId directory="https://orcid.org/">0000-0003-1071-7999</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Marco</givenName>
+        <surName>Ciolfi</surName>
+      </individualName>
+      <organizationName>National Research Council (CNR), Research Institute on Terrestrial Ecosystems (IRET)</organizationName>
+      <positionName>Technologist</positionName>
+      <electronicMailAddress>marco.ciolfi@cnr.it</electronicMailAddress>
+      <userId directory="https://orcid.org/">0000-0003-4831-8053</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Pierluigi</givenName>
+        <surName>Strafella</surName>
+      </individualName>
+      <organizationName>National Research Council of Italy (CNR), Institute for Marine Biological Resources and Biotechnology (IRBIM)</organizationName>
+      <positionName>Researcher</positionName>
+      <userId directory="https://orcid.org/">0000-0002-1947-7023</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Marina</givenName>
+        <surName>Chiappi</surName>
+      </individualName>
+      <organizationName>National Research Council of Italy (CNR), Institute for Marine Biological Resources and Biotechnology (IRBIM)</organizationName>
+      <positionName>Researcher</positionName>
+      <userId directory="https://orcid.org/">0000-0002-9401-2509</userId>
+    </creator>
+    <metadataProvider>
+      <individualName>
+        <givenName>Marco</givenName>
+        <surName>Lauteri</surName>
+      </individualName>
+      <organizationName>National Research Council (CNR), Research Institute on Terrestrial Ecosystems (IRET)</organizationName>
+      <positionName>Research Director</positionName>
+      <electronicMailAddress>marco.lauteri@cnr.it</electronicMailAddress>
+      <userId directory="https://orcid.org/">0000-0003-1071-7999</userId>
+    </metadataProvider>
+    <metadataProvider>
+      <individualName>
+        <givenName>Marco</givenName>
+        <surName>Ciolfi</surName>
+      </individualName>
+      <organizationName>National Research Council (CNR), Research Institute on Terrestrial Ecosystems (IRET)</organizationName>
+      <positionName>Technologist</positionName>
+      <electronicMailAddress>marco.ciolfi@cnr.it</electronicMailAddress>
+      <userId directory="https://orcid.org/">0000-0003-4831-8053</userId>
+    </metadataProvider>
+    <metadataProvider>
+      <individualName>
+        <givenName>Pierluigi</givenName>
+        <surName>Strafella</surName>
+      </individualName>
+      <organizationName>National Research Council of Italy (CNR), Institute for Marine Biological Resources and Biotechnology (IRBIM)</organizationName>
+      <positionName>Researcher</positionName>
+      <userId directory="https://orcid.org/">0000-0002-1947-7023</userId>
+    </metadataProvider>
+    <metadataProvider>
+      <individualName>
+        <givenName>Marina</givenName>
+        <surName>Chiappi</surName>
+      </individualName>
+      <organizationName>National Research Council of Italy (CNR), Institute for Marine Biological Resources and Biotechnology (IRBIM)</organizationName>
+      <positionName>Researcher</positionName>
+      <userId directory="https://orcid.org/">0000-0002-9401-2509</userId>
+    </metadataProvider>
+    <associatedParty>
+      <individualName>
+        <givenName>Ilaria</givenName>
+        <surName>Rosati</surName>
+      </individualName>
+      <organizationName>National Research Council (CNR), Institute of Research on Terrestrial Ecosystems (IRET)</organizationName>
+      <positionName>Technologist</positionName>
+      <electronicMailAddress>ilaria.rosati@cnr.it</electronicMailAddress>
+      <userId directory="https://orcid.org/">0000-0003-3422-7230</userId>
+      <role>Custodian Steward</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Cristina</givenName>
+        <surName>Di Muri</surName>
+      </individualName>
+      <organizationName>National Research Council (CNR), Institute of Research on Terrestrial Ecosystems (IRET)</organizationName>
+      <positionName>Technologist</positionName>
+      <electronicMailAddress>cristina.dimuri@cnr.it</electronicMailAddress>
+      <userId directory="https://orcid.org/">0000-0003-4072-0662</userId>
+      <role>Information Manager</role>
+    </associatedParty>
+    <pubDate>2025-03-06</pubDate>
+    <language>English</language>
+    <abstract>This dataset includes 86 georeferenced stable isotopes records (carbon 13 and nitrogen 15) of marine invasive alien species in Mediterranean waters. Specimens used for stable isotope analysis were collected in 2022 at three different locations in Italy, Greece and Cyprus during three sampling campaigns in collaboration with small-scale fishers. The dataset also include morphometric data (biomass and length) of the individuals. Stable isotope analysis were performed within the framework of the USEit project.</abstract>
+    <keywordSet>
+      <keyword>invasive alien species</keyword>
+      <keyword>Mediterranean Basin</keyword>
+      <keywordThesaurus>Biodiversity Thesaurus</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>marine fish</keyword>
+      <keyword>marine invertebrate</keyword>
+      <keywordThesaurus>Environmental Thesaurus</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>Free for use, including sharing and adaptation, by all individuals provided that the owners are acknowledged in any use or publication.</intellectualRights>
+    <licensed>
+      <licenseName>cc-by</licenseName>
+      <url>https://creativecommons.org/licenses/by/4.0/</url>
+    </licensed>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Specimens for stable isotope analysis were collected at three different sites located in Italy, Cyprus and Greece.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>12.655650</westBoundingCoordinate>
+          <eastBoundingCoordinate>33.341521</eastBoundingCoordinate>
+          <northBoundingCoordinate>44.226119</northBoundingCoordinate>
+          <southBoundingCoordinate>34.725361</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2022-05-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2022-11-30</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Anadara kagoshimensis</taxonRankValue>
+          <commonName>Half-crenated ark</commonName>
+          <taxonId provider="World Register of Marine Species">504360</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Anadara transversa</taxonRankValue>
+          <commonName>Transverse ark</commonName>
+          <taxonId provider="World Register of Marine Species">156734</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Siganus rivulatus</taxonRankValue>
+          <commonName>Marbled spinefoot</commonName>
+          <taxonId provider="World Register of Marine Species">127045</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Siganus luridus</taxonRankValue>
+          <commonName>Dusky spinefoot</commonName>
+          <taxonId provider="World Register of Marine Species">127044</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Sparisoma cretense</taxonRankValue>
+          <commonName>Parrotfish</commonName>
+          <taxonId provider="World Register of Marine Species">231441</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Sarpa salpa</taxonRankValue>
+          <commonName>Salema</commonName>
+          <taxonId provider="World Register of Marine Species">127064</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Pterois miles</taxonRankValue>
+          <commonName>Devil firefish</commonName>
+          <taxonId provider="World Register of Marine Species">218077</taxonId>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+    </coverage>
+    <annotation>
+      <propertyURI label="keyword">http://www.w3.org/ns/dcat#keyword</propertyURI>
+      <valueURI label="invasive alien species">http://data.loterre.fr/ark:/67375/BLH-SQMKT4H5-7</valueURI>
+    </annotation>
+    <annotation>
+      <propertyURI label="keyword">http://www.w3.org/ns/dcat#keyword</propertyURI>
+      <valueURI label="Mediterranean Basin">http://data.loterre.fr/ark:/67375/BLH-QHK1C7Q3-Q</valueURI>
+    </annotation>
+    <annotation>
+      <propertyURI label="keyword">http://www.w3.org/ns/dcat#keyword</propertyURI>
+      <valueURI label="marine fish">http://vocabs.lter-europe.net/EnvThes/20556</valueURI>
+    </annotation>
+    <annotation>
+      <propertyURI label="keyword">http://www.w3.org/ns/dcat#keyword</propertyURI>
+      <valueURI label="marine invertebrate">http://vocabs.lter-europe.net/EnvThes/20557</valueURI>
+    </annotation>
+    <acknowledgements>This work has been funded by the USEit project: https://www.lifewatchitaly.eu/en/pg-related-projects/useit/</acknowledgements>
+    <contact>
+      <individualName>
+        <givenName>Marco</givenName>
+        <surName>Lauteri</surName>
+      </individualName>
+      <organizationName>National Research Council (CNR), Research Institute on Terrestrial Ecosystems (IRET)</organizationName>
+      <positionName>Research Director</positionName>
+      <electronicMailAddress>marco.lauteri@cnr.it</electronicMailAddress>
+      <userId directory="https://orcid.org/">0000-0003-1071-7999</userId>
+    </contact>
+    <publisher>
+      <organizationName>LifeWatch Italy</organizationName>
+      <electronicMailAddress>lifewatchitaly@gmail.com</electronicMailAddress>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>All the tissues were dehydrated and powdered for isotope ratio mass spectrometry. Quality control relies on isotopic standards measurements and replicates (one or two) of some random samples.</description>
+      </methodStep>
+      <sampling>
+        <studyExtent>
+          <description>Specimens used for stable isotope analysis were collected during the SoleMon survey (Anadara app.) and with the support of small-scale fishers (fish species). After specimens collection, fish were sampled from the dorsal muscle after carefully removing the skin and sterilizing the tools for each individual. Fish tissue amples were then preserved in the freezer and bivalves were also preserved frozen until further processing. Tissue samples from fish and bivalves were then thawed and dried in the oven at 60 °C for 48 hours before isotope ratio mass spectrometry.</description>
+        </studyExtent>
+        <samplingDescription>Specimens used for stable isotope analysis were collected at three marine sites of the Adriatic Sea (Italy, Rimini), Aegean Sea (Greece, Heraklion) and Leventine Sea (Cyprus, Zygi) in three different sampling occasions in 2022.</samplingDescription>
+      </sampling>
+    </methods>
+    <project>
+      <title>USEit: Using operational synergies for the study and integrated management of invasive alien species in Italy</title>
+      <personnel>
+        <individualName>
+          <givenName>Marco</givenName>
+          <surName>Lauteri</surName>
+        </individualName>
+        <organizationName>National Research Council (CNR), Research Institute on Terrestrial Ecosystems (IRET)</organizationName>
+        <positionName>Research Director</positionName>
+        <electronicMailAddress>marco.lauteri@cnr.it</electronicMailAddress>
+        <userId directory="https://orcid.org/">0000-0003-1071-7999</userId>
+        <role>Point Of Contact</role>
+      </personnel>
+      <abstract>Biological invasions represent today one of the greatest threats to global biodiversity, with negative impacts on human health and the economy of our country. The USEit project addresses this problem by involving a number of marine and terrestrial institutes of the National Research Council of Italy (CNR). Our main goal is to empower the scientific research on invasive species and to transform this challenge into new opportunities and new growth strategies.</abstract>
+    </project>
+    <dataTable>
+      <entityName>USEit_StableIsotopeData_MarineIAS_20250306.csv</entityName>
+      <physical>
+        <objectName>USEit_StableIsotopeData_MarineIAS_20250306.csv</objectName>
+        <size unit="byte">15506</size>
+        <authentication>MD5:b6cc7aca520ca8abbac6c82d14a23115</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>;</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>catalogNumber</attributeName>
+          <attributeLabel>Catalog Number</attributeLabel>
+          <attributeDefinition>An identifier (preferably unique) for the record within the data set or collection.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Catalog Number">http://rs.tdwg.org/dwc/terms/catalogNumber</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>year</attributeName>
+          <attributeLabel>Year</attributeLabel>
+          <attributeDefinition>The four-digit year in which the dwc:Event occurred, according to the Common Era Calendar.</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY</formatString>
+            </dateTime>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Year">http://rs.tdwg.org/dwc/terms/year</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>month</attributeName>
+          <attributeLabel>Month</attributeLabel>
+          <attributeDefinition>The integer month in which the dwc:Event occurred.</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>MM</formatString>
+            </dateTime>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Month">http://rs.tdwg.org/dwc/terms/month</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>locality</attributeName>
+          <attributeLabel>Locality</attributeLabel>
+          <attributeDefinition>The specific description of the place.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Locality">http://rs.tdwg.org/dwc/terms/locality</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>waterBody</attributeName>
+          <attributeLabel>Water Body</attributeLabel>
+          <attributeDefinition>The name of the water body in which the dcterms:Location occurs.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Water Body">http://rs.tdwg.org/dwc/terms/waterBody</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>country</attributeName>
+          <attributeLabel>Country</attributeLabel>
+          <attributeDefinition>The name of the country or major administrative unit in which the dcterms:Location occurs.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Country">http://rs.tdwg.org/dwc/terms/country</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>decimalLatitude</attributeName>
+          <attributeLabel>Decimal Latitude</attributeLabel>
+          <attributeDefinition>The geographic latitude (in decimal degrees, using the spatial reference system given in dwc:geodeticDatum) of the geographic center of a dcterms:Location. Positive values are north of the Equator, negative values are south of it. Legal values lie between -90 and 90, inclusive.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Decimal Latitude">http://rs.tdwg.org/dwc/terms/decimalLatitude</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>decimalLongitude</attributeName>
+          <attributeLabel>Decimal Longitude</attributeLabel>
+          <attributeDefinition>The geographic longitude (in decimal degrees, using the spatial reference system given in dwc:geodeticDatum) of the geographic center of a dcterms:Location. Positive values are east of the Greenwich Meridian, negative values are west of it. Legal values lie between -180 and 180, inclusive.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Decimal Longitude">http://rs.tdwg.org/dwc/terms/decimalLongitude</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>depth</attributeName>
+          <attributeLabel>depth</attributeLabel>
+          <attributeDefinition>The perpendicular measurement downward from a surface.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="depth">http://purl.dataone.org/odo/ECSO_00000515</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>acceptedNameUsage</attributeName>
+          <attributeLabel>Accepted Name Usage</attributeLabel>
+          <attributeDefinition>The full name, with authorship and date information if known, of the currently valid (zoological) or accepted (botanical) dwc:Taxon.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Accepted Name Usage">http://rs.tdwg.org/dwc/terms/acceptedNameUsage</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>acceptedNameUsageID</attributeName>
+          <attributeLabel>Accepted Name Usage ID</attributeLabel>
+          <attributeDefinition>An identifier for the name usage (documented meaning of the name according to a source) of the currently valid (zoological) or accepted (botanical) taxon.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                  <source>World Register of Marine Species</source>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="hasCode">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasCode</propertyURI>
+            <valueURI label="Accepted Name Usage ID">http://rs.tdwg.org/dwc/terms/acceptedNameUsageID</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>scientificNameAuthorship</attributeName>
+          <attributeLabel>Scientific Name Authorship</attributeLabel>
+          <attributeDefinition>The authorship information for the dwc:scientificName formatted according to the conventions of the applicable dwc:nomenclaturalCode.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Scientific Name Authorship">http://rs.tdwg.org/dwc/terms/scientificNameAuthorship</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>taxonRank</attributeName>
+          <attributeLabel>Taxon Rank</attributeLabel>
+          <attributeDefinition>The taxonomic rank of the most specific name in the dwc:scientificName.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Taxon Rank">http://rs.tdwg.org/dwc/terms/taxonRank</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>wetWeight</attributeName>
+          <attributeLabel>Wet Weight</attributeLabel>
+          <attributeDefinition>The weight of a whole fresh organism.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gram</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="Wet Weight">https://kos.lifewatch.eu/thesauri/traits/c_54f8447a</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>bodyLength</attributeName>
+          <attributeLabel>Body length</attributeLabel>
+          <attributeDefinition>The total distance from point to point along the longest axis of the body of an organism.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="Body length">https://kos.lifewatch.eu/thesauri/traits/c_d266fb02</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>carbon13</attributeName>
+          <attributeLabel>carbon-13</attributeLabel>
+          <attributeDefinition>An isotope of the chemical element carbon.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>permil</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="carbon-13">http://vocab.nerc.ac.uk/collection/S27/current/CS002837/</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>percentCarbon</attributeName>
+          <attributeLabel>percent carbon</attributeLabel>
+          <attributeDefinition>Percentage of a sample that is carbon</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>percent</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="percent carbon">http://vocabs.lter-europe.net/EnvThes/22181</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>nitrogen15</attributeName>
+          <attributeLabel>nitrogen-15</attributeLabel>
+          <attributeDefinition>An isotope of the chemical element nitrogen.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>permil</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="nitrogen-15">http://vocab.nerc.ac.uk/collection/S27/current/CS002808/</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>percentNitrogen</attributeName>
+          <attributeLabel>percent nitrogen</attributeLabel>
+          <attributeDefinition>Percentage of a sample that is nitrogen</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>percent</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="percent nitrogen">http://vocabs.lter-europe.net/EnvThes/22182</valueURI>
+          </annotation>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>86</numberOfRecords>
+    </dataTable>
+  </dataset>
+</eml:eml>

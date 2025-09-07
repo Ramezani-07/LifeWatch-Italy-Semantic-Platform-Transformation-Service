@@ -1,0 +1,681 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="603b7522-6564-43c1-bde9-6dc3ed6f49b0" system="https://data.lifewatchitaly.eu" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd" scope="system">
+  <dataset>
+    <alternateIdentifier>https://data.lifewatchitaly.eu/handle/123456789/129787</alternateIdentifier>
+    <alternateIdentifier>https://data.lifewatchitaly.eu/handle/123456789/129787</alternateIdentifier>
+    <alternateIdentifier>https://data.lifewatchitaly.eu/handle/123456789/129787</alternateIdentifier>
+    <alternateIdentifier>https://data.lifewatchitaly.eu/handle/123456789/129787</alternateIdentifier>
+    <alternateIdentifier>https://data.lifewatchitaly.eu/handle/123456789/129787</alternateIdentifier>
+    <title>RESTORE4Cs Coastal wetlands Habitats, Activities and Pressures</title>
+    <creator>
+      <individualName>
+        <givenName>Ana</givenName>
+        <surName>Lillebø</surName>
+      </individualName>
+      <organizationName>Universidade de Aveiro</organizationName>
+      <positionName>Principal researcher</positionName>
+      <electronicMailAddress>lillebo@ua.pt</electronicMailAddress>
+      <userId directory="https://orcid.org/">0000-0002-5228-0329</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>António</givenName>
+        <surName>Nogueira</surName>
+      </individualName>
+      <organizationName>Universidade de Aveiro</organizationName>
+      <positionName>Full professor</positionName>
+      <electronicMailAddress>antonio.nogueira@ua.pt</electronicMailAddress>
+      <userId directory="https://orcid.org/">0000-0001-7089-2508</userId>
+    </creator>
+    <metadataProvider>
+      <individualName>
+        <givenName>Bruna R. F.</givenName>
+        <surName>Oliveira</surName>
+      </individualName>
+      <organizationName>Universidade de Aveiro</organizationName>
+      <positionName>Researcher</positionName>
+      <electronicMailAddress>bruna.oliveira@ua.pt</electronicMailAddress>
+      <userId directory="https://orcid.org/">0000-0001-5877-8614</userId>
+    </metadataProvider>
+    <metadataProvider>
+      <individualName>
+        <givenName>Martina</givenName>
+        <surName>Pulieri</surName>
+      </individualName>
+      <organizationName>University of Salento</organizationName>
+      <positionName>Research assistant</positionName>
+      <electronicMailAddress>martina.pulieri@unisalento.it</electronicMailAddress>
+      <userId directory="https://orcid.org/">0009-0001-9691-1989</userId>
+    </metadataProvider>
+    <associatedParty>
+      <individualName>
+        <givenName>Anis</givenName>
+        <surName>Guelmami</surName>
+      </individualName>
+      <organizationName>Tour du Valat</organizationName>
+      <positionName>Engineer</positionName>
+      <electronicMailAddress>guelmami@tourduvalat.org</electronicMailAddress>
+      <userId directory="https://orcid.org/">0000-0002-3906-6424</userId>
+      <role>Content Provider</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Constantin</givenName>
+        <surName>Cazacu</surName>
+      </individualName>
+      <organizationName>University of Bucharest</organizationName>
+      <positionName>Assistant professor</positionName>
+      <electronicMailAddress>constantin.cazacu@g.unibuc.ro</electronicMailAddress>
+      <userId directory="https://orcid.org/">0000-0003-4521-7185</userId>
+      <role>Content Provider</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Marinka</givenName>
+        <surName>van Puijenbroek</surName>
+      </individualName>
+      <organizationName>Wageningen University and Research</organizationName>
+      <positionName>Researcher</positionName>
+      <electronicMailAddress>marinka.vanpuijenbroek@wur.nl</electronicMailAddress>
+      <userId directory="https://orcid.org/">0000-0003-1237-6403</userId>
+      <role>Content Provider</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Elisa</givenName>
+        <surName>Ciravegna</surName>
+      </individualName>
+      <organizationName>Wageningen Social &amp; Economic Research</organizationName>
+      <positionName>Researcher</positionName>
+      <electronicMailAddress>elisa.ciravegna@wur.nl</electronicMailAddress>
+      <role>Content Provider</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Justine</givenName>
+        <surName>Raoult</surName>
+      </individualName>
+      <organizationName>Wageningen Economic Research</organizationName>
+      <positionName>Researcher</positionName>
+      <electronicMailAddress>justine.raoult@wur.nl</electronicMailAddress>
+      <role>Content Provider</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Volkert</givenName>
+        <surName>Beekman</surName>
+      </individualName>
+      <organizationName>Wageningen University and Research</organizationName>
+      <positionName>Researcher</positionName>
+      <electronicMailAddress>volkert.beekman@wur.nl</electronicMailAddress>
+      <role>Content Provider</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Nico</givenName>
+        <surName>Polman</surName>
+      </individualName>
+      <organizationName>Wageningen University Research</organizationName>
+      <positionName>Researcher</positionName>
+      <electronicMailAddress>nico.polman@wur.nl</electronicMailAddress>
+      <role>Content Provider</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Heliana</givenName>
+        <surName>Teixeira</surName>
+      </individualName>
+      <organizationName>Universidade de Aveiro</organizationName>
+      <positionName>Researcher</positionName>
+      <electronicMailAddress>heliana.teixeira@ua.pt</electronicMailAddress>
+      <userId directory="https://orcid.org/">0000-0001-8525-9967</userId>
+      <role>Content Provider</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Antonio</givenName>
+        <surName>Camacho</surName>
+      </individualName>
+      <organizationName>University of Valencia</organizationName>
+      <positionName>Full professor</positionName>
+      <electronicMailAddress>antonio.camacho@uv.es</electronicMailAddress>
+      <userId directory="https://orcid.org/">0000-0003-0841-2010</userId>
+      <role>Content Provider</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Carlos</givenName>
+        <surName>Rochera</surName>
+      </individualName>
+      <organizationName>University of Valencia</organizationName>
+      <positionName>Researcher</positionName>
+      <electronicMailAddress>carlos.rochera@uv.es</electronicMailAddress>
+      <userId directory="https://orcid.org/">0000-0002-8294-4755</userId>
+      <role>Content Provider</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Daniel</givenName>
+        <surName>Morant</surName>
+      </individualName>
+      <organizationName>University of Valencia</organizationName>
+      <positionName>Researcher</positionName>
+      <electronicMailAddress>daniel.morant@uv.es</electronicMailAddress>
+      <userId directory="https://orcid.org/">0000-0001-8267-5340</userId>
+      <role>Content Provider</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Marija</givenName>
+        <surName>Katarzyte</surName>
+      </individualName>
+      <organizationName>Marine Research Institute, Klaipeda University</organizationName>
+      <positionName>Researcher</positionName>
+      <electronicMailAddress>marija.Katarzyte@ku.lt</electronicMailAddress>
+      <userId directory="https://orcid.org/">0000-0001-7751-3187</userId>
+      <role>Content Provider</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Martynas</givenName>
+        <surName>Bučas</surName>
+      </individualName>
+      <organizationName>Marine Research Institute, Klaipeda University</organizationName>
+      <positionName>Researcher</positionName>
+      <electronicMailAddress>martynas.Bucas@ku.lt</electronicMailAddress>
+      <userId directory="https://orcid.org/">0000-0003-4668-5669</userId>
+      <role>Content Provider</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Diana</givenName>
+        <surName>Vaičiūtė</surName>
+      </individualName>
+      <organizationName>Marine Research Institute, Klaipeda University</organizationName>
+      <positionName>Researcher</positionName>
+      <electronicMailAddress>diana.Vaiciute@ku.lt</electronicMailAddress>
+      <userId directory="https://orcid.org/">0000-0003-4479-5688</userId>
+      <role>Content Provider</role>
+    </associatedParty>
+    <pubDate>2025-05-26</pubDate>
+    <language>English</language>
+    <abstract>This dataset was developed within the framework of the RESTORE4Cs project, which investigates the role of coastal wetland restoration in climate change mitigation and the provision of essential ecosystem services. The project aims to enhance the understanding of how different coastal wetland habitats interact with human activities and environmental pressures, informing strategies for sustainable restoration and management. The dataset was compiled from six case pilots representing diverse coastal wetland types across Europe. These case studies were selected to encompass a range of ecological conditions, management regimes, and socio-environmental dynamics, providing a robust foundation for assessing wetland conservation and restoration challenges.
+
+The dataset maps habitats and ecosystem services across these six case studies, offering a detailed spatial representation of:
+•	Habitat types present within the selected wetlands, classified according to the standardized European Nature Information System (EUNIS), v2012, and v2021 (terrestrial)/2022 (marine);
+•	Activities and pressures affecting these habitats, including land use, tourism, aquaculture, agriculture, infrastructure development, pollution, habitat degradation, and others. The nomenclature for activities and pressures used was based on established European environmental directives and frameworks, namely the Marine Strategy Framework Directive (MSFD, Directive 2008/56/EC), the Water Framework Directive (WFD, Directive 2000/60/EC), the Habitats Directive (92/43/EEC, 1992), and the Statistical Classification of Economic Activities in the European Community (NACE, EC, 2006).
+ 
+This dataset is a key resource for scientists, policymakers, and conservation practitioners, providing insights into the interactions between coastal wetland habitats, human activities, and environmental pressures. It supports the RESTORE4Cs project by informing evidence-based restoration strategies that enhance biodiversity, climate resilience, and sustainable land use across Europe.</abstract>
+    <keywordSet>
+      <keyword>anthropogenic factor</keyword>
+      <keywordThesaurus>Biodiversity Thesaurus</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Coastal habitats</keyword>
+      <keywordThesaurus>EUNIS habitats</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>wetland</keyword>
+      <keywordThesaurus>Environmental Thesaurus</keywordThesaurus>
+    </keywordSet>
+    <additionalInfo>Paper: Exploring variability in environmental impact risk from human activities across aquatic ecosystems. https://doi.org/10.1016/j.scitotenv.2018.10.339</additionalInfo>
+    <intellectualRights>Free for use, including sharing and adaptation, by all individuals provided that the owners are acknowledged in any use or publication.</intellectualRights>
+    <licensed>
+      <licenseName>cc-by-sa</licenseName>
+      <url>https://creativecommons.org/licenses/by-sa/4.0/</url>
+    </licensed>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Danube Delta</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>28.2843</westBoundingCoordinate>
+          <eastBoundingCoordinate>29.7459</eastBoundingCoordinate>
+          <northBoundingCoordinate>45.4723</northBoundingCoordinate>
+          <southBoundingCoordinate>44.8032</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Ria de Aveiro</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-8.72507</westBoundingCoordinate>
+          <eastBoundingCoordinate>-8.59663</eastBoundingCoordinate>
+          <northBoundingCoordinate>40.74963</northBoundingCoordinate>
+          <southBoundingCoordinate>40.63271</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Marjal dels moros</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-0.27997</westBoundingCoordinate>
+          <eastBoundingCoordinate>-0.240362</eastBoundingCoordinate>
+          <northBoundingCoordinate>39.64107</northBoundingCoordinate>
+          <southBoundingCoordinate>39.61579</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Curonian lagoon</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>20.5142</westBoundingCoordinate>
+          <eastBoundingCoordinate>21.2653</eastBoundingCoordinate>
+          <northBoundingCoordinate>55.7186</northBoundingCoordinate>
+          <southBoundingCoordinate>54.8743</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Camargue</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>4.4382</westBoundingCoordinate>
+          <eastBoundingCoordinate>4.9275</eastBoundingCoordinate>
+          <northBoundingCoordinate>43.674</northBoundingCoordinate>
+          <southBoundingCoordinate>43.3229</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Dutch wetlands</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>3.9907</westBoundingCoordinate>
+          <eastBoundingCoordinate>4.4087</eastBoundingCoordinate>
+          <northBoundingCoordinate>51.6811</northBoundingCoordinate>
+          <southBoundingCoordinate>51.2754</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+    </coverage>
+    <annotation>
+      <propertyURI label="keyword">http://www.w3.org/ns/dcat#keyword</propertyURI>
+      <valueURI label="wetland">http://vocabs.lter-europe.net/EnvThes/21797</valueURI>
+    </annotation>
+    <annotation>
+      <propertyURI label="keyword">http://www.w3.org/ns/dcat#keyword</propertyURI>
+      <valueURI label="Coastal habitats">http://eunis.eea.europa.eu/eunishabitats/B</valueURI>
+    </annotation>
+    <annotation>
+      <propertyURI label="keyword">http://www.w3.org/ns/dcat#keyword</propertyURI>
+      <valueURI label="anthropogenic factor">http://data.loterre.fr/ark:/67375/BLH-LFDH1WDM-3</valueURI>
+    </annotation>
+    <contact>
+      <individualName>
+        <givenName>Ana</givenName>
+        <surName>Lillebø</surName>
+      </individualName>
+      <organizationName>Universidade de Aveiro</organizationName>
+      <positionName>Principal researcher</positionName>
+      <electronicMailAddress>lillebo@ua.pt</electronicMailAddress>
+      <userId directory="https://orcid.org/">0000-0002-5228-0329</userId>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>António</givenName>
+        <surName>Nogueira</surName>
+      </individualName>
+      <organizationName>Universidade de Aveiro</organizationName>
+      <positionName>Full professor</positionName>
+      <electronicMailAddress>antonio.nogueira@ua.pt</electronicMailAddress>
+      <userId directory="https://orcid.org/">0000-0001-7089-2508</userId>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>Bruna R. F.</givenName>
+        <surName>Oliveira</surName>
+      </individualName>
+      <organizationName>Universidade de Aveiro</organizationName>
+      <positionName>Researcher</positionName>
+      <electronicMailAddress>bruna.oliveira@ua.pt</electronicMailAddress>
+      <userId directory="https://orcid.org/">0000-0001-5877-8614</userId>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>Habitats: For mapping the landscape units (Habitats), the EUNIS Habitats database http://eunis.eea.europa.eu/habitats.jsp was used as baseline and refined by the experts of each case study. The crosswalk EUNIS 2012 - EUNIS 2021 terrestrial (https://www.eea.europa.eu/data-and-maps/data/eunis-habitat-classification-1/eunis-terrestrial-habitat-classification-review-2021/eunis-terrestrial-habitat-classification-2021) and crosswalk EUNIS 2012 - EUNIS 2022 marine (https://www.eea.europa.eu/data-and-maps/data/eunis-habitat-classification-1/eunis-marine-habitat-classification-review-2022/eunis-marine-habitat-classification-2022) were then used as baseline to determine the equivalent Corine Land Cover landscape units, with the case study experts improvement when ambiguity was identified.</description>
+      </methodStep>
+      <methodStep>
+        <description>Activities and Pressures: The case study experts identified the most representative activities and pressures present in each habitat, including land use, tourism, aquaculture, agriculture, infrastructure development, pollution, habitat degradation, and others. The nomenclature for activities and pressures used was based on established European environmental directives and frameworks, namely the Marine Strategy Framework Directive (MSFD, Directive 2008/56/EC), the Water Framework Directive (WFD, Directive 2000/60/EC), the Habitats Directive (92/43/EEC, 1992), and the Statistical Classification of Economic Activities in the European Community (NACE, EC, 2006).</description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>RESTORE4Cs - Modelling RESTORation of wEtlands for Carbon pathways, Climate Change mitigation and adaptation, ecosystem services, and biodiversity, Co-benefits</title>
+      <personnel>
+        <individualName>
+          <givenName>Ana</givenName>
+          <surName>Lillebø</surName>
+        </individualName>
+        <organizationName>Universidade de Aveiro</organizationName>
+        <positionName>Principal researcher</positionName>
+        <electronicMailAddress>lillebo@ua.pt</electronicMailAddress>
+        <userId directory="https://orcid.org/">0000-0002-5228-0329</userId>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>António</givenName>
+          <surName>Nogueira</surName>
+        </individualName>
+        <organizationName>Universidade de Aveiro</organizationName>
+        <positionName>Full professor</positionName>
+        <electronicMailAddress>antonio.nogueira@ua.pt</electronicMailAddress>
+        <userId directory="https://orcid.org/">0000-0001-7089-2508</userId>
+        <role>Point Of Contact</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Bruna R. F.</givenName>
+          <surName>Oliveira</surName>
+        </individualName>
+        <organizationName>Universidade de Aveiro</organizationName>
+        <positionName>Researcher</positionName>
+        <electronicMailAddress>bruna.oliveira@ua.pt</electronicMailAddress>
+        <userId directory="https://orcid.org/">0000-0001-5877-8614</userId>
+        <role>Point Of Contact</role>
+      </personnel>
+      <abstract>All major European Union (EU) policies recognise the key role of wetlands to achieve the EU objectives regarding climate neutrality, biodiversity protection, zero-pollution, flood protection, and circular economy. Therefore, assessing the current extent and state of European wetlands, their current and potential greenhouse gases (GHG) profile and their medium to long-term mitigation capacity through restoration, or other measures, are key priorities of the European Union to tackle climate change. Led by the University of Aveiro, the Horizon project RESTORE4Cs (Modelling RESTORation of wEtlands for Carbon pathways, Climate Change mitigation and adaptation, ecosystem services, and biodiversity, Co-benefits) will assess the role of restoration action on wetlands capacity in terms of climate change mitigation and a wide range of ecosystem services using an integrative socio-ecological systems approach.</abstract>
+    </project>
+    <dataTable>
+      <entityName>R4Cs_D2_Habitats.csv</entityName>
+      <entityDescription>Habitat types present within the RESTORE4Cs case study, classified according to the standardised European Nature Information System (EUNIS), 2012 version, and 2021 version (terrestrial)/2022 (marine).</entityDescription>
+      <physical>
+        <objectName>R4Cs_D2_Habitats.csv</objectName>
+        <size unit="byte">15051</size>
+        <authentication>MD5:86a2a822d8f91ed24346d8f105f66540</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>caseStudy</attributeName>
+          <attributeLabel>Case Study</attributeLabel>
+          <attributeDefinition>The number of the case study.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="case study">http://vocabs.lter-europe.net/EnvThes/20162</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>locality</attributeName>
+          <attributeLabel>Locality</attributeLabel>
+          <attributeDefinition>The specific description of the place.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Locality">http://rs.tdwg.org/dwc/terms/locality</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>EUNIS2012Level1</attributeName>
+          <attributeLabel>EUNIS 2012 Level 1</attributeLabel>
+          <attributeDefinition>The EUNIS habitat, which are the broadest types of habitat in Europe.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>EUNIS2012Level2</attributeName>
+          <attributeLabel>EUNIS 2012 Level 2</attributeLabel>
+          <attributeDefinition>The EUNIS habitat based on biological zone and substrate type.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>EUNIS2012CodeLevel2</attributeName>
+          <attributeLabel>EUNIS 2012 code level 2</attributeLabel>
+          <attributeDefinition>The 2012 EUNIS Habitat Classification level 2 codes.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>EUNIS2021/2022CodeLevel2</attributeName>
+          <attributeLabel>EUNIS 2021/2022 code level 2</attributeLabel>
+          <attributeDefinition>The 2021/2022 EUNIS Habitat Classification level 2 codes.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>caseStudyTotalArea</attributeName>
+          <attributeLabel>Case study total area</attributeLabel>
+          <attributeDefinition>The total area of the case study.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>squareKilometers</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="Area">http://marineregions.org/ns/placetypes#Area</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>caseStudySubdivisions</attributeName>
+          <attributeLabel>Case study subdivisions</attributeLabel>
+          <attributeDefinition>It refers to a spatial object designated for protection under national, European, or international legislation due to its environmental, cultural, or heritage value.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="Protected Site">http://inspire.ec.europa.eu/featureconcept/ProtectedSite</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>relativeCoverage</attributeName>
+          <attributeLabel>Relative coverage</attributeLabel>
+          <attributeDefinition>The proportion of a given geographic area (e.g., a country, biome, or region) that is covered by a particular feature type, such as Natura 2000 sites or Ramsar wetlands.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>percent</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="coverage">https://vocabulary.actris.nilu.no/actris_controlled_lists/coverage</valueURI>
+          </annotation>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>97</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>R4Cs_D2_ActivitiesAndPressures.csv</entityName>
+      <physical>
+        <objectName>R4Cs_D2_ActivitiesAndPressures.csv</objectName>
+        <size unit="byte">4356635</size>
+        <authentication>MD5:eb0db4e64a2356d10f785d7f4b86a54e</authentication>
+        <characterEncoding>UTF-8</characterEncoding>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>;</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>caseStudy</attributeName>
+          <attributeLabel>Case Study</attributeLabel>
+          <attributeDefinition>The number of the case study.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="case study">http://vocabs.lter-europe.net/EnvThes/20162</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>locality</attributeName>
+          <attributeLabel>Locality</attributeLabel>
+          <attributeDefinition>The specific description of the place.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Locality">http://rs.tdwg.org/dwc/terms/locality</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>EUNIS2012Level2</attributeName>
+          <attributeLabel>EUNIS 2012 Level 2</attributeLabel>
+          <attributeDefinition>The EUNIS habitat based on biological zone and substrate type.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>EUNIS2021/2022CodeLevel2</attributeName>
+          <attributeLabel>EUNIS 2021/2022 code level 2</attributeLabel>
+          <attributeDefinition>The 2021/2022 EUNIS Habitat Classification level 2 codes.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>primaryActivityType</attributeName>
+          <attributeLabel>Primary Activity Type</attributeLabel>
+          <attributeDefinition>It refers to the main categories of human activities that impact ecosystems. These activities are classified to better understand and mitigate their effects on the environment.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>aggregatePrimaryActivity</attributeName>
+          <attributeLabel>Aggregate Primary Activity</attributeLabel>
+          <attributeDefinition>Aggregate primary activity refers to the combined or summarized group of human activities that, when considered together, represent a major source of impact on ecosystems. Rather than focusing on a single activity (like deforestation alone), this concept groups related primary activities to analyze their cumulative environmental effects.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>specificPrimaryActivity</attributeName>
+          <attributeLabel>Specific Primary Activity</attributeLabel>
+          <attributeDefinition>A specific primary activity refers to a distinct, identifiable human action that directly contributes to environmental change or ecosystem impact. It is the finest level of detail in categorizing anthropogenic activities, used to pinpoint exactly what is being done, where, and often by whom.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>pressureCategory</attributeName>
+          <attributeLabel>Pressure Category</attributeLabel>
+          <attributeDefinition>A pressure activity refers to a human action that exerts stress or "pressure" on the environment, leading to changes in ecosystem structure, function, or health.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>23160</numberOfRecords>
+    </dataTable>
+  </dataset>
+</eml:eml>

@@ -1,0 +1,3169 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix lw: <https://kos.lifewatch.eu/ontologies/lw/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:0126b584-cc2d-48cc> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "0126b584-cc2d-48cc" ;
+    lw:catalogNumber "125" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2020-10-09> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:ca474d18-5193-4068> ;
+    lw:hasSimpleResult "5.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.75506%2C%208.55567> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:male> ;
+    lw:organismQuantity "11" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "P. Sieni" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:02a6e7d8-da61-4f1d> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "02a6e7d8-da61-4f1d" ;
+    lw:catalogNumber "87" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2020-01-14> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:a86c866a-d4aa-4ace> ;
+    lw:hasSimpleResult "1.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.71615%2C%208.5656> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:female> ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "A. Lentini" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:030bb0aa-8912-4d30> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "030bb0aa-8912-4d30" ;
+    lw:catalogNumber "52" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-10-25> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:8acd7969-3c25-49f0> ;
+    lw:hasSimpleResult "1.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.73287%2C%208.56194> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:male> ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "D. Depperu" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:03150493-29dd-47ad> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "03150493-29dd-47ad" ;
+    lw:catalogNumber "69" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-11-11> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:319ee73e-7594-4546> ;
+    lw:hasSimpleResult "1.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.72414%2C%208.56023> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:male> ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "A. Muroni" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:03d9a47d-f47f-4855> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "03d9a47d-f47f-4855" ;
+    lw:catalogNumber "86" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2020-01-12> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:f28b9534-8b52-4015> ;
+    lw:hasSimpleResult "1.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.74011%2C%208.56389> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:male> ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "A. Ga." ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:03f66e26-5c4f-49e0> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "03f66e26-5c4f-49e0" ;
+    lw:catalogNumber "34" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-10-17> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:d5f95752-0da9-4fd8> ;
+    lw:hasSimpleResult "0.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.72956%2C%208.55091> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:male> ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "G. Altana" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:04d01d4a-5d9d-448a> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "04d01d4a-5d9d-448a" ;
+    lw:catalogNumber "59" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-10-28> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:4471f395-cad0-4dc1> ;
+    lw:hasSimpleResult "0.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.7206%2C%208.57616> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:female> ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "B. Paglietti" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:05158b87-9b46-4bb0> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "05158b87-9b46-4bb0" ;
+    lw:catalogNumber "74" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-11-14> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:c0c207e4-33d3-492d> ;
+    lw:hasSimpleResult "0.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.71679%2C%208.57006> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:female> ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "L. Ruiu" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:09142802-f93c-4ca0> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "09142802-f93c-4ca0" ;
+    lw:catalogNumber "80" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-12-16> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:7cdfdee0-9616-41df> ;
+    lw:hasSimpleResult "1.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.71374%2C%208.55279> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:female> ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:0b98e82b-94c3-40f0> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "0b98e82b-94c3-40f0" ;
+    lw:catalogNumber "21" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-09-14> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:b8a4849d-b50b-466e> ;
+    lw:hasSimpleResult "0.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.559458%2C%208.330747> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:female> ;
+    lw:occurrenceRemarks "found in building" ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "S. Casula" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:0d3e77f4-b7dd-41e9> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "0d3e77f4-b7dd-41e9" ;
+    lw:catalogNumber "58" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-10-28> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:fa5f1125-5205-4702> ;
+    lw:hasSimpleResult "0.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.726111%2C%208.555> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:female> ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:0de12e05-c308-44d7> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "0de12e05-c308-44d7" ;
+    lw:catalogNumber "85" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2020-01-09> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:94f361b9-4d71-4a96> ;
+    lw:hasSimpleResult "0.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.72956%2C%208.55091> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:female> ;
+    lw:organismQuantity "2" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "S. Serra | A. Lentini" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:0e360b46-f505-4772> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "0e360b46-f505-4772" ;
+    lw:catalogNumber "261" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2024-10-07> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:61d7211e-5432-4151> ;
+    lw:hasSimpleResult "1.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.72414%2C%208.56023> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:female> ;
+    lw:occurrenceRemarks "found in building" ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "A. Muroni" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:0ed4ca60-4e67-4ce8> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "0ed4ca60-4e67-4ce8" ;
+    lw:catalogNumber "95" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2020-02-12> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:1ecb7bf9-02fb-4061> ;
+    lw:hasSimpleResult "1.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.7549%2C%208.49679> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:female> ;
+    lw:occurrenceRemarks "found in building" ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "S. Casula" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:0f9a4232-2988-4436> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "0f9a4232-2988-4436" ;
+    lw:catalogNumber "24" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-10-06> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:cc8a4d53-d924-4c98> ;
+    lw:hasSimpleResult "1.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.71679%2C%208.57006> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:female> ;
+    lw:occurrenceRemarks "found in building" ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "V. Ligios" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:11648e72-a9d2-420e> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "11648e72-a9d2-420e" ;
+    lw:catalogNumber "71" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-11-11> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:cddf5904-57b9-42f0> ;
+    lw:hasSimpleResult "0.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.72563%2C%208.5654> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:female> ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "M. Pinna" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:137d1c0e-4942-428f> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "137d1c0e-4942-428f" ;
+    lw:catalogNumber "87" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2020-01-14> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:a86c866a-d4aa-4ace> ;
+    lw:hasSimpleResult "0.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.71615%2C%208.5656> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:male> ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "A. Lentini" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:14f35240-57a1-43d1> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "14f35240-57a1-43d1" ;
+    lw:catalogNumber "268" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2024-10-29> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:a8201c6d-77c6-4932> ;
+    lw:hasSimpleResult "0.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.7572%2C%208.49501> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:male> ;
+    lw:occurrenceRemarks "found in building" ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "G. Maestrale" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:154fedaf-a836-440c> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "154fedaf-a836-440c" ;
+    lw:catalogNumber "55" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-10-27> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:df4c8295-8d9d-4910> ;
+    lw:hasSimpleResult "1.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.76174%2C%208.53074> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:female> ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "P. Piga" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:1ad48e91-aa4b-4db0> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "1ad48e91-aa4b-4db0" ;
+    lw:catalogNumber "82" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-12-21> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:a7a04cea-8915-4d41> ;
+    lw:hasSimpleResult "0.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.73413%2C%208.56913> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:male> ;
+    lw:occurrenceRemarks "found in building" ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "T. Fiorillo" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:1f8a3bec-ce48-4f09> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "1f8a3bec-ce48-4f09" ;
+    lw:catalogNumber "117" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2020-09-28> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:30ba1f33-a62f-4e2a> ;
+    lw:hasSimpleResult "4.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.73536%2C%208.56281> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:female> ;
+    lw:organismQuantity "6" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "P. Marras" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:205ce22c-83e0-459a> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "205ce22c-83e0-459a" ;
+    lw:catalogNumber "23" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-10-02> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:e47e63cd-95b7-41fe> ;
+    lw:hasSimpleResult "2.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.732211%2C%208.562206> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:male> ;
+    lw:occurrenceRemarks "found in building" ;
+    lw:organismQuantity "2" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "A. Muroni" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:242a4569-1aff-458a> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "242a4569-1aff-458a" ;
+    lw:catalogNumber "39" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-10-20> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:9edfe3c1-b51f-4658> ;
+    lw:hasSimpleResult "1.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.75131%2C%208.54227> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:female> ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "M. Rodriguez" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:25501a4f-0cf6-4002> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "25501a4f-0cf6-4002" ;
+    lw:catalogNumber "37" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-10-20> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:1e45d61c-f5fc-4dea> ;
+    lw:hasSimpleResult "1.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.725446%2C%208.559931> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:male> ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "E. Zolo" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:25e737bd-3f6e-4bb0> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "25e737bd-3f6e-4bb0" ;
+    lw:catalogNumber "34" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-10-17> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:d5f95752-0da9-4fd8> ;
+    lw:hasSimpleResult "1.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.72956%2C%208.55091> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:female> ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "G. Altana" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:263d1d01-1521-40a9> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "263d1d01-1521-40a9" ;
+    lw:catalogNumber "73" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-11-13> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:f16a6a54-e515-4b93> ;
+    lw:hasSimpleResult "0.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.712222%2C%208.550833> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:male> ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "R. Palmas" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:287f67a4-c106-49f3> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "287f67a4-c106-49f3" ;
+    lw:catalogNumber "55" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-10-27> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:df4c8295-8d9d-4910> ;
+    lw:hasSimpleResult "0.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.76174%2C%208.53074> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:male> ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "P. Piga" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:2d68e497-04a5-4a63> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "2d68e497-04a5-4a63" ;
+    lw:catalogNumber "119" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2020-10-02> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:bd3c1bae-51c0-4d62> ;
+    lw:hasSimpleResult "0.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.72414%2C%208.56023> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:female> ;
+    lw:occurrenceRemarks "found in building" ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "A. Muroni" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:2dc4a789-2966-46b0> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "2dc4a789-2966-46b0" ;
+    lw:catalogNumber "53" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-10-27> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:4ff93ab5-94d3-4693> ;
+    lw:hasSimpleResult "1.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.72977%2C%208.56171> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:female> ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "M. Sanna" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:2ddc0a46-299e-474a> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "2ddc0a46-299e-474a" ;
+    lw:catalogNumber "71" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-11-11> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:cddf5904-57b9-42f0> ;
+    lw:hasSimpleResult "1.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.72563%2C%208.5654> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:male> ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "M. Pinna" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:31446ba6-bc9c-4875> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "31446ba6-bc9c-4875" ;
+    lw:catalogNumber "142" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2021-01-24> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:d9209642-9fe2-4922> ;
+    lw:hasSimpleResult "1.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.723655%2C%208.570092> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:female> ;
+    lw:occurrenceRemarks "found in building" ;
+    lw:organismQuantity "2" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "A. Frau" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:3346ef9c-b430-4a5c> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "3346ef9c-b430-4a5c" ;
+    lw:catalogNumber "74" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-11-14> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:c0c207e4-33d3-492d> ;
+    lw:hasSimpleResult "1.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.71679%2C%208.57006> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:male> ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "L. Ruiu" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:344ed4ae-ebc3-43ed> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "344ed4ae-ebc3-43ed" ;
+    lw:catalogNumber "67" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-11-06> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:632b1aa3-a33d-4c22> ;
+    lw:hasSimpleResult "1.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.72539%2C%208.5102> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:female> ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "C. Bellu" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:374aa171-e124-46e0> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "374aa171-e124-46e0" ;
+    lw:catalogNumber "138" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2020-11-02> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:48ca49e6-6856-4910> ;
+    lw:hasSimpleResult "1.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.71679%2C%208.57006> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:female> ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "L. Ruiu" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:3e1dac7e-6086-4efe> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "3e1dac7e-6086-4efe" ;
+    lw:catalogNumber "5" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2018-10-16> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:5be64c8a-9ead-41d6> ;
+    lw:hasSimpleResult "2.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.72723%2C%208.56915> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:male> ;
+    lw:occurrenceRemarks "found in building" ;
+    lw:organismQuantity "2" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "V. Ligios" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:3f44b228-11e4-4c3d> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "3f44b228-11e4-4c3d" ;
+    lw:catalogNumber "135" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2020-10-20> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:a22c37e3-43cf-41e3> ;
+    lw:hasSimpleResult "1.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.72723%2C%208.56915> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:female> ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "A. DiEgidio" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:427c409b-d7f6-41ef> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "427c409b-d7f6-41ef" ;
+    lw:catalogNumber "263" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2024-10-09> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:fd46112e-13ff-49c5> ;
+    lw:hasSimpleResult "0.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.72907%2C%208.56635> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:female> ;
+    lw:occurrenceRemarks "found in building" ;
+    lw:organismQuantity "2" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "D. Murgia" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:4467b817-97a8-4cb3> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "4467b817-97a8-4cb3" ;
+    lw:catalogNumber "106" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2020-04-27> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:24a1634e-75b1-4f47> ;
+    lw:hasSimpleResult "0.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.80231%2C%208.53181> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:female> ;
+    lw:occurrenceRemarks "found in building" ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "T. Fiorillo" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:45f70da3-2a2c-462f> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "45f70da3-2a2c-462f" ;
+    lw:catalogNumber "70" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-11-11> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:f526308c-6fc8-473a> ;
+    lw:hasSimpleResult "1.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.72539%2C%208.5102> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:male> ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "C. Bellu" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:4d8348a8-640d-4929> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "4d8348a8-640d-4929" ;
+    lw:catalogNumber "61" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-10-29> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:1a83dec1-1e19-4b8b> ;
+    lw:hasSimpleResult "0.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.7549%2C%208.49679> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:female> ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "A. Cicilloni" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:4e4531b9-9c72-49d3> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "4e4531b9-9c72-49d3" ;
+    lw:catalogNumber "58" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-10-28> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:fa5f1125-5205-4702> ;
+    lw:hasSimpleResult "1.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.726111%2C%208.555> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:male> ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:4f782deb-aa21-4f9e> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "4f782deb-aa21-4f9e" ;
+    lw:catalogNumber "85" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2020-01-09> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:94f361b9-4d71-4a96> ;
+    lw:hasSimpleResult "2.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.72956%2C%208.55091> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:male> ;
+    lw:organismQuantity "2" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "S. Serra | A. Lentini" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:505a0634-6513-47f1> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "505a0634-6513-47f1" ;
+    lw:catalogNumber "154" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2021-07-07> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:119be820-ed4b-406a> ;
+    lw:hasSimpleResult "1.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.723655%2C%208.570092> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:female> ;
+    lw:occurrenceRemarks "found in building" ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "A. Frau" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:56b57182-dec3-4ec1> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "56b57182-dec3-4ec1" ;
+    lw:catalogNumber "73" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-11-13> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:f16a6a54-e515-4b93> ;
+    lw:hasSimpleResult "1.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.712222%2C%208.550833> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:female> ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "R. Palmas" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:57e11c24-e1d2-4464> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "57e11c24-e1d2-4464" ;
+    lw:catalogNumber "5" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2018-10-16> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:5be64c8a-9ead-41d6> ;
+    lw:hasSimpleResult "0.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.72723%2C%208.56915> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:female> ;
+    lw:occurrenceRemarks "found in building" ;
+    lw:organismQuantity "2" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "V. Ligios" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:5b4ad42f-f7f1-4769> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "5b4ad42f-f7f1-4769" ;
+    lw:catalogNumber "93" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2020-01-30> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:1a3cfb39-5b45-4771> ;
+    lw:hasSimpleResult "0.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.74551%2C%208.56586> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:female> ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "C. Casu" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:5d5c82fa-7808-4cf1> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "5d5c82fa-7808-4cf1" ;
+    lw:catalogNumber "21" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-09-14> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:b8a4849d-b50b-466e> ;
+    lw:hasSimpleResult "1.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.559458%2C%208.330747> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:male> ;
+    lw:occurrenceRemarks "found in building" ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "S. Casula" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:5de54072-2afc-4799> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "5de54072-2afc-4799" ;
+    lw:catalogNumber "86" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2020-01-12> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:f28b9534-8b52-4015> ;
+    lw:hasSimpleResult "0.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.74011%2C%208.56389> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:female> ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "A. Ga." ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:5fb4abfd-4848-49b6> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "5fb4abfd-4848-49b6" ;
+    lw:catalogNumber "106" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2020-04-27> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:24a1634e-75b1-4f47> ;
+    lw:hasSimpleResult "1.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.80231%2C%208.53181> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:male> ;
+    lw:occurrenceRemarks "found in building" ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "T. Fiorillo" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:62c98a3a-e684-4980> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "62c98a3a-e684-4980" ;
+    lw:catalogNumber "40" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-10-21> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:7dfda6fd-3632-4dc5> ;
+    lw:hasSimpleResult "1.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.71679%2C%208.57006> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:female> ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "L. Ruiu" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:648b1d5b-123e-4b95> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "648b1d5b-123e-4b95" ;
+    lw:catalogNumber "60" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-10-28> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:2669ddcd-bee5-4730> ;
+    lw:hasSimpleResult "2.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.75131%2C%208.54227> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:female> ;
+    lw:organismQuantity "2" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "M. Rodriguez" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:6600c2c2-e9ba-46c5> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "6600c2c2-e9ba-46c5" ;
+    lw:catalogNumber "30" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-10-13> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:ffb3d7e6-41b5-4382> ;
+    lw:hasSimpleResult "1.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.57806%2C%208.4765> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:female> ;
+    lw:occurrenceRemarks "found in building" ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "R. Pintore" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:69d430cd-f1b5-4774> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "69d430cd-f1b5-4774" ;
+    lw:catalogNumber "22" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-09-17> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:c54059ef-5754-4a50> ;
+    lw:hasSimpleResult "0.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.72723%2C%208.56915> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:male> ;
+    lw:occurrenceRemarks "found in building" ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "V. Ligios" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:7081439a-5db5-4ccb> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "7081439a-5db5-4ccb" ;
+    lw:catalogNumber "96" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2020-02-16> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:99069cec-732c-436f> ;
+    lw:hasSimpleResult "1.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.723656%2C%208.570092> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:male> ;
+    lw:occurrenceRemarks "found in building" ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "A. Frau" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:7173b8f3-0837-4cbc> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "7173b8f3-0837-4cbc" ;
+    lw:catalogNumber "67" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-11-06> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:632b1aa3-a33d-4c22> ;
+    lw:hasSimpleResult "1.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.72539%2C%208.5102> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:male> ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "C. Bellu" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:72019938-4c59-49ae> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "72019938-4c59-49ae" ;
+    lw:catalogNumber "40" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-10-21> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:7dfda6fd-3632-4dc5> ;
+    lw:hasSimpleResult "0.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.71679%2C%208.57006> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:male> ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "L. Ruiu" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:740f09c0-f326-41b3> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "740f09c0-f326-41b3" ;
+    lw:catalogNumber "269" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2024-01-07> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:0b1da60b-22cd-4cbe> ;
+    lw:hasSimpleResult "0.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.7572%2C%208.49501> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:male> ;
+    lw:occurrenceRemarks "found in building" ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "M. Casula" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:76e31122-2f37-4ce5> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "76e31122-2f37-4ce5" ;
+    lw:catalogNumber "63" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-10-31> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:63670503-fc9c-43e1> ;
+    lw:hasSimpleResult "2.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.72956%2C%208.55091> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:male> ;
+    lw:organismQuantity "2" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "P. Conte" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:78be7786-daa0-425d> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "78be7786-daa0-425d" ;
+    lw:catalogNumber "94" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2020-01-31> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:f6e8cdbf-d3d0-4531> ;
+    lw:hasSimpleResult "0.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.74551%2C%208.56586> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:male> ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "C. Casu" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:79e7bab9-29e3-4fd1> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "79e7bab9-29e3-4fd1" ;
+    lw:catalogNumber "102" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2020-03-12> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:93e81a52-8e34-4ced> ;
+    lw:hasSimpleResult "1.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.7206%2C%208.57616> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:male> ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "B. Paglietti" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:79edcf16-94c2-4f68> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "79edcf16-94c2-4f68" ;
+    lw:catalogNumber "268" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2024-10-29> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:a8201c6d-77c6-4932> ;
+    lw:hasSimpleResult "1.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.7572%2C%208.49501> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:female> ;
+    lw:occurrenceRemarks "found in building" ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "G. Maestrale" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:7c510743-6f5f-4cf6> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "7c510743-6f5f-4cf6" ;
+    lw:catalogNumber "59" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-10-28> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:4471f395-cad0-4dc1> ;
+    lw:hasSimpleResult "1.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.7206%2C%208.57616> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:male> ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "B. Paglietti" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:8094d354-6ab1-4ef6> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "8094d354-6ab1-4ef6" ;
+    lw:catalogNumber "82" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-12-21> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:a7a04cea-8915-4d41> ;
+    lw:hasSimpleResult "1.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.73413%2C%208.56913> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:female> ;
+    lw:occurrenceRemarks "found in building" ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "T. Fiorillo" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:80c05c16-5cc2-4541> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "80c05c16-5cc2-4541" ;
+    lw:catalogNumber "70" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-11-11> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:f526308c-6fc8-473a> ;
+    lw:hasSimpleResult "0.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.72539%2C%208.5102> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:female> ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "C. Bellu" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:84be4111-7c36-4e75> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "84be4111-7c36-4e75" ;
+    lw:catalogNumber "7" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2018-12-14> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:43ab9c0d-b83e-425b> ;
+    lw:hasSimpleResult "0.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.7549%2C%208.49679> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:male> ;
+    lw:occurrenceRemarks "found in building" ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "G. Medde" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:85ea4975-2bf0-4d87> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "85ea4975-2bf0-4d87" ;
+    lw:catalogNumber "242" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2023-11-14> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:c319fa5b-d925-4d7c> ;
+    lw:hasSimpleResult "0.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.723655%2C%208.570092> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:female> ;
+    lw:occurrenceRemarks "found in building" ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "A. Frau" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:863b1602-9624-4985> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "863b1602-9624-4985" ;
+    lw:catalogNumber "52" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-10-25> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:8acd7969-3c25-49f0> ;
+    lw:hasSimpleResult "0.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.73287%2C%208.56194> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:female> ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "D. Depperu" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:878c6ad5-2f5a-4305> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "878c6ad5-2f5a-4305" ;
+    lw:catalogNumber "265" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2024-10-14> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:5638dd98-705d-45cc> ;
+    lw:hasSimpleResult "0.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.72907%2C%208.56635> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:male> ;
+    lw:occurrenceRemarks "found in building" ;
+    lw:organismQuantity "2" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "D. Murgia" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:89bc3e00-588d-4f00> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "89bc3e00-588d-4f00" ;
+    lw:catalogNumber "102" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2020-03-12> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:93e81a52-8e34-4ced> ;
+    lw:hasSimpleResult "0.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.7206%2C%208.57616> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:female> ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "B. Paglietti" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:89ef576b-30d4-40cc> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "89ef576b-30d4-40cc" ;
+    lw:catalogNumber "101" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2020-03-04> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:226f3675-d048-4c0e> ;
+    lw:hasSimpleResult "1.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.723656%2C%208.570092> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:female> ;
+    lw:occurrenceRemarks "found in building" ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "A. Frau" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:8a57f300-8dce-4ddc> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "8a57f300-8dce-4ddc" ;
+    lw:catalogNumber "27" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-10-09> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:4ab0f38b-1051-464c> ;
+    lw:hasSimpleResult "0.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.72723%2C%208.56915> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:female> ;
+    lw:occurrenceRemarks "found in building" ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "V. Ligios" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:8acc71de-c006-4779> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "8acc71de-c006-4779" ;
+    lw:catalogNumber "20" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-09-08> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:e09e8993-e023-4f1d> ;
+    lw:hasSimpleResult "0.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.71893%2C%208.5676> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:female> ;
+    lw:occurrenceRemarks "found in building" ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "L. Loru" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:8b29652f-4824-4152> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "8b29652f-4824-4152" ;
+    lw:catalogNumber "51" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-10-25> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:2d728bab-d6ea-494b> ;
+    lw:hasSimpleResult "1.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.723656%2C%208.570092> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:female> ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "A. Frau" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:8bd9e560-e971-470e> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "8bd9e560-e971-470e" ;
+    lw:catalogNumber "117" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2020-09-28> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:30ba1f33-a62f-4e2a> ;
+    lw:hasSimpleResult "2.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.73536%2C%208.56281> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:male> ;
+    lw:organismQuantity "6" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "P. Marras" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:8d8b2d20-9221-4619> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "8d8b2d20-9221-4619" ;
+    lw:catalogNumber "20" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-09-08> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:e09e8993-e023-4f1d> ;
+    lw:hasSimpleResult "1.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.71893%2C%208.5676> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:male> ;
+    lw:occurrenceRemarks "found in building" ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "L. Loru" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:8dd7133f-81e5-4f18> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "8dd7133f-81e5-4f18" ;
+    lw:catalogNumber "162" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2021-08-21> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:dc4340da-2bee-4cd7> ;
+    lw:hasSimpleResult "0.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:39.9042%2C%208.5867> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:female> ;
+    lw:occurrenceRemarks "active population" ;
+    lw:organismQuantity "several" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "G. Loddo" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:8f3bef81-ec7c-4a3b> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "8f3bef81-ec7c-4a3b" ;
+    lw:catalogNumber "53" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-10-27> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:4ff93ab5-94d3-4693> ;
+    lw:hasSimpleResult "0.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.72977%2C%208.56171> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:male> ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "M. Sanna" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:91236655-fbc8-441f> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "91236655-fbc8-441f" ;
+    lw:catalogNumber "265" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2024-10-14> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:5638dd98-705d-45cc> ;
+    lw:hasSimpleResult "2.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.72907%2C%208.56635> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:female> ;
+    lw:occurrenceRemarks "found in building" ;
+    lw:organismQuantity "2" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "D. Murgia" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:91e09498-bede-46c5> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "91e09498-bede-46c5" ;
+    lw:catalogNumber "125" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2020-10-09> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:ca474d18-5193-4068> ;
+    lw:hasSimpleResult "6.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.75506%2C%208.55567> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:female> ;
+    lw:organismQuantity "11" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "P. Sieni" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:94a22f9a-8eec-4ddb> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "94a22f9a-8eec-4ddb" ;
+    lw:catalogNumber "78" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-12-05> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:cfad88aa-ca1d-461d> ;
+    lw:hasSimpleResult "0.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.72333%2C%208.566944> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:female> ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "V. Prota" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:98c54b32-425d-45ba> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "98c54b32-425d-45ba" ;
+    lw:catalogNumber "6" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2018-10-19> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:da0822a5-1866-44c3> ;
+    lw:hasSimpleResult "0.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.71679%2C%208.57006> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:male> ;
+    lw:occurrenceRemarks "found in building" ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "V. Ligios" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:99c4f34f-9b96-4c83> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "99c4f34f-9b96-4c83" ;
+    lw:catalogNumber "138" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2020-11-02> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:48ca49e6-6856-4910> ;
+    lw:hasSimpleResult "0.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.71679%2C%208.57006> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:male> ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "L. Ruiu" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:99cb0688-1d6a-44b4> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "99cb0688-1d6a-44b4" ;
+    lw:catalogNumber "46" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-10-23> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:72728d99-5847-418a> ;
+    lw:hasSimpleResult "0.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.78703%2C%208.47738> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:female> ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "G. Altana" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:9d15482b-6601-4bc3> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "9d15482b-6601-4bc3" ;
+    lw:catalogNumber "69" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-11-11> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:319ee73e-7594-4546> ;
+    lw:hasSimpleResult "0.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.72414%2C%208.56023> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:female> ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "A. Muroni" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:a38b6347-add9-4bfe> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "a38b6347-add9-4bfe" ;
+    lw:catalogNumber "129" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2020-10-12> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:376c7416-4ba7-4ab6> ;
+    lw:hasSimpleResult "1.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.72956%2C%208.55091> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:female> ;
+    lw:occurrenceRemarks "found in building" ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "R. Mannu" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:a4be94d6-5240-4e31> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "a4be94d6-5240-4e31" ;
+    lw:catalogNumber "33" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-10-15> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:98f5dc77-8f8b-4f23> ;
+    lw:hasSimpleResult "1.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.71679%2C%208.57006> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:male> ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "L. Ruiu" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:a6262bee-9702-46ec> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "a6262bee-9702-46ec" ;
+    lw:catalogNumber "96" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2020-02-16> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:99069cec-732c-436f> ;
+    lw:hasSimpleResult "0.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.723656%2C%208.570092> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:female> ;
+    lw:occurrenceRemarks "found in building" ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "A. Frau" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:a9973440-80b5-45e9> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "a9973440-80b5-45e9" ;
+    lw:catalogNumber "142" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2021-01-24> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:d9209642-9fe2-4922> ;
+    lw:hasSimpleResult "1.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.723655%2C%208.570092> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:male> ;
+    lw:occurrenceRemarks "found in building" ;
+    lw:organismQuantity "2" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "A. Frau" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:aa21cc60-c799-41e3> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "aa21cc60-c799-41e3" ;
+    lw:catalogNumber "8" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2018-12-17> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:00e69f76-b59e-4c25> ;
+    lw:hasSimpleResult "1.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.72414%2C%208.56023> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:female> ;
+    lw:occurrenceRemarks "found in building" ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "A. Muroni" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:abed0d9c-a1a3-4ead> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "abed0d9c-a1a3-4ead" ;
+    lw:catalogNumber "259" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2024-10-02> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:29d13831-5dd8-4e5e> ;
+    lw:hasSimpleResult "1.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.58607%2C%209.00481> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:male> ;
+    lw:occurrenceRemarks "found in building" ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "C. Lai" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:acec6ff2-e817-445c> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "acec6ff2-e817-445c" ;
+    lw:catalogNumber "24" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-10-06> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:cc8a4d53-d924-4c98> ;
+    lw:hasSimpleResult "0.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.71679%2C%208.57006> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:male> ;
+    lw:occurrenceRemarks "found in building" ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "V. Ligios" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:ae2d7fb9-b2fa-437e> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "ae2d7fb9-b2fa-437e" ;
+    lw:catalogNumber "119" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2020-10-02> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:bd3c1bae-51c0-4d62> ;
+    lw:hasSimpleResult "1.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.72414%2C%208.56023> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:male> ;
+    lw:occurrenceRemarks "found in building" ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "A. Muroni" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:ae516a03-bc4a-4163> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "ae516a03-bc4a-4163" ;
+    lw:catalogNumber "259" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2024-10-02> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:29d13831-5dd8-4e5e> ;
+    lw:hasSimpleResult "0.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.58607%2C%209.00481> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:female> ;
+    lw:occurrenceRemarks "found in building" ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "C. Lai" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:aebd02ed-391b-4f9f> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "aebd02ed-391b-4f9f" ;
+    lw:catalogNumber "8" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2018-12-17> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:00e69f76-b59e-4c25> ;
+    lw:hasSimpleResult "0.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.72414%2C%208.56023> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:male> ;
+    lw:occurrenceRemarks "found in building" ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "A. Muroni" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:b306b1cb-3208-42dd> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "b306b1cb-3208-42dd" ;
+    lw:catalogNumber "169" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2021-10-02> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:66c4546b-b818-4e9b> ;
+    lw:hasSimpleResult "0.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.72414%2C%208.56023> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:male> ;
+    lw:occurrenceRemarks "found in building" ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "A. Muroni" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:b65f858f-146a-4791> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "b65f858f-146a-4791" ;
+    lw:catalogNumber "129" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2020-10-12> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:376c7416-4ba7-4ab6> ;
+    lw:hasSimpleResult "0.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.72956%2C%208.55091> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:male> ;
+    lw:occurrenceRemarks "found in building" ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "R. Mannu" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:b69bc8b5-7f1a-49c7> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "b69bc8b5-7f1a-49c7" ;
+    lw:catalogNumber "38" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-10-20> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:5641125e-0664-406e> ;
+    lw:hasSimpleResult "0.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.80231%2C%208.53181> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:male> ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "T. Fiorillo" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:b6a53ad3-cf7e-4cdd> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "b6a53ad3-cf7e-4cdd" ;
+    lw:catalogNumber "162" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2021-08-21> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:dc4340da-2bee-4cd7> ;
+    lw:hasSimpleResult "1.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:39.9042%2C%208.5867> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:male> ;
+    lw:occurrenceRemarks "active population" ;
+    lw:organismQuantity "several" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "G. Loddo" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:b6c34a9d-347c-4f50> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "b6c34a9d-347c-4f50" ;
+    lw:catalogNumber "27" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-10-09> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:4ab0f38b-1051-464c> ;
+    lw:hasSimpleResult "1.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.72723%2C%208.56915> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:male> ;
+    lw:occurrenceRemarks "found in building" ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "V. Ligios" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:b8a73a52-f19b-4f58> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "b8a73a52-f19b-4f58" ;
+    lw:catalogNumber "46" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-10-23> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:72728d99-5847-418a> ;
+    lw:hasSimpleResult "1.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.78703%2C%208.47738> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:male> ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "G. Altana" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:b8c199e8-93f3-4ecd> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "b8c199e8-93f3-4ecd" ;
+    lw:catalogNumber "30" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-10-13> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:ffb3d7e6-41b5-4382> ;
+    lw:hasSimpleResult "0.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.57806%2C%208.4765> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:male> ;
+    lw:occurrenceRemarks "found in building" ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "R. Pintore" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:bbcb2ca8-2f48-47e0> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "bbcb2ca8-2f48-47e0" ;
+    lw:catalogNumber "263" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2024-10-09> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:fd46112e-13ff-49c5> ;
+    lw:hasSimpleResult "2.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.72907%2C%208.56635> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:male> ;
+    lw:occurrenceRemarks "found in building" ;
+    lw:organismQuantity "2" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "D. Murgia" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:c06e05b4-9036-4e30> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "c06e05b4-9036-4e30" ;
+    lw:catalogNumber "101" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2020-03-04> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:226f3675-d048-4c0e> ;
+    lw:hasSimpleResult "0.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.723656%2C%208.570092> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:male> ;
+    lw:occurrenceRemarks "found in building" ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "A. Frau" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:c150f92f-b473-444c> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "c150f92f-b473-444c" ;
+    lw:catalogNumber "38" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-10-20> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:5641125e-0664-406e> ;
+    lw:hasSimpleResult "1.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.80231%2C%208.53181> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:female> ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "T. Fiorillo" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:c45e2b08-b4e6-4290> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "c45e2b08-b4e6-4290" ;
+    lw:catalogNumber "61" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-10-29> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:1a83dec1-1e19-4b8b> ;
+    lw:hasSimpleResult "1.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.7549%2C%208.49679> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:male> ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "A. Cicilloni" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:c827a3c4-61d5-4a6a> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "c827a3c4-61d5-4a6a" ;
+    lw:catalogNumber "242" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2023-11-14> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:c319fa5b-d925-4d7c> ;
+    lw:hasSimpleResult "1.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.723655%2C%208.570092> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:male> ;
+    lw:occurrenceRemarks "found in building" ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "A. Frau" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:cb8e4b19-9973-407e> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "cb8e4b19-9973-407e" ;
+    lw:catalogNumber "80" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-12-16> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:7cdfdee0-9616-41df> ;
+    lw:hasSimpleResult "0.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.71374%2C%208.55279> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:male> ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:cb9af2c1-cb10-41e1> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "cb9af2c1-cb10-41e1" ;
+    lw:catalogNumber "51" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-10-25> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:2d728bab-d6ea-494b> ;
+    lw:hasSimpleResult "0.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.723656%2C%208.570092> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:male> ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "A. Frau" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:cc36bbcc-957b-4687> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "cc36bbcc-957b-4687" ;
+    lw:catalogNumber "100" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2020-03-01> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:88d74a44-5fd9-4861> ;
+    lw:hasSimpleResult "1.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.723656%2C%208.570092> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:female> ;
+    lw:occurrenceRemarks "found in building" ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "A. Frau" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:cdf3f16a-496b-4efd> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "cdf3f16a-496b-4efd" ;
+    lw:catalogNumber "93" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2020-01-30> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:1a3cfb39-5b45-4771> ;
+    lw:hasSimpleResult "1.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.74551%2C%208.56586> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:male> ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "C. Casu" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:d3a44453-6f13-43df> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "d3a44453-6f13-43df" ;
+    lw:catalogNumber "39" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-10-20> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:9edfe3c1-b51f-4658> ;
+    lw:hasSimpleResult "0.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.75131%2C%208.54227> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:male> ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "M. Rodriguez" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:d3f46166-ff2e-4dbd> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "d3f46166-ff2e-4dbd" ;
+    lw:catalogNumber "22" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-09-17> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:c54059ef-5754-4a50> ;
+    lw:hasSimpleResult "1.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.72723%2C%208.56915> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:female> ;
+    lw:occurrenceRemarks "found in building" ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "V. Ligios" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:d419e22b-b2fe-4988> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "d419e22b-b2fe-4988" ;
+    lw:catalogNumber "60" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-10-28> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:2669ddcd-bee5-4730> ;
+    lw:hasSimpleResult "0.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.75131%2C%208.54227> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:male> ;
+    lw:organismQuantity "2" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "M. Rodriguez" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:d50c5645-83b6-4bd6> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "d50c5645-83b6-4bd6" ;
+    lw:catalogNumber "269" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2024-01-07> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:0b1da60b-22cd-4cbe> ;
+    lw:hasSimpleResult "1.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.7572%2C%208.49501> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:female> ;
+    lw:occurrenceRemarks "found in building" ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "M. Casula" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:d59e4e02-f4d1-43f2> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "d59e4e02-f4d1-43f2" ;
+    lw:catalogNumber "6" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2018-10-19> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:da0822a5-1866-44c3> ;
+    lw:hasSimpleResult "1.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.71679%2C%208.57006> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:female> ;
+    lw:occurrenceRemarks "found in building" ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "V. Ligios" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:de67f5b8-7ad8-465d> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "de67f5b8-7ad8-465d" ;
+    lw:catalogNumber "154" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2021-07-07> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:119be820-ed4b-406a> ;
+    lw:hasSimpleResult "0.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.723655%2C%208.570092> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:male> ;
+    lw:occurrenceRemarks "found in building" ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "A. Frau" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:df7cf2bd-d4f5-4bbe> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "df7cf2bd-d4f5-4bbe" ;
+    lw:catalogNumber "169" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2021-10-02> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:66c4546b-b818-4e9b> ;
+    lw:hasSimpleResult "1.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.72414%2C%208.56023> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:female> ;
+    lw:occurrenceRemarks "found in building" ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "A. Muroni" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:e21b9944-669c-454d> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "e21b9944-669c-454d" ;
+    lw:catalogNumber "94" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2020-01-31> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:f6e8cdbf-d3d0-4531> ;
+    lw:hasSimpleResult "1.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.74551%2C%208.56586> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:female> ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "C. Casu" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:e2c027e6-3c24-41f6> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "e2c027e6-3c24-41f6" ;
+    lw:catalogNumber "100" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2020-03-01> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:88d74a44-5fd9-4861> ;
+    lw:hasSimpleResult "0.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.723656%2C%208.570092> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:male> ;
+    lw:occurrenceRemarks "found in building" ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "A. Frau" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:e8009199-706f-4ab7> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "e8009199-706f-4ab7" ;
+    lw:catalogNumber "37" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-10-20> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:1e45d61c-f5fc-4dea> ;
+    lw:hasSimpleResult "0.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.725446%2C%208.559931> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:female> ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "E. Zolo" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:edcd6647-0426-4bd3> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "edcd6647-0426-4bd3" ;
+    lw:catalogNumber "7" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2018-12-14> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:43ab9c0d-b83e-425b> ;
+    lw:hasSimpleResult "1.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.7549%2C%208.49679> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:female> ;
+    lw:occurrenceRemarks "found in building" ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "G. Medde" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:f1ab5915-c87c-4f6e> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "f1ab5915-c87c-4f6e" ;
+    lw:catalogNumber "81" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-12-19> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:e8cc711d-b769-4e8e> ;
+    lw:hasSimpleResult "0.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.80231%2C%208.53181> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:female> ;
+    lw:occurrenceRemarks "found in building" ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "T. Fiorillo" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:f1cee92f-de38-446c> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "f1cee92f-de38-446c" ;
+    lw:catalogNumber "95" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2020-02-12> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:1ecb7bf9-02fb-4061> ;
+    lw:hasSimpleResult "0.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.7549%2C%208.49679> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:male> ;
+    lw:occurrenceRemarks "found in building" ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "S. Casula" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:f2e47896-4031-4896> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "f2e47896-4031-4896" ;
+    lw:catalogNumber "23" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-10-02> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:e47e63cd-95b7-41fe> ;
+    lw:hasSimpleResult "0.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.732211%2C%208.562206> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:female> ;
+    lw:occurrenceRemarks "found in building" ;
+    lw:organismQuantity "2" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "A. Muroni" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:f47ddd39-3081-4682> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "f47ddd39-3081-4682" ;
+    lw:catalogNumber "135" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2020-10-20> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:a22c37e3-43cf-41e3> ;
+    lw:hasSimpleResult "0.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.72723%2C%208.56915> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:male> ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "A. DiEgidio" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:fa206fc2-42b0-4e8b> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "fa206fc2-42b0-4e8b" ;
+    lw:catalogNumber "81" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-12-19> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:e8cc711d-b769-4e8e> ;
+    lw:hasSimpleResult "1.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.80231%2C%208.53181> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:male> ;
+    lw:occurrenceRemarks "found in building" ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "T. Fiorillo" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:fa38a16c-202d-48ec> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "fa38a16c-202d-48ec" ;
+    lw:catalogNumber "33" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-10-15> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:98f5dc77-8f8b-4f23> ;
+    lw:hasSimpleResult "0.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.71679%2C%208.57006> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:female> ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "L. Ruiu" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:fa524c22-ec9a-4153> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "fa524c22-ec9a-4153" ;
+    lw:catalogNumber "78" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-12-05> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:cfad88aa-ca1d-461d> ;
+    lw:hasSimpleResult "1.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.72333%2C%208.566944> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:male> ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "V. Prota" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:fa827757-3351-4c96> a owl:NamedIndividual,
+        lw:Observation ;
+    rdfs:label "fa827757-3351-4c96" ;
+    lw:catalogNumber "261" ;
+    lw:dateTime <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2024-10-07> ;
+    lw:hasFeatureOfInterest <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:61d7211e-5432-4151> ;
+    lw:hasSimpleResult "0.0" ;
+    lw:isMemberOf <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    lw:observedAt <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.72414%2C%208.56023> ;
+    lw:observedProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:male> ;
+    lw:occurrenceRemarks "found in building" ;
+    lw:organismQuantity "1" ;
+    lw:organismQuantityType "individuals" ;
+    lw:recordedBy "A. Muroni" ;
+    lw:unitOfMeasurement "number" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:63670503-fc9c-43e1> a owl:NamedIndividual,
+        lw:FeatureOfInterest,
+        lw:OrganismalEntity ;
+    rdfs:label "63670503-fc9c-43e1" ;
+    lw:acceptedNameUsage "Halyomorpha halys (Stål, 1855)" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-10-31> a owl:NamedIndividual,
+        lw:TemporalEntity ;
+    rdfs:label "2019-10-31" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:00e69f76-b59e-4c25> a owl:NamedIndividual,
+        lw:FeatureOfInterest,
+        lw:OrganismalEntity ;
+    rdfs:label "00e69f76-b59e-4c25" ;
+    lw:acceptedNameUsage "Halyomorpha halys (Stål, 1855)" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:0b1da60b-22cd-4cbe> a owl:NamedIndividual,
+        lw:FeatureOfInterest,
+        lw:OrganismalEntity ;
+    rdfs:label "0b1da60b-22cd-4cbe" ;
+    lw:acceptedNameUsage "Halyomorpha halys (Stål, 1855)" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:119be820-ed4b-406a> a owl:NamedIndividual,
+        lw:FeatureOfInterest,
+        lw:OrganismalEntity ;
+    rdfs:label "119be820-ed4b-406a" ;
+    lw:acceptedNameUsage "Halyomorpha halys (Stål, 1855)" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:1a3cfb39-5b45-4771> a owl:NamedIndividual,
+        lw:FeatureOfInterest,
+        lw:OrganismalEntity ;
+    rdfs:label "1a3cfb39-5b45-4771" ;
+    lw:acceptedNameUsage "Halyomorpha halys (Stål, 1855)" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:1a83dec1-1e19-4b8b> a owl:NamedIndividual,
+        lw:FeatureOfInterest,
+        lw:OrganismalEntity ;
+    rdfs:label "1a83dec1-1e19-4b8b" ;
+    lw:acceptedNameUsage "Halyomorpha halys (Stål, 1855)" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:1e45d61c-f5fc-4dea> a owl:NamedIndividual,
+        lw:FeatureOfInterest,
+        lw:OrganismalEntity ;
+    rdfs:label "1e45d61c-f5fc-4dea" ;
+    lw:acceptedNameUsage "Halyomorpha halys (Stål, 1855)" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:1ecb7bf9-02fb-4061> a owl:NamedIndividual,
+        lw:FeatureOfInterest,
+        lw:OrganismalEntity ;
+    rdfs:label "1ecb7bf9-02fb-4061" ;
+    lw:acceptedNameUsage "Halyomorpha halys (Stål, 1855)" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:226f3675-d048-4c0e> a owl:NamedIndividual,
+        lw:FeatureOfInterest,
+        lw:OrganismalEntity ;
+    rdfs:label "226f3675-d048-4c0e" ;
+    lw:acceptedNameUsage "Halyomorpha halys (Stål, 1855)" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:24a1634e-75b1-4f47> a owl:NamedIndividual,
+        lw:FeatureOfInterest,
+        lw:OrganismalEntity ;
+    rdfs:label "24a1634e-75b1-4f47" ;
+    lw:acceptedNameUsage "Halyomorpha halys (Stål, 1855)" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:2669ddcd-bee5-4730> a owl:NamedIndividual,
+        lw:FeatureOfInterest,
+        lw:OrganismalEntity ;
+    rdfs:label "2669ddcd-bee5-4730" ;
+    lw:acceptedNameUsage "Halyomorpha halys (Stål, 1855)" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:29d13831-5dd8-4e5e> a owl:NamedIndividual,
+        lw:FeatureOfInterest,
+        lw:OrganismalEntity ;
+    rdfs:label "29d13831-5dd8-4e5e" ;
+    lw:acceptedNameUsage "Halyomorpha halys (Stål, 1855)" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:2d728bab-d6ea-494b> a owl:NamedIndividual,
+        lw:FeatureOfInterest,
+        lw:OrganismalEntity ;
+    rdfs:label "2d728bab-d6ea-494b" ;
+    lw:acceptedNameUsage "Halyomorpha halys (Stål, 1855)" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:30ba1f33-a62f-4e2a> a owl:NamedIndividual,
+        lw:FeatureOfInterest,
+        lw:OrganismalEntity ;
+    rdfs:label "30ba1f33-a62f-4e2a" ;
+    lw:acceptedNameUsage "Halyomorpha halys (Stål, 1855)" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:319ee73e-7594-4546> a owl:NamedIndividual,
+        lw:FeatureOfInterest,
+        lw:OrganismalEntity ;
+    rdfs:label "319ee73e-7594-4546" ;
+    lw:acceptedNameUsage "Halyomorpha halys (Stål, 1855)" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:376c7416-4ba7-4ab6> a owl:NamedIndividual,
+        lw:FeatureOfInterest,
+        lw:OrganismalEntity ;
+    rdfs:label "376c7416-4ba7-4ab6" ;
+    lw:acceptedNameUsage "Halyomorpha halys (Stål, 1855)" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:43ab9c0d-b83e-425b> a owl:NamedIndividual,
+        lw:FeatureOfInterest,
+        lw:OrganismalEntity ;
+    rdfs:label "43ab9c0d-b83e-425b" ;
+    lw:acceptedNameUsage "Halyomorpha halys (Stål, 1855)" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:4471f395-cad0-4dc1> a owl:NamedIndividual,
+        lw:FeatureOfInterest,
+        lw:OrganismalEntity ;
+    rdfs:label "4471f395-cad0-4dc1" ;
+    lw:acceptedNameUsage "Halyomorpha halys (Stål, 1855)" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:48ca49e6-6856-4910> a owl:NamedIndividual,
+        lw:FeatureOfInterest,
+        lw:OrganismalEntity ;
+    rdfs:label "48ca49e6-6856-4910" ;
+    lw:acceptedNameUsage "Halyomorpha halys (Stål, 1855)" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:4ab0f38b-1051-464c> a owl:NamedIndividual,
+        lw:FeatureOfInterest,
+        lw:OrganismalEntity ;
+    rdfs:label "4ab0f38b-1051-464c" ;
+    lw:acceptedNameUsage "Halyomorpha halys (Stål, 1855)" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:4ff93ab5-94d3-4693> a owl:NamedIndividual,
+        lw:FeatureOfInterest,
+        lw:OrganismalEntity ;
+    rdfs:label "4ff93ab5-94d3-4693" ;
+    lw:acceptedNameUsage "Halyomorpha halys (Stål, 1855)" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:5638dd98-705d-45cc> a owl:NamedIndividual,
+        lw:FeatureOfInterest,
+        lw:OrganismalEntity ;
+    rdfs:label "5638dd98-705d-45cc" ;
+    lw:acceptedNameUsage "Halyomorpha halys (Stål, 1855)" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:5641125e-0664-406e> a owl:NamedIndividual,
+        lw:FeatureOfInterest,
+        lw:OrganismalEntity ;
+    rdfs:label "5641125e-0664-406e" ;
+    lw:acceptedNameUsage "Halyomorpha halys (Stål, 1855)" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:5be64c8a-9ead-41d6> a owl:NamedIndividual,
+        lw:FeatureOfInterest,
+        lw:OrganismalEntity ;
+    rdfs:label "5be64c8a-9ead-41d6" ;
+    lw:acceptedNameUsage "Halyomorpha halys (Stål, 1855)" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:61d7211e-5432-4151> a owl:NamedIndividual,
+        lw:FeatureOfInterest,
+        lw:OrganismalEntity ;
+    rdfs:label "61d7211e-5432-4151" ;
+    lw:acceptedNameUsage "Halyomorpha halys (Stål, 1855)" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:632b1aa3-a33d-4c22> a owl:NamedIndividual,
+        lw:FeatureOfInterest,
+        lw:OrganismalEntity ;
+    rdfs:label "632b1aa3-a33d-4c22" ;
+    lw:acceptedNameUsage "Halyomorpha halys (Stål, 1855)" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:66c4546b-b818-4e9b> a owl:NamedIndividual,
+        lw:FeatureOfInterest,
+        lw:OrganismalEntity ;
+    rdfs:label "66c4546b-b818-4e9b" ;
+    lw:acceptedNameUsage "Halyomorpha halys (Stål, 1855)" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:72728d99-5847-418a> a owl:NamedIndividual,
+        lw:FeatureOfInterest,
+        lw:OrganismalEntity ;
+    rdfs:label "72728d99-5847-418a" ;
+    lw:acceptedNameUsage "Halyomorpha halys (Stål, 1855)" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:7cdfdee0-9616-41df> a owl:NamedIndividual,
+        lw:FeatureOfInterest,
+        lw:OrganismalEntity ;
+    rdfs:label "7cdfdee0-9616-41df" ;
+    lw:acceptedNameUsage "Halyomorpha halys (Stål, 1855)" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:7dfda6fd-3632-4dc5> a owl:NamedIndividual,
+        lw:FeatureOfInterest,
+        lw:OrganismalEntity ;
+    rdfs:label "7dfda6fd-3632-4dc5" ;
+    lw:acceptedNameUsage "Halyomorpha halys (Stål, 1855)" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:88d74a44-5fd9-4861> a owl:NamedIndividual,
+        lw:FeatureOfInterest,
+        lw:OrganismalEntity ;
+    rdfs:label "88d74a44-5fd9-4861" ;
+    lw:acceptedNameUsage "Halyomorpha halys (Stål, 1855)" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:8acd7969-3c25-49f0> a owl:NamedIndividual,
+        lw:FeatureOfInterest,
+        lw:OrganismalEntity ;
+    rdfs:label "8acd7969-3c25-49f0" ;
+    lw:acceptedNameUsage "Halyomorpha halys (Stål, 1855)" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:93e81a52-8e34-4ced> a owl:NamedIndividual,
+        lw:FeatureOfInterest,
+        lw:OrganismalEntity ;
+    rdfs:label "93e81a52-8e34-4ced" ;
+    lw:acceptedNameUsage "Halyomorpha halys (Stål, 1855)" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:94f361b9-4d71-4a96> a owl:NamedIndividual,
+        lw:FeatureOfInterest,
+        lw:OrganismalEntity ;
+    rdfs:label "94f361b9-4d71-4a96" ;
+    lw:acceptedNameUsage "Halyomorpha halys (Stål, 1855)" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:98f5dc77-8f8b-4f23> a owl:NamedIndividual,
+        lw:FeatureOfInterest,
+        lw:OrganismalEntity ;
+    rdfs:label "98f5dc77-8f8b-4f23" ;
+    lw:acceptedNameUsage "Halyomorpha halys (Stål, 1855)" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:99069cec-732c-436f> a owl:NamedIndividual,
+        lw:FeatureOfInterest,
+        lw:OrganismalEntity ;
+    rdfs:label "99069cec-732c-436f" ;
+    lw:acceptedNameUsage "Halyomorpha halys (Stål, 1855)" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:9edfe3c1-b51f-4658> a owl:NamedIndividual,
+        lw:FeatureOfInterest,
+        lw:OrganismalEntity ;
+    rdfs:label "9edfe3c1-b51f-4658" ;
+    lw:acceptedNameUsage "Halyomorpha halys (Stål, 1855)" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:a22c37e3-43cf-41e3> a owl:NamedIndividual,
+        lw:FeatureOfInterest,
+        lw:OrganismalEntity ;
+    rdfs:label "a22c37e3-43cf-41e3" ;
+    lw:acceptedNameUsage "Halyomorpha halys (Stål, 1855)" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:a7a04cea-8915-4d41> a owl:NamedIndividual,
+        lw:FeatureOfInterest,
+        lw:OrganismalEntity ;
+    rdfs:label "a7a04cea-8915-4d41" ;
+    lw:acceptedNameUsage "Halyomorpha halys (Stål, 1855)" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:a8201c6d-77c6-4932> a owl:NamedIndividual,
+        lw:FeatureOfInterest,
+        lw:OrganismalEntity ;
+    rdfs:label "a8201c6d-77c6-4932" ;
+    lw:acceptedNameUsage "Halyomorpha halys (Stål, 1855)" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:a86c866a-d4aa-4ace> a owl:NamedIndividual,
+        lw:FeatureOfInterest,
+        lw:OrganismalEntity ;
+    rdfs:label "a86c866a-d4aa-4ace" ;
+    lw:acceptedNameUsage "Halyomorpha halys (Stål, 1855)" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:b8a4849d-b50b-466e> a owl:NamedIndividual,
+        lw:FeatureOfInterest,
+        lw:OrganismalEntity ;
+    rdfs:label "b8a4849d-b50b-466e" ;
+    lw:acceptedNameUsage "Halyomorpha halys (Stål, 1855)" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:bd3c1bae-51c0-4d62> a owl:NamedIndividual,
+        lw:FeatureOfInterest,
+        lw:OrganismalEntity ;
+    rdfs:label "bd3c1bae-51c0-4d62" ;
+    lw:acceptedNameUsage "Halyomorpha halys (Stål, 1855)" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:c0c207e4-33d3-492d> a owl:NamedIndividual,
+        lw:FeatureOfInterest,
+        lw:OrganismalEntity ;
+    rdfs:label "c0c207e4-33d3-492d" ;
+    lw:acceptedNameUsage "Halyomorpha halys (Stål, 1855)" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:c319fa5b-d925-4d7c> a owl:NamedIndividual,
+        lw:FeatureOfInterest,
+        lw:OrganismalEntity ;
+    rdfs:label "c319fa5b-d925-4d7c" ;
+    lw:acceptedNameUsage "Halyomorpha halys (Stål, 1855)" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:c54059ef-5754-4a50> a owl:NamedIndividual,
+        lw:FeatureOfInterest,
+        lw:OrganismalEntity ;
+    rdfs:label "c54059ef-5754-4a50" ;
+    lw:acceptedNameUsage "Halyomorpha halys (Stål, 1855)" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:ca474d18-5193-4068> a owl:NamedIndividual,
+        lw:FeatureOfInterest,
+        lw:OrganismalEntity ;
+    rdfs:label "ca474d18-5193-4068" ;
+    lw:acceptedNameUsage "Halyomorpha halys (Stål, 1855)" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:cc8a4d53-d924-4c98> a owl:NamedIndividual,
+        lw:FeatureOfInterest,
+        lw:OrganismalEntity ;
+    rdfs:label "cc8a4d53-d924-4c98" ;
+    lw:acceptedNameUsage "Halyomorpha halys (Stål, 1855)" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:cddf5904-57b9-42f0> a owl:NamedIndividual,
+        lw:FeatureOfInterest,
+        lw:OrganismalEntity ;
+    rdfs:label "cddf5904-57b9-42f0" ;
+    lw:acceptedNameUsage "Halyomorpha halys (Stål, 1855)" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:cfad88aa-ca1d-461d> a owl:NamedIndividual,
+        lw:FeatureOfInterest,
+        lw:OrganismalEntity ;
+    rdfs:label "cfad88aa-ca1d-461d" ;
+    lw:acceptedNameUsage "Halyomorpha halys (Stål, 1855)" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:d5f95752-0da9-4fd8> a owl:NamedIndividual,
+        lw:FeatureOfInterest,
+        lw:OrganismalEntity ;
+    rdfs:label "d5f95752-0da9-4fd8" ;
+    lw:acceptedNameUsage "Halyomorpha halys (Stål, 1855)" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:d9209642-9fe2-4922> a owl:NamedIndividual,
+        lw:FeatureOfInterest,
+        lw:OrganismalEntity ;
+    rdfs:label "d9209642-9fe2-4922" ;
+    lw:acceptedNameUsage "Halyomorpha halys (Stål, 1855)" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:da0822a5-1866-44c3> a owl:NamedIndividual,
+        lw:FeatureOfInterest,
+        lw:OrganismalEntity ;
+    rdfs:label "da0822a5-1866-44c3" ;
+    lw:acceptedNameUsage "Halyomorpha halys (Stål, 1855)" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:dc4340da-2bee-4cd7> a owl:NamedIndividual,
+        lw:FeatureOfInterest,
+        lw:OrganismalEntity ;
+    rdfs:label "dc4340da-2bee-4cd7" ;
+    lw:acceptedNameUsage "Halyomorpha halys (Stål, 1855)" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:df4c8295-8d9d-4910> a owl:NamedIndividual,
+        lw:FeatureOfInterest,
+        lw:OrganismalEntity ;
+    rdfs:label "df4c8295-8d9d-4910" ;
+    lw:acceptedNameUsage "Halyomorpha halys (Stål, 1855)" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:e09e8993-e023-4f1d> a owl:NamedIndividual,
+        lw:FeatureOfInterest,
+        lw:OrganismalEntity ;
+    rdfs:label "e09e8993-e023-4f1d" ;
+    lw:acceptedNameUsage "Halyomorpha halys (Stål, 1855)" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:e47e63cd-95b7-41fe> a owl:NamedIndividual,
+        lw:FeatureOfInterest,
+        lw:OrganismalEntity ;
+    rdfs:label "e47e63cd-95b7-41fe" ;
+    lw:acceptedNameUsage "Halyomorpha halys (Stål, 1855)" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:e8cc711d-b769-4e8e> a owl:NamedIndividual,
+        lw:FeatureOfInterest,
+        lw:OrganismalEntity ;
+    rdfs:label "e8cc711d-b769-4e8e" ;
+    lw:acceptedNameUsage "Halyomorpha halys (Stål, 1855)" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:f16a6a54-e515-4b93> a owl:NamedIndividual,
+        lw:FeatureOfInterest,
+        lw:OrganismalEntity ;
+    rdfs:label "f16a6a54-e515-4b93" ;
+    lw:acceptedNameUsage "Halyomorpha halys (Stål, 1855)" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:f28b9534-8b52-4015> a owl:NamedIndividual,
+        lw:FeatureOfInterest,
+        lw:OrganismalEntity ;
+    rdfs:label "f28b9534-8b52-4015" ;
+    lw:acceptedNameUsage "Halyomorpha halys (Stål, 1855)" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:f526308c-6fc8-473a> a owl:NamedIndividual,
+        lw:FeatureOfInterest,
+        lw:OrganismalEntity ;
+    rdfs:label "f526308c-6fc8-473a" ;
+    lw:acceptedNameUsage "Halyomorpha halys (Stål, 1855)" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:f6e8cdbf-d3d0-4531> a owl:NamedIndividual,
+        lw:FeatureOfInterest,
+        lw:OrganismalEntity ;
+    rdfs:label "f6e8cdbf-d3d0-4531" ;
+    lw:acceptedNameUsage "Halyomorpha halys (Stål, 1855)" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:fa5f1125-5205-4702> a owl:NamedIndividual,
+        lw:FeatureOfInterest,
+        lw:OrganismalEntity ;
+    rdfs:label "fa5f1125-5205-4702" ;
+    lw:acceptedNameUsage "Halyomorpha halys (Stål, 1855)" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:fd46112e-13ff-49c5> a owl:NamedIndividual,
+        lw:FeatureOfInterest,
+        lw:OrganismalEntity ;
+    rdfs:label "fd46112e-13ff-49c5" ;
+    lw:acceptedNameUsage "Halyomorpha halys (Stål, 1855)" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:ffb3d7e6-41b5-4382> a owl:NamedIndividual,
+        lw:FeatureOfInterest,
+        lw:OrganismalEntity ;
+    rdfs:label "ffb3d7e6-41b5-4382" ;
+    lw:acceptedNameUsage "Halyomorpha halys (Stål, 1855)" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:39.9042%2C%208.5867> a owl:NamedIndividual,
+        lw:GeoPoint ;
+    rdfs:label "39.9042, 8.5867" ;
+    lw:decimalLatitude "39.9042" ;
+    lw:decimalLongitude "8.5867" ;
+    lw:locality "Oristano, OR, viale Diaz" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.559458%2C%208.330747> a owl:NamedIndividual,
+        lw:GeoPoint ;
+    rdfs:label "40.559458, 8.330747" ;
+    lw:decimalLatitude "40.559458" ;
+    lw:decimalLongitude "8.330747" ;
+    lw:locality "Alghero, SS, via Carrabufas 78" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.57806%2C%208.4765> a owl:NamedIndividual,
+        lw:GeoPoint ;
+    rdfs:label "40.57806, 8.4765" ;
+    lw:decimalLatitude "40.57806" ;
+    lw:decimalLongitude "8.4765" ;
+    lw:locality "Villanova Monteleone, SS, via Cagliari 8" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.58607%2C%209.00481> a owl:NamedIndividual,
+        lw:GeoPoint ;
+    rdfs:label "40.58607, 9.00481" ;
+    lw:decimalLatitude "40.58607" ;
+    lw:decimalLongitude "9.00481" ;
+    lw:locality "Ozieri, SS, Via Brigata Sassari 1" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.712222%2C%208.550833> a owl:NamedIndividual,
+        lw:GeoPoint ;
+    rdfs:label "40.712222, 8.550833" ;
+    lw:decimalLatitude "40.712222" ;
+    lw:decimalLongitude "8.550833" ;
+    lw:locality "Sassari, SS, via Budapest" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.71374%2C%208.55279> a owl:NamedIndividual,
+        lw:GeoPoint ;
+    rdfs:label "40.71374, 8.55279" ;
+    lw:decimalLatitude "40.71374" ;
+    lw:decimalLongitude "8.55279" ;
+    lw:locality "Sassari, SS, via Madrid 5" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.71615%2C%208.5656> a owl:NamedIndividual,
+        lw:GeoPoint ;
+    rdfs:label "40.71615, 8.5656" ;
+    lw:decimalLatitude "40.71615" ;
+    lw:decimalLongitude "8.5656" ;
+    lw:locality "Sassari, SS, via Cattalochino 50" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.71893%2C%208.5676> a owl:NamedIndividual,
+        lw:GeoPoint ;
+    rdfs:label "40.71893, 8.5676" ;
+    lw:decimalLatitude "40.71893" ;
+    lw:decimalLongitude "8.5676" ;
+    lw:locality "Sassari, SS, via Diaz 17c" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.72333%2C%208.566944> a owl:NamedIndividual,
+        lw:GeoPoint ;
+    rdfs:label "40.72333, 8.566944" ;
+    lw:decimalLatitude "40.72333" ;
+    lw:decimalLongitude "8.566944" ;
+    lw:locality "Sassari, SS, viale Umberto 72" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.725446%2C%208.559931> a owl:NamedIndividual,
+        lw:GeoPoint ;
+    rdfs:label "40.725446, 8.559931" ;
+    lw:decimalLatitude "40.725446" ;
+    lw:decimalLongitude "8.559931" ;
+    lw:locality "Sassari, SS, via Università 86" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.72563%2C%208.5654> a owl:NamedIndividual,
+        lw:GeoPoint ;
+    rdfs:label "40.72563, 8.5654" ;
+    lw:decimalLatitude "40.72563" ;
+    lw:decimalLongitude "8.5654" ;
+    lw:locality "Sassari, SS, viale Umberto 42" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.726111%2C%208.555> a owl:NamedIndividual,
+        lw:GeoPoint ;
+    rdfs:label "40.726111, 8.555" ;
+    lw:decimalLatitude "40.726111" ;
+    lw:decimalLongitude "8.555" ;
+    lw:locality "Sassari, SS" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.72977%2C%208.56171> a owl:NamedIndividual,
+        lw:GeoPoint ;
+    rdfs:label "40.72977, 8.56171" ;
+    lw:decimalLatitude "40.72977" ;
+    lw:decimalLongitude "8.56171" ;
+    lw:locality "Sassari, SS, piazza Col. Serra/v. S. Fr." .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.732211%2C%208.562206> a owl:NamedIndividual,
+        lw:GeoPoint ;
+    rdfs:label "40.732211, 8.562206" ;
+    lw:decimalLatitude "40.732211" ;
+    lw:decimalLongitude "8.562206" ;
+    lw:locality "Sassari, SS, via Sorso 103" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.73287%2C%208.56194> a owl:NamedIndividual,
+        lw:GeoPoint ;
+    rdfs:label "40.73287, 8.56194" ;
+    lw:decimalLatitude "40.73287" ;
+    lw:decimalLongitude "8.56194" ;
+    lw:locality "Sassari, SS, via A. Cervi 9" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.73413%2C%208.56913> a owl:NamedIndividual,
+        lw:GeoPoint ;
+    rdfs:label "40.73413, 8.56913" ;
+    lw:decimalLatitude "40.73413" ;
+    lw:decimalLongitude "8.56913" ;
+    lw:locality "Sassari, SS, via Sulcis 22" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.73536%2C%208.56281> a owl:NamedIndividual,
+        lw:GeoPoint ;
+    rdfs:label "40.73536, 8.56281" ;
+    lw:decimalLatitude "40.73536" ;
+    lw:decimalLongitude "8.56281" ;
+    lw:locality "Sassari, SS, via Flumenargia" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.74011%2C%208.56389> a owl:NamedIndividual,
+        lw:GeoPoint ;
+    rdfs:label "40.74011, 8.56389" ;
+    lw:decimalLatitude "40.74011" ;
+    lw:decimalLongitude "8.56389" ;
+    lw:locality "Sassari, SS, via Baldedda" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.75506%2C%208.55567> a owl:NamedIndividual,
+        lw:GeoPoint ;
+    rdfs:label "40.75506, 8.55567" ;
+    lw:decimalLatitude "40.75506" ;
+    lw:decimalLongitude "8.55567" ;
+    lw:locality "Sassari, SS, sv Badde Pedrosa - Taniga" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.76174%2C%208.53074> a owl:NamedIndividual,
+        lw:GeoPoint ;
+    rdfs:label "40.76174, 8.53074" ;
+    lw:decimalLatitude "40.76174" ;
+    lw:decimalLongitude "8.53074" ;
+    lw:locality "Sassari, SS, sv Santu Tettaru 45" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.78703%2C%208.47738> a owl:NamedIndividual,
+        lw:GeoPoint ;
+    rdfs:label "40.78703, 8.47738" ;
+    lw:decimalLatitude "40.78703" ;
+    lw:decimalLongitude "8.47738" ;
+    lw:locality "Sassari, SS, loc. Ottava" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2018-10-16> a owl:NamedIndividual,
+        lw:TemporalEntity ;
+    rdfs:label "2018-10-16" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2018-10-19> a owl:NamedIndividual,
+        lw:TemporalEntity ;
+    rdfs:label "2018-10-19" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2018-12-14> a owl:NamedIndividual,
+        lw:TemporalEntity ;
+    rdfs:label "2018-12-14" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2018-12-17> a owl:NamedIndividual,
+        lw:TemporalEntity ;
+    rdfs:label "2018-12-17" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-09-08> a owl:NamedIndividual,
+        lw:TemporalEntity ;
+    rdfs:label "2019-09-08" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-09-14> a owl:NamedIndividual,
+        lw:TemporalEntity ;
+    rdfs:label "2019-09-14" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-09-17> a owl:NamedIndividual,
+        lw:TemporalEntity ;
+    rdfs:label "2019-09-17" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-10-02> a owl:NamedIndividual,
+        lw:TemporalEntity ;
+    rdfs:label "2019-10-02" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-10-06> a owl:NamedIndividual,
+        lw:TemporalEntity ;
+    rdfs:label "2019-10-06" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-10-09> a owl:NamedIndividual,
+        lw:TemporalEntity ;
+    rdfs:label "2019-10-09" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-10-13> a owl:NamedIndividual,
+        lw:TemporalEntity ;
+    rdfs:label "2019-10-13" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-10-15> a owl:NamedIndividual,
+        lw:TemporalEntity ;
+    rdfs:label "2019-10-15" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-10-17> a owl:NamedIndividual,
+        lw:TemporalEntity ;
+    rdfs:label "2019-10-17" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-10-21> a owl:NamedIndividual,
+        lw:TemporalEntity ;
+    rdfs:label "2019-10-21" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-10-23> a owl:NamedIndividual,
+        lw:TemporalEntity ;
+    rdfs:label "2019-10-23" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-10-29> a owl:NamedIndividual,
+        lw:TemporalEntity ;
+    rdfs:label "2019-10-29" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-11-06> a owl:NamedIndividual,
+        lw:TemporalEntity ;
+    rdfs:label "2019-11-06" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-11-13> a owl:NamedIndividual,
+        lw:TemporalEntity ;
+    rdfs:label "2019-11-13" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-11-14> a owl:NamedIndividual,
+        lw:TemporalEntity ;
+    rdfs:label "2019-11-14" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-12-05> a owl:NamedIndividual,
+        lw:TemporalEntity ;
+    rdfs:label "2019-12-05" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-12-16> a owl:NamedIndividual,
+        lw:TemporalEntity ;
+    rdfs:label "2019-12-16" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-12-19> a owl:NamedIndividual,
+        lw:TemporalEntity ;
+    rdfs:label "2019-12-19" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-12-21> a owl:NamedIndividual,
+        lw:TemporalEntity ;
+    rdfs:label "2019-12-21" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2020-01-09> a owl:NamedIndividual,
+        lw:TemporalEntity ;
+    rdfs:label "2020-01-09" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2020-01-12> a owl:NamedIndividual,
+        lw:TemporalEntity ;
+    rdfs:label "2020-01-12" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2020-01-14> a owl:NamedIndividual,
+        lw:TemporalEntity ;
+    rdfs:label "2020-01-14" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2020-01-30> a owl:NamedIndividual,
+        lw:TemporalEntity ;
+    rdfs:label "2020-01-30" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2020-01-31> a owl:NamedIndividual,
+        lw:TemporalEntity ;
+    rdfs:label "2020-01-31" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2020-02-12> a owl:NamedIndividual,
+        lw:TemporalEntity ;
+    rdfs:label "2020-02-12" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2020-02-16> a owl:NamedIndividual,
+        lw:TemporalEntity ;
+    rdfs:label "2020-02-16" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2020-03-01> a owl:NamedIndividual,
+        lw:TemporalEntity ;
+    rdfs:label "2020-03-01" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2020-03-04> a owl:NamedIndividual,
+        lw:TemporalEntity ;
+    rdfs:label "2020-03-04" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2020-03-12> a owl:NamedIndividual,
+        lw:TemporalEntity ;
+    rdfs:label "2020-03-12" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2020-04-27> a owl:NamedIndividual,
+        lw:TemporalEntity ;
+    rdfs:label "2020-04-27" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2020-09-28> a owl:NamedIndividual,
+        lw:TemporalEntity ;
+    rdfs:label "2020-09-28" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2020-10-02> a owl:NamedIndividual,
+        lw:TemporalEntity ;
+    rdfs:label "2020-10-02" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2020-10-09> a owl:NamedIndividual,
+        lw:TemporalEntity ;
+    rdfs:label "2020-10-09" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2020-10-12> a owl:NamedIndividual,
+        lw:TemporalEntity ;
+    rdfs:label "2020-10-12" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2020-10-20> a owl:NamedIndividual,
+        lw:TemporalEntity ;
+    rdfs:label "2020-10-20" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2020-11-02> a owl:NamedIndividual,
+        lw:TemporalEntity ;
+    rdfs:label "2020-11-02" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2021-01-24> a owl:NamedIndividual,
+        lw:TemporalEntity ;
+    rdfs:label "2021-01-24" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2021-07-07> a owl:NamedIndividual,
+        lw:TemporalEntity ;
+    rdfs:label "2021-07-07" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2021-08-21> a owl:NamedIndividual,
+        lw:TemporalEntity ;
+    rdfs:label "2021-08-21" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2021-10-02> a owl:NamedIndividual,
+        lw:TemporalEntity ;
+    rdfs:label "2021-10-02" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2023-11-14> a owl:NamedIndividual,
+        lw:TemporalEntity ;
+    rdfs:label "2023-11-14" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2024-01-07> a owl:NamedIndividual,
+        lw:TemporalEntity ;
+    rdfs:label "2024-01-07" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2024-10-02> a owl:NamedIndividual,
+        lw:TemporalEntity ;
+    rdfs:label "2024-10-02" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2024-10-07> a owl:NamedIndividual,
+        lw:TemporalEntity ;
+    rdfs:label "2024-10-07" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2024-10-09> a owl:NamedIndividual,
+        lw:TemporalEntity ;
+    rdfs:label "2024-10-09" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2024-10-14> a owl:NamedIndividual,
+        lw:TemporalEntity ;
+    rdfs:label "2024-10-14" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2024-10-29> a owl:NamedIndividual,
+        lw:TemporalEntity ;
+    rdfs:label "2024-10-29" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.7206%2C%208.57616> a owl:NamedIndividual,
+        lw:GeoPoint ;
+    rdfs:label "40.7206, 8.57616" ;
+    lw:decimalLatitude "40.7206" ;
+    lw:decimalLongitude "8.57616" ;
+    lw:locality "Sassari, SS, via Oriani 40" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.72539%2C%208.5102> a owl:NamedIndividual,
+        lw:GeoPoint ;
+    rdfs:label "40.72539, 8.5102" ;
+    lw:decimalLatitude "40.72539" ;
+    lw:decimalLongitude "8.5102" ;
+    lw:locality "Sassari, SS, sv Monte Oro 18/b" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.72907%2C%208.56635> a owl:NamedIndividual,
+        lw:GeoPoint ;
+    rdfs:label "40.72907, 8.56635" ;
+    lw:decimalLatitude "40.72907" ;
+    lw:decimalLongitude "8.56635" ;
+    lw:locality "Sassari, SS, via Piave" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.74551%2C%208.56586> a owl:NamedIndividual,
+        lw:GeoPoint ;
+    rdfs:label "40.74551, 8.56586" ;
+    lw:decimalLatitude "40.74551" ;
+    lw:decimalLongitude "8.56586" ;
+    lw:locality "Sassari, SS, via S. Vallero" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.75131%2C%208.54227> a owl:NamedIndividual,
+        lw:GeoPoint ;
+    rdfs:label "40.75131, 8.54227" ;
+    lw:decimalLatitude "40.75131" ;
+    lw:decimalLongitude "8.54227" ;
+    lw:locality "Sassari, SS, via Ortobene 44" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.7572%2C%208.49501> a owl:NamedIndividual,
+        lw:GeoPoint ;
+    rdfs:label "40.7572, 8.49501" ;
+    lw:decimalLatitude "40.7572" ;
+    lw:decimalLongitude "8.49501" ;
+    lw:locality "Sassari, SS, loc. Baldinca" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-10-25> a owl:NamedIndividual,
+        lw:TemporalEntity ;
+    rdfs:label "2019-10-25" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-10-27> a owl:NamedIndividual,
+        lw:TemporalEntity ;
+    rdfs:label "2019-10-27" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.723655%2C%208.570092> a owl:NamedIndividual,
+        lw:GeoPoint ;
+    rdfs:label "40.723655, 8.570092" ;
+    lw:decimalLatitude "40.723655" ;
+    lw:decimalLongitude "8.570092" ;
+    lw:locality "Sassari, SS, via E. Porrino 3",
+        "Sassari, SS, via Porrino" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.7549%2C%208.49679> a owl:NamedIndividual,
+        lw:GeoPoint ;
+    rdfs:label "40.7549, 8.49679" ;
+    lw:decimalLatitude "40.7549" ;
+    lw:decimalLongitude "8.49679" ;
+    lw:locality "Li Punti, SS, loc Baldinca",
+        "Li Punti, SS, loc. Baldinca" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.80231%2C%208.53181> a owl:NamedIndividual,
+        lw:GeoPoint ;
+    rdfs:label "40.80231, 8.53181" ;
+    lw:decimalLatitude "40.80231" ;
+    lw:decimalLongitude "8.53181" ;
+    lw:locality "Sorso , SS, loc. Bagnu",
+        "Sorso, SS, loc. Bagnu" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-10-20> a owl:NamedIndividual,
+        lw:TemporalEntity ;
+    rdfs:label "2019-10-20" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-10-28> a owl:NamedIndividual,
+        lw:TemporalEntity ;
+    rdfs:label "2019-10-28" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-11-11> a owl:NamedIndividual,
+        lw:TemporalEntity ;
+    rdfs:label "2019-11-11" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.72956%2C%208.55091> a owl:NamedIndividual,
+        lw:GeoPoint ;
+    rdfs:label "40.72956, 8.55091" ;
+    lw:decimalLatitude "40.72956" ;
+    lw:decimalLongitude "8.55091" ;
+    lw:locality "Sassari, SS, via De Nicola 14" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.723656%2C%208.570092> a owl:NamedIndividual,
+        lw:GeoPoint ;
+    rdfs:label "40.723656, 8.570092" ;
+    lw:decimalLatitude "40.723656" ;
+    lw:decimalLongitude "8.570092" ;
+    lw:locality "Sassari, SS, via E. Porrino 3" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.72723%2C%208.56915> a owl:NamedIndividual,
+        lw:GeoPoint ;
+    rdfs:label "40.72723, 8.56915" ;
+    lw:decimalLatitude "40.72723" ;
+    lw:decimalLongitude "8.56915" ;
+    lw:locality "Sassari, SS, via Trento 42",
+        "Sassari, SS, viale Trento 42" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.72414%2C%208.56023> a owl:NamedIndividual,
+        lw:GeoPoint ;
+    rdfs:label "40.72414, 8.56023" ;
+    lw:decimalLatitude "40.72414" ;
+    lw:decimalLongitude "8.56023" ;
+    lw:locality "Sassari, SS, corso Regina Margherita 29" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.71679%2C%208.57006> a owl:NamedIndividual,
+        lw:GeoPoint ;
+    rdfs:label "40.71679, 8.57006" ;
+    lw:decimalLatitude "40.71679" ;
+    lw:decimalLongitude "8.57006" ;
+    lw:locality "Sassari, SS, via Fermi 30" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:female> a owl:NamedIndividual,
+        lw:ObservableProperty ;
+    rdfs:label "Female" ;
+    dcterms:definition "The sample (which may be a single specimen) comprises specimens identified as female." ;
+    dcterms:type "http://vocab.nerc.ac.uk/collection/S10/current/S102/" .
+
+<http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:male> a owl:NamedIndividual,
+        lw:ObservableProperty ;
+    rdfs:label "Male" ;
+    dcterms:definition "The sample (which may be a single specimen) comprises specimens identified as male." ;
+    dcterms:type "http://vocab.nerc.ac.uk/collection/S10/current/S103/" .
+
+<http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> a lw:ObservationCollection ;
+    rdfs:label "Citizen science records of the invasive brown marmorated stink bug Halyomorpha halys in Sardinia" ;
+    dcterms:identifier "051d3b80-1991-402e-bfc2-6ddc0c42e2d0" ;
+    lw:hasDate <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2018-10-16>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2018-10-19>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2018-12-14>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2018-12-17>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-09-08>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-09-14>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-09-17>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-10-02>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-10-06>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-10-09>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-10-13>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-10-15>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-10-17>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-10-20>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-10-21>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-10-23>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-10-25>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-10-27>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-10-28>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-10-29>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-10-31>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-11-06>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-11-11>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-11-13>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-11-14>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-12-05>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-12-16>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-12-19>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2019-12-21>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2020-01-09>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2020-01-12>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2020-01-14>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2020-01-30>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2020-01-31>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2020-02-12>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2020-02-16>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2020-03-01>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2020-03-04>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2020-03-12>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2020-04-27>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2020-09-28>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2020-10-02>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2020-10-09>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2020-10-12>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2020-10-20>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2020-11-02>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2021-01-24>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2021-07-07>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2021-08-21>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2021-10-02>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2023-11-14>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2024-01-07>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2024-10-02>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2024-10-07>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2024-10-09>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2024-10-14>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:TemporalEntity-id:2024-10-29> ;
+    lw:hasEntity <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:00e69f76-b59e-4c25>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:0b1da60b-22cd-4cbe>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:119be820-ed4b-406a>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:1a3cfb39-5b45-4771>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:1a83dec1-1e19-4b8b>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:1e45d61c-f5fc-4dea>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:1ecb7bf9-02fb-4061>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:226f3675-d048-4c0e>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:24a1634e-75b1-4f47>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:2669ddcd-bee5-4730>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:29d13831-5dd8-4e5e>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:2d728bab-d6ea-494b>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:30ba1f33-a62f-4e2a>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:319ee73e-7594-4546>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:376c7416-4ba7-4ab6>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:43ab9c0d-b83e-425b>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:4471f395-cad0-4dc1>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:48ca49e6-6856-4910>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:4ab0f38b-1051-464c>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:4ff93ab5-94d3-4693>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:5638dd98-705d-45cc>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:5641125e-0664-406e>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:5be64c8a-9ead-41d6>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:61d7211e-5432-4151>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:632b1aa3-a33d-4c22>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:63670503-fc9c-43e1>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:66c4546b-b818-4e9b>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:72728d99-5847-418a>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:7cdfdee0-9616-41df>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:7dfda6fd-3632-4dc5>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:88d74a44-5fd9-4861>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:8acd7969-3c25-49f0>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:93e81a52-8e34-4ced>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:94f361b9-4d71-4a96>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:98f5dc77-8f8b-4f23>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:99069cec-732c-436f>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:9edfe3c1-b51f-4658>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:a22c37e3-43cf-41e3>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:a7a04cea-8915-4d41>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:a8201c6d-77c6-4932>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:a86c866a-d4aa-4ace>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:b8a4849d-b50b-466e>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:bd3c1bae-51c0-4d62>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:c0c207e4-33d3-492d>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:c319fa5b-d925-4d7c>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:c54059ef-5754-4a50>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:ca474d18-5193-4068>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:cc8a4d53-d924-4c98>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:cddf5904-57b9-42f0>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:cfad88aa-ca1d-461d>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:d5f95752-0da9-4fd8>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:d9209642-9fe2-4922>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:da0822a5-1866-44c3>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:dc4340da-2bee-4cd7>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:df4c8295-8d9d-4910>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:e09e8993-e023-4f1d>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:e47e63cd-95b7-41fe>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:e8cc711d-b769-4e8e>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:f16a6a54-e515-4b93>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:f28b9534-8b52-4015>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:f526308c-6fc8-473a>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:f6e8cdbf-d3d0-4531>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:fa5f1125-5205-4702>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:fd46112e-13ff-49c5>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:FeatureOfInterest-id:ffb3d7e6-41b5-4382> ;
+    lw:hasMember <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:0126b584-cc2d-48cc>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:02a6e7d8-da61-4f1d>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:030bb0aa-8912-4d30>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:03150493-29dd-47ad>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:03d9a47d-f47f-4855>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:03f66e26-5c4f-49e0>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:04d01d4a-5d9d-448a>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:05158b87-9b46-4bb0>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:09142802-f93c-4ca0>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:0b98e82b-94c3-40f0>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:0d3e77f4-b7dd-41e9>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:0de12e05-c308-44d7>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:0e360b46-f505-4772>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:0ed4ca60-4e67-4ce8>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:0f9a4232-2988-4436>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:11648e72-a9d2-420e>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:137d1c0e-4942-428f>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:14f35240-57a1-43d1>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:154fedaf-a836-440c>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:1ad48e91-aa4b-4db0>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:1f8a3bec-ce48-4f09>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:205ce22c-83e0-459a>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:242a4569-1aff-458a>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:25501a4f-0cf6-4002>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:25e737bd-3f6e-4bb0>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:263d1d01-1521-40a9>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:287f67a4-c106-49f3>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:2d68e497-04a5-4a63>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:2dc4a789-2966-46b0>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:2ddc0a46-299e-474a>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:31446ba6-bc9c-4875>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:3346ef9c-b430-4a5c>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:344ed4ae-ebc3-43ed>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:374aa171-e124-46e0>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:3e1dac7e-6086-4efe>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:3f44b228-11e4-4c3d>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:427c409b-d7f6-41ef>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:4467b817-97a8-4cb3>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:45f70da3-2a2c-462f>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:4d8348a8-640d-4929>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:4e4531b9-9c72-49d3>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:4f782deb-aa21-4f9e>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:505a0634-6513-47f1>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:56b57182-dec3-4ec1>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:57e11c24-e1d2-4464>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:5b4ad42f-f7f1-4769>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:5d5c82fa-7808-4cf1>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:5de54072-2afc-4799>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:5fb4abfd-4848-49b6>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:62c98a3a-e684-4980>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:648b1d5b-123e-4b95>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:6600c2c2-e9ba-46c5>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:69d430cd-f1b5-4774>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:7081439a-5db5-4ccb>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:7173b8f3-0837-4cbc>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:72019938-4c59-49ae>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:740f09c0-f326-41b3>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:76e31122-2f37-4ce5>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:78be7786-daa0-425d>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:79e7bab9-29e3-4fd1>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:79edcf16-94c2-4f68>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:7c510743-6f5f-4cf6>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:8094d354-6ab1-4ef6>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:80c05c16-5cc2-4541>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:84be4111-7c36-4e75>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:85ea4975-2bf0-4d87>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:863b1602-9624-4985>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:878c6ad5-2f5a-4305>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:89bc3e00-588d-4f00>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:89ef576b-30d4-40cc>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:8a57f300-8dce-4ddc>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:8acc71de-c006-4779>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:8b29652f-4824-4152>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:8bd9e560-e971-470e>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:8d8b2d20-9221-4619>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:8dd7133f-81e5-4f18>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:8f3bef81-ec7c-4a3b>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:91236655-fbc8-441f>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:91e09498-bede-46c5>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:94a22f9a-8eec-4ddb>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:98c54b32-425d-45ba>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:99c4f34f-9b96-4c83>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:99cb0688-1d6a-44b4>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:9d15482b-6601-4bc3>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:a38b6347-add9-4bfe>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:a4be94d6-5240-4e31>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:a6262bee-9702-46ec>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:a9973440-80b5-45e9>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:aa21cc60-c799-41e3>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:abed0d9c-a1a3-4ead>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:acec6ff2-e817-445c>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:ae2d7fb9-b2fa-437e>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:ae516a03-bc4a-4163>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:aebd02ed-391b-4f9f>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:b306b1cb-3208-42dd>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:b65f858f-146a-4791>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:b69bc8b5-7f1a-49c7>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:b6a53ad3-cf7e-4cdd>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:b6c34a9d-347c-4f50>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:b8a73a52-f19b-4f58>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:b8c199e8-93f3-4ecd>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:bbcb2ca8-2f48-47e0>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:c06e05b4-9036-4e30>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:c150f92f-b473-444c>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:c45e2b08-b4e6-4290>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:c827a3c4-61d5-4a6a>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:cb8e4b19-9973-407e>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:cb9af2c1-cb10-41e1>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:cc36bbcc-957b-4687>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:cdf3f16a-496b-4efd>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:d3a44453-6f13-43df>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:d3f46166-ff2e-4dbd>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:d419e22b-b2fe-4988>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:d50c5645-83b6-4bd6>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:d59e4e02-f4d1-43f2>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:de67f5b8-7ad8-465d>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:df7cf2bd-d4f5-4bbe>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:e21b9944-669c-454d>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:e2c027e6-3c24-41f6>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:e8009199-706f-4ab7>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:edcd6647-0426-4bd3>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:f1ab5915-c87c-4f6e>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:f1cee92f-de38-446c>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:f2e47896-4031-4896>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:f47ddd39-3081-4682>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:fa206fc2-42b0-4e8b>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:fa38a16c-202d-48ec>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:fa524c22-ec9a-4153>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:Observation-id:fa827757-3351-4c96> ;
+    lw:hasObservableProperty <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:female>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:ObservableProperty-id:male> ;
+    lw:hasPoint <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:39.9042%2C%208.5867>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.559458%2C%208.330747>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.57806%2C%208.4765>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.58607%2C%209.00481>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.712222%2C%208.550833>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.71374%2C%208.55279>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.71615%2C%208.5656>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.71679%2C%208.57006>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.71893%2C%208.5676>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.7206%2C%208.57616>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.72333%2C%208.566944>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.723655%2C%208.570092>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.723656%2C%208.570092>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.72414%2C%208.56023>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.72539%2C%208.5102>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.725446%2C%208.559931>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.72563%2C%208.5654>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.726111%2C%208.555>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.72723%2C%208.56915>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.72907%2C%208.56635>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.72956%2C%208.55091>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.72977%2C%208.56171>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.732211%2C%208.562206>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.73287%2C%208.56194>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.73413%2C%208.56913>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.73536%2C%208.56281>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.74011%2C%208.56389>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.74551%2C%208.56586>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.75131%2C%208.54227>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.7549%2C%208.49679>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.75506%2C%208.55567>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.7572%2C%208.49501>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.76174%2C%208.53074>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.78703%2C%208.47738>,
+        <http://semantics.lifewatchitaly.eu/resource#lw:GeoPoint-id:40.80231%2C%208.53181> .
+

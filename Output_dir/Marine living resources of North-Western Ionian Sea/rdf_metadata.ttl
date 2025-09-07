@@ -1,0 +1,164 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix lw: <https://kos.lifewatch.eu/ontologies/lw/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://semantics.lifewatchitaly.eu/resource#dcat:Catalog-id:61175251-1672-4795-b23b-b35b0dd0a294> dcat:dataset <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:2a247df6-e1ce-4da5-bee7-e29676c4d138> .
+
+<http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:2a247df6-e1ce-4da5-bee7-e29676c4d138> a owl:NamedIndividual,
+        dcat:Dataset ;
+    dct:description "The dataset contains information on density (expressed as N/Km2) and mean length (expressed in mm) of marine species collected in the North-Western Ionian Sea during the MEDITS surveys realized from 2012 to 2021. Data refer to 61 species (7 cephalopods, 7 crustaceans, 16 chondrichthyes, 31 osteichthyes) and contains 7181 records."@en ;
+    dct:identifier "2a247df6-e1ce-4da5-bee7-e29676c4d138" ;
+    dct:issued "2025-01-21"^^xsd:date ;
+    dct:language "English"@en ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:rights "This work is licensed under the Creative Commons Attribution 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/."@en ;
+    dct:spatial <http://semantics.lifewatchitaly.eu/resource#dct:Spatial-id:The%20dataset%20contains%20information%20collected%20in%20the%20North-Western%20Ionian%20Sea.> ;
+    dct:temporal <http://semantics.lifewatchitaly.eu/resource#dct:Temporal-id:2a247df6-e1ce-4da5-bee7-e29676c4d138> ;
+    dct:title "Marine living resources of North-Western Ionian Sea"@en ;
+    dwc:measurementMethod "The MEDITS trawl surveys are carried out in the Mediterranean from late spring to summer every year,  according to a standardised protocol that includes gear characteristics, haul duration, and sampling procedures, following a depth-stratified random design, from 10 to 800 m in depth."@en ;
+    dcat:distribution <http://semantics.lifewatchitaly.eu/resource#dcat:Distribution-id:https%3A%2F%2Fdata.lifewatchitaly.eu%2Fhandle%2F123456789%2F129590> ;
+    dcat:keyword <http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Fvocab.nerc.ac.uk%2Fcollection%2FP21%2Fcurrent%2FMS11694%2F>,
+        <http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Fvocab.nerc.ac.uk%2Fcollection%2FP21%2Fcurrent%2FMS51%2F>,
+        <http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Fvocab.nerc.ac.uk%2Fcollection%2FP23%2Fcurrent%2FMD002%2F> ;
+    prov:qualifiedAttribution <http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:3394348793>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:6460571030>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:8333957019>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionContact-id:0395489542>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionCreator-id:0849545942>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionCreator-id:2059707483>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionCreator-id:2983464462>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionMetadataProvider-id:2978730178>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionMetadataProvider-id:5601301700>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionPublisher-id:7067954122> ;
+    prov:wasGeneratedBy <http://semantics.lifewatchitaly.eu/resource#foaf:Project-id:1544913778> .
+
+<http://semantics.lifewatchitaly.eu/resource#dcat:Distribution-id:https%3A%2F%2Fdata.lifewatchitaly.eu%2Fhandle%2F123456789%2F129590> a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL <https://data.lifewatchitaly.eu/handle/123456789/129590> .
+
+<http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Fvocab.nerc.ac.uk%2Fcollection%2FP21%2Fcurrent%2FMS11694%2F> a owl:NamedIndividual,
+        skos:Concept ;
+    rdfs:label "mean length" ;
+    dct:type <http://vocab.nerc.ac.uk/collection/P21/current/MS11694/> .
+
+<http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Fvocab.nerc.ac.uk%2Fcollection%2FP21%2Fcurrent%2FMS51%2F> a owl:NamedIndividual,
+        skos:Concept ;
+    rdfs:label "Abundance" ;
+    dct:type <http://vocab.nerc.ac.uk/collection/P21/current/MS51/> .
+
+<http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Fvocab.nerc.ac.uk%2Fcollection%2FP23%2Fcurrent%2FMD002%2F> a owl:NamedIndividual,
+        skos:Concept ;
+    rdfs:label "Marine biodiversity" ;
+    dct:type <http://vocab.nerc.ac.uk/collection/P23/current/MD002/> .
+
+<http://semantics.lifewatchitaly.eu/resource#dct:Spatial-id:The%20dataset%20contains%20information%20collected%20in%20the%20North-Western%20Ionian%20Sea.> a dct:Location ;
+    dct:description "The dataset contains information collected in the North-Western Ionian Sea." ;
+    lw:eastBoundCoordinate "18.940514"^^xsd:LocationStructure ;
+    lw:northBoundCoordinate "40.411144"^^xsd:LocationStructure ;
+    lw:southBoundCoordinate "36.658347"^^xsd:LocationStructure ;
+    lw:westBoundCoordinate "15.252383"^^xsd:LocationStructure .
+
+<http://semantics.lifewatchitaly.eu/resource#dct:Temporal-id:2a247df6-e1ce-4da5-bee7-e29676c4d138> a dct:PeriodOfTime ;
+    dcat:endDate "2021-01-01"^^xsd:date ;
+    dcat:startDate "2012-01-01"^^xsd:date .
+
+<http://semantics.lifewatchitaly.eu/resource#foaf:Project-id:1544913778> a foaf:Project ;
+    dct:description "The aim of the MEDITS campaign is the evaluation of demersal resources in the Mediterranean Sea through systematic bottom trawl surveys. The MEDITS programme started in 1994 and the MEDITS surveys are carried out in the Mediterranean from late spring to summer every year, according to a standardised protocol that includes gear characteristics, haul duration, and sampling procedures, following a depth-stratified random design, from 10 to 800 m in depth." ;
+    dct:title "International Bottom Trawl Survey in the Mediterranean (MEDITS)" .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:LifeWatch%20Italy> a owl:NamedIndividual,
+        prov:Agent ;
+    foaf:mbox "lifewatchitalia@unisalento.it" ;
+    foaf:name "LifeWatch Italy" .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0001-5737-3025> a owl:NamedIndividual,
+        prov:Agent,
+        prov:Person ;
+    dct:identifier <https://orcid.org/0000-0001-5737-3025> ;
+    prov:actedOnBehalfOf "University of Bari Aldo Moro" ;
+    foaf:familyName "Maiorano" ;
+    foaf:mbox "porzia.maiorano@uniba.it" ;
+    foaf:name "Porzia" .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0003-0952-9472> a owl:NamedIndividual,
+        prov:Agent,
+        prov:Person ;
+    dct:identifier <https://orcid.org/0000-0003-0952-9472> ;
+    prov:actedOnBehalfOf "University of Bari Aldo Moro" ;
+    foaf:familyName "D'Onghia" ;
+    foaf:mbox "gianfranco.donghia@uniba.it" ;
+    foaf:name "Gianfranco" .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0003-3422-7230> a owl:NamedIndividual,
+        prov:Agent,
+        prov:Person ;
+    dct:identifier <https://orcid.org/0000-0003-3422-7230> ;
+    prov:actedOnBehalfOf "National Research Council (CNR), Institute of Research on Terrestrial Ecosystems (IRET)" ;
+    foaf:familyName "Rosati" ;
+    foaf:mbox "ilaria.rosati@cnr.it" ;
+    foaf:name "Ilaria" .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:3394348793> a prov:Attribution ;
+    dcat:hadRole "Associated Party" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0003-3422-7230> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:6460571030> a prov:Attribution ;
+    dcat:hadRole "Associated Party" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0009-0001-9691-1989> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:8333957019> a prov:Attribution ;
+    dcat:hadRole "Associated Party" .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionContact-id:0395489542> a prov:Attribution ;
+    dcat:hadRole "Contact" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0002-4227-6377> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionCreator-id:0849545942> a prov:Attribution ;
+    dcat:hadRole "Creator" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0001-5737-3025> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionCreator-id:2059707483> a prov:Attribution ;
+    dcat:hadRole "Creator" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0003-0952-9472> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionCreator-id:2983464462> a prov:Attribution ;
+    dcat:hadRole "Creator" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0002-4227-6377> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionMetadataProvider-id:2978730178> a prov:Attribution ;
+    dcat:hadRole "Metadata Provider" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0009-0001-9691-1989> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionMetadataProvider-id:5601301700> a prov:Attribution ;
+    dcat:hadRole "Metadata Provider" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0002-4227-6377> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionPublisher-id:7067954122> a prov:Attribution ;
+    dcat:hadRole "Publisher" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:LifeWatch%20Italy> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0009-0001-9691-1989> a owl:NamedIndividual,
+        prov:Agent,
+        prov:Person ;
+    dct:identifier <https://orcid.org/0009-0001-9691-1989> ;
+    prov:actedOnBehalfOf "University of Salento" ;
+    foaf:familyName "Pulieri" ;
+    foaf:mbox "martina.pulieri@unisalento.it" ;
+    foaf:name "Martina" .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0002-4227-6377> a owl:NamedIndividual,
+        prov:Agent,
+        prov:Person ;
+    dct:identifier <https://orcid.org/0000-0002-4227-6377> ;
+    prov:actedOnBehalfOf "University of Bari Aldo Moro" ;
+    foaf:familyName "Carluccio" ;
+    foaf:mbox "angela.carluccio@uniba.it" ;
+    foaf:name "Angela" .
+

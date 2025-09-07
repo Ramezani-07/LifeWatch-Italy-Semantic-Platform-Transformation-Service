@@ -1,0 +1,1032 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="c1316c23-0dbb-49ee-af7c-7b9e56df6b80" system="https://data.lifewatchitaly.eu" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd" scope="system">
+  <dataset>
+    <alternateIdentifier>https://data.lifewatchitaly.eu/handle/123456789/129630</alternateIdentifier>
+    <title>Elemental composition of non-indigenous marine species of potential commercial interest</title>
+    <creator>
+      <individualName>
+        <givenName>Giorgio</givenName>
+        <surName>Mancinelli</surName>
+      </individualName>
+      <organizationName>University Of Salento</organizationName>
+      <positionName>Associate Professor</positionName>
+      <electronicMailAddress>giorgio.mancinelli@unisalento.it</electronicMailAddress>
+      <userId directory="https://orcid.org/">0000-0002-5833-7322</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Francesco Paolo</givenName>
+        <surName>Fanizzi</surName>
+      </individualName>
+      <organizationName>University of Salento</organizationName>
+      <positionName>Full Professor</positionName>
+      <electronicMailAddress>fp.fanizzi@unisalento.it</electronicMailAddress>
+      <userId directory="https://orcid.org/">0000-0003-3073-5772</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Marina</givenName>
+        <surName>Chiappi</surName>
+      </individualName>
+      <organizationName>National Research Council of Italy (CNR), Institute for Marine Biological Resources and Biotechnology (IRBIM)</organizationName>
+      <positionName>Researcher</positionName>
+      <userId directory="https://orcid.org/">0000-0002-9401-2509</userId>
+    </creator>
+    <metadataProvider>
+      <individualName>
+        <givenName>Giorgio</givenName>
+        <surName>Mancinelli</surName>
+      </individualName>
+      <organizationName>University Of Salento</organizationName>
+      <positionName>Associate Professor</positionName>
+      <electronicMailAddress>giorgio.mancinelli@unisalento.it</electronicMailAddress>
+      <userId directory="https://orcid.org/">0000-0002-5833-7322</userId>
+    </metadataProvider>
+    <metadataProvider>
+      <individualName>
+        <givenName>Marina</givenName>
+        <surName>Chiappi</surName>
+      </individualName>
+      <organizationName>National Research Council of Italy (CNR), Institute for Marine Biological Resources and Biotechnology (IRBIM)</organizationName>
+      <positionName>Researcher</positionName>
+      <userId directory="https://orcid.org/">0000-0002-9401-2509</userId>
+    </metadataProvider>
+    <associatedParty>
+      <individualName>
+        <givenName>Ilaria</givenName>
+        <surName>Rosati</surName>
+      </individualName>
+      <organizationName>National Research Council (CNR), Institute of Research on Terrestrial Ecosystems (IRET)</organizationName>
+      <positionName>Technologist</positionName>
+      <electronicMailAddress>ilaria.rosati@cnr.it</electronicMailAddress>
+      <userId directory="https://orcid.org/">0000-0003-3422-7230</userId>
+      <role>Custodian Steward</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Cristina</givenName>
+        <surName>Di Muri</surName>
+      </individualName>
+      <organizationName>National Research Council (CNR), Institute of Research on Terrestrial Ecosystems (IRET)</organizationName>
+      <positionName>Technologist</positionName>
+      <electronicMailAddress>cristina.dimuri@cnr.it</electronicMailAddress>
+      <userId directory="https://orcid.org/">0000-0003-4072-0662</userId>
+      <role>Information Manager</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Francesco Paolo</givenName>
+        <surName>Fanizzi</surName>
+      </individualName>
+      <organizationName>University of Salento</organizationName>
+      <positionName>Full Professor</positionName>
+      <electronicMailAddress>fp.fanizzi@unisalento.it</electronicMailAddress>
+      <userId directory="https://orcid.org/">0000-0003-3073-5772</userId>
+      <role>Content Provider</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Danilo</givenName>
+        <surName>Migoni</surName>
+      </individualName>
+      <organizationName>University of Salento</organizationName>
+      <positionName>Technician</positionName>
+      <electronicMailAddress>danilo.migoni@unisalento.it</electronicMailAddress>
+      <userId directory="https://orcid.org/">0000-0002-0327-482X</userId>
+      <role>Content Provider</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Beatrice</givenName>
+        <surName>Fracasso</surName>
+      </individualName>
+      <organizationName>University of Salento</organizationName>
+      <positionName>Research Fellow</positionName>
+      <electronicMailAddress>beatrice.fracasso@unisalento.it</electronicMailAddress>
+      <role>Content Provider</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Sara</givenName>
+        <surName>Mancarella</surName>
+      </individualName>
+      <organizationName>National Research Council of Italy (CNR), Institute of sciences of food production (ISPA)</organizationName>
+      <positionName>Research Fellow</positionName>
+      <role>Content Provider</role>
+    </associatedParty>
+    <pubDate>2025-03-11</pubDate>
+    <language>English</language>
+    <abstract>This dataset includes the elemental composition of 76 specimens. Elemental composition analysis was carried out on seven alien marine species (i.e. Anadara kagoshimensis, A. transversa, Siganus luridus, S. rivulatus, Sparisoma cretense, Pterois miles, Callincetes sapidus) within the Mediterranean Sea and the concentration of 25 elements was determined and expressed in the dataset as mg/kg (ppm) of dry weight. The dataset includes temporal and geographic information (e.g. date, water body, country, coordinates) of the different sampling events in which the specimens were collected and morphometric indices of the analysed individuals (e.g. wet and dry weights, lenght, etc.). Specimens were collected during different sampling campaigns and were stored for subsequent analysis at the laboratories of the CNR IRBIM Ancona and of the University of Salento. Elemental composition analyses were carried out at the University of Salento within the USEit project.</abstract>
+    <keywordSet>
+      <keyword>invasive alien species</keyword>
+      <keywordThesaurus>Biodiversity Thesaurus</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>chemical element</keyword>
+      <keywordThesaurus>EuroVoc Core Concepts</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>marine fish</keyword>
+      <keyword>marine invertebrate</keyword>
+      <keywordThesaurus>Environmental Thesaurus</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Elemental composition</keyword>
+      <keywordThesaurus>Traits Thesaurus</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>Free for use, including sharing and adaptation, by all individuals provided that the owners are acknowledged in any use or publication.</intellectualRights>
+    <licensed>
+      <licenseName>cc-by</licenseName>
+      <url>https://creativecommons.org/licenses/by/4.0/</url>
+    </licensed>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Specimens used for elemental composition analysis were collected at four marine sites of the Adriatic and Ionian Sea (Italy), Aegean Sea (Greece) and Levantine Sea (Cyprus).</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>12.388700</westBoundingCoordinate>
+          <eastBoundingCoordinate>33.332565</eastBoundingCoordinate>
+          <northBoundingCoordinate>44.287450</northBoundingCoordinate>
+          <southBoundingCoordinate>34.720200</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2022-03-12</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2022-10-20</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Anadara kagoshimensis</taxonRankValue>
+          <commonName>Half-crenated ark</commonName>
+          <taxonId provider="World Register of Marine Species">504360</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Anadara transversa</taxonRankValue>
+          <commonName>Transverse ark</commonName>
+          <taxonId provider="World Register of Marine Species">156734</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Siganus rivulatus</taxonRankValue>
+          <commonName>Marbled spinefoot</commonName>
+          <taxonId provider="World Register of Marine Species">127045</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Siganus luridus</taxonRankValue>
+          <commonName>Dusky spinefoot</commonName>
+          <taxonId provider="World Register of Marine Species">127044</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Sparisoma cretense</taxonRankValue>
+          <commonName>Parrotfish</commonName>
+          <taxonId provider="World Register of Marine Species">231441</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Pterois miles</taxonRankValue>
+          <commonName>Devil firefish</commonName>
+          <taxonId provider="World Register of Marine Species">218077</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Callinectes sapidus</taxonRankValue>
+          <commonName>Atlantic blue crab</commonName>
+          <taxonId provider="World Register of Marine Species">107379</taxonId>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+    </coverage>
+    <annotation>
+      <propertyURI label="keyword">http://www.w3.org/ns/dcat#keyword</propertyURI>
+      <valueURI label="invasive alien species">http://data.loterre.fr/ark:/67375/BLH-SQMKT4H5-7</valueURI>
+    </annotation>
+    <annotation>
+      <propertyURI label="keyword">http://www.w3.org/ns/dcat#keyword</propertyURI>
+      <valueURI label="Elemental composition">https://kos.lifewatch.eu/thesauri/traits/c_b2468112</valueURI>
+    </annotation>
+    <annotation>
+      <propertyURI label="keyword">http://www.w3.org/ns/dcat#keyword</propertyURI>
+      <valueURI label="chemical element">http://eurovoc.europa.eu/3809</valueURI>
+    </annotation>
+    <annotation>
+      <propertyURI label="keyword">http://www.w3.org/ns/dcat#keyword</propertyURI>
+      <valueURI label="marine fish">http://vocabs.lter-europe.net/EnvThes/20556</valueURI>
+    </annotation>
+    <annotation>
+      <propertyURI label="keyword">http://www.w3.org/ns/dcat#keyword</propertyURI>
+      <valueURI label="marine invertebrate">http://vocabs.lter-europe.net/EnvThes/20557</valueURI>
+    </annotation>
+    <acknowledgements>This work has been funded by the USEit project: https://www.lifewatchitaly.eu/en/pg-related-projects/useit/</acknowledgements>
+    <contact>
+      <individualName>
+        <givenName>Giorgio</givenName>
+        <surName>Mancinelli</surName>
+      </individualName>
+      <organizationName>University Of Salento</organizationName>
+      <positionName>Associate Professor</positionName>
+      <electronicMailAddress>giorgio.mancinelli@unisalento.it</electronicMailAddress>
+      <userId directory="https://orcid.org/">0000-0002-5833-7322</userId>
+    </contact>
+    <publisher>
+      <organizationName>LifeWatch Italy</organizationName>
+      <electronicMailAddress>lifewatchitaly@gmail.com</electronicMailAddress>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>The total concentration of 25 elements (i.e. Al, As, B, Ba, Be, Ca, Cd, Co, Cr, Cu, Fe, Hg, K, Li, Mg, Mn, Na, Ni, P, Pb, Se, Sr, Te, Tl, Zn) was determined by wet digestion. Tissue samples (whole soft body for bivalves and muscle tissue for the rest of the specimens) were dried, weighed, and mixed with 4 ml of water and 6 ml nitric acid at 180°C for 10 minutes using a microwave digestion system (Milestone START D). Samples were subsequently cooled, diluted with ultrapure water to a final volume of 25 ml, filtered through Whatman No. 42 filters and finally used for elemental analysis using an inductively coupled plasma atomic emission spectrometer (ICP-AES; Thermo Scientific iCap 6000 Series). Results of the analysis are expressed in mg/kg of dry weight.</description>
+      </methodStep>
+      <sampling>
+        <studyExtent>
+          <description>Specimens represent seven invasive alien species in the Mediterranean and include two bivalve mollusks (Anadara kagoshimensis and A. transversa) collected during the SoleMon survey, four fish species (Siganus luridus, S. rivulatus, Sparisoma cretense and Pterois miles) collected by small-fishers in Greece and in Cyprus, and crustacean decapods (Callinectes sapidus) captured in the Ugento ponds (Lecce, Italy) using crab traps. After specimen collection, bivalves were preserved frozen, while fish were sampled from the dorsal muscle after carefully removing the skin and sterilizing the tools for each individual. For C. sapidus, muscle samples were dissected from the chelipeds. Tissue samples from fish and C. sapidus were then preserved in the freezer.</description>
+        </studyExtent>
+        <samplingDescription>Specimens used for elemental composition analysis were collected at four marine sites of the Adriatic and Ionian Sea (Ravenna and Ugento, Italy), Aegean Sea (Fodele, Greece) and Levantine Sea (Zygi, Cyprus) in four different sampling occasions in 2022.</samplingDescription>
+      </sampling>
+    </methods>
+    <project>
+      <title>USEit: Using operational synergies for the study and integrated management of invasive alien species in Italy</title>
+      <personnel>
+        <individualName>
+          <givenName>Giorgio</givenName>
+          <surName>Mancinelli</surName>
+        </individualName>
+        <organizationName>University Of Salento</organizationName>
+        <positionName>Associate Professor</positionName>
+        <electronicMailAddress>giorgio.mancinelli@unisalento.it</electronicMailAddress>
+        <userId directory="https://orcid.org/">0000-0002-5833-7322</userId>
+        <role>Point Of Contact</role>
+      </personnel>
+      <abstract>Biological invasions represent today one of the greatest threats to global biodiversity, with negative impacts on human health and the economy of our country. The USEit project addresses this problem by involving a number of marine and terrestrial institutes of the National Research Council of Italy (CNR) and the University of Salento. Our main goal is to empower the scientific research on invasive species and to transform this challenge into new opportunities and new growth strategies.</abstract>
+    </project>
+    <dataTable>
+      <entityName>USEit_ElementalComposition_MarineIAS_20250311.csv</entityName>
+      <physical>
+        <objectName>USEit_ElementalComposition_MarineIAS_20250311.csv</objectName>
+        <size unit="byte">18847</size>
+        <authentication>MD5:3d2daff57de694ee6ccafe768f5eecfe</authentication>
+        <characterEncoding>UTF-8</characterEncoding>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>;</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>catalogNumber</attributeName>
+          <attributeLabel>Catalog Number</attributeLabel>
+          <attributeDefinition>An identifier (preferably unique) for the record within the data set or collection.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Catalog Number">http://rs.tdwg.org/dwc/terms/catalogNumber</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>eventDate</attributeName>
+          <attributeLabel>Event Date</attributeLabel>
+          <attributeDefinition>The date-time or interval during which a dwc:Event occurred. For occurrences, this is the date-time when the dwc:Event was recorded. Not suitable for a time in a geological context.</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Event Date">http://rs.tdwg.org/dwc/terms/eventDate</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>locality</attributeName>
+          <attributeLabel>Locality</attributeLabel>
+          <attributeDefinition>The specific description of the place.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Locality">http://rs.tdwg.org/dwc/terms/locality</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>waterBody</attributeName>
+          <attributeLabel>Water Body</attributeLabel>
+          <attributeDefinition>The name of the water body in which the dcterms:Location occurs.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Water Body">http://rs.tdwg.org/dwc/terms/waterBody</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>country</attributeName>
+          <attributeLabel>Country</attributeLabel>
+          <attributeDefinition>The name of the country or major administrative unit in which the dcterms:Location occurs.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Country">http://rs.tdwg.org/dwc/terms/country</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>decimalLatitude</attributeName>
+          <attributeLabel>Decimal Latitude</attributeLabel>
+          <attributeDefinition>The geographic latitude (in decimal degrees, using the spatial reference system given in dwc:geodeticDatum) of the geographic center of a dcterms:Location. Positive values are north of the Equator, negative values are south of it. Legal values lie between -90 and 90, inclusive.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Decimal Latitude">http://rs.tdwg.org/dwc/terms/decimalLatitude</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>decimalLongitude</attributeName>
+          <attributeLabel>Decimal Longitude</attributeLabel>
+          <attributeDefinition>The geographic longitude (in decimal degrees, using the spatial reference system given in dwc:geodeticDatum) of the geographic center of a dcterms:Location. Positive values are east of the Greenwich Meridian, negative values are west of it. Legal values lie between -180 and 180, inclusive.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Decimal Longitude">http://rs.tdwg.org/dwc/terms/decimalLongitude</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>acceptedNameUsage</attributeName>
+          <attributeLabel>Accepted Name Usage</attributeLabel>
+          <attributeDefinition>The full name, with authorship and date information if known, of the currently valid (zoological) or accepted (botanical) dwc:Taxon.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Accepted Name Usage">http://rs.tdwg.org/dwc/terms/acceptedNameUsage</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>acceptedNameUsageID</attributeName>
+          <attributeLabel>Accepted Name Usage ID</attributeLabel>
+          <attributeDefinition>An identifier for the name usage (documented meaning of the name according to a source) of the currently valid (zoological) or accepted (botanical) taxon.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                  <source>World Register of Marine Species</source>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="hasCode">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasCode</propertyURI>
+            <valueURI label="Accepted Name Usage ID">http://rs.tdwg.org/dwc/terms/acceptedNameUsageID</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>taxonRank</attributeName>
+          <attributeLabel>Taxon Rank</attributeLabel>
+          <attributeDefinition>The taxonomic rank of the most specific name in the dwc:scientificName.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Taxon Rank">http://rs.tdwg.org/dwc/terms/taxonRank</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>wetWeight</attributeName>
+          <attributeLabel>Wet weight</attributeLabel>
+          <attributeDefinition>The weight of a whole fresh organism.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gram</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="Wet weight">https://kos.lifewatch.eu/thesauri/traits/c_54f8447a</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>bodyLength</attributeName>
+          <attributeLabel>Body length</attributeLabel>
+          <attributeDefinition>The total distance from point to point along the longest axis of the body of an organism.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="Body length">https://kos.lifewatch.eu/thesauri/traits/c_d266fb02</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>dryWeight</attributeName>
+          <attributeLabel>Dry weight</attributeLabel>
+          <attributeDefinition>The weight of an organism after removal of body fluids drying at 50-70 °C (typically at 60 °C) in a drying oven for 24 hours or until constant weight is reached.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gram</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="Dry weight">https://kos.lifewatch.eu/thesauri/traits/c_4d66d52a</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>sex</attributeName>
+          <attributeLabel>Sex</attributeLabel>
+          <attributeDefinition>The sex of the biological individual(s) represented in the dwc:Occurrence.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>male</code>
+                    <definition>The sample (which may be a single specimen) comprises specimens identified as male.</definition>
+                    <source>http://vocab.nerc.ac.uk/collection/S10/current/S103/</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>female</code>
+                    <definition>The sample (which may be a single specimen) comprises specimens identified as female.</definition>
+                    <source>http://vocab.nerc.ac.uk/collection/S10/current/S102/</source>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Not Assessed</codeExplanation>
+          </missingValueCode>
+          <annotation>
+            <propertyURI label="of characteristic">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#ofCharacteristic</propertyURI>
+            <valueURI label="Sex">http://rs.tdwg.org/dwc/iri/sex</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>calcium</attributeName>
+          <attributeLabel>calcium</attributeLabel>
+          <attributeDefinition>A malleable silvery-white metallic element of the alkaline hearth group; the fifth most abundant element in the earth crust, occurring especially as forms of calcium carbonate. It is an essential constituent of bones and teeth and is used as a deoxidizer in steel.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>mg/kg of dry weight (ppm)</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="calcium">http://vocabs.lter-europe.net/EnvThes/USLterCV_81</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>phosphorus</attributeName>
+          <attributeLabel>phosphorus</attributeLabel>
+          <attributeDefinition>A nonmetallic element used to manufacture phosphoric acid, in phosphor bronzes, incendiaries, pyrotechnics, matches, and rat poisons; the white or yellow allotrope is a soft waxy solid, soluble in carbon disulfide, insoluble in water and alcohol, and is poisonous and self-igniting in air; the red allotrope is an amorphous powder, insoluble in all solvents and is nonpoisonous; the black allotrope comprises lustrous crystals similar to graphite, and is insoluble in most solvents.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>mg/kg of dry weight (ppm)</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="phosphorus">http://vocabs.lter-europe.net/EnvThes/20854</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>cadmium</attributeName>
+          <attributeLabel>cadmium</attributeLabel>
+          <attributeDefinition>One of the toxic heavy metal which has caused deaths and permanent illnesses in a series of major pollution incidents around the world. Cadmium has no useful biological purpose. However, it has wide industrial applications. It has been used for decades in metal plating to prevent corrosion, in rechargeable batteries and as a pigment in certain plastics and paints. Special care is taken in the industrial smelting of ores and subsequent handling of cadmium, because occupational exposure is known to have caused heart, chest and kidney disorders. Environmental health problems have come from exposure to various sources of pollution.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>mg/kg of dry weight (ppm)</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="cadmium">http://vocabs.lter-europe.net/EnvThes/20803</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>copper</attributeName>
+          <attributeLabel>copper</attributeLabel>
+          <attributeDefinition>A chemical element; one of the most important nonferrous metals; a ductile and malleable metal found in various ores and used in industry, engineering, and the arts in both pure and alloyed form.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>mg/kg of dry weight (ppm)</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="copper">http://vocabs.lter-europe.net/EnvThes/20822</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>manganese</attributeName>
+          <attributeLabel>manganese</attributeLabel>
+          <attributeDefinition>Also known as: Colloidal manganese, Cutaval, Magnacat, Tronamang, Mangan, Manganese fume, MANGANESE COMPOUNDS, Mangan [Polish], (52mn)manganese; A trace element with atomic symbol Mn, atomic number 25, and atomic weight 54.94. It is concentrated in cell mitochondria, mostly in the pituitary gland, liver, pancreas, kidney, and bone, influences the synthesis of mucopolysaccharides, stimulates hepatic synthesis of cholesterol and fatty acids, and is a cofactor in many enzymes, including arginase and alkaline phosphatase in the liver. (From AMA Drug Evaluations Annual 1992, p2035)</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>mg/kg of dry weight (ppm)</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="manganese">http://vocabs.lter-europe.net/EnvThes/20830</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>iron</attributeName>
+          <attributeLabel>iron</attributeLabel>
+          <attributeDefinition>A malleable ductile silvery-white ferromagnetic metallic element occurring principally in haematite and magnetite. It is widely used for structural and engineering purposes.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>mg/kg of dry weight (ppm)</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="iron">http://vocabs.lter-europe.net/EnvThes/20827</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>chromium</attributeName>
+          <attributeLabel>chromium</attributeLabel>
+          <attributeDefinition>A hard grey metallic element that takes a high polish, occurring principally in chromite: used in steel alloys and electroplating to increase hardness and corrosion-resistance.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>mg/kg of dry weight (ppm)</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="chromium">http://vocabs.lter-europe.net/EnvThes/20821</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>cobalt</attributeName>
+          <attributeLabel>Cobalt</attributeLabel>
+          <attributeDefinition>A metallic element used chiefly in alloys.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>mg/kg of dry weight (ppm)</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="cobalt">http://opendata.inra.fr/anaeeThes/c2_2335</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>nickel</attributeName>
+          <attributeLabel>nickel</attributeLabel>
+          <attributeDefinition>A malleable ductile silvery-white metallic element that is strong and corrosion-resistant, occurring principally in pentlandite and niccolite: used in alloys, especially in toughening steel, in electroplating, and as a catalyst in organic synthesis.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>mg/kg of dry weight (ppm)</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="nickel">http://vocabs.lter-europe.net/EnvThes/20831</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>lead</attributeName>
+          <attributeLabel>lead</attributeLabel>
+          <attributeDefinition>A heavy toxic bluish-white metallic element that is highly malleable; occurs principally as galena and is used in alloys, accumulators, cable sheaths, paints, and as a radiation shield.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>mg/kg of dry weight (ppm)</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="lead">http://vocabs.lter-europe.net/EnvThes/20828</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>aluminium</attributeName>
+          <attributeLabel>aluminium</attributeLabel>
+          <attributeDefinition>Aluminium (or aluminum) is a chemical element in the boron group with symbol Al and atomic number 13. It is a silvery white, soft, ductile metal. Aluminium is the third most abundant element (after oxygen and silicon), and the most abundant metal, in the Earth's crust (occurs widely in nature in clays). It makes up about 8% by weight of the Earth's solid surface. Aluminium metal is so chemically reactive that native specimens are rare and limited to extreme reducing environments. Instead, it is found combined in over 270 different minerals. Aluminium became implicated as an environmental health hazard in the 1980s on two counts. Biomedical scientists looking for possible causes of Alzheimer's disease, the premature senility indicated by loss of memory and confusion, found a circumstantial link with aluminium. The theory is a controversial one.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>mg/kg of dry weight (ppm)</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="aluminum">http://vocabs.lter-europe.net/EnvThes/20800</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>potassium</attributeName>
+          <attributeLabel>potassium</attributeLabel>
+          <attributeDefinition>n. metallic element, an essential nutrient for living organisms. As the ion K+ it is involved in maintaining intracellular ion balance, in generating the membrane potential, and in producing electrical signals in neurons. One of the major elements required for plant growth.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>mg/kg of dry weight (ppm)</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="potassium">http://vocabs.lter-europe.net/EnvThes/20864</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>sodium</attributeName>
+          <attributeLabel>sodium</attributeLabel>
+          <attributeDefinition>Sodium is a chemical element with the symbol Na (from Latin: natrium) and atomic number 11. It is a soft, silver-white, highly reactive metal and is a member of the alkali metals; essential macronutrient involved in generating the membrane potential in animal cells and is also required for the generation of nerve impulses</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>mg/kg of dry weight (ppm)</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="sodium">http://vocabs.lter-europe.net/EnvThes/20867</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>magnesium</attributeName>
+          <attributeLabel>magnesium</attributeLabel>
+          <attributeDefinition>Magnesium is a chemical element with the symbol Mg and atomic number 12. Its common oxidation number is +2. It is an alkaline earth metal. Magnesium is the fourth-most-common element in the Earth as a whole (behind iron, oxygen and silicon), making up 13% of the planet's mass and a large fraction of the planet's mantle. Due to magnesium ion's high solubility in water, it is the third-most-abundant element dissolved in seawater. Magnesium is produced in stars larger than 3 solar masses by fusing helium and neon in the alpha process at temperatures above 600 megakelvins. It is important for the activity of many enzymes, especially those involved in oxidative phosphorylation.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>mg/kg of dry weight (ppm)</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="magnesium">http://vocabs.lter-europe.net/EnvThes/20829</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>barium</attributeName>
+          <attributeLabel>barium</attributeLabel>
+          <attributeDefinition>A soft silvery-white metallic element of the alkaline earth group. It is used in bearing alloys and compounds are used as pigments.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>mg/kg of dry weight (ppm)</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="barium">http://opendata.inra.fr/anaeeThes/c2_2364</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>strontium</attributeName>
+          <attributeLabel>strontium</attributeLabel>
+          <attributeDefinition>A soft silvery-white element of the alkaline earth group of metals, occurring chiefly as celestite and as strontianite. Its compounds burn with a crimson flame and are used in fire works.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>mg/kg of dry weight (ppm)</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="strontium">http://vocabs.lter-europe.net/EnvThes/20868</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>boron</attributeName>
+          <attributeLabel>boron</attributeLabel>
+          <attributeDefinition>A very hard almost colourless crystalline metalloid element that in impure form exists as a brown amorphous powder. It occurs principally in borax and is used in hardening steel.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>mg/kg of dry weight (ppm)</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="boron">http://vocabs.lter-europe.net/EnvThes/20802</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>beryllium</attributeName>
+          <attributeLabel>beryllium</attributeLabel>
+          <attributeDefinition>A corrosion-resistant, toxic silvery-white metallic element that occurs chiefly in beryl and is used mainly in x-ray windows and in the manufacture of alloys.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>mg/kg of dry weight (ppm)</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="beryllium">http://opendata.inra.fr/anaeeThes/c2_2312</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>lithium</attributeName>
+          <attributeLabel>lithium</attributeLabel>
+          <attributeDefinition>soft, silvery-white alkali metal</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>mg/kg of dry weight (ppm)</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="lithium">http://eurovoc.europa.eu/c_d1c21de0</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>selenium</attributeName>
+          <attributeLabel>selenium</attributeLabel>
+          <attributeDefinition>A highly toxic, nonmetallic element; used in analytical chemistry, metallurgy, and photoelectric cells.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>mg/kg of dry weight (ppm)</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="selenium">http://opendata.inra.fr/anaeeThes/c2_2342</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>tellurium</attributeName>
+          <attributeLabel>tellurium</attributeLabel>
+          <attributeDefinition>Tellurium is a chemical element; it has symbol Te and atomic number 52. It is a brittle, mildly toxic, rare, silver-white metalloid.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>mg/kg of dry weight (ppm)</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="tellurium">https://aims.fao.org/aos/agrovoc/c_7653</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>thallium</attributeName>
+          <attributeLabel>thallium</attributeLabel>
+          <attributeDefinition>Bluish-white metal with tinlike malleability, but a little softer; used in alloys.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>mg/kg of dry weight (ppm)</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="thallium">http://opendata.inra.fr/anaeeThes/c2_2389</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>arsenic</attributeName>
+          <attributeLabel>arsenic</attributeLabel>
+          <attributeDefinition>A toxic metalloid element, existing in several allotropic forms, that occurs principally in realgar and orpiment and as the free element. It is used in transistors, lead-based alloys, and high temperature brasses.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>mg/kg of dry weight (ppm)</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="arsenic">http://opendata.inra.fr/anaeeThes/c2_2341</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>zinc</attributeName>
+          <attributeLabel>zinc</attributeLabel>
+          <attributeDefinition>A brittle bluish-white metallic element that becomes coated with a corrosion-resistant layer in moist air and occurs chiefly in sphalerite and smithsonite. It is a constituent of several alloys, especially brass and nickel-silver, and is used in die-casting, galvanizing metals, and in battery electrodes.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>mg/kg of dry weight (ppm)</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="zinc">http://vocabs.lter-europe.net/EnvThes/20874</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>mercury</attributeName>
+          <attributeLabel>mercury</attributeLabel>
+          <attributeDefinition>A heavy silvery-white toxic liquid metallic element occurring principally in cinnabar: used in thermometers, barometers, mercury-vapour lamps, and dental amalgams.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>mg/kg of dry weight (ppm)</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="mercury">http://opendata.inra.fr/anaeeThes/c2_2388</valueURI>
+          </annotation>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>76</numberOfRecords>
+    </dataTable>
+  </dataset>
+</eml:eml>

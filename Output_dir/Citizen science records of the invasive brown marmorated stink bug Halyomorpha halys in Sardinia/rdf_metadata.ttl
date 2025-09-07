@@ -1,0 +1,163 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix lw: <https://kos.lifewatch.eu/ontologies/lw/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://semantics.lifewatchitaly.eu/resource#dcat:Catalog-id:61175251-1672-4795-b23b-b35b0dd0a294> dcat:dataset <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> .
+
+<http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> a owl:NamedIndividual,
+        dcat:Dataset ;
+    dct:description "The dataset includes 247 occurrence records of the invasive brown marmorated stink bug Halyomorpha halys in Sardinia recorded between 2016 and 2023. Records have been compiled using citizen science observations and social media searches. Citizen science records were gathered through the Facebook group \"Monitoraggio cimice asiatica in Sardegna\" or from other photographic reports or specimens' collections reported to the involved scientists from CNR-IRET Sassari, Agris Sardegna - Servizio Ricerca nell'Arboricoltura and UNISS-Department of Agriculture. All observations, specimens and photographic records have been validated through taxonomic identification of entomologists belonging to the research group involved. This datasets is one of the research products of the Italian projects:  “Accordo di collaborazione tecnico-scientifica per lo studio della cimice asiatica Halyomorpha halys nell’ambito di un intervento finalizzato al potenziamento del Servizio fitosanitario regionale” and “Programma Nazionale di lotta biologica per il controllo in Italia di Halyomorpha halys mediante l’impiego del suo antagonista naturale, l’Imenottero Scelionide Trissolcus japonicus” funded by Regione Autonoma della Sardegna and “USEit - Utilizzo di sinergie operative per lo studio e la gestione integrata di specie aliene invasive in Italia” funded by CNR - National Research Council of Italy ."@en ;
+    dct:identifier "051d3b80-1991-402e-bfc2-6ddc0c42e2d0" ;
+    dct:issued "2025-01-25"^^xsd:date ;
+    dct:language "English"@en ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:rights "Free for use, including sharing and adaptation, by all individuals provided that the owners are acknowledged in any use or publication."@en ;
+    dct:spatial <http://semantics.lifewatchitaly.eu/resource#dct:Spatial-id:Distribution%20and%20abundance%20data%20of%20Halyomorpha%20halys%20have%20been%20collected%20in%20Sardinia%20across%20over%20121%20localities.> ;
+    dct:temporal <http://semantics.lifewatchitaly.eu/resource#dct:Temporal-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> ;
+    dct:title "Citizen science records of the invasive brown marmorated stink bug Halyomorpha halys in Sardinia"@en ;
+    dwc:measurementMethod """Records of Halyomorpha halys have been compiled using citizen science observations and reports carried out between 2016 (year of first record of the species in Sardinia; see citation at the end of this description) and 2024. After its first record, occurred in 2016, the Facebook group "Monitoraggio cimice asiatica in Sardegna" was opened in 2018 to gather photo of specimens of H. halys from citizen scientists. Some of the records included in the dataset do not appear in the Facebook group as they have been collected separately thanks to citizens who communicated directly with the involved scientists. In addition, records in the datasets belonging to the years 2016-2018, were gathered from the research group involved in the project through online searches on social media. All observations, specimens and photographic records have been validated through taxonomic identification of entomologists belonging to the research groups involved. 
+Reference: Dioli P., Leo P. & Maistrello L., 2016. Prime segnalazioni in Spagna e in Sardegna della specie aliena Halyomorpha halys (Stål,1855) e note sulla sua distribuzione in Europa (Hemiptera, Pentatomidae). Revista gaditana de Entomologia, 7: 539–548."""@en ;
+    dcat:distribution <http://semantics.lifewatchitaly.eu/resource#dcat:Distribution-id:https%3A%2F%2Fdata.lifewatchitaly.eu%2Fhandle%2F123456789%2F129608> ;
+    dcat:keyword <http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F20169>,
+        <http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F20989>,
+        <http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:https%3A%2F%2Fkos.lifewatch.eu%2Fthesauri%2Falienspecies%2Fc_1>,
+        <http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:https%3A%2F%2Fkos.lifewatch.eu%2Fthesauri%2Falienspecies%2Fc_7> ;
+    prov:qualifiedAttribution <http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:4264718869>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:6290719578>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionContact-id:5159227072>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionCreator-id:1052376121>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionCreator-id:4239513997>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionCreator-id:6608862467>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionCreator-id:8428037702>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionCreator-id:8508998886>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionCreator-id:9233816385>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionMetadataProvider-id:6801666796>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionPublisher-id:5284362695> ;
+    prov:wasGeneratedBy <http://semantics.lifewatchitaly.eu/resource#foaf:Project-id:8541746293> .
+
+<http://semantics.lifewatchitaly.eu/resource#dcat:Distribution-id:https%3A%2F%2Fdata.lifewatchitaly.eu%2Fhandle%2F123456789%2F129608> a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL <https://data.lifewatchitaly.eu/handle/123456789/129608> .
+
+<http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F20169> a owl:NamedIndividual,
+        skos:Concept ;
+    rdfs:label "citizen science" ;
+    dct:type <http://vocabs.lter-europe.net/EnvThes/20169> .
+
+<http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F20989> a owl:NamedIndividual,
+        skos:Concept ;
+    rdfs:label "biological invasion" ;
+    dct:type <http://vocabs.lter-europe.net/EnvThes/20989> .
+
+<http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:https%3A%2F%2Fkos.lifewatch.eu%2Fthesauri%2Falienspecies%2Fc_1> a owl:NamedIndividual,
+        skos:Concept ;
+    rdfs:label "Alien species" ;
+    dct:type <https://kos.lifewatch.eu/thesauri/alienspecies/c_1> .
+
+<http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:https%3A%2F%2Fkos.lifewatch.eu%2Fthesauri%2Falienspecies%2Fc_7> a owl:NamedIndividual,
+        skos:Concept ;
+    rdfs:label "Invasive" ;
+    dct:type <https://kos.lifewatch.eu/thesauri/alienspecies/c_7> .
+
+<http://semantics.lifewatchitaly.eu/resource#dct:Spatial-id:Distribution%20and%20abundance%20data%20of%20Halyomorpha%20halys%20have%20been%20collected%20in%20Sardinia%20across%20over%20121%20localities.> a dct:Location ;
+    dct:description "Distribution and abundance data of Halyomorpha halys have been collected in Sardinia across over 121 localities." ;
+    lw:eastBoundCoordinate "10.073364"^^xsd:LocationStructure ;
+    lw:northBoundCoordinate "41.262331"^^xsd:LocationStructure ;
+    lw:southBoundCoordinate "38.839419"^^xsd:LocationStructure ;
+    lw:westBoundCoordinate "7.887085"^^xsd:LocationStructure .
+
+<http://semantics.lifewatchitaly.eu/resource#dct:Temporal-id:051d3b80-1991-402e-bfc2-6ddc0c42e2d0> a dct:PeriodOfTime ;
+    dcat:endDate "2024-10-29"^^xsd:date ;
+    dcat:startDate "2016-11-05"^^xsd:date .
+
+<http://semantics.lifewatchitaly.eu/resource#foaf:Project-id:8541746293> a foaf:Project ;
+    dct:description """Monitoring the presence and spread of an Invasive Alien Species in a newly invaded area is strategic to implement appropriate and timely control measures in order to prevent damages and the indiscriminate use of insecticides.
+Project activities were conducted in Sardinia (Italy) and concerned the monitoring of the invasive brown marmorated stink bug Halyomorpha halys by means of citizen science and other traditional monitoring methods; the implementation of a Biological Control programme against H. halys using the exotic antagonist Trissolcus japonicus in the framework of the Italian Biological Control programme and the study of native parasitoids of H. halys.""" ;
+    dct:title "1) Technical-scientific cooperation agreement for the study of the Asian bug Halyomorpha halys within the framework of an intervention aimed at strengthening the regional phytosanitary service; 2) National biological control programme for the control of Halyomorpha halys in Italy through the use of its natural antagonist, the Scelionide hymenoptera Trissolcus japonicus; 3) USEit - Use of operational synergies for the study and integrated management of invasive alien species in Italy." .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:LifeWatch%20Italy> a owl:NamedIndividual,
+        prov:Agent ;
+    foaf:mbox "lifewatchitaly@gmail.com" ;
+    foaf:name "LifeWatch Italy" .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0002-6666-4921> a owl:NamedIndividual,
+        prov:Agent,
+        prov:Person ;
+    dct:identifier <https://orcid.org/0000-0002-6666-4921> ;
+    prov:actedOnBehalfOf "National Research Council (CNR), Research Institute on Terrestrial Ecosystems (IRET)" ;
+    foaf:familyName "Flore" ;
+    foaf:mbox "sandro.flore@iret.cnr.it" ;
+    foaf:name "Sandro" .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0003-0118-7244> a owl:NamedIndividual,
+        prov:Agent,
+        prov:Person ;
+    dct:identifier <https://orcid.org/0000-0003-0118-7244> ;
+    prov:actedOnBehalfOf "National Research Council (CNR), Research Institute on Terrestrial Ecosystems (IRET)" ;
+    foaf:familyName "Pantaleoni" ;
+    foaf:mbox "robertoapantaleoni@gmail.com" ;
+    foaf:name "Roberto Antonio" .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0003-3422-7230> a owl:NamedIndividual,
+        prov:Agent,
+        prov:Person ;
+    dct:identifier <https://orcid.org/0000-0003-3422-7230> ;
+    prov:actedOnBehalfOf "National Research Council (CNR), Institute of Research on Terrestrial Ecosystems (IRET)" ;
+    foaf:familyName "Rosati" ;
+    foaf:mbox "ilaria.rosati@cnr.it" ;
+    foaf:name "Ilaria" .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0003-4072-0662> a owl:NamedIndividual,
+        prov:Agent,
+        prov:Person ;
+    dct:identifier <https://orcid.org/0000-0003-4072-0662> ;
+    prov:actedOnBehalfOf "National Research Council (CNR), Institute of Research on Terrestrial Ecosystems (IRET)" ;
+    foaf:familyName "Di Muri" ;
+    foaf:mbox "cristina.dimuri@cnr.it" ;
+    foaf:name "Cristina" .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:4264718869> a prov:Attribution ;
+    dcat:hadRole "Associated Party" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0003-3422-7230> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:6290719578> a prov:Attribution ;
+    dcat:hadRole "Associated Party" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0003-4072-0662> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionContact-id:5159227072> a prov:Attribution ;
+    dcat:hadRole "Contact" .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionCreator-id:1052376121> a prov:Attribution ;
+    dcat:hadRole "Creator" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0003-0118-7244> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionCreator-id:4239513997> a prov:Attribution ;
+    dcat:hadRole "Creator" .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionCreator-id:6608862467> a prov:Attribution ;
+    dcat:hadRole "Creator" .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionCreator-id:8428037702> a prov:Attribution ;
+    dcat:hadRole "Creator" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0002-6666-4921> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionCreator-id:8508998886> a prov:Attribution ;
+    dcat:hadRole "Creator" .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionCreator-id:9233816385> a prov:Attribution ;
+    dcat:hadRole "Creator" .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionMetadataProvider-id:6801666796> a prov:Attribution ;
+    dcat:hadRole "Metadata Provider" .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionPublisher-id:5284362695> a prov:Attribution ;
+    dcat:hadRole "Publisher" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:LifeWatch%20Italy> .
+

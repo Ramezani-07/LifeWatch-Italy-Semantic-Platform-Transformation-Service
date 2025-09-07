@@ -1,0 +1,1794 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="e791a849-97f8-4807-a667-1858b8eac5f4" system="https://data.lifewatchitaly.eu" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd" scope="system">
+  <dataset>
+    <alternateIdentifier>https://data.lifewatchitaly.eu/handle/123456789/129615</alternateIdentifier>
+    <alternateIdentifier>https://doi.org/10.17882/84182</alternateIdentifier>
+    <shortName>ORMEF</shortName>
+    <title>ORMEF: Occurrence Records of Mediterranean Exotic Fishes</title>
+    <creator>
+      <individualName>
+        <givenName>Ernesto</givenName>
+        <surName>Azzurro</surName>
+      </individualName>
+      <organizationName>National Research Council of Italy (CNR), Institute for Marine Biological Resources and Biotechnology (IRBIM)</organizationName>
+      <positionName>Research director</positionName>
+      <userId directory="https://orcid.org/">0000-0002-9805-3164</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Sonia</givenName>
+        <surName>Smeraldo</surName>
+      </individualName>
+      <organizationName>National Research Council of Italy (CNR), Institute for Marine Biological Resources and Biotechnology (IRBIM)</organizationName>
+      <positionName>Associate</positionName>
+      <userId directory="https://orcid.org/">0000-0002-5160-5304</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Manuela</givenName>
+        <surName>D'Amen</surName>
+      </individualName>
+      <organizationName>National Research Council of Italy (CNR), Institute for Marine Biological Resources and Biotechnology (IRBIM)</organizationName>
+      <positionName>Associate</positionName>
+      <userId directory="https://orcid.org/">0000-0001-5910-4267</userId>
+    </creator>
+    <metadataProvider>
+      <individualName>
+        <givenName>Ernesto</givenName>
+        <surName>Azzurro</surName>
+      </individualName>
+      <organizationName>National Research Council of Italy (CNR), Institute for Marine Biological Resources and Biotechnology (IRBIM)</organizationName>
+      <positionName>Research director</positionName>
+      <userId directory="https://orcid.org/">0000-0002-9805-3164</userId>
+    </metadataProvider>
+    <associatedParty>
+      <individualName>
+        <givenName>Ilaria</givenName>
+        <surName>Rosati</surName>
+      </individualName>
+      <organizationName>National Research Council (CNR), Institute of Research on Terrestrial Ecosystems (IRET)</organizationName>
+      <positionName>Technologist</positionName>
+      <electronicMailAddress>ilaria.rosati@cnr.it</electronicMailAddress>
+      <userId directory="https://orcid.org/">0000-0003-3422-7230</userId>
+      <role>Custodian Steward</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Cristina</givenName>
+        <surName>Di Muri</surName>
+      </individualName>
+      <organizationName>National Research Council (CNR), Institute of Research on Terrestrial Ecosystems (IRET)</organizationName>
+      <positionName>Technologist</positionName>
+      <electronicMailAddress>cristina.dimuri@cnr.it</electronicMailAddress>
+      <userId directory="https://orcid.org/">0000-0003-4072-0662</userId>
+      <role>Information Manager</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Noemi</givenName>
+        <surName>Biancone</surName>
+      </individualName>
+      <organizationName>National Research Council of Italy (CNR), Institute for Research on Population and Social Policies (IRPPS)</organizationName>
+      <positionName>Technologist</positionName>
+      <userId directory="https://orcid.org/">0000-0003-4673-028X</userId>
+      <role>Information Manager</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Marina</givenName>
+        <surName>Chiappi</surName>
+      </individualName>
+      <organizationName>National Research Council of Italy (CNR), Institute for Marine Biological Resources and Biotechnology (IRBIM)</organizationName>
+      <positionName>Researcher</positionName>
+      <userId directory="https://orcid.org/">0000-0002-9401-2509</userId>
+      <role>Information Manager</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Manuela</givenName>
+        <surName>D'Amen</surName>
+      </individualName>
+      <organizationName>National Research Council of Italy (CNR), Institute for Marine Biological Resources and Biotechnology (IRBIM)</organizationName>
+      <positionName>Associate</positionName>
+      <userId directory="https://orcid.org/">0000-0001-5910-4267</userId>
+      <role>Information Manager</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Fernando</givenName>
+        <surName>Ferri</surName>
+      </individualName>
+      <organizationName>National Research Council of Italy (CNR), Institute for Research of Population and Social Policies (IRPPS)</organizationName>
+      <positionName>Researcher</positionName>
+      <userId directory="https://orcid.org/">0000-0001-9963-3315</userId>
+      <role>Information Manager</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Patrizia</givenName>
+        <surName>Grifoni</surName>
+      </individualName>
+      <organizationName>National Research Council of Italy (CNR), Institute for Research on Population and Social Policies (IRPPS)</organizationName>
+      <positionName>Researcher</positionName>
+      <userId directory="https://orcid.org/">0000-0003-4298-5437</userId>
+      <role>Information Manager</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Ester</givenName>
+        <surName>Napoli</surName>
+      </individualName>
+      <organizationName>National Research Council of Italy (CNR), Institute for Research on Population and Social Policies (IRPPS)</organizationName>
+      <positionName>Researcher</positionName>
+      <userId directory="https://orcid.org/">0009-0001-8852-5252</userId>
+      <role>Information Manager</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Rocco</givenName>
+        <surName>De Marco</surName>
+      </individualName>
+      <organizationName>National Research Council of Italy (CNR), Institute for Marine Biological Resources and Biotechnology (IRBIM)</organizationName>
+      <positionName>Technician</positionName>
+      <userId directory="https://orcid.org/">0000-0002-9438-4791</userId>
+      <role>Information Manager</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Pierluigi</givenName>
+        <surName>Strafella</surName>
+      </individualName>
+      <organizationName>National Research Council of Italy (CNR), Institute for Marine Biological Resources and Biotechnology (IRBIM)</organizationName>
+      <positionName>Researcher</positionName>
+      <userId directory="https://orcid.org/">0000-0002-1947-7023</userId>
+      <role>Information Manager</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Sonia</givenName>
+        <surName>Smeraldo</surName>
+      </individualName>
+      <organizationName>National Research Council of Italy (CNR), Institute for Marine Biological Resources and Biotechnology (IRBIM)</organizationName>
+      <positionName>Associate</positionName>
+      <userId directory="https://orcid.org/">0000-0002-5160-5304</userId>
+      <role>Information Manager</role>
+    </associatedParty>
+    <pubDate>2025-01-22</pubDate>
+    <language>English</language>
+    <abstract>The ORMEF dataset is a comprehensive, and robust compilation of exotic fish observations recorded in the entire Mediterranean region from 1896 to 2020. ORMEF is composed by 4015 georeferenced occurrences distributed in the territorial waters of 20 Mediterranean countries and extracted from 670 scientific published papers. The resultant dataset is a collection of 188 fish taxa whose 106 species entered through the Suez Canal; 256 species introduced by human activities (shipping, mariculture, aquarium release); 576 Atlantic species. The dataset has undergone a severe technical and scientific review for what concerns taxa and geographical accuracy and it consists of a CSV file of the records (observations), including information on all the bibliography from which dataset has been built.</abstract>
+    <keywordSet>
+      <keyword>Mediterranean Sea</keyword>
+      <keywordThesaurus>EuroVoc Core Concepts</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>fish species list</keyword>
+      <keywordThesaurus>Environmental Thesaurus</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Alien species</keyword>
+      <keywordThesaurus>Alien Species Thesaurus</keywordThesaurus>
+    </keywordSet>
+    <additionalInfo>The ORMFEF GeoPortal is available at: https://ormef.eu; DOI of related scientific publications: https://doi.org/10.1038/s41597-022-01487-z; https://doi.org/10.3391/mbi.2024.15.4.09</additionalInfo>
+    <intellectualRights>Free for use, including sharing and adaptation, by all individuals provided that the owners are acknowledged in any use or publication.</intellectualRights>
+    <licensed>
+      <licenseName>cc-by</licenseName>
+      <url>http://creativecommons.org/licenses/by/4.0/</url>
+    </licensed>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Exotic fish records are distributed in 20 different countries, all over the Mediterranean region.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-5.3475</westBoundingCoordinate>
+          <eastBoundingCoordinate>36.175</eastBoundingCoordinate>
+          <northBoundingCoordinate>45.701</northBoundingCoordinate>
+          <southBoundingCoordinate>30.3316</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1896-01-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2021-12-31</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ablennes hians</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">159246</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Abudefduf hoefleri</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">273699</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Abudefduf saxatilis</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">159288</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Abudefduf sexfasciatus</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">159289</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Abudefduf vaigiensis</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">212879</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Acanthopagrus bifasciatus</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">218589</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Acanthostracion polygonium</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">1577312</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Acanthurus chirurgus</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">159580</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Acanthurus coeruleus</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">159581</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Acanthurus monroviae</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">126750</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Acanthurus sohal</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">219649</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Alepes djedaba</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">126800</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Aluterus monoceros</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">127407</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Anarhichas lupus  </taxonRankValue>
+          <taxonId provider="World Register of Marine Species">126758</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Apogonichthyoides pharaonis</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">475090</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Arothron hispidus</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">219925</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Atherinomorus forskalii</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">761426</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Balistoides conspicillum</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">219876</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Bodianus speciosus</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">126959</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Bregmaceros nectabanus</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">217741</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Caesio varilineata</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">219988</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Callionymus filamentosus</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">126791</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Carcharhinus altimus</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">105787</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Carcharhinus falciformis</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">105789</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Carlarius parkii</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">1020768</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Centrolabrus exoletus</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">126961</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Cephalopholis hemistiktos</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">218188</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Cephalopholis nigri</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">279151</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Cephalopholis taeniops</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">279154</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Chaetodipterus faber</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">159703</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Chaetodon auriga</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">218730</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Chaetodon austriacus</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">218732</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Chaetodon larvatus</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">218716</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Champsodon nudivittis</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">220338</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Chanos chanos</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">217625</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Cheilodipterus novemstriatus</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">209374</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Cheilopogon furcatus</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">159261</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Chloroscombrus chrysurus</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">159483</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Chlorurus rhakoura</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">277510</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Chrysiptera cyanea</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">218781</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Chrysiptera hemicyanea</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">276832</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Coryogalops ocheticus</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">712862</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Crenidens crenidens</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">127048</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Cryptocentrus caeruleopunctatus</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">219428</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Cyclichthys spilostylus</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">219967</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Cyclopterus lumpus</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">127214</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Cynoglossus sinusarabici</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">127132</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Dagetichthys lusitanicus</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">403345</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Decapterus russelli</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">218427</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Dentex canariensis</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">273960</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Diodon hystrix</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">127403</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Diplodus bellottii</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">127050</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Diplogrammus randalli</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">276337</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Dipterygonotus balteatus</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">219997</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Dussumieria elopsoides</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">212259</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Elates ransonnettii</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">398454</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Enchelycore anatina</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">126298</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Encrasicholina gloria</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">1385037</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Epinephelus areolatus</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">218204</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Epinephelus coioides</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">218200</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Epinephelus fasciatus</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">218207</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Epinephelus geoffroyi</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">218209</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Epinephelus malabaricus</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">218206</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Epinephelus merra</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">218228</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Equulites klunzingeri</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">398518</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Equulites popei</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">1525437</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Etrumeus golanii</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">890090</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Favonigobius melanobranchus</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">280775</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Fistularia commersonii</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">217966</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Fistularia petimba</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">159439</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Gadus morhua</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">126436</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Galeocerdo cuvier</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">105799</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Glaucostegus halavi</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">280874</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Gymnammodytes semisquamatus</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">126754</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Gymnothorax reticularis</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">217511</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Hemiramphus far</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">126389</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Heniochus intermedius</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">218767</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Herklotsichthys punctatus</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">126420</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Himantura uarnak</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">105854</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Hippocampus fuscus</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">212230</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Holacanthus africanus</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">276011</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Holacanthus ciliaris</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">276012</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Holocentrus adscensionis</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">159378</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Hyporhamphus affinis</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">213170</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Istiblennius meleagris</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">278381</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Istiompax indica</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">712905</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Jaydia queketti</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">209280</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Jaydia smithi</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">313170</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Kyphosus incisor</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">126955</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Lagocephalus guentheri</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">219956</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Lagocephalus sceleratus</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">219954</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Lagocephalus suezensis</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">275268</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Lutjanus argentimaculatus</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">218498</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Lutjanus fulviflamma</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">218490</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Lutjanus jocu</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">159798</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Lutjanus sebae</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">218499</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Dicologlossa hexophthalma</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">274298</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Microchirus boscanion</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">274300</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Monotaxis grandoculis</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">218584</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Morone saxatilis</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">151179</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Muraenesox cinereus</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">126296</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Mycteroperca fusca</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">127038</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Nemipterus randalli</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">218518</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Omobranchus punctatus</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">219320</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Oncorhynchus kisutch</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">127184</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ophioblennius atlanticus</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">126769</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Oplegnathus fasciatus</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">277892</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Orthopristis chrysoptera</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">158810</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ostorhinchus fasciatus</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">712656</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ostracion cubicum</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">403462</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Oxyurichthys petersii</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">1020579</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Pagellus bellottii</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">127058</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Pagrus major</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">273976</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Pampus argenteus</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">127075</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Papilloculiceps longiceps</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">218145</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Parablennius thysanius</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">273139</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Paracanthurus hepatus</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">219676</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Paralichthys lethostigma</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">158829</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Paranthias furcifer</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">282084</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Parexocoetus mento</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">126388</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Parupeneus forsskali</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">218669</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Pelates quadrilineatus</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">127077</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Pempheris rhomboidea</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">310134</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Petroscirtes ancylodon</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">219330</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Pinguipes brasilianus</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">236485</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Pisodonophis semicinctus</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">126318</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Planiliza carinata</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">1509483</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Planiliza haematocheilus</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">1509599</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Platax teira</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">218710</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Platycephalus indicus</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">127234</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Plotosus lineatus</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">217659</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Polymetme corythaeola</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">127300</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Pomacanthus imperator</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">220001</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Pomacanthus maculosus</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">220005</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Pomadasys stridens</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">126948</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Priacanthus arenatus</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">127005</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Priacanthus hamrur</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">218360</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Priacanthus prolixus</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">218364</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Priacanthus sagittarius</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">218365</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Psenes pellucidus</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">126993</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Pseudotolithus senegallus</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">273787</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Pseudupeneus prayensis</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">126987</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Pteragogus trispilus</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">835084</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Pterois miles</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">218077</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Rachycentron canadum</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">127006</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Rastrelliger kanagurta</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">127020</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Rhabdosargus haffara</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">218620</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Rhizoprionodon acutus</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">105802</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Rhynchoconger trewavasae</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">275428</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Sardinella gibbosa</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">212277</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Sargocentron rubrum</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">126400</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Sargocentron spinosissimum</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">272218</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Sargocentron tiereoides</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">217949</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Saurida lessepsianus</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">932880</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Scarus ghobban</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">219127</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Scatophagus argus</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">276970</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Sciaenops ocellatus</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">159335</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Scolopsis ghanam</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">209222</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Scomberomorus commerson</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">127024</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Scorpaena stephanica</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">274737</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Selene dorsalis</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">126814</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Seriola carpenteri</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">126815</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Seriola fasciata</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">126817</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Seriola rivoliana</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">126818</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Siganus argenteus</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">219686</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Siganus fuscescens</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">273912</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Siganus luridus</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">127044</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Siganus rivulatus</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">127045</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Silhouettea aegyptia</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">126935</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Sillago suezensis</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">835122</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Solea senegalensis</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">127159</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Sorsogona prionota</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">218152</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Sphoeroides marmoratus</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">127416</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Sphoeroides pachygaster</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">127417</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Sphyraena chrysotaenia</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">127067</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Sphyraena flavicauda</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">212051</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Sphyrna mokarran</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">105817</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Spratelloides delicatulus</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">126424</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Stegastes variabilis</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">276688</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Stephanolepis diaspros</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">127408</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Stolephorus indicus</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">212280</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Stolephorus insularis</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">212284</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Synanceia verrucosa</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">215627</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Synchiropus sechellensis</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">219782</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Syngnathus rostellatus</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">127389</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Taractes rubescens</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">126787</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Terapon jarbua</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">218350</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Terapon puta</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">127078</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Terapon theraps</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">218349</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Tetrosomus gibbosus</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">219915</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Torquigener flavimaculosus</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">219962</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Trachurus indicus</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">218443</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Tridentiger trigonocephalus</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">283049</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Trypauchen vagina</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">219593</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Tylerius spinosissimus</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">219963</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Tylosurus choram</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">126379</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Upeneus moluccensis</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">126989</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Upeneus pori</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">273671</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Vanderhorstia mertensi</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">277377</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Variola louti</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">218304</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Zebrasoma flavescens</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">219683</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Zebrasoma xanthurum</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">219681</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Zenopsis conchifer</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">127426</taxonId>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+    </coverage>
+    <annotation>
+      <propertyURI label="keyword">http://www.w3.org/ns/dcat#keyword</propertyURI>
+      <valueURI label="Alien species">https://kos.lifewatch.eu/thesauri/alienspecies/c_1</valueURI>
+    </annotation>
+    <annotation>
+      <propertyURI label="keyword">http://www.w3.org/ns/dcat#keyword</propertyURI>
+      <valueURI label="Mediterranean Sea">http://eurovoc.europa.eu/1879</valueURI>
+    </annotation>
+    <annotation>
+      <propertyURI label="keyword">http://www.w3.org/ns/dcat#keyword</propertyURI>
+      <valueURI label="fish species list">http://vocabs.lter-europe.net/EnvThes/30108</valueURI>
+    </annotation>
+    <acknowledgements>Institute for Marine Biological Resources and Biotechnology (IRBIM) of the National Research Council (CNR) of Ancona</acknowledgements>
+    <contact>
+      <individualName>
+        <givenName>Ernesto</givenName>
+        <surName>Azzurro</surName>
+      </individualName>
+      <organizationName>National Research Council of Italy (CNR), Institute for Marine Biological Resources and Biotechnology (IRBIM)</organizationName>
+      <positionName>Research director</positionName>
+      <userId directory="https://orcid.org/">0000-0002-9805-3164</userId>
+    </contact>
+    <publisher>
+      <organizationName>LifeWatch Italy</organizationName>
+      <electronicMailAddress>lifewatchitaly@gmail.com</electronicMailAddress>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>Occurrence records were gathered through an extensive literature search by combining multiple search criteria. Each record was associated with the name of the species, the year of detection, the presumed introduction path, and the country where the species was observed. Each georeferenced observation included in ORMEF undergone a severe quality control and checked for possible geographical and taxonomic biases.</description>
+      </methodStep>
+      <sampling>
+        <studyExtent>
+          <description>Literature search was performed mainly through Google Scholar (https://scholar.google.com/), ISI Web of Science (https://www.webofscience.com/), and Scopus (https://www.scopus.com/).</description>
+        </studyExtent>
+        <samplingDescription>Multiple search criteria were used for literature search including species scientific names and a combination of terms such as exotic, non-indigenous, and alien in conjunction with the names of Mediterranean and/or Mediterranean countries. In addition, periodic checks on the main journals devoted to the publication of exotic fish records were performed to update the database with new georeferenced occurrences. Grey literature was also considered, when accessible.</samplingDescription>
+      </sampling>
+    </methods>
+    <project>
+      <title>1) ORMEF: Occurrence Records of Mediterranean Exotic Fishes; 2) USEit: Use of operational synergies for the study and integrated management of invasive alien species in Italy</title>
+      <personnel>
+        <individualName>
+          <givenName>Ernesto</givenName>
+          <surName>Azzurro</surName>
+        </individualName>
+        <organizationName>National Research Council of Italy (CNR), Institute for Marine Biological Resources and Biotechnology (IRBIM)</organizationName>
+        <positionName>Research director</positionName>
+        <userId directory="https://orcid.org/">0000-0002-9805-3164</userId>
+        <role>Point Of Contact</role>
+      </personnel>
+      <abstract>ORMEF is a free, online searchable database about Mediterranean Exotic Fishes available at https://ormef.eu. It provides updated georeferenced information for scientists, conservationists and policy makers, disseminating specialist’s knowledge and experience to a broad audience.  The ORMEF dataset was published and made accessible as a CSV file by LifeWatch Italy within the framework of the USEit project.</abstract>
+    </project>
+    <dataTable>
+      <entityName>USEit_ORMEF_Invasive_Fish_Data_Mediterranean_20250122.csv</entityName>
+      <physical>
+        <objectName>USEit_ORMEF_Invasive_Fish_Data_Mediterranean_20250122.csv</objectName>
+        <size unit="byte">2893452</size>
+        <authentication>MD5:fa82beacb01a88e2db49f378f52a9e96</authentication>
+        <characterEncoding>UTF-8</characterEncoding>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>;</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>catalogNumber</attributeName>
+          <attributeLabel>Catalog Number</attributeLabel>
+          <attributeDefinition>An identifier (preferably unique) for the record within the data set or collection.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Catalog Number">http://rs.tdwg.org/dwc/terms/catalogNumber</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>occurenceID</attributeName>
+          <attributeLabel>Occurence ID</attributeLabel>
+          <attributeDefinition>An identifier for the dwc:Occurrence (as opposed to a particular digital record of the dwc:Occurrence). In the absence of a persistent global unique identifier, construct one from a combination of identifiers in the record that will most closely make the dwc:occurrenceID globally unique.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="hasCode">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasCode</propertyURI>
+            <valueURI label="Occurence ID">http://rs.tdwg.org/dwc/terms/occurrenceID</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>year</attributeName>
+          <attributeLabel>Year</attributeLabel>
+          <attributeDefinition>The four-digit year in which the dwc:Event occurred, according to the Common Era Calendar.</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY</formatString>
+            </dateTime>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Year">http://rs.tdwg.org/dwc/terms/year</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>month</attributeName>
+          <attributeLabel>Month</attributeLabel>
+          <attributeDefinition>The integer month in which the dwc:Event occurred.</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>MM</formatString>
+            </dateTime>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Month">http://rs.tdwg.org/dwc/terms/month</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>eventRemarks</attributeName>
+          <attributeLabel>Event Remarks</attributeLabel>
+          <attributeDefinition>Comments or notes about the dwc:Event.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Event Remarks">http://rs.tdwg.org/dwc/terms/eventRemarks</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>verbatimLocality</attributeName>
+          <attributeLabel>Verbatim Locality</attributeLabel>
+          <attributeDefinition>The original textual description of the place.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Verbatim Locality">http://rs.tdwg.org/dwc/terms/verbatimLocality</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>country</attributeName>
+          <attributeLabel>Country</attributeLabel>
+          <attributeDefinition>The name of the country or major administrative unit in which the dcterms:Location occurs.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Country">http://rs.tdwg.org/dwc/terms/country</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>decimalLatitude</attributeName>
+          <attributeLabel>Decimal Latitude</attributeLabel>
+          <attributeDefinition>The geographic latitude (in decimal degrees, using the spatial reference system given in dwc:geodeticDatum) of the geographic center of a dcterms:Location. Positive values are north of the Equator, negative values are south of it. Legal values lie between -90 and 90, inclusive.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Decimal Latitude">http://rs.tdwg.org/dwc/terms/decimalLatitude</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>decimalLongitude</attributeName>
+          <attributeLabel>Decimal Longitude</attributeLabel>
+          <attributeDefinition>The geographic longitude (in decimal degrees, using the spatial reference system given in dwc:geodeticDatum) of the geographic center of a dcterms:Location. Positive values are east of the Greenwich Meridian, negative values are west of it. Legal values lie between -180 and 180, inclusive.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Decimal Longitude">http://rs.tdwg.org/dwc/terms/decimalLongitude</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>depth</attributeName>
+          <attributeLabel>depth</attributeLabel>
+          <attributeDefinition>The perpendicular measurement downward from a surface.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="depth">http://purl.dataone.org/odo/ECSO_00000515</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>class</attributeName>
+          <attributeLabel>Class</attributeLabel>
+          <attributeDefinition>The full scientific name of the class in which the dwc:Taxon is classified.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Class">http://rs.tdwg.org/dwc/terms/class</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>order</attributeName>
+          <attributeLabel>Order</attributeLabel>
+          <attributeDefinition>The full scientific name of the order in which the dwc:Taxon is classified.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Order">http://rs.tdwg.org/dwc/terms/order</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>family</attributeName>
+          <attributeLabel>Family</attributeLabel>
+          <attributeDefinition>The full scientific name of the family in which the dwc:Taxon is classified.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Family">http://rs.tdwg.org/dwc/terms/family</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>genus</attributeName>
+          <attributeLabel>Genus</attributeLabel>
+          <attributeDefinition>The full scientific name of the genus in which the dwc:Taxon is classified.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Genus">http://rs.tdwg.org/dwc/terms/genus</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>scientificName</attributeName>
+          <attributeLabel>Scientific Name</attributeLabel>
+          <attributeDefinition>The full scientific name, with authorship and date information if known. When forming part of a dwc:Identification, this should be the name in lowest level taxonomic rank that can be determined. This term should not contain identification qualifications, which should instead be supplied in the dwc:identificationQualifier term.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Scientific Name">http://rs.tdwg.org/dwc/terms/scientificName</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>scientificNameAuthorship</attributeName>
+          <attributeLabel>Scientific Name Authorship</attributeLabel>
+          <attributeDefinition>The authorship information for the dwc:scientificName formatted according to the conventions of the applicable dwc:nomenclaturalCode.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Scientific Name Authorship">http://rs.tdwg.org/dwc/terms/scientificNameAuthorship</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>acceptedNameUsage</attributeName>
+          <attributeLabel>Accepted Name Usage</attributeLabel>
+          <attributeDefinition>The full name, with authorship and date information if known, of the currently valid (zoological) or accepted (botanical) dwc:Taxon.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Accepted Name Usage">http://rs.tdwg.org/dwc/terms/acceptedNameUsage</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>acceptedNameUsageID</attributeName>
+          <attributeLabel>Accepted Name Usage ID</attributeLabel>
+          <attributeDefinition>An identifier for the name usage (documented meaning of the name according to a source) of the currently valid (zoological) or accepted (botanical) taxon.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                  <source>World Register of Marine Species</source>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="hasCode">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasCode</propertyURI>
+            <valueURI label="Accepted Name Usage ID">http://rs.tdwg.org/dwc/terms/acceptedNameUsageID</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>taxonRank</attributeName>
+          <attributeLabel>Taxon Rank</attributeLabel>
+          <attributeDefinition>The taxonomic rank of the most specific name in the dwc:scientificName.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Taxon Rank">http://rs.tdwg.org/dwc/terms/taxonRank</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>occurrenceRemarks</attributeName>
+          <attributeLabel>Occurrence Remarks</attributeLabel>
+          <attributeDefinition>Comments or notes about the dwc:Occurrence.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Occurrence Remarks">http://rs.tdwg.org/dwc/terms/occurrenceRemarks</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>organismQuantity</attributeName>
+          <attributeLabel>Organism Quantity</attributeLabel>
+          <attributeDefinition>A number or enumeration value for the quantity of dwc:Organisms.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="Organism Quantity">http://rs.tdwg.org/dwc/terms/organismQuantity</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>organismQuantityType</attributeName>
+          <attributeLabel>Organism Quantity Type</attributeLabel>
+          <attributeDefinition>The type of quantification system used for the quantity of dwc:Organisms.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="measures entity">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#measuresEntity</propertyURI>
+            <valueURI label="Organism Quantity Type">http://rs.tdwg.org/dwc/terms/organismQuantityType</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>nativeSeaArea</attributeName>
+          <attributeLabel>native range</attributeLabel>
+          <attributeDefinition>A range in which a species has evolved or in which it has arrived by natural means.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="native range">https://w3id.org/inbio#_000058</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>degreeOfEstablishment</attributeName>
+          <attributeLabel>Degree Of Establishment</attributeLabel>
+          <attributeDefinition>The degree to which a dwc:Organism survives, reproduces, and expands its range at the given place and time.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Casual</code>
+                    <definition>Individuals surviving outside of captivity or cultivation in a location with no reproduction.</definition>
+                    <source>http://rs.tdwg.org/dwcdoe/values/d006</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Established</code>
+                    <definition>Individuals surviving outside of captivity or cultivation in a location. Reproduction occurring and population self-sustaining.</definition>
+                    <source>http://rs.tdwg.org/dwcdoe/values/d008</source>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="of characteristic">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#ofCharacteristic</propertyURI>
+            <valueURI label="Degree Of Establishment">http://rs.tdwg.org/dwc/terms/degreeOfEstablishment</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>distributionStatus</attributeName>
+          <attributeLabel>status</attributeLabel>
+          <attributeDefinition>The occurrence or status of an alien species is a prompt start of the entire process for an early warning and rapid response.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Rare</code>
+                    <definition>The taxon occurs regularly in this area but only in small numbers.</definition>
+                    <source>http://rs.gbif.org/vocabulary/gbif/distribution_status/rare</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Irregular</code>
+                    <definition>The taxon may be common in certain years and entirely absent in other years.</definition>
+                    <source>http://rs.gbif.org/vocabulary/gbif/distribution_status/irregular</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Common</code>
+                    <definition>The taxon is observed frequently in the area.</definition>
+                    <source>http://rs.gbif.org/vocabulary/gbif/distribution_status/common</source>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="of characteristic">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#ofCharacteristic</propertyURI>
+            <valueURI label="status">https://kos.lifewatch.eu/thesauri/alienspecies/c_45a0f010</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>associatedReferences</attributeName>
+          <attributeLabel>Associated References</attributeLabel>
+          <attributeDefinition>A list (concatenated and separated) of identifiers (publication, bibliographic reference, global unique identifier, URI) of literature associated with the dwc:Occurrence.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Associated References">http://rs.tdwg.org/dwc/terms/associatedReferences</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>references</attributeName>
+          <attributeLabel>References</attributeLabel>
+          <attributeDefinition>A related resource that is referenced, cited, or otherwise pointed to by the described resource.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                  <source>FishBase</source>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="References">http://purl.org/dc/terms/references</valueURI>
+          </annotation>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>5075</numberOfRecords>
+    </dataTable>
+  </dataset>
+</eml:eml>

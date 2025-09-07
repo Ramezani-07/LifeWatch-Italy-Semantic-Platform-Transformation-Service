@@ -1,0 +1,1462 @@
+<?xml version='1.0' encoding='utf-8'?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="df9571a9-1e86-40e2-b318-c801c34fd448" system="https://data.lifewatchitaly.eu" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd" scope="system" id="61175251-1672-4795-b23b-b35b0dd0a294">
+  <dataset>
+    <alternateIdentifier>https://data.lifewatchitaly.eu/handle/123456789/129738</alternateIdentifier>
+    <alternateIdentifier>https://doi.org/10.48372/99c7-ec64</alternateIdentifier>
+    <title>Italian Orchis occurrence</title>
+    <creator id="4165843063">
+      <individualName>
+        <givenName>Michele</givenName>
+        <surName>Lussu</surName>
+      </individualName>
+      <organizationName>Università di Bologna</organizationName>
+      <positionName>Postdoctoral Researcher</positionName>
+      <electronicMailAddress>michele.lussu@unibo.it</electronicMailAddress>
+      <userId>https://orcid.org/0000-0002-1313-4732</userId>
+    </creator>
+    <creator id="8512798372">
+      <individualName>
+        <givenName>Alessandro</givenName>
+        <surName>Chiarucci</surName>
+      </individualName>
+      <organizationName>Università di Bologna</organizationName>
+      <positionName>Professor</positionName>
+      <userId>https://orcid.org/0000-0003-1160-235X</userId>
+    </creator>
+    <associatedParty id="1696858302">
+      <individualName>
+        <givenName>Michele</givenName>
+        <surName>Lussu</surName>
+      </individualName>
+      <organizationName>Università di Bologna</organizationName>
+      <positionName>Postdoctoral Researcher</positionName>
+      <electronicMailAddress>michele.lussu@unibo.it</electronicMailAddress>
+      <userId>https://orcid.org/0000-0002-1313-4732</userId>
+      <role>Principal Investigator</role>
+    </associatedParty>
+    <associatedParty id="0595673981">
+      <individualName>
+        <givenName>Andrea</givenName>
+        <surName>Tarallo</surName>
+      </individualName>
+      <organizationName>National Research Council (CNR), Institute of Research on Terrestrial Ecosystems (IRET)</organizationName>
+      <positionName>Technologist</positionName>
+      <electronicMailAddress>andrea.tarallo@cnr.it</electronicMailAddress>
+      <userId>https://orcid.org/0000-0002-2749-8588</userId>
+      <role>Custodian Steward</role>
+    </associatedParty>
+    <associatedParty id="4035550393">
+      <individualName>
+        <givenName>Ilaria</givenName>
+        <surName>Rosati</surName>
+      </individualName>
+      <organizationName>National Research Council (CNR), Institute of Research on Terrestrial Ecosystems (IRET)</organizationName>
+      <positionName>Technologist</positionName>
+      <electronicMailAddress>ilaria.rosati@cnr.it</electronicMailAddress>
+      <userId>https://orcid.org/0000-0003-3422-7230</userId>
+      <role>Custodian Steward</role>
+    </associatedParty>
+    <pubDate>2023-11-03</pubDate>
+    <language>English</language>
+    <abstract>Orchids play a key role in ecosystem functioning and offer critical insights into plant evolution, biogeography, ecological adaptation and conservation planning. Our data set is the first to produce a national orchid inventory, covering the entire Italian territory. We collected 71,693 records for 195 species of orchids occurring in Italy, number of records per species ranged from 1 (e.g., the endemic Ophrys gravinensis) to 3,163 (Dactylorhiza maculata), averaging 385±631 records per species. Out of the 195 species, 70 are endemic to Italy (36%), and 5 (2.6%) are listed within Annex II of the Habitats Directive. Nine species (4.6%) are classified as threatened (either VU or EN) by the IUCN European Red List, 11 as Near Threatened (5.6%), 3 as Data Deficient (1.5%), 76 as Least Concern (39.0%), and 95 not assessed (48.7%). Overall, orchid species showed on average 47.7± 24.0 % of records within protected areas, with 4 and 2 species featuring 100% and 0% within the network of protected areas, respectively. A total of 32 species showed &lt;5 independent recent records. The main aim of the orchid data set was to make these occurrence data accessible for international researchers to develop ecological and macroecological studies, from local to regional scales, with focal IUCN listed species. We anticipate that the Italian orchid data set will be valuable for studies on a wide range of ecological processes, such as trophic cascades, fishery pressure, the effects of habitat loss and fragmentation, and the impacts of species invasion and climate change.</abstract>
+    <keywordSet>
+      <keyword>Orchidaceae</keyword>
+      <keywordThesaurus>AGROVOC</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Protected area</keyword>
+      <keyword>Biogeography</keyword>
+      <keyword>Conservation planning</keyword>
+      <keyword>Conservation</keyword>
+      <keyword>Species richness</keyword>
+      <keyword>Biodiversity conservation</keyword>
+      <keywordThesaurus>Environmental Thesaurus</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>Free for use, including sharing and adaptation, by all individuals provided that the owners are acknowledged in any use or publication.</intellectualRights>
+    <licensed>
+      <licenseName>cc-by</licenseName>
+      <url>http://creativecommons.org/licenses/by/4.0/</url>
+    </licensed>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>The study area encompasses the Italian political borders. Italy is a ca. 1,000 km long peninsula located between the African and Eurasian plates, which protrudes from north to south into the Mediterranean Sea (0–4800 m ASL, and 35° N 29’ 24’’ to 47° N 04’ 22’’)</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>6.749955275</westBoundingCoordinate>
+          <eastBoundingCoordinate>18.80247023</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.11539317</northBoundingCoordinate>
+          <southBoundingCoordinate>36.61998729</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1789</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2023</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Anacamptis collina</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Anacamptis coriophora</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Anacamptis laxiflora</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Anacamptis longicornu</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Anacamptis morio</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Anacamptis palustris</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Anacamptis papilionacea</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Anacamptis pyramidalis</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Cephalanthera damasonium</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Cephalanthera longifolia</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Cephalanthera rubra</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Chamorchis alpina</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Coeloglossum viride</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Corallorhiza trifida</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Cypripedium calceolus</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Dactylorhiza elata</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Dactylorhiza incarnata</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Dactylorhiza insularis</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Dactylorhiza lapponica</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Dactylorhiza maculata</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Dactylorhiza majalis</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Dactylorhiza romana</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Dactylorhiza sambucina</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Dactylorhiza traunsteineri</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Epipactis aspromontana</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Epipactis atrorubens</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Epipactis autumnalis</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Epipactis bugacensis</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Epipactis calabrica</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Epipactis collaris</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Epipactis cupaniana</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Epipactis distans</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Epipactis etrusca</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Epipactis exilis</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Epipactis fageticola</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Epipactis greuteri</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Epipactis helleborine</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Epipactis ioessa</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Epipactis leptochila</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Epipactis lucana</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Epipactis maricae</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Epipactis meridionalis</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Epipactis microphylla</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Epipactis muelleri</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Epipactis palustris</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Epipactis placentina</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Epipactis pontica</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Epipactis purpurata</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Epipactis sanguinea</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Epipactis schubertiorum</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Epipactis zaupolensis</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Epipogium aphyllum</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Gennaria diphylla</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Goodyera repens</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Gymnadenia conopsea</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Gymnadenia densiflora</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Gymnadenia odoratissima</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Herminium monorchis</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Himantoglossum adriaticum</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Himantoglossum hircinum</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Himantoglossum robertianum</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Limodorum abortivum</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Limodorum brulloi</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Limodorum trabutianum</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Liparis loeselii</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Liparis nemoralis</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Malaxis monophyllos</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Neotinea lactea</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Neotinea maculata</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Neotinea tridentata</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Neotinea ustulata</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Neottia cordata</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Neottia nidus-avis</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Neottia ovata</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Nigritella buschmanniae</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Nigritella corneliana</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Nigritella lithopolitanica</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Nigritella miniata</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Nigritella nigra</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Nigritella rhellicani</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Nigritella widderi</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ophrys annae</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ophrys apifera</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ophrys appennina</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ophrys apulica</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ophrys archimedea</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ophrys argentaria</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ophrys ausonia</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ophrys bertolonii</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ophrys biancae</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ophrys bilunulata</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ophrys biscutella</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ophrys bombyliflora</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ophrys brutia</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ophrys caesiella</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ophrys calliantha</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ophrys calocaerina</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ophrys candica</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ophrys chestermanii</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ophrys cinnabarina</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ophrys classica</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ophrys conradiae</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ophrys corsica</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ophrys crabronifera</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ophrys delforgei</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ophrys dinarica</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ophrys exaltata</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ophrys flammeola</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ophrys forestieri</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ophrys funerea</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ophrys gackiae</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ophrys gracilis</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ophrys gravinensis</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ophrys gresivaudanica</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ophrys holosericea</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ophrys incubacea</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ophrys insectifera</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ophrys iricolor</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ophrys lacaitae</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ophrys laurensis</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ophrys lepida</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ophrys litigiosa</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ophrys lojaconoi</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ophrys lucana</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ophrys lucifera</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ophrys lunulata</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ophrys lutea</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ophrys maritima</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ophrys marmorata</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ophrys massiliensis</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ophrys mattiNaturalistae</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ophrys minipassionis</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ophrys mirabilis</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ophrys normanii</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ophrys obaesa</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ophrys oestrifera</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ophrys ortuabis</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ophrys oxyrrhynchos</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ophrys pallida</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ophrys panattensis</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ophrys panormitana</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ophrys parvimaculata</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ophrys passionis</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ophrys pinguis</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ophrys pollinensis</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ophrys promontorii</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ophrys pseudoatrata</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ophrys riojana</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ophrys santonica</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ophrys scolopax</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ophrys sicula</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ophrys sipontensis</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ophrys speculum</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ophrys sphegodes</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ophrys tardans</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ophrys tarentina</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ophrys tarquinia</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ophrys tenthredinifera</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ophrys tetraloniae</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ophrys untchjii</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ophrys vetula</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Orchis anthropophora</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Orchis brancifortii</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Orchis italica</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Orchis mascula</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Orchis militaris</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Orchis pallens</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Orchis patens</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Orchis pauciflora</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Orchis provincialis</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Orchis purpurea</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Orchis quadripunctata</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Orchis simia</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Orchis spitzelii</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Platanthera algeriensis</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Platanthera bifolia</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Platanthera chlorantha</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Pseudorchis albida</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Serapias bergonii</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Serapias cordigera</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Serapias cossyrensis</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Serapias francavillae</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Serapias intermedia</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Serapias lingua</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Serapias neglecta</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Serapias nurrica</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Serapias orientalis</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Serapias parviflora</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Serapias politisii</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Serapias strictiflora</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Serapias vomeracea</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Spiranthes aestivalis</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Spiranthes spiralis</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Traunsteinera globosa</taxonRankValue>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+    </coverage>
+    <annotation>
+      <propertyURI label="keyword">http://www.w3.org/ns/dcat#keyword</propertyURI>
+      <valueURI label="Protected area">http://vocabs.lter-europe.net/EnvThes/msa0879</valueURI>
+    </annotation>
+    <annotation>
+      <propertyURI label="keyword">http://www.w3.org/ns/dcat#keyword</propertyURI>
+      <valueURI label="Orchidaceae">http://aims.fao.org/aos/agrovoc/c_5380</valueURI>
+    </annotation>
+    <annotation>
+      <propertyURI label="keyword">http://www.w3.org/ns/dcat#keyword</propertyURI>
+      <valueURI label="Biogeography">http://vocabs.lter-europe.net/EnvThes/21738</valueURI>
+    </annotation>
+    <annotation>
+      <propertyURI label="keyword">http://www.w3.org/ns/dcat#keyword</propertyURI>
+      <valueURI label="Conservation planning">http://vocabs.lter-europe.net/EnvThes/msa0263</valueURI>
+    </annotation>
+    <annotation>
+      <propertyURI label="keyword">http://www.w3.org/ns/dcat#keyword</propertyURI>
+      <valueURI label="Conservation">http://vocabs.lter-europe.net/EnvThes/USLterCV_124</valueURI>
+    </annotation>
+    <annotation>
+      <propertyURI label="keyword">http://www.w3.org/ns/dcat#keyword</propertyURI>
+      <valueURI label="Species richness">http://vocabs.lter-europe.net/EnvThes/22287</valueURI>
+    </annotation>
+    <annotation>
+      <propertyURI label="keyword">http://www.w3.org/ns/dcat#keyword</propertyURI>
+      <valueURI label="Biodiversity conservation">http://vocabs.lter-europe.net/EnvThes/msa0110</valueURI>
+    </annotation>
+    <contact id="4901627808">
+      <individualName>
+        <givenName>Michele</givenName>
+        <surName>Lussu</surName>
+      </individualName>
+      <organizationName>Università di Bologna</organizationName>
+      <positionName>Postdoctoral Researcher</positionName>
+      <electronicMailAddress>michele.lussu@unibo.it</electronicMailAddress>
+      <userId>https://orcid.org/0000-0002-1313-4732</userId>
+    </contact>
+    <contact id="1130926193">
+      <individualName>
+        <givenName>Alessandro</givenName>
+        <surName>Chiarucci</surName>
+      </individualName>
+      <organizationName>Università di Bologna</organizationName>
+      <positionName>Professor</positionName>
+      <userId>https://orcid.org/0000-0003-1160-235X</userId>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>We selected georeferenced records of all the taxa of the family Orchidaceae occurring within the political borders of Italy. Orchid occurrences were obtained from WikiplantbaseItaly (http://bot.biologia.unipi.it/wpb/italia), the GBIF (https://www.gbif.org/) and iNaturalist (www.inaturalist.org). Duplicates, as well as records with low spatial resolution (&lt;4 degree decimals of coordinates), were discarded.</description>
+      </methodStep>
+    </methods>
+    <project id="8052182984">
+      <title>Italian Orchis occurrence</title>
+      <personnel>
+        <individualName>
+          <givenName>Michele</givenName>
+          <surName>Lussu</surName>
+        </individualName>
+        <organizationName>Università di Bologna</organizationName>
+        <positionName>Postdoctoral Researcher</positionName>
+        <electronicMailAddress>michele.lussu@unibo.it</electronicMailAddress>
+        <userId directory="https://orcid.org/">0000-0002-1313-4732</userId>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Alessandro</givenName>
+          <surName>Chiarucci</surName>
+        </individualName>
+        <organizationName>Università di Bologna</organizationName>
+        <positionName>Professor</positionName>
+        <userId directory="https://orcid.org/">0000-0003-1160-235X</userId>
+        <role>Principal Investigator</role>
+      </personnel>
+      <funding>Michele Lussu has been supported by LifeWatch Italy through the project "LifeWatchPLUS" - CIR01_00028.</funding>
+    </project>
+    <dataTable>
+      <entityName>italian_orchids_records.csv</entityName>
+      <physical>
+        <objectName>italian_orchids_records.csv</objectName>
+        <size unit="byte">17437810</size>
+        <authentication>MD5:f84d54394042ad3f2d5d8fb116b49697</authentication>
+        <characterEncoding>UTF-8</characterEncoding>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>;</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>catalogNumber</attributeName>
+          <attributeLabel>Catalog Number</attributeLabel>
+          <attributeDefinition>An identifier (preferably unique) for the record within the data set or collection.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Catalog Number">http://rs.tdwg.org/dwc/terms/catalogNumber</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>kingdom</attributeName>
+          <attributeLabel>Kingdom</attributeLabel>
+          <attributeDefinition>The full scientific name of the kingdom in which the taxon is classified.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Kingdom">http://rs.tdwg.org/dwc/terms/kingdom</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>phylum</attributeName>
+          <attributeLabel>Phylum</attributeLabel>
+          <attributeDefinition>The full scientific name of the phylum or division in which the taxon is classified.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Phylum">http://rs.tdwg.org/dwc/terms/phylum</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>class</attributeName>
+          <attributeLabel>Class</attributeLabel>
+          <attributeDefinition>The full scientific name of the class in which the taxon is classified.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Class">http://rs.tdwg.org/dwc/terms/class</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>order</attributeName>
+          <attributeLabel>Order</attributeLabel>
+          <attributeDefinition>The full scientific name of the order in which the taxon is classified.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Order">http://rs.tdwg.org/dwc/terms/order</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>family</attributeName>
+          <attributeLabel>Family</attributeLabel>
+          <attributeDefinition>The full scientific name of the family in which the taxon is classified.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Family">http://rs.tdwg.org/dwc/terms/family</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>subfamily</attributeName>
+          <attributeLabel>Subfamily</attributeLabel>
+          <attributeDefinition>The full scientific name of the subfamily in which the taxon is classified.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Subfamily">http://rs.tdwg.org/dwc/terms/subfamily</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>tribe</attributeName>
+          <attributeLabel>Tribe</attributeLabel>
+          <attributeDefinition>The full scientific name of the tribe in which the taxon is classified.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Tribe">http://rs.tdwg.org/dwc/terms/tribe</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>subtribe</attributeName>
+          <attributeLabel>Subtribe</attributeLabel>
+          <attributeDefinition>The full scientific name of the subtribe in which the taxon is classified.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Subtribe">http://rs.tdwg.org/dwc/terms/subtribe</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>genus</attributeName>
+          <attributeLabel>Genus</attributeLabel>
+          <attributeDefinition>The full scientific name of the genus in which the taxon is classified.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Genus">http://rs.tdwg.org/dwc/terms/genus</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>acceptedNameUsage</attributeName>
+          <attributeLabel>Accepted Name Usage</attributeLabel>
+          <attributeDefinition>The full scientific name, with authorship and date information if known. When forming part of an Identification, this should be the name in lowest level taxonomic rank that can be determined. This term should not contain identification qualifications, which should instead be supplied in the IdentificationQualifier term.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Accepted Name Usage">http://rs.tdwg.org/dwc/terms/acceptedNameUsage</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>ECHabitatDirective</attributeName>
+          <attributeLabel>EC Habitat Directive</attributeLabel>
+          <attributeDefinition>Indicates if the species has been included or not in the Habitats Directive (more formally known as Council Directive 92/43/EEC on the Conservation of natural habitats and of wild fauna and flora).</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>yes</code>
+                    <definition>the species has been included in the Habitats Directive</definition>
+                    <source>-</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>no</code>
+                    <definition>the species has not been included in the Habitats Directive</definition>
+                    <source>-</source>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Habitats Directive">http://vocabs.lter-europe.net/elter_cl/10599</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>endemisms</attributeName>
+          <attributeLabel>Endemisms</attributeLabel>
+          <attributeDefinition>Indicates if the distribution status is restricted to Italy only</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>endemic</code>
+                    <definition>the distribution status is restricted to Italy only</definition>
+                    <source>-</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>not endemic</code>
+                    <definition>the distribution status is not restricted to Italy only</definition>
+                    <source>-</source>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="of characteristic">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#ofCharacteristic</propertyURI>
+            <valueURI label="Endemism">http://data.loterre.fr/ark:/67375/BLH-G3PV42JW-7</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>iucnRedListSpeciesStatus</attributeName>
+          <attributeLabel>IUCN Red List Species Status</attributeLabel>
+          <attributeDefinition>IUCN category in which the species is assessed</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>LC</code>
+                    <definition>Least Concern</definition>
+                    <source>https://www.iucnredlist.org/</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>NA</code>
+                    <definition>Not Applicable</definition>
+                    <source>https://www.iucnredlist.org/</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>NT</code>
+                    <definition>Near Threatened</definition>
+                    <source>https://www.iucnredlist.org/</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>EN</code>
+                    <definition>Endangered</definition>
+                    <source>https://www.iucnredlist.org/</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>VU</code>
+                    <definition>Vulnerable</definition>
+                    <source>https://www.iucnredlist.org/</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>DD</code>
+                    <definition>Data Deficient</definition>
+                    <source>https://www.iucnredlist.org/</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>NE</code>
+                    <definition>Not Evaluated</definition>
+                    <source>https://www.iucnredlist.org/</source>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="of characteristic">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#ofCharacteristic</propertyURI>
+            <valueURI label="IUCN red list species">http://vocabs.lter-europe.net/EnvThes/20722</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>biogeographicalRegion</attributeName>
+          <attributeLabel>Biogeographical Region</attributeLabel>
+          <attributeDefinition>The biogeographical regions dataset contains the official delineations used in the Habitats Directive (92/43/EEC) and for the EMERALD Network set up under the Convention on the Conservation of European Wildlife and Natural Habitats (Bern Convention). The dataset is INSPIRE compliant. The vocabulary is used for 2016 and 2011 versions of the dataset.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>mediterranean</code>
+                    <definition>Mediterranean Bio-geographical Region</definition>
+                    <source>http://dd.eionet.europa.eu/vocabulary/biodiversity/biogeographic-regions2011/mediterranean</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>continental</code>
+                    <definition>Continental Bio-geographical Region</definition>
+                    <source>http://dd.eionet.europa.eu/vocabulary/biodiversity/biogeographic-regions2011/continental</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>alpine</code>
+                    <definition>Alpine Bio-geographical Region</definition>
+                    <source>http://dd.eionet.europa.eu/vocabulary/biodiversity/biogeographic-regions2011/alpine</source>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Biogeographic Regions">https://dd.eionet.europa.eu/vocabulary/biodiversity/biogeographic-regions2011/</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>habitat</attributeName>
+          <attributeLabel>Habitat</attributeLabel>
+          <attributeDefinition>Type of habitat in which the species preferentially occurs</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>for</code>
+                    <definition>Forest</definition>
+                    <source>http://vocabs.lter-europe.net/EnvThes/USLterCV_2</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>gra</code>
+                    <definition>Grassland</definition>
+                    <source>http://vocabs.lter-europe.net/EnvThes/USLterCV_232</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>wet</code>
+                    <definition>Wetland</definition>
+                    <source>http://vocabs.lter-europe.net/EnvThes/21797</source>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Habitat">http://rs.tdwg.org/dwc/iri/habitat</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>datasetName</attributeName>
+          <attributeLabel>Dataset Name</attributeLabel>
+          <attributeDefinition>The name identifying the data set from which the record was derived.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>iNaturalist</code>
+                    <definition>iNaturalist</definition>
+                    <source>https://www.inaturalist.org/</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GBIF</code>
+                    <definition>GBIF</definition>
+                    <source>https://www.gbif.org/</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Wikiplantbase</code>
+                    <definition>Wikiplantbase</definition>
+                    <source>https://www.gbif.org/dataset/bf97ab5c-c909-4d0b-ae3c-7d34775770f9</source>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Dataset Name">http://rs.tdwg.org/dwc/terms/datasetName</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>associatedReferences</attributeName>
+          <attributeLabel>Associated References</attributeLabel>
+          <attributeDefinition>A list (concatenated and separated) of identifiers (publication, bibliographic reference, global unique identifier, URI) of literature associated with the occurrence.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>https://doi.org/10.15468/dl.qc3jez</code>
+                    <definition>doi for the occurrence downloaded from GBIF</definition>
+                    <source>-</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>https://doi.org/10.15468/ab3s5x</code>
+                    <definition>doi for the occurrence downloaded from iNaturalist</definition>
+                    <source>-</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>https://doi.org/10.15468/cfhmbw</code>
+                    <definition>doi for the occurrence downloaded from Wikiplantbase #Italia</definition>
+                    <source>-</source>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Associated References">http://rs.tdwg.org/dwc/terms/associatedReferences</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>decimalLatitude</attributeName>
+          <attributeLabel>Decimal Latitude</attributeLabel>
+          <attributeDefinition>The geographic latitude of the geographic center of a Location (in decimal degrees, using the spatial reference system WGS84). Positive values are north of the Equator, negative values are south of it. Legal values lie between -90 and 90, inclusive.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Decimal Latitude">http://rs.tdwg.org/dwc/terms/decimalLatitude</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>decimalLongitude</attributeName>
+          <attributeLabel>Decimal Longitude</attributeLabel>
+          <attributeDefinition>The geographic longitude of the geographic center of a Location (in decimal degrees, using the spatial reference system WGS84). Positive values are east of the Prime Meridian, and negative values are west of it. Legal values lie between -180 and 180, inclusive.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Decimal Longitude">http://rs.tdwg.org/dwc/terms/decimalLongitude</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>year</attributeName>
+          <attributeLabel>Year</attributeLabel>
+          <attributeDefinition>The four-digit year in which the event occurred, according to the Common Era Calendar.</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY</formatString>
+            </dateTime>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Year">http://rs.tdwg.org/dwc/terms/year</valueURI>
+          </annotation>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>74761</numberOfRecords>
+    </dataTable>
+  </dataset>
+</eml:eml>

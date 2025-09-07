@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="9cb5258f-5aac-4a78-9c04-7cc4422c3c71" system="https://data.lifewatchitaly.eu" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd" scope="system">
+  <dataset>
+    <alternateIdentifier>https://data.lifewatchitaly.eu/handle/123456789/208418</alternateIdentifier>
+    <title>Intrinsic and extrinsic factors influencing the foraging behaviour of Poecilia sphenops in experimental conditions</title>
+    <creator>
+      <individualName>
+        <givenName>Sarah</givenName>
+        <surName>Boulamail</surName>
+      </individualName>
+      <organizationName>National Research Council of Italy (CNR), Research Institute on Terrestrial Ecosystems (IRET)</organizationName>
+      <positionName>Research fellow</positionName>
+      <electronicMailAddress>sarahboulamail@cnr.it</electronicMailAddress>
+      <userId directory="https://orcid.org/">0000-0001-7105-6704</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Francesco</givenName>
+        <surName>Cozzoli</surName>
+      </individualName>
+      <organizationName>National Research Council of Italy (CNR), Research Institute on Terrestrial Ecosystems (IRET)</organizationName>
+      <positionName>Researcher</positionName>
+      <electronicMailAddress>francesco.cozzoli@cnr.it</electronicMailAddress>
+      <userId directory="https://orcid.org/">0000-0002-6413-0977</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Shaun</givenName>
+        <surName>Killen</surName>
+      </individualName>
+      <organizationName>University of Glasgow</organizationName>
+      <positionName>Professor</positionName>
+      <electronicMailAddress>shaun.killen@glasgow.ac.uk</electronicMailAddress>
+      <userId directory="https://orcid.org/">0000-0003-4949-3988</userId>
+    </creator>
+    <metadataProvider>
+      <individualName>
+        <givenName>Sarah</givenName>
+        <surName>Boulamail</surName>
+      </individualName>
+      <organizationName>National Research Council of Italy (CNR), Research Institute on Terrestrial Ecosystems (IRET)</organizationName>
+      <positionName>Research fellow</positionName>
+      <electronicMailAddress>sarahboulamail@cnr.it</electronicMailAddress>
+      <userId directory="https://orcid.org/">0000-0001-7105-6704</userId>
+    </metadataProvider>
+    <associatedParty>
+      <individualName>
+        <givenName>Cristina</givenName>
+        <surName>Di Muri</surName>
+      </individualName>
+      <organizationName>National Research Council (CNR), Institute of Research on Terrestrial Ecosystems (IRET)</organizationName>
+      <positionName>Technologist</positionName>
+      <electronicMailAddress>cristina.dimuri@cnr.it</electronicMailAddress>
+      <userId directory="https://orcid.org/">0000-0003-4072-0662</userId>
+      <role>Information Manager</role>
+    </associatedParty>
+    <pubDate>2025-06-27</pubDate>
+    <language>English</language>
+    <abstract>This dataset includes the individual traits of 30 specimens of Poecilia sphenops (i.e. body length, wet weight, sex, and standard metabolic rate) kept under controlled laboratory settings at two different temperatures (25°C and 28°C). The dataset also includes measures of the time spent in resource patches (with or without available resources) used as a measure of foraging behavior.</abstract>
+    <keywordSet>
+      <keyword>teleost fish</keyword>
+      <keyword>foraging behavior</keyword>
+      <keyword>metabolic rate</keyword>
+      <keyword>temperature</keyword>
+      <keywordThesaurus>Environmental Thesaurus</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>Free for use, including sharing and adaptation, by all individuals provided that the owners are acknowledged in any use or publication.</intellectualRights>
+    <licensed>
+      <licenseName>cc-by</licenseName>
+      <url>http://creativecommons.org/licenses/by/4.0/</url>
+    </licensed>
+    <coverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2023-01-14</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2023-03-15</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Poecilia sphenops</taxonRankValue>
+          <commonName>Molly</commonName>
+          <taxonId provider="World Register of Marine Species">275351</taxonId>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+    </coverage>
+    <annotation>
+      <propertyURI label="keyword">http://www.w3.org/ns/dcat#keyword</propertyURI>
+      <valueURI label="teleost fish">http://vocabs.lter-europe.net/EnvThes/20560</valueURI>
+    </annotation>
+    <annotation>
+      <propertyURI label="keyword">http://www.w3.org/ns/dcat#keyword</propertyURI>
+      <valueURI label="foraging behavior">http://vocabs.lter-europe.net/EnvThes/20564</valueURI>
+    </annotation>
+    <annotation>
+      <propertyURI label="keyword">http://www.w3.org/ns/dcat#keyword</propertyURI>
+      <valueURI label="metabolic rate">http://vocabs.lter-europe.net/EnvThes/21316</valueURI>
+    </annotation>
+    <annotation>
+      <propertyURI label="keyword">http://www.w3.org/ns/dcat#keyword</propertyURI>
+      <valueURI label="temperature">http://vocabs.lter-europe.net/EnvThes/21524</valueURI>
+    </annotation>
+    <acknowledgements>We would like to thank the Company of Biologists for the travelling fellowship, reference number of the grant (JEBTF2208817). All the technicians of the University of Glasgow Institute of Biodiversity, Animal Health and Comparative Medicine, College of Medical, Veterinary and Life Sciences, Graham Kerr Building.</acknowledgements>
+    <contact>
+      <individualName>
+        <givenName>Sarah</givenName>
+        <surName>Boulamail</surName>
+      </individualName>
+      <organizationName>National Research Council of Italy (CNR), Research Institute on Terrestrial Ecosystems (IRET)</organizationName>
+      <positionName>Research fellow</positionName>
+      <electronicMailAddress>sarahboulamail@cnr.it</electronicMailAddress>
+      <userId directory="https://orcid.org/">0000-0001-7105-6704</userId>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>Francesco</givenName>
+        <surName>Cozzoli</surName>
+      </individualName>
+      <organizationName>National Research Council of Italy (CNR), Research Institute on Terrestrial Ecosystems (IRET)</organizationName>
+      <positionName>Researcher</positionName>
+      <electronicMailAddress>francesco.cozzoli@cnr.it</electronicMailAddress>
+      <userId directory="https://orcid.org/">0000-0002-6413-0977</userId>
+    </contact>
+    <publisher>
+      <organizationName>LifeWatch Italy</organizationName>
+      <electronicMailAddress>lifewatchitaly@gmail.com</electronicMailAddress>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>Poecilia sphenops individuals were reared in the laboratory facilities of the School of Biodiversity, One Health and Veterinary Medicine, University of Glasgow. A total of 30 differently sized juvenile and adult individuals of both sexes (16 males and 14 females) were included in this study. Fish were acclimated and kept under controlled conditions at 25˚ C, pH of 7.3, dissolved oxygen level maintained at 7.8 ± 0.4 mg/l, with a 14h:10h of light:dark photoperiod in two large holding tanks (70x50x50 cm) for 4 weeks before experimental measurements began. Repeated measurements of standard metabolic rate (SMR), foraging behaviour and body mass (wet weight) were taken for each individual at two temperature levels, 25˚ C and 28˚ C, resulting in 130 different measurements. Individual recognition was ensured by keeping each individual separated using plastic dividers with meshes within the holding tanks. Each individual was assigned a unique ID used throughout the duration of the experiment for identification. Each section (20x37x26 cm) within the holding tanks was continuously aerated and enriched with a single stand of ornamental plants for environmental enrichment and a layer of aquarium gravel (2 cm high). At the start of the experiment, each individual was assigned to one of two treatments (8 males and 6 females in each treatment) based on the order in which they experienced each temperature level: treatment one first experienced 28˚ C for three weeks (28 ± 0.3°C mean ± SD), while treatment two experienced 25˚ C for the first three weeks (25 ± 0.3°C mean ± SD). Measurements of foraging behaviour and SMR were carried out once a week. Fish in each treatment were subjected to a 24-hour starvation period before the foraging behaviour assay, after which they were returned to their tank and left unfed for an additional 24 hours before SMR measurements were taken via intermittent-flow respirometry. In addition, after the SMR measurements each fish was weighed (E14130, OHAUS, Switzerland) to the nearest hundredth of a gram (0.556 ± 0.23 g, mean ± SE) and the total body length was measured to the nearest hundredth of a centimetre with a precision digital calliper (29.20 ± 2.31 mm, mean ± SE). After the first set of measurements, fish from each treatment had seven days of recovery before behaviour, SMR and body mass measurements were repeated at the second temperature level. The temperature varied moderately 0.5°C/day during the acclimatisation week. In this way, each treatment reached the second temperature level envisaged in the second part of the experiment by day 6 of the acclimation week.</description>
+      </methodStep>
+      <methodStep>
+        <description>Fish foraging behaviour was measured in an experimental maze with heterogeneous food resource distribution. Each fish was tested separately. The experimental maze consisted of a circular plexiglass arena (40 cm diameter) divided into four equal patches by 0.4 mm thick PVC separators. All patches were interconnected with each other with a 3.5 cm diameter circular hole, allowing the fish to move freely across patches and explore the maze. Two of the four patches were empty while the other two contained a food resource. The resource patches were distinguished in high and low amounts of resource, respectively with 0.30 g and 0.15 g of fish food pellets. The food was placed in a small net of 0.5 mm mesh size and mixed with small stones in order to sink to the bottom, avoiding any floating that could be a source of disturbance during video recording. The maze design was based on P. spheanops behavioural requirements since they usually rely on their sense of vision and smell for food detection. The maze was filled with fresh water (18.85 L), heated to the appropriate temperature for the group being tested (25°C or 28°C). The temperature was maintained throughout the trial using a combination of room temperature regulation, a coil heater system and heaters. A trial was conducted for each individual, water and food resources were renewed before the start of every trial. Fish were starved for 24 hours prior to the foraging behaviour tests. Each behavioural trial started by gently placing a fish, using a beaker to avoid air exposure, inside a transparent cylinder positioned in a randomly chosen empty patch of the experimental maze for 2 minutes of acclimation. The transparent cylinder was then remotely removed using a pulley system and the fish was free to explore the maze for 20 minutes. During this time, the fish movements were video recorded with a Logitech HD 1080p camera placed at a fixed distance above the maze. The room was dark, except for the arena which was illuminated with Lepro Desk Lamp (3000 K-6500 K) laterally placed, avoiding any light reflection on the water surface. The videos were analysed using Ethovision XT15 (Noldus) in order to track the fish and obtain measurements of their foraging behaviour, measured as the time spent in the foraging areas (1 frame per second intervals). Foraging behaviour assays started the same week for both treatments, as well as respirometry assay.</description>
+      </methodStep>
+      <methodStep>
+        <description>After 24 h from the behavioural trial, fish SMR was estimated by measuring individual oxygen uptake rate using intermittent-flow respirometry. Fish oxygen uptake rate was used as a proxy of fish whole-body aerobic metabolism. Respirometry trials started between 14:00 and 16:00 then continued overnight. The respirometer system included sixteen parallel cylindrical glass chambers submerged into a large water basin (79.5 x 59.0 x 21 cm, 5.6 L of water), containing filtered freshwater maintained oxygenated by an air stone and at the group assigned temperature, i.e. 28 ± 0.010° C or 25 ± 0.010° C, using a thermostat and sump. Due to variation in fish size, a total of eleven small (43.56 ml) and five large cylindrical chambers (72.03 ml) were used. Each chamber was connected to a second flow-through chamber containing oxygen sensors (Firesting loggers). A single fish was placed in each chamber with two of the chambers left empty as a control (blanks). In addition, oxygen depletion in each chamber was measured for 30 minutes before the fish went into the chamber (pre-blank) and at the end of each trial, when the fish were removed (post-blank). Blanks allowed to account for microbial (background) oxygen consumption within each chamber. To minimise background respiration, the water in the respirometry system was UV-treated for the all duration of the measurements. All sixteen respirometry chambers were intermittently flushed with clean oxygenated water by a set of four flush pumps, which were automated to flush for three minutes followed by a three-minute closed phase during which dissolved oxygen was automatically recorded every two seconds. Water mixing within the respirometer was achieved with the use of a peristaltic pump (Masterflex L/S pump). Eye interaction among fish during metabolic measurements was prevented with black corrugated plastic placed between the chambers. Recording continued overnight and lasted for an average of 21± 2 hours (mean ± S. D.). The slopes of the decrease in the oxygen values during closed phases were estimated using the FishResp R package. Fish oxygen uptake rate was calculated for each individual by multiplying the obtained slopes by the volume of the respirometry chamber after removing the volume of the fish and background microbial respiration.  Data from all the fish were used to estimate their individual SMR.</description>
+      </methodStep>
+    </methods>
+    <dataTable>
+      <entityName>Poecilia_sphenops_foraging_behaviour_20250627.csv</entityName>
+      <physical>
+        <objectName>Poecilia_sphenops_foraging_behaviour_20250627.csv</objectName>
+        <size unit="byte">35590</size>
+        <authentication>MD5:20dcc65eb8122c07fb4d10857923c637</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>;</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>catalogNumber</attributeName>
+          <attributeLabel>Catalog Number</attributeLabel>
+          <attributeDefinition>An identifier (preferably unique) for the record within the data set or collection.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Catalog Number">http://rs.tdwg.org/dwc/terms/catalogNumber</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>organismID</attributeName>
+          <attributeLabel>Organism ID</attributeLabel>
+          <attributeDefinition>An identifier for the dwc:Organism instance (as opposed to a particular digital record of the dwc:Organism). May be a globally unique identifier or an identifier specific to the data set.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="hasCode">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasCode</propertyURI>
+            <valueURI label="Organism ID">http://rs.tdwg.org/dwc/terms/organismID</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>acceptedNameUsage</attributeName>
+          <attributeLabel>Accepted Name Usage</attributeLabel>
+          <attributeDefinition>The full name, with authorship and date information if known, of the currently valid (zoological) or accepted (botanical) dwc:Taxon.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Accepted Name Usage">http://rs.tdwg.org/dwc/terms/acceptedNameUsage</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>scientificNameAuthorship</attributeName>
+          <attributeLabel>Scientific Name Authorship</attributeLabel>
+          <attributeDefinition>The authorship information for the dwc:scientificName formatted according to the conventions of the applicable dwc:nomenclaturalCode.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Scientific Name Authorship">http://rs.tdwg.org/dwc/terms/scientificNameAuthorship</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>acceptedNameUsageID</attributeName>
+          <attributeLabel>Accepted Name Usage ID</attributeLabel>
+          <attributeDefinition>An identifier for the name usage (documented meaning of the name according to a source) of the currently valid (zoological) or accepted (botanical) taxon.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="hasCode">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasCode</propertyURI>
+            <valueURI label="Accepted Name Usage ID">http://rs.tdwg.org/dwc/terms/acceptedNameUsageID</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>taxonRank</attributeName>
+          <attributeLabel>Taxon Rank</attributeLabel>
+          <attributeDefinition>The taxonomic rank of the most specific name in the dwc:scientificName.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Taxon Rank">http://rs.tdwg.org/dwc/terms/taxonRank</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>locality</attributeName>
+          <attributeLabel>Locality</attributeLabel>
+          <attributeDefinition>The specific description of the place.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Locality">http://rs.tdwg.org/dwc/terms/locality</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>country</attributeName>
+          <attributeLabel>Country</attributeLabel>
+          <attributeDefinition>The name of the country or major administrative unit in which the dcterms:Location occurs.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Country">http://rs.tdwg.org/dwc/terms/country</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>sex</attributeName>
+          <attributeLabel>Sex</attributeLabel>
+          <attributeDefinition>The sex of the biological individual(s) represented in the dwc:Occurrence.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>A biological sex quality inhering in an individual or a population whose sex organs contain only male gametes</definition>
+                    <source>http://purl.obolibrary.org/obo/PATO_0000384</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>F</code>
+                    <definition>A biological sex quality inhering in an individual or a population that only produces gametes that can be fertilised by male gametes</definition>
+                    <source>http://purl.obolibrary.org/obo/PATO_0000383</source>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="of characteristic">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#ofCharacteristic</propertyURI>
+            <valueURI label="Sex">http://rs.tdwg.org/dwc/terms/sex</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>treatment</attributeName>
+          <attributeLabel>treatment</attributeLabel>
+          <attributeDefinition>A process in which the act is intended to modify or alter some other material entity.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>ONE</code>
+                    <definition>Group first treated at 28°C and then at 25°C</definition>
+                    <source>-</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TWO</code>
+                    <definition>Group first treated at 25°C and then at 28°C</definition>
+                    <source>-</source>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="treatment">http://vocabs.lter-europe.net/EnvThes/12</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>waterTemperature</attributeName>
+          <attributeLabel>water temperature</attributeLabel>
+          <attributeDefinition>Any measurable characteristic related to the temperature of water.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="water temperature">http://vocabs.lter-europe.net/EnvThes/22313</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>duration</attributeName>
+          <attributeLabel>duration</attributeLabel>
+          <attributeDefinition>Amount of time during which an event persists.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>minute</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="duration">http://vocabs.lter-europe.net/EnvThes/10381</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>eventDate</attributeName>
+          <attributeLabel>Event Date</attributeLabel>
+          <attributeDefinition>The date-time or interval during which a dwc:Event occurred. For occurrences, this is the date-time when the dwc:Event was recorded. Not suitable for a time in a geological context.</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Event Date">http://rs.tdwg.org/dwc/terms/eventDate</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>bodyLength</attributeName>
+          <attributeLabel>Body length</attributeLabel>
+          <attributeDefinition>The total distance from point to point along the longest axis of the body of an organism.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="Body length">https://kos.lifewatch.eu/thesauri/traits/c_d266fb02</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>standardMetabolicRate</attributeName>
+          <attributeLabel>metabolic rate</attributeLabel>
+          <attributeDefinition>A measure of the rate of metabolic activity in a living organism. Determined as oxygen consumption over a given period.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>Milligrams of oxygen per hour</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="metabolic rate">http://vocabs.lter-europe.net/EnvThes/msa0652</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>wetWeight</attributeName>
+          <attributeLabel>Wet weight</attributeLabel>
+          <attributeDefinition>The weight of a whole fresh organism.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gram</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="Wet weight">https://kos.lifewatch.eu/thesauri/traits/c_54f8447a</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>replicateIdentifier</attributeName>
+          <attributeLabel>replicate identifier</attributeLabel>
+          <attributeDefinition>An identifier of the experimental replicate used during the study.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>R1</code>
+                    <definition>Replicate 1</definition>
+                    <source>-</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R2</code>
+                    <definition>Replicate 2</definition>
+                    <source>-</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R3</code>
+                    <definition>Replicate 3</definition>
+                    <source>-</source>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="hasCode">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasCode</propertyURI>
+            <valueURI label="replicate identifier">http://purl.dataone.org/odo/ECSO_00002989</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>emptyPatchVisit</attributeName>
+          <attributeLabel>Empty Patch Visits</attributeLabel>
+          <attributeDefinition>Number of visits on the patch without resources (empty patch).</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>resourcePatchVisit</attributeName>
+          <attributeLabel>Resource Patch Visits</attributeLabel>
+          <attributeDefinition>Number of visits on the patch with resources (resource patch).</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>totVisit</attributeName>
+          <attributeLabel>Total Visits</attributeLabel>
+          <attributeDefinition>Number of total visits considering empty patch and resource patch visits.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>emptyPatchTimeSpent</attributeName>
+          <attributeLabel>Empty Patch Time Spent</attributeLabel>
+          <attributeDefinition>Total amount of time spent on the empty patch (patch without resources).</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>minute</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>resourcePatchTimeSpent</attributeName>
+          <attributeLabel>Resource Patch Time Spent</attributeLabel>
+          <attributeDefinition>Total amount of time spent on the patch with resources.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>minute</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>emptyPatchAvTimeSpent</attributeName>
+          <attributeLabel>Empty Patch Average Time Spent</attributeLabel>
+          <attributeDefinition>Average duration of visits on the patch without resources (empty patch).</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>minute</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>resourcePatchAvTimeSpent</attributeName>
+          <attributeLabel>Resource Patch Average Time Spent</attributeLabel>
+          <attributeDefinition>Average duration of visits on the patch with resources.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>minute</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Resid</attributeName>
+          <attributeLabel>Residual</attributeLabel>
+          <attributeDefinition>Residuals of oxygen consumption adjusted for the body mass (wet weight) of the organism and for the water temperature. It represents the difference between the organism's observed SMR and the predicted SMR for an organism of the same body mass based on the overall experimental population-level relationship.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>Milligrams of oxygen per hour</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>130</numberOfRecords>
+    </dataTable>
+  </dataset>
+</eml:eml>

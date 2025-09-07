@@ -1,0 +1,1895 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="b6c68dcc-6e24-4803-a7eb-eed2e73e06ea" system="https://data.lifewatchitaly.eu" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd" scope="system">
+  <dataset>
+    <alternateIdentifier>https://data.lifewatchitaly.eu/handle/123456789/208425</alternateIdentifier>
+    <alternateIdentifier>https://metadata.izrk.zrc-sazu.si/srv/eng/catalog.search#/metadata/89ce7bbf-cf1b-4fe8-9ef9-70c817bc3789</alternateIdentifier>
+    <title>Vegetation of Slovenia with relative cover abundance</title>
+    <creator>
+      <individualName>
+        <givenName>Urban</givenName>
+        <surName>Šilc</surName>
+      </individualName>
+      <organizationName>Institute of Biology</organizationName>
+      <positionName>Researcher</positionName>
+      <electronicMailAddress>urban.silc@zrc-sazu.si</electronicMailAddress>
+      <userId directory="https://orcid.org/">0000-0002-3052-699X</userId>
+    </creator>
+    <metadataProvider>
+      <individualName>
+        <givenName>Urban</givenName>
+        <surName>Šilc</surName>
+      </individualName>
+      <organizationName>Institute of Biology</organizationName>
+      <positionName>Researcher</positionName>
+      <electronicMailAddress>urban.silc@zrc-sazu.si</electronicMailAddress>
+      <userId directory="https://orcid.org/">0000-0002-3052-699X</userId>
+    </metadataProvider>
+    <associatedParty>
+      <individualName>
+        <givenName>Martina</givenName>
+        <surName>Pulieri</surName>
+      </individualName>
+      <organizationName>University of Salento</organizationName>
+      <positionName>Research assistant</positionName>
+      <electronicMailAddress>martina.pulieri@unisalento.it</electronicMailAddress>
+      <userId directory="https://orcid.org/">0009-0001-9691-1989</userId>
+      <role>Information Manager</role>
+    </associatedParty>
+    <pubDate>2025-07-18</pubDate>
+    <language>English</language>
+    <abstract>Vegetation of Slovenia – a dataset of vegetation inventories in the Turboveg programme – has been created since 2003. It contains all vegetation inventories of the Slovenian territory since 1932, most of which were compiled according to the standard Central European method (Braun-Blanquet), and covers all vegetation types from macrophytic aquatic communities to forests. The  relevés originate from published literature, grey literature (such as dissertations, studies, reports) and partly also from unpublished inventory material. The database is used for the storage of vegetation relevés, classification of vegetation and other analyses of vegetation in Slovenia and neighbouring countries. The inventory material has been geocoded. The database is actively linked to databases in the Balkan countries (Zagreb, Belgrade, Podgorica). The collection is part of the European Vegetation Archive (EVA) and S-Plot.</abstract>
+    <keywordSet>
+      <keyword>Braun-Blanquet cover abundance scale</keyword>
+      <keywordThesaurus>The Ecosystem Ontology</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>biodiversity</keyword>
+      <keyword>vegetation</keyword>
+      <keywordThesaurus>Environmental Thesaurus</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>Free for use, including sharing and adaptation, by all individuals provided that the owners are acknowledged in any use or publication.</intellectualRights>
+    <licensed>
+      <licenseName>cc-by</licenseName>
+      <url>https://creativecommons.org/licenses/by/4.0/</url>
+    </licensed>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Slovenia</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>13.3041</westBoundingCoordinate>
+          <eastBoundingCoordinate>16.5472</eastBoundingCoordinate>
+          <northBoundingCoordinate>46.9148</northBoundingCoordinate>
+          <southBoundingCoordinate>45.4052</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1933-05-30</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2024-07-25</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Abies alba</taxonRankValue>
+          <taxonId provider="Catalogue of Life">8K9Y</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Acer campestre</taxonRankValue>
+          <taxonId provider="Catalogue of Life">946Z</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Acer pseudoplatanus</taxonRankValue>
+          <taxonId provider="Catalogue of Life">94HF</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Achillea millefolium</taxonRankValue>
+          <taxonId provider="Catalogue of Life">97H4</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Actaea spicata</taxonRankValue>
+          <taxonId provider="Catalogue of Life">9S5G</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Aegopodium podagraria</taxonRankValue>
+          <taxonId provider="Catalogue of Life">6594Z</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Agrostis canina</taxonRankValue>
+          <taxonId provider="Catalogue of Life">B9FZ</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Agrostis stolonifera</taxonRankValue>
+          <taxonId provider="Catalogue of Life">665HP</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ajuga reptans</taxonRankValue>
+          <taxonId provider="Catalogue of Life">65V5Y</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Alnus alnobetula</taxonRankValue>
+          <taxonId provider="Catalogue of Life">C2NF</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Alnus glutinosa</taxonRankValue>
+          <taxonId provider="Catalogue of Life">C2Q2</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Alnus incana</taxonRankValue>
+          <taxonId provider="Catalogue of Life">5TWTV</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Amelanchier ovalis</taxonRankValue>
+          <taxonId provider="Catalogue of Life">66C2F</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Anemone nemorosa</taxonRankValue>
+          <taxonId provider="Catalogue of Life">67343</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Anemone ranunculoides</taxonRankValue>
+          <taxonId provider="Catalogue of Life">DXGQ</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Anemone trifolia</taxonRankValue>
+          <taxonId provider="Catalogue of Life">5V346</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Anomodon attenuatus</taxonRankValue>
+          <taxonId provider="Catalogue of Life">9M8ZX</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Anthoxanthum odoratum</taxonRankValue>
+          <taxonId provider="Catalogue of Life">67GRD</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Aposeris foetida</taxonRankValue>
+          <taxonId provider="Catalogue of Life">FV8X</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Arabis alpina</taxonRankValue>
+          <taxonId provider="Catalogue of Life">G27R</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Aremonia agrimonoides</taxonRankValue>
+          <taxonId provider="Catalogue of Life">67RGV</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Arnica montana</taxonRankValue>
+          <taxonId provider="Catalogue of Life">GT52</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Arum maculatum</taxonRankValue>
+          <taxonId provider="Catalogue of Life">H2QC</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Aruncus dioicus</taxonRankValue>
+          <taxonId provider="Catalogue of Life">683V9</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Asarum europaeum</taxonRankValue>
+          <taxonId provider="Catalogue of Life">H4QT</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Asarum europaeum subsp. caucasicum</taxonRankValue>
+          <taxonId provider="Catalogue of Life">5FSWW</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Asplenium ruta-muraria</taxonRankValue>
+          <taxonId provider="Catalogue of Life">B96G2</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Asplenium scolopendrium</taxonRankValue>
+          <taxonId provider="Catalogue of Life">B8V9N</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Asplenium trichomanes</taxonRankValue>
+          <taxonId provider="Catalogue of Life">B8WL6</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Athyrium filix-femina</taxonRankValue>
+          <taxonId provider="Catalogue of Life">B96Y3</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Avenella flexuosa</taxonRankValue>
+          <taxonId provider="Catalogue of Life">K2W4</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Bazzania trilobata</taxonRankValue>
+          <taxonId provider="Catalogue of Life">L4Z9</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Betonica officinalis</taxonRankValue>
+          <taxonId provider="Catalogue of Life">LNW6</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Betula pendula</taxonRankValue>
+          <taxonId provider="Catalogue of Life">LPCQ</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Bidens tripartitus</taxonRankValue>
+          <taxonId provider="Catalogue of Life">LSLN</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Blechnum spicant</taxonRankValue>
+          <taxonId provider="Catalogue of Life">BBDM4</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Brachypodium sylvaticum</taxonRankValue>
+          <taxonId provider="Catalogue of Life">MYNK</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Brassica napus</taxonRankValue>
+          <taxonId provider="Catalogue of Life">N82B</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Briza media</taxonRankValue>
+          <taxonId provider="Catalogue of Life">NBY8</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Buphthalmum salicifolium</taxonRankValue>
+          <taxonId provider="Catalogue of Life">NVJP</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Calamagrostis epigejos</taxonRankValue>
+          <taxonId provider="Catalogue of Life">PCG7</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Calamagrostis varia</taxonRankValue>
+          <taxonId provider="Catalogue of Life">PCYD</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Calluna vulgaris</taxonRankValue>
+          <taxonId provider="Catalogue of Life">PWBL</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Campanula scheuchzeri</taxonRankValue>
+          <taxonId provider="Catalogue of Life">QBWV</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Campanula trachelium</taxonRankValue>
+          <taxonId provider="Catalogue of Life">QC4G</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Campylopus flexuosus</taxonRankValue>
+          <taxonId provider="Catalogue of Life">QHMC</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Cantharellus cibarius</taxonRankValue>
+          <taxonId provider="Catalogue of Life">QMKY</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Capsella bursa-pastoris</taxonRankValue>
+          <taxonId provider="Catalogue of Life">QT37</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Cardamine impatiens</taxonRankValue>
+          <taxonId provider="Catalogue of Life">R4FJ</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Cardamine trifolia</taxonRankValue>
+          <taxonId provider="Catalogue of Life">R4P7</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Cardaminopsis arenosa</taxonRankValue>
+          <taxonId provider="Catalogue of Life">5FQMW</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Carex acutiformis</taxonRankValue>
+          <taxonId provider="Catalogue of Life">R7WM</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Carex alba</taxonRankValue>
+          <taxonId provider="Catalogue of Life">R7XY</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Carex brizoides</taxonRankValue>
+          <taxonId provider="Catalogue of Life">R8F8</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Carex digitata</taxonRankValue>
+          <taxonId provider="Catalogue of Life">R8XV</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Carex leporina</taxonRankValue>
+          <taxonId provider="Catalogue of Life">69BGF</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Carex pallescens</taxonRankValue>
+          <taxonId provider="Catalogue of Life">69CP6</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Carex panicea</taxonRankValue>
+          <taxonId provider="Catalogue of Life">5XCQB</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Carex pilulifera</taxonRankValue>
+          <taxonId provider="Catalogue of Life">RB6D</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Carex sylvatica</taxonRankValue>
+          <taxonId provider="Catalogue of Life">RC62</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Carex tomentosa</taxonRankValue>
+          <taxonId provider="Catalogue of Life">5XCDQ</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Carpinus betulus</taxonRankValue>
+          <taxonId provider="Catalogue of Life">RG23</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Castanea sativa</taxonRankValue>
+          <taxonId provider="Catalogue of Life">5XCVW</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Centaurea nigrescens ssp. vochinensis</taxonRankValue>
+          <taxonId provider="Catalogue of Life">69GP8</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Cerastium sylvaticum</taxonRankValue>
+          <taxonId provider="Catalogue of Life">SKKQ</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Chrysosplenium alternifolium</taxonRankValue>
+          <taxonId provider="Catalogue of Life">5Z5N5</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Cirsium arvense</taxonRankValue>
+          <taxonId provider="Catalogue of Life">VHPB</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Cirsium erisithales</taxonRankValue>
+          <taxonId provider="Catalogue of Life">VHW2</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Cirsium oleraceum</taxonRankValue>
+          <taxonId provider="Catalogue of Life">VJ8V</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Cladonia pyxidata</taxonRankValue>
+          <taxonId provider="Catalogue of Life">VPKV</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Cladonia rangiferina</taxonRankValue>
+          <taxonId provider="Catalogue of Life">9XK8W</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Clematis alpina</taxonRankValue>
+          <taxonId provider="Catalogue of Life">VXSH</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Colchicum autumnale</taxonRankValue>
+          <taxonId provider="Catalogue of Life">WX9R</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Cornus sanguinea</taxonRankValue>
+          <taxonId provider="Catalogue of Life">YGMF</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Corylus avellana</taxonRankValue>
+          <taxonId provider="Catalogue of Life">YQ55</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Cruciata glabra</taxonRankValue>
+          <taxonId provider="Catalogue of Life">ZRR8</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ctenidium molluscum</taxonRankValue>
+          <taxonId provider="Catalogue of Life">324G4</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Cyclamen purpurascens</taxonRankValue>
+          <taxonId provider="Catalogue of Life">32SMF</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Cynosurus cristatus</taxonRankValue>
+          <taxonId provider="Catalogue of Life">33B23</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Dactylis glomerata</taxonRankValue>
+          <taxonId provider="Catalogue of Life">6BYZW</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Dactylis polygama</taxonRankValue>
+          <taxonId provider="Catalogue of Life">5GSV7</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Danthonia decumbens</taxonRankValue>
+          <taxonId provider="Catalogue of Life">3449T</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Daphne laureola</taxonRankValue>
+          <taxonId provider="Catalogue of Life">344V2</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Daphne mezereum</taxonRankValue>
+          <taxonId provider="Catalogue of Life">344W3</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Daucus carota</taxonRankValue>
+          <taxonId provider="Catalogue of Life">6CFRZ</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Dentaria enneaphyllos</taxonRankValue>
+          <taxonId provider="Catalogue of Life">R4D9</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Dentaria pentaphyllos</taxonRankValue>
+          <taxonId provider="Catalogue of Life">R4KY</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Deschampsia cespitosa</taxonRankValue>
+          <taxonId provider="Catalogue of Life">34Z5J</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Dicranum polysetum</taxonRankValue>
+          <taxonId provider="Catalogue of Life">35TNB</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Dicranum scoparium</taxonRankValue>
+          <taxonId provider="Catalogue of Life">35TNR</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Genus</taxonRankName>
+          <taxonRankValue>Dicranum</taxonRankValue>
+          <taxonId provider="Catalogue of Life">9JJRK</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Dicranum spurium</taxonRankValue>
+          <taxonId provider="Catalogue of Life">35TP2</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Digitalis grandiflora</taxonRankValue>
+          <taxonId provider="Catalogue of Life">3638J</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Dryopteris affinis</taxonRankValue>
+          <taxonId provider="Catalogue of Life">B9JVC</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Dryopteris filix-mas</taxonRankValue>
+          <taxonId provider="Catalogue of Life">B9JYZ</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Echinochloa crus-galli</taxonRankValue>
+          <taxonId provider="Catalogue of Life">38GZJ</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Equisetum arvense</taxonRankValue>
+          <taxonId provider="Catalogue of Life">B9LTL</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Erica carnea</taxonRankValue>
+          <taxonId provider="Catalogue of Life">6GKM2</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Erythronium dens-canis</taxonRankValue>
+          <taxonId provider="Catalogue of Life">3BFFB</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Euonymus europaeus</taxonRankValue>
+          <taxonId provider="Catalogue of Life">3CGVN</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Euonymus latifolius</taxonRankValue>
+          <taxonId provider="Catalogue of Life">3CGYG</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Euphorbia amygdaloides</taxonRankValue>
+          <taxonId provider="Catalogue of Life">6GZBZ</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Euphorbia verrucosa</taxonRankValue>
+          <taxonId provider="Catalogue of Life">6HB4M</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Eurhynchium striatum ssp. zetterstedtii</taxonRankValue>
+          <taxonId provider="Catalogue of Life">3CZRJ</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Fagus sylvatica</taxonRankValue>
+          <taxonId provider="Catalogue of Life">3DSK5</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Festuca pratensis</taxonRankValue>
+          <taxonId provider="Catalogue of Life">6HST6</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Filipendula ulmaria</taxonRankValue>
+          <taxonId provider="Catalogue of Life">6J2MQ</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Fissidens dubius</taxonRankValue>
+          <taxonId provider="Catalogue of Life">6J4J2</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Fissidens taxifolius</taxonRankValue>
+          <taxonId provider="Catalogue of Life">6J4H7</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Fragaria vesca</taxonRankValue>
+          <taxonId provider="Catalogue of Life">6JK5R</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Frangula alnus</taxonRankValue>
+          <taxonId provider="Catalogue of Life">6JLFV</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Fraxinus excelsior</taxonRankValue>
+          <taxonId provider="Catalogue of Life">6JMBM</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Galanthus nivalis</taxonRankValue>
+          <taxonId provider="Catalogue of Life">6JVSD</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Galeobdolon flavidum</taxonRankValue>
+          <taxonId provider="Catalogue of Life">5J8VL</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Subspecies</taxonRankName>
+          <taxonRankValue>Galeobdolon luteum</taxonRankValue>
+          <taxonId provider="Catalogue of Life">5J8VM</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Galeopsis tetrahit</taxonRankValue>
+          <taxonId provider="Catalogue of Life">3F425</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Galium aparine</taxonRankValue>
+          <taxonId provider="Catalogue of Life">3F5B8</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Galium laevigatum</taxonRankValue>
+          <taxonId provider="Catalogue of Life">3F5XW</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Galium mollugo</taxonRankValue>
+          <taxonId provider="Catalogue of Life">3F644</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Galium odoratum</taxonRankValue>
+          <taxonId provider="Catalogue of Life">3F66X</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Galium palustre</taxonRankValue>
+          <taxonId provider="Catalogue of Life">3F682</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Galium verum</taxonRankValue>
+          <taxonId provider="Catalogue of Life">3F6PX</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Genista pilosa</taxonRankValue>
+          <taxonId provider="Catalogue of Life">3FLBZ</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Genista tinctoria</taxonRankValue>
+          <taxonId provider="Catalogue of Life">3FLDY</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Gentiana asclepiadea</taxonRankValue>
+          <taxonId provider="Catalogue of Life">3FLSD</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Geranium nodosum</taxonRankValue>
+          <taxonId provider="Catalogue of Life">6KDGZ</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Geranium phaeum</taxonRankValue>
+          <taxonId provider="Catalogue of Life">6KDLT</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Geranium robertianum</taxonRankValue>
+          <taxonId provider="Catalogue of Life">3FV57</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Geum urbanum</taxonRankValue>
+          <taxonId provider="Catalogue of Life">6KFWB</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Goodyera repens</taxonRankValue>
+          <taxonId provider="Catalogue of Life">3H2JG</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Grimmia pulvinata</taxonRankValue>
+          <taxonId provider="Catalogue of Life">6L52J</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Gymnocarpium dryopteris</taxonRankValue>
+          <taxonId provider="Catalogue of Life">B9MDK</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Gymnocarpium robertianum</taxonRankValue>
+          <taxonId provider="Catalogue of Life">B9NTZ</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Hacquetia epipactis</taxonRankValue>
+          <taxonId provider="Catalogue of Life">6XJ3L</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Hedera helix</taxonRankValue>
+          <taxonId provider="Catalogue of Life">6LH6Y</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Helleborus niger</taxonRankValue>
+          <taxonId provider="Catalogue of Life">6LNKM</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Subpecies</taxonRankName>
+          <taxonRankValue>Helleborus niger subsp. niger</taxonRankValue>
+          <taxonId provider="Catalogue of Life">5HMYH</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Helleborus odorus</taxonRankValue>
+          <taxonId provider="Catalogue of Life">6LNKG</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Hepatica nobilis</taxonRankValue>
+          <taxonId provider="Catalogue of Life">6LPZR</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Heracleum sphondylium</taxonRankValue>
+          <taxonId provider="Catalogue of Life">3KXGQ</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Hieracium murorum</taxonRankValue>
+          <taxonId provider="Catalogue of Life">3LR8R</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Holcus lanatus</taxonRankValue>
+          <taxonId provider="Catalogue of Life">3M7ZD</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Homogyne sylvestris</taxonRankValue>
+          <taxonId provider="Catalogue of Life">3MGCH</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Humulus lupulus</taxonRankValue>
+          <taxonId provider="Catalogue of Life">6MFNY</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Hylocomium splendens</taxonRankValue>
+          <taxonId provider="Catalogue of Life">3NFZD</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Hypericum hirsutum</taxonRankValue>
+          <taxonId provider="Catalogue of Life">6MQFG</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Hypnum cupressiforme</taxonRankValue>
+          <taxonId provider="Catalogue of Life">3NSYR</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Hypogymnia physodes</taxonRankValue>
+          <taxonId provider="Catalogue of Life">6MR42</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Isothecium alopecuroides</taxonRankValue>
+          <taxonId provider="Catalogue of Life">3QC8Y</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Juncus conglomeratus</taxonRankValue>
+          <taxonId provider="Catalogue of Life">3QTLR</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Juncus effusus</taxonRankValue>
+          <taxonId provider="Catalogue of Life">3QTNS</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Subpecies</taxonRankName>
+          <taxonRankValue>Knautia drymeia subsp. drymeia</taxonRankValue>
+          <taxonId provider="Catalogue of Life">7JX4T</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Larix decidua</taxonRankValue>
+          <taxonId provider="Catalogue of Life">6NYWF</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Lathyrus pratensis</taxonRankValue>
+          <taxonId provider="Catalogue of Life">3SKZJ</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Lathyrus vernus</taxonRankValue>
+          <taxonId provider="Catalogue of Life">3SL3K</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Leontodon autumnalis</taxonRankValue>
+          <taxonId provider="Catalogue of Life">5L48W</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Subpecies</taxonRankName>
+          <taxonRankValue>Leontodon hispidus subsp. hispidus</taxonRankValue>
+          <taxonId provider="Catalogue of Life">7JWP5</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Leucanthemum ircutianum</taxonRankValue>
+          <taxonId provider="Catalogue of Life">6Q3VM</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Leucanthemum vulgare</taxonRankValue>
+          <taxonId provider="Catalogue of Life">723WW</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Leucobryum glaucum</taxonRankValue>
+          <taxonId provider="Catalogue of Life">725JG</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ligustrum vulgare</taxonRankValue>
+          <taxonId provider="Catalogue of Life">6PYTF</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Listera ovata</taxonRankValue>
+          <taxonId provider="Catalogue of Life">CDR5G</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Lonicera nigra</taxonRankValue>
+          <taxonId provider="Catalogue of Life">3VZCV</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Lotus corniculatus</taxonRankValue>
+          <taxonId provider="Catalogue of Life">3W7ZK</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Luzula campestris</taxonRankValue>
+          <taxonId provider="Catalogue of Life">3WHDQ</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Luzula luzulina</taxonRankValue>
+          <taxonId provider="Catalogue of Life">BT4BK</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Luzula luzuloides</taxonRankValue>
+          <taxonId provider="Catalogue of Life">3WHGX</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Luzula pilosa</taxonRankValue>
+          <taxonId provider="Catalogue of Life">3WHJG</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Genus</taxonRankName>
+          <taxonRankValue>Luzula</taxonRankValue>
+          <taxonId provider="Catalogue of Life">5HGS</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Lycopodium complanatum</taxonRankValue>
+          <taxonId provider="Catalogue of Life">BCX8X</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Lycopodium tristachyum</taxonRankValue>
+          <taxonId provider="Catalogue of Life">B9DRJ</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Lysimachia nummularia</taxonRankValue>
+          <taxonId provider="Catalogue of Life">73338</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Lythrum salicaria</taxonRankValue>
+          <taxonId provider="Catalogue of Life">3WVHJ</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Maianthemum bifolium</taxonRankValue>
+          <taxonId provider="Catalogue of Life">72TBG</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Melampyrum pratense</taxonRankValue>
+          <taxonId provider="Catalogue of Life">3Z5D4</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Melampyrum sylvaticum</taxonRankValue>
+          <taxonId provider="Catalogue of Life">3Z5DR</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Melica nutans</taxonRankValue>
+          <taxonId provider="Catalogue of Life">72Z3M</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Melica uniflora</taxonRankValue>
+          <taxonId provider="Catalogue of Life">6QYT4</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Mercurialis perennis</taxonRankValue>
+          <taxonId provider="Catalogue of Life">3ZTK4</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Metzgeria furcata</taxonRankValue>
+          <taxonId provider="Catalogue of Life">42KDX</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Mnium species</taxonRankValue>
+          <taxonId provider="Catalogue of Life">9JLDD</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Mnium thomsonii</taxonRankValue>
+          <taxonId provider="Catalogue of Life">43SSB</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Moehringia muscosa</taxonRankValue>
+          <taxonId provider="Catalogue of Life">73MXF</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Molinia arundinacea</taxonRankValue>
+          <taxonId provider="Catalogue of Life">43VQR</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Moneses uniflora</taxonRankValue>
+          <taxonId provider="Catalogue of Life">443GM</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Monotropa hypopitys</taxonRankValue>
+          <taxonId provider="Catalogue of Life">3NXVS</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Mycelis muralis</taxonRankValue>
+          <taxonId provider="Catalogue of Life">44SKH</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Myosotis arvensis</taxonRankValue>
+          <taxonId provider="Catalogue of Life">455T6</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Nardus stricta</taxonRankValue>
+          <taxonId provider="Catalogue of Life">45PLC</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Neckera crispa</taxonRankValue>
+          <taxonId provider="Catalogue of Life">9LDY8</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Omphalodes verna</taxonRankValue>
+          <taxonId provider="Catalogue of Life">74KWQ</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Orthilia secunda</taxonRankValue>
+          <taxonId provider="Catalogue of Life">6T9CN</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Oxalis acetosella</taxonRankValue>
+          <taxonId provider="Catalogue of Life">6TFBM</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Paris quadrifolia</taxonRankValue>
+          <taxonId provider="Catalogue of Life">4DMQM</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Peltigera leucophlebia</taxonRankValue>
+          <taxonId provider="Catalogue of Life">76F7W</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Persicaria dubia</taxonRankValue>
+          <taxonId provider="Catalogue of Life">6V5FD</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Persicaria hydropiper</taxonRankValue>
+          <taxonId provider="Catalogue of Life">4F9T2</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Persicaria lapathifolia</taxonRankValue>
+          <taxonId provider="Catalogue of Life">4F9TP</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Persicaria maculosa</taxonRankValue>
+          <taxonId provider="Catalogue of Life">775F6</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Petasites albus</taxonRankValue>
+          <taxonId provider="Catalogue of Life">4FCYP</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Phegopteris connectilis</taxonRankValue>
+          <taxonId provider="Catalogue of Life">B9MFB</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Genus</taxonRankName>
+          <taxonRankValue>Phyteuma</taxonRankValue>
+          <taxonId provider="Catalogue of Life">8W2F5</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Picea abies</taxonRankValue>
+          <taxonId provider="Catalogue of Life">4HPZF</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Pinus sylvestris</taxonRankValue>
+          <taxonId provider="Catalogue of Life">4J2J5</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Plagiochila asplenioides</taxonRankValue>
+          <taxonId provider="Catalogue of Life">6VN25</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Plagiomnium undulatum</taxonRankValue>
+          <taxonId provider="Catalogue of Life">6VN39</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Plantago lanceolata</taxonRankValue>
+          <taxonId provider="Catalogue of Life">4JLMM</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Pleurozium schreberi</taxonRankValue>
+          <taxonId provider="Catalogue of Life">6VRJ5</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Poa pratensis</taxonRankValue>
+          <taxonId provider="Catalogue of Life">4KMJZ</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Poa trivialis</taxonRankValue>
+          <taxonId provider="Catalogue of Life">4KMZW</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Polygala chamaebuxus</taxonRankValue>
+          <taxonId provider="Catalogue of Life">4L8LK</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Polygonatum verticillatum</taxonRankValue>
+          <taxonId provider="Catalogue of Life">4L8W5</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Polygonum aviculare</taxonRankValue>
+          <taxonId provider="Catalogue of Life">4L94H</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Polypodium interjectum</taxonRankValue>
+          <taxonId provider="Catalogue of Life">BB5HG</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Polypodium vulgare</taxonRankValue>
+          <taxonId provider="Catalogue of Life">B8W3N</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Polystichum aculeatum</taxonRankValue>
+          <taxonId provider="Catalogue of Life">BB5JG</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Polystichum setiferum</taxonRankValue>
+          <taxonId provider="Catalogue of Life">BB5QH</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Polytrichum formosum</taxonRankValue>
+          <taxonId provider="Catalogue of Life">9M83S</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Polytrichum piliferum</taxonRankValue>
+          <taxonId provider="Catalogue of Life">4LPRD</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Potentilla erecta</taxonRankValue>
+          <taxonId provider="Catalogue of Life">6VVPW</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Potentilla reptans</taxonRankValue>
+          <taxonId provider="Catalogue of Life">4M5X2</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Prenanthes purpurea</taxonRankValue>
+          <taxonId provider="Catalogue of Life">77WVM</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Prunella vulgaris</taxonRankValue>
+          <taxonId provider="Catalogue of Life">4N8DF</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Prunus padus</taxonRankValue>
+          <taxonId provider="Catalogue of Life">4N93X</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Pteridium aquilinum</taxonRankValue>
+          <taxonId provider="Catalogue of Life">B8VH5</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Pulmonaria officinalis</taxonRankValue>
+          <taxonId provider="Catalogue of Life">4QGQF</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Quercus petraea</taxonRankValue>
+          <taxonId provider="Catalogue of Life">4R5SK</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ranunculus acris</taxonRankValue>
+          <taxonId provider="Catalogue of Life">4RFJN</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ranunculus platanifolius</taxonRankValue>
+          <taxonId provider="Catalogue of Life">4RHDL</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ranunculus repens</taxonRankValue>
+          <taxonId provider="Catalogue of Life">4RHKY</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Rhytidiadelphus triquetrus</taxonRankValue>
+          <taxonId provider="Catalogue of Life">9LM7J</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Robinia pseudoacacia</taxonRankValue>
+          <taxonId provider="Catalogue of Life">4T7YV</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Rubus caesius</taxonRankValue>
+          <taxonId provider="Catalogue of Life">4TJNN</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Rubus fruticosus</taxonRankValue>
+          <taxonId provider="Catalogue of Life">4TJSS</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Rubus idaeus</taxonRankValue>
+          <taxonId provider="Catalogue of Life">4TKGB</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Rubus saxatilis</taxonRankValue>
+          <taxonId provider="Catalogue of Life">4TLLM</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Rudbeckia laciniata</taxonRankValue>
+          <taxonId provider="Catalogue of Life">799R2</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Rumex acetosa</taxonRankValue>
+          <taxonId provider="Catalogue of Life">4TPGJ</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Rumex conglomeratus</taxonRankValue>
+          <taxonId provider="Catalogue of Life">799DT</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Rumex crispus</taxonRankValue>
+          <taxonId provider="Catalogue of Life">4TPLP</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ruscus hypoglossum</taxonRankValue>
+          <taxonId provider="Catalogue of Life">4TR9Y</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Salvia glutinosa</taxonRankValue>
+          <taxonId provider="Catalogue of Life">6XGY5</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Sambucus nigra</taxonRankValue>
+          <taxonId provider="Catalogue of Life">79HX3</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Saxifraga cuneifolia</taxonRankValue>
+          <taxonId provider="Catalogue of Life">6Y32W</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Scilla bifolia</taxonRankValue>
+          <taxonId provider="Catalogue of Life">4VJCF</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Scleropodium purum</taxonRankValue>
+          <taxonId provider="Catalogue of Life">6WGMR</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Senecio ovatus</taxonRankValue>
+          <taxonId provider="Catalogue of Life">6YH6C</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Solanum nigrum</taxonRankValue>
+          <taxonId provider="Catalogue of Life">4Y3H2</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Solidago virgaurea</taxonRankValue>
+          <taxonId provider="Catalogue of Life">4Y7L3</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Sorbus aria</taxonRankValue>
+          <taxonId provider="Catalogue of Life">5VR7S</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Sorbus aucuparia</taxonRankValue>
+          <taxonId provider="Catalogue of Life">4YB93</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Subspecies</taxonRankName>
+          <taxonRankValue>Sorbus aucuparia subsp. aucuparia</taxonRankValue>
+          <taxonId provider="Catalogue of Life">5L87T</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Stellaria media</taxonRankValue>
+          <taxonId provider="Catalogue of Life">4ZRH7</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Succisa pratensis</taxonRankValue>
+          <taxonId provider="Catalogue of Life">7B3N5</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Succisella inflexa</taxonRankValue>
+          <taxonId provider="Catalogue of Life">7B425</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Symphytum officinale</taxonRankValue>
+          <taxonId provider="Catalogue of Life">53QG6</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Symphytum tuberosum</taxonRankValue>
+          <taxonId provider="Catalogue of Life">53QGV</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Thalictrum flavum</taxonRankValue>
+          <taxonId provider="Catalogue of Life">7BTKQ</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Thamnobryum alopecurum</taxonRankValue>
+          <taxonId provider="Catalogue of Life">5638V</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Thuidium tamariscinum</taxonRankValue>
+          <taxonId provider="Catalogue of Life">56NSN</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Tilia cordata</taxonRankValue>
+          <taxonId provider="Catalogue of Life">56WPP</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Tortella tortuosa</taxonRankValue>
+          <taxonId provider="Catalogue of Life">57GZ4</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Trifolium patens</taxonRankValue>
+          <taxonId provider="Catalogue of Life">58Q2P</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Trifolium pratense</taxonRankValue>
+          <taxonId provider="Catalogue of Life">58Q42</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ulmus glabra</taxonRankValue>
+          <taxonId provider="Catalogue of Life">7DFJZ</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ulmus laevis</taxonRankValue>
+          <taxonId provider="Catalogue of Life">7DFN8</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Vaccinium myrtillus</taxonRankValue>
+          <taxonId provider="Catalogue of Life">7F76T</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Vaccinium vitis-idaea</taxonRankValue>
+          <taxonId provider="Catalogue of Life">7F8TT</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Valeriana officinalis</taxonRankValue>
+          <taxonId provider="Catalogue of Life">7FCMV</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Valeriana tripteris</taxonRankValue>
+          <taxonId provider="Catalogue of Life">7FBXM</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Verbascum alpinum</taxonRankValue>
+          <taxonId provider="Catalogue of Life">7FPBL</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Veronica chamaedrys</taxonRankValue>
+          <taxonId provider="Catalogue of Life">5B6L3</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Veronica serpyllifolia</taxonRankValue>
+          <taxonId provider="Catalogue of Life">5B7CQ</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Veronica urticifolia</taxonRankValue>
+          <taxonId provider="Catalogue of Life">5B7H6</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Viburnum opulus</taxonRankValue>
+          <taxonId provider="Catalogue of Life">5BCCB</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Vicia cracca</taxonRankValue>
+          <taxonId provider="Catalogue of Life">5BCMF</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Vinca minor</taxonRankValue>
+          <taxonId provider="Catalogue of Life">5BFGJ</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Viola arvensis</taxonRankValue>
+          <taxonId provider="Catalogue of Life">5BGDQ</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Viola hirta</taxonRankValue>
+          <taxonId provider="Catalogue of Life">5BGV7</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Viola reichenbachiana</taxonRankValue>
+          <taxonId provider="Catalogue of Life">5BHG3</taxonId>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+    </coverage>
+    <annotation>
+      <propertyURI label="keyword">http://www.w3.org/ns/dcat#keyword</propertyURI>
+      <valueURI label="biodiversity">http://vocabs.lter-europe.net/EnvThes/21673</valueURI>
+    </annotation>
+    <annotation>
+      <propertyURI label="keyword">http://www.w3.org/ns/dcat#keyword</propertyURI>
+      <valueURI label="vegetation">http://vocabs.lter-europe.net/EnvThes/20535</valueURI>
+    </annotation>
+    <annotation>
+      <propertyURI label="keyword">http://www.w3.org/ns/dcat#keyword</propertyURI>
+      <valueURI label="Braun-Blanquet cover abundance scale">http://purl.dataone.org/odo/ECSO_00002379</valueURI>
+    </annotation>
+    <contact>
+      <individualName>
+        <givenName>Tanja</givenName>
+        <surName>Pipan</surName>
+      </individualName>
+      <organizationName>ZRC SAZU</organizationName>
+      <positionName>Research Associate</positionName>
+      <electronicMailAddress>tanja.pipan@zrc-sazu.si</electronicMailAddress>
+      <userId directory="https://orcid.org/">0000-0001-9786-3870</userId>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>Vegetation was sampled according to Braun-Blanquet approach (some of relevés were made according to Piskernik methodology).</description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>Biodiversity: patterns, processes, predictions and conservation</title>
+      <personnel>
+        <individualName>
+          <givenName>Urban</givenName>
+          <surName>Šilc</surName>
+        </individualName>
+        <organizationName>Institute of Biology</organizationName>
+        <positionName>Researcher</positionName>
+        <electronicMailAddress>urban.silc@zrc-sazu.si</electronicMailAddress>
+        <userId directory="https://orcid.org/">0000-0002-3052-699X</userId>
+        <role>Point Of Contact</role>
+      </personnel>
+    </project>
+    <dataTable>
+      <entityName>TurboVeg_AbundanceCover_Slovenia.csv</entityName>
+      <physical>
+        <objectName>TurboVeg_AbundanceCover_Slovenia.csv</objectName>
+        <size unit="byte">109807</size>
+        <authentication>MD5:7042bfb5cd56b548b3fe76c1dc09f9d2</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>catalogNumber</attributeName>
+          <attributeLabel>Catalog Number</attributeLabel>
+          <attributeDefinition>An identifier (preferably unique) for the record within the data set or collection.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Catalog Number">http://rs.tdwg.org/dwc/terms/catalogNumber</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>eventID</attributeName>
+          <attributeLabel>Event ID</attributeLabel>
+          <attributeDefinition>An identifier for the set of information associated with a dwc:Event (something that occurs at a place and time). May be a global unique identifier or an identifier specific to the data set.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="hasCode">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasCode</propertyURI>
+            <valueURI label="Event ID">http://rs.tdwg.org/dwc/terms/eventID</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>eventDate</attributeName>
+          <attributeLabel>Event Date</attributeLabel>
+          <attributeDefinition>The date-time or interval during which a dwc:Event occurred. For occurrences, this is the date-time when the dwc:Event was recorded. Not suitable for a time in a geological context.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Event Date">http://rs.tdwg.org/dwc/terms/eventDate</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>decimalLatitude</attributeName>
+          <attributeLabel>Decimal Latitude</attributeLabel>
+          <attributeDefinition>The geographic latitude (in decimal degrees, using the spatial reference system given in dwc:geodeticDatum) of the geographic center of a dcterms:Location. Positive values are north of the Equator, negative values are south of it. Legal values lie between -90 and 90, inclusive.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Decimal Latitude">http://rs.tdwg.org/dwc/terms/decimalLatitude</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>decimalLongitude</attributeName>
+          <attributeLabel>Decimal Longitude</attributeLabel>
+          <attributeDefinition>The geographic longitude (in decimal degrees, using the spatial reference system given in dwc:geodeticDatum) of the geographic center of a dcterms:Location. Positive values are east of the Greenwich Meridian, negative values are west of it. Legal values lie between -180 and 180, inclusive.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Decimal Longitude">http://rs.tdwg.org/dwc/terms/decimalLongitude</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>locationRemarks</attributeName>
+          <attributeLabel>Location Remarks</attributeLabel>
+          <attributeDefinition>Comments or notes about the dcterms:Location.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Location Remarks">http://rs.tdwg.org/dwc/terms/locationRemarks</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>scientificName</attributeName>
+          <attributeLabel>Scientific Name</attributeLabel>
+          <attributeDefinition>The full scientific name, with authorship and date information if known. When forming part of a dwc:Identification, this should be the name in lowest level taxonomic rank that can be determined. This term should not contain identification qualifications, which should instead be supplied in the dwc:identificationQualifier term.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Scientific Name">http://rs.tdwg.org/dwc/terms/scientificName</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>kingdom</attributeName>
+          <attributeLabel>Kingdom</attributeLabel>
+          <attributeDefinition>The full scientific name of the kingdom in which the dwc:Taxon is classified.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Kingdom">http://rs.tdwg.org/dwc/terms/kingdom</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>phylum</attributeName>
+          <attributeLabel>Phylum</attributeLabel>
+          <attributeDefinition>The full scientific name of the phylum or division in which the dwc:Taxon is classified.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Phylum">http://rs.tdwg.org/dwc/terms/phylum</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>class</attributeName>
+          <attributeLabel>Class</attributeLabel>
+          <attributeDefinition>The full scientific name of the class in which the dwc:Taxon is classified.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Class">http://rs.tdwg.org/dwc/terms/class</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>order</attributeName>
+          <attributeLabel>Order</attributeLabel>
+          <attributeDefinition>The full scientific name of the order in which the dwc:Taxon is classified.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Order">http://rs.tdwg.org/dwc/terms/order</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>family</attributeName>
+          <attributeLabel>Family</attributeLabel>
+          <attributeDefinition>The full scientific name of the family in which the dwc:Taxon is classified.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Family">http://rs.tdwg.org/dwc/terms/family</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>genus</attributeName>
+          <attributeLabel>Genus</attributeLabel>
+          <attributeDefinition>The full scientific name of the genus in which the dwc:Taxon is classified.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Genus">http://rs.tdwg.org/dwc/terms/genus</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>acceptedNameUsage</attributeName>
+          <attributeLabel>Accepted Name Usage</attributeLabel>
+          <attributeDefinition>The full name, with authorship and date information if known, of the currently valid (zoological) or accepted (botanical) dwc:Taxon.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Accepted Name Usage">http://rs.tdwg.org/dwc/terms/acceptedNameUsage</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>scientificNameAuthorship</attributeName>
+          <attributeLabel>Scientific Name Authorship</attributeLabel>
+          <attributeDefinition>The authorship information for the dwc:scientificName formatted according to the conventions of the applicable dwc:nomenclaturalCode.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Scientific Name Authorship">http://rs.tdwg.org/dwc/terms/scientificNameAuthorship</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>acceptedNameUsageID</attributeName>
+          <attributeLabel>Accepted Name Usage ID</attributeLabel>
+          <attributeDefinition>An identifier for the name usage (documented meaning of the name according to a source) of the currently valid (zoological) or accepted (botanical) taxon.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="hasCode">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasCode</propertyURI>
+            <valueURI label="Accepted Name Usage ID">http://rs.tdwg.org/dwc/terms/acceptedNameUsageID</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>taxonRank</attributeName>
+          <attributeLabel>Taxon Rank</attributeLabel>
+          <attributeDefinition>The taxonomic rank of the most specific name in the dwc:scientificName.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Taxon Rank">http://rs.tdwg.org/dwc/terms/taxonRank</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>BraunBlanquetScale</attributeName>
+          <attributeLabel>Braun-Blanquet cover abundance scale</attributeLabel>
+          <attributeDefinition>Braun-Blanquet cover abundance scale</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>+</code>
+                    <definition>&lt;5; few individuals</definition>
+                    <source>http://dx.doi.org/10.13057/biodiv/d220625</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>r</code>
+                    <definition>&lt;5; less tha 1% plot cover;3-5 individuals</definition>
+                    <source>http://dx.doi.org/10.13057/biodiv/d220625</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>&lt;5; numerous individuals</definition>
+                    <source>http://dx.doi.org/10.13057/biodiv/d220625</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>5-25</definition>
+                    <source>http://dx.doi.org/10.13057/biodiv/d220625</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>25-50</definition>
+                    <source>http://dx.doi.org/10.13057/biodiv/d220625</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>4</code>
+                    <definition>50-75</definition>
+                    <source>http://dx.doi.org/10.13057/biodiv/d220625</source>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="Braun-Blanquet cover abundance scale">http://purl.dataone.org/odo/ECSO_00002379</valueURI>
+          </annotation>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>423</numberOfRecords>
+    </dataTable>
+  </dataset>
+</eml:eml>

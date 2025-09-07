@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="31285c34-81c5-4a28-aca7-03b004d43f89" system="https://data.lifewatchitaly.eu" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd" scope="system">
+  <dataset>
+    <alternateIdentifier>https://data.lifewatchitaly.eu/handle/123456789/129722</alternateIdentifier>
+    <title>Nesting birds at Pomorie Lake in Bulgaria from 2021 to 2023</title>
+    <creator>
+      <individualName>
+        <givenName>Dimitar</givenName>
+        <surName>Popov</surName>
+      </individualName>
+      <organizationName>Green Balkans NGO</organizationName>
+      <positionName>Project manager</positionName>
+      <electronicMailAddress>dpopov@greenbalkans.org</electronicMailAddress>
+      <userId directory="https://orcid.org/">0000-0003-1873-8815</userId>
+    </creator>
+    <metadataProvider>
+      <individualName>
+        <givenName>Dimitar</givenName>
+        <surName>Popov</surName>
+      </individualName>
+      <organizationName>Green Balkans NGO</organizationName>
+      <positionName>Project manager</positionName>
+      <electronicMailAddress>dpopov@greenbalkans.org</electronicMailAddress>
+      <userId directory="https://orcid.org/">0000-0003-1873-8815</userId>
+    </metadataProvider>
+    <associatedParty>
+      <individualName>
+        <givenName>Martina</givenName>
+        <surName>Pulieri</surName>
+      </individualName>
+      <organizationName>University of Salento</organizationName>
+      <positionName>Research assistant</positionName>
+      <electronicMailAddress>martina.pulieri@unisalento.it</electronicMailAddress>
+      <userId directory="https://orcid.org/">0009-0001-9691-1989</userId>
+      <role>Information Manager</role>
+    </associatedParty>
+    <pubDate>2025-04-28</pubDate>
+    <language>English</language>
+    <abstract>This dataset includes 148 records of nesting birds at Pomorie Lake on the Bulgarian Black Sea coast during the period from 2021 to 2023. The site is of national and regional importance for several Charadriiformes species like Sandwich term Kentish plover, Pied avocet, Little tern, Black-winged stilt and Common tern.</abstract>
+    <keywordSet>
+      <keyword>nest of bird</keyword>
+      <keywordThesaurus>Biological and Environmental Research Ontology</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Bulgaria</keyword>
+      <keywordThesaurus>EuroVoc Core Concepts</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>birds</keyword>
+      <keyword>waterbirds</keyword>
+      <keywordThesaurus>eLTER Controlled Lists</keywordThesaurus>
+    </keywordSet>
+    <additionalInfo>Report: https://lifeforpomorielagoon.eu/files/modules/185/pomorie-lake-birds-report-final-894.pdf</additionalInfo>
+    <intellectualRights>Free for use, including sharing and adaptation, by all individuals provided that the owners are acknowledged in any use or publication.</intellectualRights>
+    <licensed>
+      <licenseName>cc-by</licenseName>
+      <url>https://creativecommons.org/licenses/by/4.0/</url>
+    </licensed>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Pomorie Lake, Bulgaria</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>27.604729</westBoundingCoordinate>
+          <eastBoundingCoordinate>27.652107</eastBoundingCoordinate>
+          <northBoundingCoordinate>42.632544</northBoundingCoordinate>
+          <southBoundingCoordinate>42.558239</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2021-05-15</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2023-05-31</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Anas strepera</taxonRankValue>
+          <taxonId provider="Catalogue of Life">B76F3</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Charadrius alexandrinus</taxonRankValue>
+          <taxonId provider="Catalogue of Life">TMWL</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Charadrius dubius</taxonRankValue>
+          <taxonId provider="Catalogue of Life">5XPL5</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Circus aeroginosus</taxonRankValue>
+          <taxonId provider="Catalogue of Life">5Z6WQ</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Cygnus olor</taxonRankValue>
+          <taxonId provider="Catalogue of Life">32ZQB</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Fulica atra</taxonRankValue>
+          <taxonId provider="Catalogue of Life">6K3W6</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Glareola pratincola</taxonRankValue>
+          <taxonId provider="Catalogue of Life">3G5XG</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Haematopus ostralegus</taxonRankValue>
+          <taxonId provider="Catalogue of Life">3J8XQ</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Himantopus himantopus</taxonRankValue>
+          <taxonId provider="Catalogue of Life">3LXZ5</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Recurvirostra avosetta</taxonRankValue>
+          <taxonId provider="Catalogue of Life">4RP59</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Sterna hirundo</taxonRankValue>
+          <taxonId provider="Catalogue of Life">6ZSCT</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Sterna sandvicensis</taxonRankValue>
+          <taxonId provider="Catalogue of Life">7C5FT</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Sternula albifrons</taxonRankValue>
+          <taxonId provider="Catalogue of Life">52G25</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Tadorna tadorna</taxonRankValue>
+          <taxonId provider="Catalogue of Life">54GHV</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Thalasseus sandvicensis</taxonRankValue>
+          <taxonId provider="Catalogue of Life">7C5FT</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Vanellus vanellus</taxonRankValue>
+          <taxonId provider="Catalogue of Life">7FFJL</taxonId>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+    </coverage>
+    <annotation>
+      <propertyURI label="keyword">http://www.w3.org/ns/dcat#keyword</propertyURI>
+      <valueURI label="birds">http://vocabs.lter-europe.net/elter_cl/10694</valueURI>
+    </annotation>
+    <annotation>
+      <propertyURI label="keyword">http://www.w3.org/ns/dcat#keyword</propertyURI>
+      <valueURI label="nest of bird">http://purl.obolibrary.org/obo/ENVO_00005805</valueURI>
+    </annotation>
+    <annotation>
+      <propertyURI label="keyword">http://www.w3.org/ns/dcat#keyword</propertyURI>
+      <valueURI label="Bulgaria">http://eurovoc.europa.eu/5063</valueURI>
+    </annotation>
+    <annotation>
+      <propertyURI label="keyword">http://www.w3.org/ns/dcat#keyword</propertyURI>
+      <valueURI label="waterbirds">http://vocabs.lter-europe.net/elter_cl/10695</valueURI>
+    </annotation>
+    <contact>
+      <individualName>
+        <givenName>Dimitar</givenName>
+        <surName>Popov</surName>
+      </individualName>
+      <organizationName>Green Balkans NGO</organizationName>
+      <positionName>Project manager</positionName>
+      <electronicMailAddress>dpopov@greenbalkans.org</electronicMailAddress>
+      <userId directory="https://orcid.org/">0000-0003-1873-8815</userId>
+    </contact>
+    <publisher>
+      <organizationName>LifeWatch Italy</organizationName>
+      <electronicMailAddress>lifewatchitaly@gmail.com</electronicMailAddress>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>Counts have been made by scanning flocks of waterbirds (usually comprising several species) with a telescope Swarovski ATX 30-70x95 and binoculars MINOX 8x40 when appropriate, counting each species one-by-one, or in ‘blocks’ for bigger numbers. To avoid extreme weather conditions (thick fog, heavy rain or gale force winds), because such conditions reduce counting efficiency, the visits have been postponed until conditions are more favorable.
+
+For waterbirds in particular, drones overcome challenges associated with surveying locations not accessible on foot and represent a useful addition to standard survey methods. During the current study in Pomorie Lake a drone was used to determine the number of the Sandwich terns’ colony and the species nesting in the reedbeds. The drone surveys were conducted in May and June, and we used DJI Mavic 2 Enterprise drone. The video and still images have been collected for follow-up counts back in the office.</description>
+      </methodStep>
+      <sampling>
+        <studyExtent>
+          <description>The study of avifauna is based on at least two visits per month to the lake area by experienced ornithologists and collection of species’ (nesting, migratory, wintering, resident) numbers using a telescope; detour of the coastline and dikes for registration of nesting birds during the nesting period – May and June; collecting information on numbers and nests with the help of a drone. For the bird monitoring we have implemented point counts from vantage points covering all subareas of the wetland and transect counts for nests. 
+
+The counts were conducted in the period of September 2020 – August 2023, preferably in the good weather. Each count was performed by two people, one of which have been doing observations while the other was responsible for recording. Duration of each counting day was at least 6 hours. 
+
+The area was visited once every two weeks, and observations were performed in the daytime. For the monitoring of the nesting bird species the area was visited three times per month with full tour on foot of the coast and suitable nesting sites made twice to lower possible disturbance. The drone survey was carried out twice for each breeding season, so that each observation can be confirmed and validated to avoid biasing the results - once at the beginning of the breeding season and once at its peak.
+
+The collected data have been recorded in a notebook and later summed into standard data collection form separated by different subareas.</description>
+        </studyExtent>
+        <samplingDescription>The site has been divided up into sub-areas that are visible from the chosen vantage points without overlap of areas counted and without missing any part of the site. Areas were divided mainly by habitat type defined by salinity and depth. These were called as follows: Marine area; Main Lake; Honyat; Malak geren; Saltpans – north; Saltpans – west.</samplingDescription>
+      </sampling>
+    </methods>
+    <project>
+      <title>Conservation of Pomorie Lake coastal lagoon.</title>
+      <personnel>
+        <individualName>
+          <givenName>Dimitar</givenName>
+          <surName>Popov</surName>
+        </individualName>
+        <organizationName>Green Balkans NGO</organizationName>
+        <positionName>Project manager</positionName>
+        <electronicMailAddress>dpopov@greenbalkans.org</electronicMailAddress>
+        <userId directory="https://orcid.org/">0000-0003-1873-8815</userId>
+        <role>Point Of Contact</role>
+      </personnel>
+      <abstract>Pomorie Lake is part of the most important wetland complex along the Bulgarian Black Sea coast. The project targets the conservation of the priority habitat 1150* “Coastal lagoons” and some birds listed in the EU Birds Directive (Avocet, Sandwich tern, Common and Little tern). It also takes into account the conservation of the Dark Spreadwing (Lestes macrostigma), a threatened dragonfly.
+
+Recently, water management facilities were destroyed, causing a decrease in lagoon salinity and a shift in bird species composition. The low salt production and the infrastructure damages resulted in limited opportunities for investments in maintenance activities. The unfavourable economic situation increases the risk of withdrawal of private interests and future investments from salt-production companies.
+
+The project aims at improving status of 1150 Coastal lagoon habitat, restoring habitat quality for birds, and maintaining peripheral habitat condition to sustain a dragonfly assemblage of conservation value.</abstract>
+      <funding>LIFE19 NAT/BG/000804</funding>
+    </project>
+    <dataTable>
+      <entityName>Nesting_birds_PomLake.csv</entityName>
+      <physical>
+        <objectName>Nesting_birds_PomLake.csv</objectName>
+        <size unit="byte">35639</size>
+        <authentication>MD5:8b21f5075d575ef97715da08ad68219f</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>catalogNumber</attributeName>
+          <attributeLabel>Catalog Number</attributeLabel>
+          <attributeDefinition>An identifier (preferably unique) for the record within the data set or collection.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Catalog Number">http://rs.tdwg.org/dwc/terms/catalogNumber</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>decimalLatitude</attributeName>
+          <attributeLabel>Decimal Latitude</attributeLabel>
+          <attributeDefinition>The geographic latitude (in decimal degrees, using the spatial reference system given in dwc:geodeticDatum) of the geographic center of a dcterms:Location. Positive values are north of the Equator, negative values are south of it. Legal values lie between -90 and 90, inclusive.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Decimal Latitude">http://rs.tdwg.org/dwc/terms/decimalLatitude</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>decimalLongitude</attributeName>
+          <attributeLabel>Decimal Longitude</attributeLabel>
+          <attributeDefinition>The geographic longitude (in decimal degrees, using the spatial reference system given in dwc:geodeticDatum) of the geographic center of a dcterms:Location. Positive values are east of the Greenwich Meridian, negative values are west of it. Legal values lie between -180 and 180, inclusive.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Decimal Longitude">http://rs.tdwg.org/dwc/terms/decimalLongitude</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>eventDate</attributeName>
+          <attributeLabel>Event Date</attributeLabel>
+          <attributeDefinition>The date-time or interval during which a dwc:Event occurred. For occurrences, this is the date-time when the dwc:Event was recorded. Not suitable for a time in a geological context.</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY/MM/DD</formatString>
+            </dateTime>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Event Date">http://rs.tdwg.org/dwc/terms/eventDate</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>eventTime</attributeName>
+          <attributeLabel>Event Time</attributeLabel>
+          <attributeDefinition>The time or interval during which a dwc:Event occurred.</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>hh:mm:ss</formatString>
+            </dateTime>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Event Time">http://rs.tdwg.org/dwc/terms/eventTime</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>kingdom</attributeName>
+          <attributeLabel>Kingdom</attributeLabel>
+          <attributeDefinition>The full scientific name of the kingdom in which the dwc:Taxon is classified.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Kingdom">http://rs.tdwg.org/dwc/terms/kingdom</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>phylum</attributeName>
+          <attributeLabel>Phylum</attributeLabel>
+          <attributeDefinition>The full scientific name of the phylum or division in which the dwc:Taxon is classified.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Phylum">http://rs.tdwg.org/dwc/terms/phylum</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>class</attributeName>
+          <attributeLabel>Class</attributeLabel>
+          <attributeDefinition>The full scientific name of the class in which the dwc:Taxon is classified.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Class">http://rs.tdwg.org/dwc/terms/class</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>order</attributeName>
+          <attributeLabel>Order</attributeLabel>
+          <attributeDefinition>The full scientific name of the order in which the dwc:Taxon is classified.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Order">http://rs.tdwg.org/dwc/terms/order</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>family</attributeName>
+          <attributeLabel>Family</attributeLabel>
+          <attributeDefinition>The full scientific name of the family in which the dwc:Taxon is classified.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Family">http://rs.tdwg.org/dwc/terms/family</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>genus</attributeName>
+          <attributeLabel>Genus</attributeLabel>
+          <attributeDefinition>The full scientific name of the genus in which the dwc:Taxon is classified.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Genus">http://rs.tdwg.org/dwc/terms/genus</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>scientificName</attributeName>
+          <attributeLabel>Scientific Name</attributeLabel>
+          <attributeDefinition>The full scientific name, with authorship and date information if known. When forming part of a dwc:Identification, this should be the name in lowest level taxonomic rank that can be determined. This term should not contain identification qualifications, which should instead be supplied in the dwc:identificationQualifier term.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Scientific Name">http://rs.tdwg.org/dwc/terms/scientificName</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>acceptedNameUsage</attributeName>
+          <attributeLabel>Accepted Name Usage</attributeLabel>
+          <attributeDefinition>The full name, with authorship and date information if known, of the currently valid (zoological) or accepted (botanical) dwc:Taxon.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Accepted Name Usage">http://rs.tdwg.org/dwc/terms/acceptedNameUsage</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>scientificNameAuthorship</attributeName>
+          <attributeLabel>Scientific Name Authorship</attributeLabel>
+          <attributeDefinition>The authorship information for the dwc:scientificName formatted according to the conventions of the applicable dwc:nomenclaturalCode.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Scientific Name Authorship">http://rs.tdwg.org/dwc/terms/scientificNameAuthorship</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>acceptedNameUsageID</attributeName>
+          <attributeLabel>Accepted Name Usage ID</attributeLabel>
+          <attributeDefinition>An identifier for the name usage (documented meaning of the name according to a source) of the currently valid (zoological) or accepted (botanical) taxon.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="hasCode">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasCode</propertyURI>
+            <valueURI label="Accepted Name Usage ID">http://rs.tdwg.org/dwc/terms/acceptedNameUsageID</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>nestCount</attributeName>
+          <attributeLabel>Nest count</attributeLabel>
+          <attributeDefinition>The number of identified/confirmed nests.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>breedingPairs</attributeName>
+          <attributeLabel>Breeding pairs</attributeLabel>
+          <attributeDefinition>The number of identified breeding pairs.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>148</numberOfRecords>
+    </dataTable>
+  </dataset>
+</eml:eml>

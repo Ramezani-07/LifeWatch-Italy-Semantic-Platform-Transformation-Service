@@ -1,0 +1,771 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix lw: <https://kos.lifewatch.eu/ontologies/lw/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix : <http://semantics.lifewatchitaly.eu/resource#> .
+@base <http://semantics.lifewatchitaly.eu/resource#> .
+
+# Mapping for the dataset
+<#Catalog>
+    rml:logicalSource [
+        rml:source "Stage_dir/transformed_metadata_prepared_for_mapping.xml" ;
+        rml:referenceFormulation ql:XPath ;
+        rml:iterator "/eml:eml" ;
+    ] ;
+    rr:subjectMap [
+        rr:template "http://semantics.lifewatchitaly.eu/resource#dcat:Catalog-id:{@id}" ;
+    ] ;
+
+
+
+    rr:predicateObjectMap [
+        rr:predicate dcat:dataset ;
+        rr:objectMap [
+        rr:template "http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:{@packageId}" ;
+        ] ;
+    ] ;
+.
+
+
+
+<#Dataset>
+    rml:logicalSource [
+        rml:source "Stage_dir/transformed_metadata_prepared_for_mapping.xml" ;
+        rml:referenceFormulation ql:XPath ;
+        rml:iterator "/eml:eml" ;
+    ] ;
+    rr:subjectMap [
+        rr:template "http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:{@packageId}" ;
+        rr:class owl:NamedIndividual;
+        rr:class dcat:Dataset;
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate dct:identifier ;
+        rr:objectMap [
+            rml:reference "@packageId" ;
+            rr:termType rr:Literal ;
+            rr:datatype xsd:string
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate dct:title ;
+        rr:objectMap [
+            rml:reference "dataset/title" ;
+            rr:termType rr:Literal ;
+            rr:language "en" ;
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate dct:description ;
+        rr:objectMap [
+            rml:reference "dataset/abstract" ;
+            rr:termType rr:Literal ;
+            rr:datatype xsd:string ;
+            rr:language "en" ;
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate dct:issued ;
+        rr:objectMap [
+            rml:reference "dataset/pubDate" ;
+            rr:termType rr:Literal ;
+            rr:datatype xsd:date ;
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate prov:wasAttributedTo ;
+        rr:objectMap [
+            rml:reference "dataset/acknowledgements" ;
+            rr:termType rr:Literal ;
+            rr:datatype xsd:string ;
+            rr:language "en" ;
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate dwc:measurementMethod ;
+        rr:objectMap [
+            rml:reference "dataset/methods/methodStep/description" ;
+            rr:termType rr:Literal ;
+            rr:datatype xsd:string ;
+            rr:language "en" ;
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate dwc:samplingProtocol ;
+        rr:objectMap [
+            rml:reference "dataset/methods/sampling/studyExtent/description" ;
+            rr:termType rr:Literal ;
+            rr:datatype xsd:string ;
+            rr:language "en" ;
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate dwc:samplingProtocol ;
+        rr:objectMap [
+            rml:reference "dataset/methods/sampling/samplingDescription" ;
+            rr:termType rr:Literal ;
+            rr:datatype xsd:string ;
+            rr:language "en" ;
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate dct:rights ;
+        rr:objectMap [
+            rml:reference "dataset/intellectualRights" ;
+            rr:termType rr:Literal ;
+            rr:datatype xsd:string ;
+            rr:language "en" ;
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate dct:license ;
+        rr:objectMap [
+            rml:reference "dataset/licensed/url" ;
+            rr:termType rr:IRI ;
+            rr:datatype xsd:anyURI ;
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate dct:language ;
+        rr:objectMap [
+            rml:reference "dataset/language" ;
+            rr:termType rr:Literal ;
+            rr:datatype xsd:string ;
+            rr:language "en" ;
+        ] ;
+    ] ;
+
+
+    rr:predicateObjectMap [
+        rr:predicate dcat:distribution ;
+        rr:objectMap [
+        rr:template "http://semantics.lifewatchitaly.eu/resource#dcat:Distribution-id:{dataset/alternateIdentifier}" ;
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate dcat:keyword;
+        rr:objectMap [
+        rr:template "http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:{dataset/annotation/valueURI}" ;
+        ] ;
+    ];
+
+
+    rr:predicateObjectMap [
+        rr:predicate dct:temporal;
+        rr:objectMap [
+            rr:template "http://semantics.lifewatchitaly.eu/resource#dct:Temporal-id:{@packageId}";
+        ] ;
+    ];
+    rr:predicateObjectMap [
+        rr:predicate dct:spatial;
+        rr:objectMap [
+            rr:template "http://semantics.lifewatchitaly.eu/resource#dct:Spatial-id:{dataset/coverage/geographicCoverage/geographicDescription}";
+        ] ;
+    ];
+    rr:predicateObjectMap [
+        rr:predicate prov:qualifiedAttribution ;
+        rr:objectMap [
+        rr:template "http://semantics.lifewatchitaly.eu/resource#prov:attributionCreator-id:{dataset/creator/@id}" ;
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate prov:qualifiedAttribution ;
+        rr:objectMap [
+        rr:template "http://semantics.lifewatchitaly.eu/resource#prov:attributionMetadataProvider-id:{dataset/metadataProvider/@id}" ;
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate prov:qualifiedAttribution ;
+        rr:objectMap [
+        rr:template "http://semantics.lifewatchitaly.eu/resource#prov:attributionContact-id:{dataset/contact/@id}" ;
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate prov:qualifiedAttribution ;
+        rr:objectMap [
+        rr:template "http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:{dataset/associatedParty/@id}" ;
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate prov:qualifiedAttribution ;
+        rr:objectMap [
+        rr:template "http://semantics.lifewatchitaly.eu/resource#prov:attributionPublisher-id:{dataset/publisher/@id}" ;
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate prov:wasGeneratedBy  ;
+        rr:objectMap [
+        rr:template "http://semantics.lifewatchitaly.eu/resource#foaf:Project-id:{dataset/project/@id}" ;
+        ] ;
+    ] ;
+.
+
+
+
+<#temporalCoverage>
+    rml:logicalSource [
+        rml:source "Stage_dir/transformed_metadata_prepared_for_mapping.xml" ;
+        rml:referenceFormulation ql:XPath ;
+        rml:iterator "/eml:eml" ;
+    ] ;
+    rr:subjectMap [
+        rr:template "http://semantics.lifewatchitaly.eu/resource#dct:Temporal-id:{@packageId}";
+        rr:class dct:PeriodOfTime;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate dct:date;
+        rr:objectMap [
+            rml:reference "dataset/coverage/temporalCoverage/singleDateTime/calendarDate" ;
+            rr:termType rr:Literal ;
+            rr:datatype xsd:date ;
+        ] ;
+    ];
+    rr:predicateObjectMap [
+        rr:predicate dcat:startDate;
+        rr:objectMap [
+            rml:reference "dataset/coverage/temporalCoverage/rangeOfDates/beginDate/calendarDate" ;
+            rr:termType rr:Literal ;
+            rr:datatype xsd:date ;
+        ] ;
+    ];
+    rr:predicateObjectMap [
+        rr:predicate dcat:endDate;
+        rr:objectMap [
+            rml:reference "dataset/coverage/temporalCoverage/rangeOfDates/endDate/calendarDate" ;
+            rr:termType rr:Literal ;
+            rr:datatype xsd:date ;
+        ] ;
+    ];
+.
+
+
+
+<#geographicCoverage>
+    rml:logicalSource [
+        rml:source "Stage_dir/transformed_metadata_prepared_for_mapping.xml" ;
+        rml:referenceFormulation ql:XPath ;
+        rml:iterator "/eml:eml/dataset/coverage/geographicCoverage" ;
+    ] ;
+    rr:subjectMap [
+        rr:template "http://semantics.lifewatchitaly.eu/resource#dct:Spatial-id:{geographicDescription}";
+        rr:class dct:Location;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate dct:description ;
+        rr:objectMap [
+            rml:reference "geographicDescription";
+            rr:termType rr:Literal ;
+            rr:datatype xsd:string
+
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate lw:westBoundCoordinate ;
+        rr:objectMap [
+            rml:reference "boundingCoordinates/westBoundingCoordinate";
+            rr:termType rr:Literal ;
+            rr:datatype xsd:LocationStructure ;
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate lw:eastBoundCoordinate ;
+        rr:objectMap [
+            rml:reference "boundingCoordinates/eastBoundingCoordinate";
+            rr:termType rr:Literal ;
+            rr:datatype xsd:LocationStructure ;
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate lw:northBoundCoordinate ;
+        rr:objectMap [
+            rml:reference "boundingCoordinates/northBoundingCoordinate";
+            rr:termType rr:Literal ;
+            rr:datatype xsd:LocationStructure ;
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate lw:southBoundCoordinate ;
+        rr:objectMap [
+            rml:reference "boundingCoordinates/southBoundingCoordinate";
+            rr:termType rr:Literal ;
+            rr:datatype xsd:LocationStructure ;
+        ] ;
+    ]
+.
+
+
+
+<#attributionCreator>
+    rml:logicalSource [
+        rml:source "Stage_dir/transformed_metadata_prepared_for_mapping.xml" ;
+        rml:referenceFormulation ql:XPath ;
+        rml:iterator "/eml:eml/dataset/creator" ;
+    ] ;
+    rr:subjectMap [
+        rr:template "http://semantics.lifewatchitaly.eu/resource#prov:attributionCreator-id:{@id}" ;
+        rr:class prov:Attribution;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate prov:agent ;
+        rr:objectMap [
+        rr:template "http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:{userId}" ;
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate dcat:hadRole ;
+        rr:objectMap [
+        rr:constant "Creator" ;
+        ] ;
+    ] ;
+.
+
+
+
+<#attributionMetadataProvider>
+    rml:logicalSource [
+        rml:source "Stage_dir/transformed_metadata_prepared_for_mapping.xml" ;
+        rml:referenceFormulation ql:XPath ;
+        rml:iterator "/eml:eml/dataset/metadataProvider" ;
+    ] ;
+    rr:subjectMap [
+        rr:template "http://semantics.lifewatchitaly.eu/resource#prov:attributionMetadataProvider-id:{@id}" ;
+        rr:class prov:Attribution;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate prov:agent ;
+        rr:objectMap [
+        rr:template "http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:{userId}" ;
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate dcat:hadRole ;
+        rr:objectMap [
+        rr:constant "Metadata Provider" ;
+        ] ;
+    ] ;
+.
+
+
+
+<#attributionContact>
+    rml:logicalSource [
+        rml:source "Stage_dir/transformed_metadata_prepared_for_mapping.xml" ;
+        rml:referenceFormulation ql:XPath ;
+        rml:iterator "/eml:eml/dataset/contact" ;
+    ] ;
+    rr:subjectMap [
+        rr:template "http://semantics.lifewatchitaly.eu/resource#prov:attributionContact-id:{@id}" ;
+        rr:class prov:Attribution;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate prov:agent ;
+        rr:objectMap [
+        rr:template "http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:{userId}" ;
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate dcat:hadRole ;
+        rr:objectMap [
+        rr:constant "Contact" ;
+        ] ;
+    ] ;
+.
+
+
+
+<#attributionAssociatedParty>
+    rml:logicalSource [
+        rml:source "Stage_dir/transformed_metadata_prepared_for_mapping.xml" ;
+        rml:referenceFormulation ql:XPath ;
+        rml:iterator "/eml:eml/dataset/associatedParty" ;
+    ] ;
+    rr:subjectMap [
+        rr:template "http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:{@id}" ;
+        rr:class prov:Attribution;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate prov:agent ;
+        rr:objectMap [
+        rr:template "http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:{userId}" ;
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate dcat:hadRole ;
+        rr:objectMap [
+        rr:constant "Associated Party" ;
+        ] ;
+    ] ;
+.
+
+
+
+<#attributionPublisher>
+    rml:logicalSource [
+        rml:source "Stage_dir/transformed_metadata_prepared_for_mapping.xml" ;
+        rml:referenceFormulation ql:XPath ;
+        rml:iterator "/eml:eml/dataset/publisher" ;
+    ] ;
+    rr:subjectMap [
+        rr:template "http://semantics.lifewatchitaly.eu/resource#prov:attributionPublisher-id:{@id}" ;
+        rr:class prov:Attribution;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate prov:agent ;
+        rr:objectMap [
+        rr:template "http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:{organizationName}" ;
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate dcat:hadRole ;
+        rr:objectMap [
+        rr:constant "Publisher" ;
+        ] ;
+    ] ;
+.
+
+
+
+<#Project>
+    rml:logicalSource [
+        rml:source "Stage_dir/transformed_metadata_prepared_for_mapping.xml" ;
+        rml:referenceFormulation ql:XPath ;
+        rml:iterator "/eml:eml/dataset/project" ;
+    ] ;
+    rr:subjectMap [
+        rr:template "http://semantics.lifewatchitaly.eu/resource#foaf:Project-id:{@id}" ;
+        rr:class foaf:Project;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate dct:title ;
+        rr:objectMap [
+        rml:reference "title" ;
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate dct:description ;
+        rr:objectMap [
+        rml:reference "abstract" ;
+        ] ;
+    ] ;
+.
+
+
+
+<#keywordMapping>
+    rml:logicalSource [
+        rml:source "Stage_dir/transformed_metadata_prepared_for_mapping.xml" ;
+        rml:referenceFormulation ql:XPath ;
+        rml:iterator "/eml:eml/dataset/annotation" ;
+    ] ;
+    rr:subjectMap [
+        rr:template "http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:{valueURI}";
+        rr:class owl:NamedIndividual;
+        rr:class skos:Concept;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate rdfs:label;
+        rr:objectMap [
+            rml:reference "valueURI/@label" ;
+            rr:termType rr:Literal ;
+            rr:datatype xsd:string ;
+        ] ;
+    ];
+    rr:predicateObjectMap [
+        rr:predicate dct:type;
+        rr:objectMap [
+            rml:reference "valueURI" ;
+            rr:termType rr:IRI ;
+            rr:datatype xsd:anyURI ;
+        ] ;
+    ];
+.
+
+
+
+<#distributionMapping>
+    rml:logicalSource [
+        rml:source "Stage_dir/transformed_metadata_prepared_for_mapping.xml" ;
+        rml:referenceFormulation ql:XPath ;
+        rml:iterator "/eml:eml/dataset" ;
+    ] ;
+    rr:subjectMap [
+        rr:template "http://semantics.lifewatchitaly.eu/resource#dcat:Distribution-id:{alternateIdentifier}" ;
+        rr:class owl:NamedIndividual;
+        rr:class dcat:Distribution;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate dcat:accessURL ;
+        rr:objectMap [
+            rml:reference "alternateIdentifier" ;
+            rr:termType rr:IRI ;
+            rr:datatype xsd:anyURL ;
+        ] ;
+    ] ;
+.
+
+
+
+<#AgentCreatorMapping>
+    rml:logicalSource [
+        rml:source "Stage_dir/transformed_metadata_prepared_for_mapping.xml" ;
+        rml:referenceFormulation ql:XPath ;
+        rml:iterator "/eml:eml/dataset/creator" ;
+    ] ;
+    rr:subjectMap [
+        rr:template "http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:{userId}" ;
+        rr:class owl:NamedIndividual;
+        rr:class prov:Agent;
+        rr:class prov:Person;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate dct:identifier ;
+        rr:objectMap [
+            rml:reference "userId" ;
+            rr:termType rr:IRI ;
+            rr:datatype xsd:anyURI
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate foaf:name ;
+        rr:objectMap [
+            rml:reference "individualName/givenName";
+            rr:termType rr:Literal ;
+            rr:datatype xsd:string ;
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate foaf:familyName ;
+        rr:objectMap [
+            rml:reference "individualName/surName";
+            rr:termType rr:Literal ;
+            rr:datatype xsd:string ;
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate foaf:mbox ;
+        rr:objectMap [
+            rml:reference "electronicMailAddress";
+            rr:termType rr:Literal ;
+            rr:datatype xsd:string ;
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate prov:actedOnBehalfOf  ;
+        rr:objectMap [
+            rml:reference "organizationName";
+            rr:termType rr:Literal ;
+            rr:datatype xsd:string ;
+        ] ;
+    ] ;
+.
+
+
+
+<#AgentMetadataProviderMapping>
+    rml:logicalSource [
+        rml:source "Stage_dir/transformed_metadata_prepared_for_mapping.xml" ;
+        rml:referenceFormulation ql:XPath ;
+        rml:iterator "/eml:eml/dataset/metadataProvider" ;
+    ] ;
+    rr:subjectMap [
+        rr:template "http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:{userId}" ;
+        rr:class owl:NamedIndividual;
+        rr:class prov:Agent;
+        rr:class prov:Person;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate dct:identifier ;
+        rr:objectMap [
+            rml:reference "userId" ;
+            rr:termType rr:IRI ;
+            rr:datatype xsd:anyURI
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate foaf:name ;
+        rr:objectMap [
+            rml:reference "individualName/givenName";
+            rr:termType rr:Literal ;
+            rr:datatype xsd:string ;
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate foaf:familyName ;
+        rr:objectMap [
+            rml:reference "individualName/surName";
+            rr:termType rr:Literal ;
+            rr:datatype xsd:string ;
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate foaf:mbox ;
+        rr:objectMap [
+            rml:reference "electronicMailAddress";
+            rr:termType rr:Literal ;
+            rr:datatype xsd:string ;
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate prov:actedOnBehalfOf  ;
+        rr:objectMap [
+            rml:reference "organizationName";
+            rr:termType rr:Literal ;
+            rr:datatype xsd:string ;
+        ] ;
+    ] ;
+.
+
+
+
+<#AgentContactMapping>
+    rml:logicalSource [
+        rml:source "Stage_dir/transformed_metadata_prepared_for_mapping.xml" ;
+        rml:referenceFormulation ql:XPath ;
+        rml:iterator "/eml:eml/dataset/contact" ;
+    ] ;
+    rr:subjectMap [
+        rr:template "http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:{userId}" ;
+        rr:class owl:NamedIndividual;
+        rr:class prov:Agent;
+        rr:class prov:Person;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate dct:identifier ;
+        rr:objectMap [
+            rml:reference "userId" ;
+            rr:termType rr:IRI ;
+            rr:datatype xsd:anyURI
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate foaf:name ;
+        rr:objectMap [
+            rml:reference "individualName/givenName";
+            rr:termType rr:Literal ;
+            rr:datatype xsd:string ;
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate foaf:familyName ;
+        rr:objectMap [
+            rml:reference "individualName/surName";
+            rr:termType rr:Literal ;
+            rr:datatype xsd:string ;
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate foaf:mbox ;
+        rr:objectMap [
+            rml:reference "electronicMailAddress";
+            rr:termType rr:Literal ;
+            rr:datatype xsd:string ;
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate prov:actedOnBehalfOf  ;
+        rr:objectMap [
+            rml:reference "organizationName";
+            rr:termType rr:Literal ;
+            rr:datatype xsd:string ;
+        ] ;
+    ] ;
+.
+
+
+
+<#AgentAssociatedParty>
+    rml:logicalSource [
+        rml:source "Stage_dir/transformed_metadata_prepared_for_mapping.xml" ;
+        rml:referenceFormulation ql:XPath ;
+        rml:iterator "/eml:eml/dataset/associatedParty" ;
+    ] ;
+    rr:subjectMap [
+        rr:template "http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:{userId}" ;
+        rr:class owl:NamedIndividual;
+        rr:class prov:Agent;
+        rr:class prov:Person;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate dct:identifier ;
+        rr:objectMap [
+            rml:reference "userId" ;
+            rr:termType rr:IRI ;
+            rr:datatype xsd:anyURI
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate foaf:name ;
+        rr:objectMap [
+            rml:reference "individualName/givenName";
+            rr:termType rr:Literal ;
+            rr:datatype xsd:string ;
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate foaf:familyName ;
+        rr:objectMap [
+            rml:reference "individualName/surName";
+            rr:termType rr:Literal ;
+            rr:datatype xsd:string ;
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate foaf:mbox ;
+        rr:objectMap [
+            rml:reference "electronicMailAddress";
+            rr:termType rr:Literal ;
+            rr:datatype xsd:string ;
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate prov:actedOnBehalfOf  ;
+        rr:objectMap [
+            rml:reference "organizationName";
+            rr:termType rr:Literal ;
+            rr:datatype xsd:string ;
+        ] ;
+    ] ;
+.
+
+
+
+<#AgentPublisher>
+    rml:logicalSource [
+        rml:source "Stage_dir/transformed_metadata_prepared_for_mapping.xml" ;
+        rml:referenceFormulation ql:XPath ;
+        rml:iterator "/eml:eml/dataset/publisher" ;
+    ] ;
+    rr:subjectMap [
+        rr:template "http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:{organizationName}" ;
+        rr:class owl:NamedIndividual;
+        rr:class prov:Agent;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate foaf:name ;
+        rr:objectMap [
+            rml:reference "organizationName";
+            rr:termType rr:Literal ;
+            rr:datatype xsd:string ;
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate foaf:mbox ;
+        rr:objectMap [
+            rml:reference "electronicMailAddress";
+            rr:termType rr:Literal ;
+            rr:datatype xsd:string ;
+        ] ;
+    ] ;
+.

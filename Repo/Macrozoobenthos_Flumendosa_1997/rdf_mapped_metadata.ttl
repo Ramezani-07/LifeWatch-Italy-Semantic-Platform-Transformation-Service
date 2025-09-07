@@ -1,0 +1,158 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix lw: <https://kos.lifewatch.eu/ontologies/lw/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://semantics.lifewatchitaly.eu/resource#dcat:Catalog-id:61175251-1672-4795-b23b-b35b0dd0a294> a owl:NamedIndividual,
+        dcat:Catalog ;
+    rdfs:label "LifeWatch Italy Semantic Platform"@en ;
+    dcterms:accessRights "Open access" ;
+    dcterms:conformsTo [ a dcterms:Policy ;
+            dcterms:title "LifeWatch Italy Privacy Policy" ;
+            rdfs:seeAlso <http://www.lifewatchitaly.eu/en/privacy-policy-eng/> ],
+        [ a dcterms:Standard ;
+            dcterms:identifier <http://xmlns.com/foaf/spec/20140114.html> ;
+            dcterms:title "FOAF Vocabulary Specification" ;
+            rdfs:seeAlso <http://xmlns.com/foaf/spec/> ],
+        [ a dcterms:Policy ;
+            dcterms:title "LifeWatch Italy Data Policy" ;
+            rdfs:seeAlso <http://www.lifewatchitaly.eu/en/data-policy-eng/> ],
+        [ a dcterms:Standard ;
+            dcterms:identifier dcat: ;
+            dcterms:title "Data Catalog Vocabulary (DCAT)" ;
+            rdfs:seeAlso <http://www.w3.org/TR/vocab-dcat/> ],
+        [ a dcterms:Standard ;
+            dcterms:identifier <http://www.w3.org/TR/2013/REC-prov-o-20130430/> ;
+            dcterms:title "The PROV Ontology" ;
+            rdfs:seeAlso <http://www.w3.org/TR/prov-o/> ],
+        [ a dcterms:Standard ;
+            dcterms:identifier <http://dublincore.org/specifications/dublin-core/dcmi-terms/2020-01-20/> ;
+            dcterms:title "DCMI Metadata Terms" ;
+            rdfs:seeAlso <http://www.dublincore.org/specifications/dublin-core/dcmi-terms/> ],
+        [ a dcterms:Standard ;
+            dcterms:identifier lw: ;
+            dcterms:title "LifeWatch Italy Domain Ontology" ] ;
+    dcterms:created "2022-01-01"^^xsd:date ;
+    dcterms:description "The LifeWatch Italy Semantic Platform allows to search and access the LifeWatch Italy resources with the help of semantically enriched queries. It is based on a main semantic model that describes different resources and their metadata, as well as meaningful links between controlled vocabularies for Biodiversity and Ecosystems domain and resources of LifeWatch Italy."@en ;
+    dcterms:identifier "61175251-1672-4795-b23b-b35b0dd0a294" ;
+    dcterms:issued "2022-11-30"^^xsd:date ;
+    dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
+    dcterms:publisher [ a foaf:Organization ;
+            dcterms:title "LifeWatch Italy" ;
+            rdfs:seeAlso <http://www.lifewatchitaly.eu/> ] ;
+    dcterms:rights "Metadata records are freely available under a Public Domain License (CC0 1.0). The platform itself is licensed under a Creative Commons Attribution License (CC BY 4.0) http://creativecommons.org/licenses/by/4.0/. It is free for use by anyone, provided that LifeWatch Italy is acknowledged in any use or publication." ;
+    dcterms:title "LifeWatch Italy Semantic Platform"@en ;
+    dcat:contactPoint [ a prov:Person ;
+            dcterms:identifier <https://orcid.org/0009-0006-3432-6182> ;
+            prov:actedOnBehalfOf "LifeWatch ERIC" ;
+            foaf:familyName "Ramezani" ;
+            foaf:mbox "parham.ramezani@lifewatch.eu" ;
+            foaf:name "Parham" ],
+        [ a prov:Person ;
+            dcterms:identifier <https://orcid.org/0000-0003-3422-7230> ;
+            prov:actedOnBehalfOf "National Research Council - Research Institute on Terrestrial Ecosystems" ;
+            foaf:familyName "Rosati" ;
+            foaf:mbox "ilaria.rosati@cnr.it" ;
+            foaf:name "Ilaria" ],
+        [ a prov:Agent ;
+            prov:actedOnBehalfOf "LifeWatch Italy" ;
+            foaf:mbox "semantics@lifewatch.eu" ;
+            foaf:name "Semantic Team" ] ;
+    dcat:dataset <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:4e084d1e-b1ac-4649-881f-fe211f77e69b> ;
+    dcat:keyword "Knowledge base"@en,
+        "Semantic search"@en ;
+    dcat:landingPage <http://semantics.lifewatchitaly.eu> ;
+    dcat:service [ a dcat:DataService ;
+            dcterms:title "SPARQL 1.2 Protocol" ;
+            rdfs:seeAlso <http://www.w3.org/TR/sparql12-protocol/> ;
+            dcat:endpointURL <http://semantics.lifewatchitaly.eu/resource/MySystem:SparqlEndpoint> ],
+        [ a dcat:DataService ;
+            dcterms:description "Using Query Builder, you can search and filter database objects, select objects and columns, create relationships between objects, and view formatted query results with little or no SPARQL knowledge." ;
+            dcterms:title "Query Builder" ;
+            dcat:accessURL <http://semantics.lifewatchitaly.eu/resource/:TabStructuredSearch> ] ;
+    dcat:version "2.0" ;
+    foaf:homepage <http://semantics.lifewatchitaly.eu> ;
+    foaf:status "Production" .
+
+<http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:4e084d1e-b1ac-4649-881f-fe211f77e69b> a owl:NamedIndividual,
+        dcat:Dataset ;
+    dcterms:accrualMethod "The leaf material was carefully washed in flowing water and sieved in an 800 ?m mesh size sieve in order to remove both organic and inorganic sediments and benthic macroinvertebrates. All animals were identified to the genus level, and, whenever possible, to species level, counted, measured (body length) and their body mass determined."@en,
+        "The study was performed using the leaf packs technique (Petersen and Cummins, 1974) at 17 sites distributed throughout the hydrographic basin, among varying stream branches, orders, classes of altitude and distance from the river mouth, in two seasons (Fall-Winter and Spring-Summer). Phragmites australis leaves were collected along the banks of the river Flumendosa in September, cut into 10 cm-long pieces, oven-dried at 60°C for 72 h, weighed into 5.0 ± 0.1 g lots and enclosed in nylon bags (0.5 cm mesh size). In Fall-Winter and in Spring-Summer 12 bags were distributed at each station, anchored to rocks and exposed for 30-days. After 30 days, the leaf packs were retrieved from the study sites and placed in a plastic bag, sealed and returned to the laboratory in an insulated cool box."@en ;
+    dcterms:description "The dataset contains taxonomic and body size data of the macroinvertebrates community of the benthic macroinvertebrates community of Flumendosa River (Sardinia, Italy). Data refer to 80 taxa and 14502 individuals."@en ;
+    dcterms:identifier "4e084d1e-b1ac-4649-881f-fe211f77e69b" ;
+    dcterms:issued "2021-03-12"^^xsd:date ;
+    dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
+    dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rights "This work is licensed under the Creative Commons Attribution 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/."@en ;
+    dcterms:spatial [ a dcterms:Location ;
+            dcterms:description "Flumendosa is a river located in Sardinia (Italy)." ;
+            lw:eastBoundCoordinate "9.53935"^^xsd:LocationStructure ;
+            lw:northBoundCoordinate "39.96531"^^xsd:LocationStructure ;
+            lw:southBoundCoordinate "39.47101"^^xsd:LocationStructure ;
+            lw:westBoundCoordinate "9.1743"^^xsd:LocationStructure ] ;
+    dcterms:temporal [ a dcterms:PeriodOfTime ;
+            dcat:endDate "1997-07-07"^^xsd:date ;
+            dcat:startDate "1997-01-06"^^xsd:date ] ;
+    dcterms:title "Macrozoobenthos data collected in the Flumendosa river, Sardinia, Italy"@en ;
+    dcat:distribution <http://semantics.lifewatchitaly.eu/resource#dcat:Distribution-id:https%3A%2F%2Fdataportal.lifewatchitaly.eu%2Fview%2Furn%253Auuid%253A4d0d4b70-2f40-45e5-a7b8-9a952b3106f6>,
+        <http://semantics.lifewatchitaly.eu/resource#dcat:Distribution-id:https%3A%2F%2Fdataportal.lifewatchitaly.eu%3A8443%2Fmetacat%2Fd1%2Fmn%2Fv2%2Fobject%2Furn%253Auuid%253A62574c16-d128-446f-ba32-d0693be20020>,
+        <http://semantics.lifewatchitaly.eu/resource#dcat:Distribution-id:https%3A%2F%2Fdoi.org%2F10.48372%2F4e084d1e-b1ac-4649-881f-fe211f77e69b> ;
+    dcat:keyword "Biodiversity"@en,
+        "Body size"@en,
+        "Flumendosa"@en,
+        "Invertebrate"@en,
+        "Italy"@en,
+        "River"@en,
+        "Taxonomy"@en ;
+    prov:qualifiedAttribution [ a dcat:Attribution ;
+            dcat:hadRole "Creator" ],
+        [ a dcat:Attribution ;
+            dcat:hadRole "Metadata Provider" ;
+            prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0003-3422-7230> ],
+        [ a dcat:Attribution ;
+            dcat:hadRole "Contact" ;
+            prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0002-3603-9316> ],
+        [ a dcat:Attribution ;
+            dcat:hadRole "Contact" ;
+            prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0003-3422-7230> ],
+        [ a dcat:Attribution ;
+            dcat:hadRole "Creator" ;
+            prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0002-3603-9316> ] .
+
+<http://semantics.lifewatchitaly.eu/resource#dcat:Distribution-id:https%3A%2F%2Fdataportal.lifewatchitaly.eu%2Fview%2Furn%253Auuid%253A4d0d4b70-2f40-45e5-a7b8-9a952b3106f6> a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcterms:description "Info and download page on the LifeWatch Italy Data Portal" ;
+    dcat:accessURL <https://dataportal.lifewatchitaly.eu/view/urn%3Auuid%3A4d0d4b70-2f40-45e5-a7b8-9a952b3106f6> .
+
+<http://semantics.lifewatchitaly.eu/resource#dcat:Distribution-id:https%3A%2F%2Fdataportal.lifewatchitaly.eu%3A8443%2Fmetacat%2Fd1%2Fmn%2Fv2%2Fobject%2Furn%253Auuid%253A62574c16-d128-446f-ba32-d0693be20020> a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcterms:description "Download" ;
+    dcat:accessURL <https://dataportal.lifewatchitaly.eu:8443/metacat/d1/mn/v2/object/urn%3Auuid%3A62574c16-d128-446f-ba32-d0693be20020> .
+
+<http://semantics.lifewatchitaly.eu/resource#dcat:Distribution-id:https%3A%2F%2Fdoi.org%2F10.48372%2F4e084d1e-b1ac-4649-881f-fe211f77e69b> a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcterms:description "DOI" ;
+    dcat:accessURL <https://doi.org/10.48372/4e084d1e-b1ac-4649-881f-fe211f77e69b> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0002-3603-9316> a owl:NamedIndividual,
+        prov:Agent,
+        prov:Person ;
+    dcterms:identifier <https://orcid.org/0000-0002-3603-9316> ;
+    prov:actedOnBehalfOf "University of Salento" ;
+    foaf:familyName "Basset" ;
+    foaf:mbox "alberto.basset@unisalento.it" ;
+    foaf:name "Alberto" .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0003-3422-7230> a owl:NamedIndividual,
+        prov:Agent,
+        prov:Person ;
+    dcterms:identifier <https://orcid.org/0000-0003-3422-7230> ;
+    prov:actedOnBehalfOf "National Research Council - Research Institute on Terrestrial Ecosystems" ;
+    foaf:familyName "Rosati" ;
+    foaf:mbox "ilaria.rosati@cnr.it" ;
+    foaf:name "Ilaria" .
+

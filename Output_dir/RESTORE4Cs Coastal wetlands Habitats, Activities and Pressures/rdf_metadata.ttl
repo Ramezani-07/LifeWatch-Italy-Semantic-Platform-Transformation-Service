@@ -1,0 +1,337 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix lw: <https://kos.lifewatch.eu/ontologies/lw/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://semantics.lifewatchitaly.eu/resource#dcat:Catalog-id:61175251-1672-4795-b23b-b35b0dd0a294> dcat:dataset <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:603b7522-6564-43c1-bde9-6dc3ed6f49b0> .
+
+<http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:603b7522-6564-43c1-bde9-6dc3ed6f49b0> a owl:NamedIndividual,
+        dcat:Dataset ;
+    dct:description """This dataset was developed within the framework of the RESTORE4Cs project, which investigates the role of coastal wetland restoration in climate change mitigation and the provision of essential ecosystem services. The project aims to enhance the understanding of how different coastal wetland habitats interact with human activities and environmental pressures, informing strategies for sustainable restoration and management. The dataset was compiled from six case pilots representing diverse coastal wetland types across Europe. These case studies were selected to encompass a range of ecological conditions, management regimes, and socio-environmental dynamics, providing a robust foundation for assessing wetland conservation and restoration challenges.
+
+The dataset maps habitats and ecosystem services across these six case studies, offering a detailed spatial representation of:
+•	Habitat types present within the selected wetlands, classified according to the standardized European Nature Information System (EUNIS), v2012, and v2021 (terrestrial)/2022 (marine);
+•	Activities and pressures affecting these habitats, including land use, tourism, aquaculture, agriculture, infrastructure development, pollution, habitat degradation, and others. The nomenclature for activities and pressures used was based on established European environmental directives and frameworks, namely the Marine Strategy Framework Directive (MSFD, Directive 2008/56/EC), the Water Framework Directive (WFD, Directive 2000/60/EC), the Habitats Directive (92/43/EEC, 1992), and the Statistical Classification of Economic Activities in the European Community (NACE, EC, 2006).
+ 
+This dataset is a key resource for scientists, policymakers, and conservation practitioners, providing insights into the interactions between coastal wetland habitats, human activities, and environmental pressures. It supports the RESTORE4Cs project by informing evidence-based restoration strategies that enhance biodiversity, climate resilience, and sustainable land use across Europe."""@en ;
+    dct:identifier "603b7522-6564-43c1-bde9-6dc3ed6f49b0" ;
+    dct:issued "2025-05-26"^^xsd:date ;
+    dct:language "English"@en ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:rights "Free for use, including sharing and adaptation, by all individuals provided that the owners are acknowledged in any use or publication."@en ;
+    dct:spatial <http://semantics.lifewatchitaly.eu/resource#dct:Spatial-id:Camargue>,
+        <http://semantics.lifewatchitaly.eu/resource#dct:Spatial-id:Curonian%20lagoon>,
+        <http://semantics.lifewatchitaly.eu/resource#dct:Spatial-id:Danube%20Delta>,
+        <http://semantics.lifewatchitaly.eu/resource#dct:Spatial-id:Dutch%20wetlands>,
+        <http://semantics.lifewatchitaly.eu/resource#dct:Spatial-id:Marjal%20dels%20moros>,
+        <http://semantics.lifewatchitaly.eu/resource#dct:Spatial-id:Ria%20de%20Aveiro> ;
+    dct:temporal <http://semantics.lifewatchitaly.eu/resource#dct:Temporal-id:603b7522-6564-43c1-bde9-6dc3ed6f49b0> ;
+    dct:title "RESTORE4Cs Coastal wetlands Habitats, Activities and Pressures"@en ;
+    dwc:measurementMethod "Activities and Pressures: The case study experts identified the most representative activities and pressures present in each habitat, including land use, tourism, aquaculture, agriculture, infrastructure development, pollution, habitat degradation, and others. The nomenclature for activities and pressures used was based on established European environmental directives and frameworks, namely the Marine Strategy Framework Directive (MSFD, Directive 2008/56/EC), the Water Framework Directive (WFD, Directive 2000/60/EC), the Habitats Directive (92/43/EEC, 1992), and the Statistical Classification of Economic Activities in the European Community (NACE, EC, 2006)."@en,
+        "Habitats: For mapping the landscape units (Habitats), the EUNIS Habitats database http://eunis.eea.europa.eu/habitats.jsp was used as baseline and refined by the experts of each case study. The crosswalk EUNIS 2012 - EUNIS 2021 terrestrial (https://www.eea.europa.eu/data-and-maps/data/eunis-habitat-classification-1/eunis-terrestrial-habitat-classification-review-2021/eunis-terrestrial-habitat-classification-2021) and crosswalk EUNIS 2012 - EUNIS 2022 marine (https://www.eea.europa.eu/data-and-maps/data/eunis-habitat-classification-1/eunis-marine-habitat-classification-review-2022/eunis-marine-habitat-classification-2022) were then used as baseline to determine the equivalent Corine Land Cover landscape units, with the case study experts improvement when ambiguity was identified."@en ;
+    dcat:distribution <http://semantics.lifewatchitaly.eu/resource#dcat:Distribution-id:https%3A%2F%2Fdata.lifewatchitaly.eu%2Fhandle%2F123456789%2F129787> ;
+    dcat:keyword <http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Fdata.loterre.fr%2Fark%3A%2F67375%2FBLH-LFDH1WDM-3>,
+        <http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Feunis.eea.europa.eu%2Feunishabitats%2FB>,
+        <http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F21797> ;
+    prov:qualifiedAttribution <http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:0938913888>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:0961824466>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:1078412897>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:1989261624>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:2119845741>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:3265215761>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:3543393962>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:3708389961>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:4012064457>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:4028705677>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:5387262632>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:5391566697>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:6056898944>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:9733827186>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionContact-id:0755255288>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionContact-id:1770571352>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionContact-id:7830515116>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionCreator-id:0246058897>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionCreator-id:8118867544>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionMetadataProvider-id:1207589827>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionMetadataProvider-id:4853004845> ;
+    prov:wasGeneratedBy <http://semantics.lifewatchitaly.eu/resource#foaf:Project-id:0955107435> .
+
+<http://semantics.lifewatchitaly.eu/resource#dcat:Distribution-id:https%3A%2F%2Fdata.lifewatchitaly.eu%2Fhandle%2F123456789%2F129787> a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL <https://data.lifewatchitaly.eu/handle/123456789/129787> .
+
+<http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Fdata.loterre.fr%2Fark%3A%2F67375%2FBLH-LFDH1WDM-3> a owl:NamedIndividual,
+        skos:Concept ;
+    rdfs:label "anthropogenic factor" ;
+    dct:type <http://data.loterre.fr/ark:/67375/BLH-LFDH1WDM-3> .
+
+<http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Feunis.eea.europa.eu%2Feunishabitats%2FB> a owl:NamedIndividual,
+        skos:Concept ;
+    rdfs:label "Coastal habitats" ;
+    dct:type <http://eunis.eea.europa.eu/eunishabitats/B> .
+
+<http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F21797> a owl:NamedIndividual,
+        skos:Concept ;
+    rdfs:label "wetland" ;
+    dct:type <http://vocabs.lter-europe.net/EnvThes/21797> .
+
+<http://semantics.lifewatchitaly.eu/resource#dct:Spatial-id:Camargue> a dct:Location ;
+    dct:description "Camargue" ;
+    lw:eastBoundCoordinate "4.9275"^^xsd:LocationStructure ;
+    lw:northBoundCoordinate "43.674"^^xsd:LocationStructure ;
+    lw:southBoundCoordinate "43.3229"^^xsd:LocationStructure ;
+    lw:westBoundCoordinate "4.4382"^^xsd:LocationStructure .
+
+<http://semantics.lifewatchitaly.eu/resource#dct:Spatial-id:Curonian%20lagoon> a dct:Location ;
+    dct:description "Curonian lagoon" ;
+    lw:eastBoundCoordinate "21.2653"^^xsd:LocationStructure ;
+    lw:northBoundCoordinate "55.7186"^^xsd:LocationStructure ;
+    lw:southBoundCoordinate "54.8743"^^xsd:LocationStructure ;
+    lw:westBoundCoordinate "20.5142"^^xsd:LocationStructure .
+
+<http://semantics.lifewatchitaly.eu/resource#dct:Spatial-id:Danube%20Delta> a dct:Location ;
+    dct:description "Danube Delta" ;
+    lw:eastBoundCoordinate "29.7459"^^xsd:LocationStructure ;
+    lw:northBoundCoordinate "45.4723"^^xsd:LocationStructure ;
+    lw:southBoundCoordinate "44.8032"^^xsd:LocationStructure ;
+    lw:westBoundCoordinate "28.2843"^^xsd:LocationStructure .
+
+<http://semantics.lifewatchitaly.eu/resource#dct:Spatial-id:Dutch%20wetlands> a dct:Location ;
+    dct:description "Dutch wetlands" ;
+    lw:eastBoundCoordinate "4.4087"^^xsd:LocationStructure ;
+    lw:northBoundCoordinate "51.6811"^^xsd:LocationStructure ;
+    lw:southBoundCoordinate "51.2754"^^xsd:LocationStructure ;
+    lw:westBoundCoordinate "3.9907"^^xsd:LocationStructure .
+
+<http://semantics.lifewatchitaly.eu/resource#dct:Spatial-id:Marjal%20dels%20moros> a dct:Location ;
+    dct:description "Marjal dels moros" ;
+    lw:eastBoundCoordinate "-0.240362"^^xsd:LocationStructure ;
+    lw:northBoundCoordinate "39.64107"^^xsd:LocationStructure ;
+    lw:southBoundCoordinate "39.61579"^^xsd:LocationStructure ;
+    lw:westBoundCoordinate "-0.27997"^^xsd:LocationStructure .
+
+<http://semantics.lifewatchitaly.eu/resource#dct:Spatial-id:Ria%20de%20Aveiro> a dct:Location ;
+    dct:description "Ria de Aveiro" ;
+    lw:eastBoundCoordinate "-8.59663"^^xsd:LocationStructure ;
+    lw:northBoundCoordinate "40.74963"^^xsd:LocationStructure ;
+    lw:southBoundCoordinate "40.63271"^^xsd:LocationStructure ;
+    lw:westBoundCoordinate "-8.72507"^^xsd:LocationStructure .
+
+<http://semantics.lifewatchitaly.eu/resource#dct:Temporal-id:603b7522-6564-43c1-bde9-6dc3ed6f49b0> a dct:PeriodOfTime .
+
+<http://semantics.lifewatchitaly.eu/resource#foaf:Project-id:0955107435> a foaf:Project ;
+    dct:description "All major European Union (EU) policies recognise the key role of wetlands to achieve the EU objectives regarding climate neutrality, biodiversity protection, zero-pollution, flood protection, and circular economy. Therefore, assessing the current extent and state of European wetlands, their current and potential greenhouse gases (GHG) profile and their medium to long-term mitigation capacity through restoration, or other measures, are key priorities of the European Union to tackle climate change. Led by the University of Aveiro, the Horizon project RESTORE4Cs (Modelling RESTORation of wEtlands for Carbon pathways, Climate Change mitigation and adaptation, ecosystem services, and biodiversity, Co-benefits) will assess the role of restoration action on wetlands capacity in terms of climate change mitigation and a wide range of ecosystem services using an integrative socio-ecological systems approach." ;
+    dct:title "RESTORE4Cs - Modelling RESTORation of wEtlands for Carbon pathways, Climate Change mitigation and adaptation, ecosystem services, and biodiversity, Co-benefits" .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0001-7751-3187> a owl:NamedIndividual,
+        prov:Agent,
+        prov:Person ;
+    dct:identifier <https://orcid.org/0000-0001-7751-3187> ;
+    prov:actedOnBehalfOf "Marine Research Institute, Klaipeda University" ;
+    foaf:familyName "Katarzyte" ;
+    foaf:mbox "marija.Katarzyte@ku.lt" ;
+    foaf:name "Marija" .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0001-8267-5340> a owl:NamedIndividual,
+        prov:Agent,
+        prov:Person ;
+    dct:identifier <https://orcid.org/0000-0001-8267-5340> ;
+    prov:actedOnBehalfOf "University of Valencia" ;
+    foaf:familyName "Morant" ;
+    foaf:mbox "daniel.morant@uv.es" ;
+    foaf:name "Daniel" .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0001-8525-9967> a owl:NamedIndividual,
+        prov:Agent,
+        prov:Person ;
+    dct:identifier <https://orcid.org/0000-0001-8525-9967> ;
+    prov:actedOnBehalfOf "Universidade de Aveiro" ;
+    foaf:familyName "Teixeira" ;
+    foaf:mbox "heliana.teixeira@ua.pt" ;
+    foaf:name "Heliana" .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0002-3906-6424> a owl:NamedIndividual,
+        prov:Agent,
+        prov:Person ;
+    dct:identifier <https://orcid.org/0000-0002-3906-6424> ;
+    prov:actedOnBehalfOf "Tour du Valat" ;
+    foaf:familyName "Guelmami" ;
+    foaf:mbox "guelmami@tourduvalat.org" ;
+    foaf:name "Anis" .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0002-8294-4755> a owl:NamedIndividual,
+        prov:Agent,
+        prov:Person ;
+    dct:identifier <https://orcid.org/0000-0002-8294-4755> ;
+    prov:actedOnBehalfOf "University of Valencia" ;
+    foaf:familyName "Rochera" ;
+    foaf:mbox "carlos.rochera@uv.es" ;
+    foaf:name "Carlos" .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0003-0841-2010> a owl:NamedIndividual,
+        prov:Agent,
+        prov:Person ;
+    dct:identifier <https://orcid.org/0000-0003-0841-2010> ;
+    prov:actedOnBehalfOf "University of Valencia" ;
+    foaf:familyName "Camacho" ;
+    foaf:mbox "antonio.camacho@uv.es" ;
+    foaf:name "Antonio" .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0003-1237-6403> a owl:NamedIndividual,
+        prov:Agent,
+        prov:Person ;
+    dct:identifier <https://orcid.org/0000-0003-1237-6403> ;
+    prov:actedOnBehalfOf "Wageningen University and Research" ;
+    foaf:familyName "van Puijenbroek" ;
+    foaf:mbox "marinka.vanpuijenbroek@wur.nl" ;
+    foaf:name "Marinka" .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0003-4479-5688> a owl:NamedIndividual,
+        prov:Agent,
+        prov:Person ;
+    dct:identifier <https://orcid.org/0000-0003-4479-5688> ;
+    prov:actedOnBehalfOf "Marine Research Institute, Klaipeda University" ;
+    foaf:familyName "Vaičiūtė" ;
+    foaf:mbox "diana.Vaiciute@ku.lt" ;
+    foaf:name "Diana" .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0003-4521-7185> a owl:NamedIndividual,
+        prov:Agent,
+        prov:Person ;
+    dct:identifier <https://orcid.org/0000-0003-4521-7185> ;
+    prov:actedOnBehalfOf "University of Bucharest" ;
+    foaf:familyName "Cazacu" ;
+    foaf:mbox "constantin.cazacu@g.unibuc.ro" ;
+    foaf:name "Constantin" .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0003-4668-5669> a owl:NamedIndividual,
+        prov:Agent,
+        prov:Person ;
+    dct:identifier <https://orcid.org/0000-0003-4668-5669> ;
+    prov:actedOnBehalfOf "Marine Research Institute, Klaipeda University" ;
+    foaf:familyName "Bučas" ;
+    foaf:mbox "martynas.Bucas@ku.lt" ;
+    foaf:name "Martynas" .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0009-0001-9691-1989> a owl:NamedIndividual,
+        prov:Agent,
+        prov:Person ;
+    dct:identifier <https://orcid.org/0009-0001-9691-1989> ;
+    prov:actedOnBehalfOf "University of Salento" ;
+    foaf:familyName "Pulieri" ;
+    foaf:mbox "martina.pulieri@unisalento.it" ;
+    foaf:name "Martina" .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:0938913888> a prov:Attribution ;
+    dcat:hadRole "Associated Party" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0003-4521-7185> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:0961824466> a prov:Attribution ;
+    dcat:hadRole "Associated Party" .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:1078412897> a prov:Attribution ;
+    dcat:hadRole "Associated Party" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0003-1237-6403> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:1989261624> a prov:Attribution ;
+    dcat:hadRole "Associated Party" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0002-8294-4755> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:2119845741> a prov:Attribution ;
+    dcat:hadRole "Associated Party" .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:3265215761> a prov:Attribution ;
+    dcat:hadRole "Associated Party" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0001-7751-3187> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:3543393962> a prov:Attribution ;
+    dcat:hadRole "Associated Party" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0003-4479-5688> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:3708389961> a prov:Attribution ;
+    dcat:hadRole "Associated Party" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0001-8525-9967> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:4012064457> a prov:Attribution ;
+    dcat:hadRole "Associated Party" .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:4028705677> a prov:Attribution ;
+    dcat:hadRole "Associated Party" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0001-8267-5340> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:5387262632> a prov:Attribution ;
+    dcat:hadRole "Associated Party" .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:5391566697> a prov:Attribution ;
+    dcat:hadRole "Associated Party" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0003-4668-5669> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:6056898944> a prov:Attribution ;
+    dcat:hadRole "Associated Party" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0002-3906-6424> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:9733827186> a prov:Attribution ;
+    dcat:hadRole "Associated Party" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0003-0841-2010> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionContact-id:0755255288> a prov:Attribution ;
+    dcat:hadRole "Contact" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0002-5228-0329> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionContact-id:1770571352> a prov:Attribution ;
+    dcat:hadRole "Contact" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0001-7089-2508> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionContact-id:7830515116> a prov:Attribution ;
+    dcat:hadRole "Contact" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0001-5877-8614> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionCreator-id:0246058897> a prov:Attribution ;
+    dcat:hadRole "Creator" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0002-5228-0329> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionCreator-id:8118867544> a prov:Attribution ;
+    dcat:hadRole "Creator" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0001-7089-2508> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionMetadataProvider-id:1207589827> a prov:Attribution ;
+    dcat:hadRole "Metadata Provider" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0009-0001-9691-1989> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionMetadataProvider-id:4853004845> a prov:Attribution ;
+    dcat:hadRole "Metadata Provider" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0001-5877-8614> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0001-5877-8614> a owl:NamedIndividual,
+        prov:Agent,
+        prov:Person ;
+    dct:identifier <https://orcid.org/0000-0001-5877-8614> ;
+    prov:actedOnBehalfOf "Universidade de Aveiro" ;
+    foaf:familyName "Oliveira" ;
+    foaf:mbox "bruna.oliveira@ua.pt" ;
+    foaf:name "Bruna R. F." .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0001-7089-2508> a owl:NamedIndividual,
+        prov:Agent,
+        prov:Person ;
+    dct:identifier <https://orcid.org/0000-0001-7089-2508> ;
+    prov:actedOnBehalfOf "Universidade de Aveiro" ;
+    foaf:familyName "Nogueira" ;
+    foaf:mbox "antonio.nogueira@ua.pt" ;
+    foaf:name "António" .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0002-5228-0329> a owl:NamedIndividual,
+        prov:Agent,
+        prov:Person ;
+    dct:identifier <https://orcid.org/0000-0002-5228-0329> ;
+    prov:actedOnBehalfOf "Universidade de Aveiro" ;
+    foaf:familyName "Lillebø" ;
+    foaf:mbox "lillebo@ua.pt" ;
+    foaf:name "Ana" .
+

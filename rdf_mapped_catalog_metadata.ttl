@@ -1,0 +1,104 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix lw: <https://kos.lifewatch.eu/ontologies/lw/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://semantics.lifewatchitaly.eu/resource#dcat:Catalog-id:61175251-1672-4795-b23b-b35b0dd0a294> a owl:NamedIndividual,
+        dcat:Catalog ;
+    rdfs:label "LifeWatch Italy Semantic Platform"@en ;
+    dct:accessRights "Open access" ;
+    dct:conformsTo <http://semantics.lifewatchitaly.eu/resource#dcat:Policy01-61175251-1672-4795-b23b-b35b0dd0a294>,
+        <http://semantics.lifewatchitaly.eu/resource#dcat:Policy02-61175251-1672-4795-b23b-b35b0dd0a294>,
+        <http://semantics.lifewatchitaly.eu/resource#dcat:Standard01-61175251-1672-4795-b23b-b35b0dd0a294>,
+        <http://semantics.lifewatchitaly.eu/resource#dcat:Standard02-61175251-1672-4795-b23b-b35b0dd0a294>,
+        <http://semantics.lifewatchitaly.eu/resource#dcat:Standard03-61175251-1672-4795-b23b-b35b0dd0a294>,
+        <http://semantics.lifewatchitaly.eu/resource#dcat:Standard04-61175251-1672-4795-b23b-b35b0dd0a294>,
+        <http://semantics.lifewatchitaly.eu/resource#dcat:Standard05-61175251-1672-4795-b23b-b35b0dd0a294> ;
+    dct:created "2022-01-01"^^xsd:date ;
+    dct:description "The LifeWatch Italy Semantic Platform allows to search and access the LifeWatch Italy resources with the help of semantically enriched queries. It is based on a main semantic model that describes different resources and their metadata, as well as meaningful links between controlled vocabularies for Biodiversity and Ecosystems domain and resources of LifeWatch Italy."@en ;
+    dct:identifier "61175251-1672-4795-b23b-b35b0dd0a294" ;
+    dct:issued "2022-11-30"^^xsd:date ;
+    dct:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
+    dct:publisher <http://semantics.lifewatchitaly.eu/resource#dcat:Publisher01-61175251-1672-4795-b23b-b35b0dd0a294> ;
+    dct:rights "Metadata records are freely available under a Public Domain License (CC0 1.0). The platform itself is licensed under a Creative Commons Attribution License (CC BY 4.0) http://creativecommons.org/licenses/by/4.0/. It is free for use by anyone, provided that LifeWatch Italy is acknowledged in any use or publication." ;
+    dct:title "LifeWatch Italy Semantic Platform"@en ;
+    dcat:contactPoint <http://semantics.lifewatchitaly.eu/resource#dcat:Contact01-61175251-1672-4795-b23b-b35b0dd0a294>,
+        <http://semantics.lifewatchitaly.eu/resource#dcat:Contact02-61175251-1672-4795-b23b-b35b0dd0a294>,
+        <http://semantics.lifewatchitaly.eu/resource#dcat:Contact03-61175251-1672-4795-b23b-b35b0dd0a294> ;
+    dcat:keyword "Knowledge base"@en,
+        "Semantic search"@en ;
+    dcat:landingPage <http://semantics.lifewatchitaly.eu> ;
+    dcat:service <http://semantics.lifewatchitaly.eu/resource#dcat:Service01-61175251-1672-4795-b23b-b35b0dd0a294>,
+        <http://semantics.lifewatchitaly.eu/resource#dcat:Service02-61175251-1672-4795-b23b-b35b0dd0a294> ;
+    dcat:version "2.0" ;
+    foaf:status "Production" .
+
+<http://semantics.lifewatchitaly.eu/resource#dcat:Contact01-61175251-1672-4795-b23b-b35b0dd0a294> a prov:Person ;
+    dct:identifier <https://orcid.org/0009-0006-3432-6182> ;
+    prov:actedOnBehalfOf "LifeWatch ERIC" ;
+    foaf:familyName "Ramezani" ;
+    foaf:mbox "parham.ramezani@lifewatch.eu" ;
+    foaf:name "Parham" .
+
+<http://semantics.lifewatchitaly.eu/resource#dcat:Contact02-61175251-1672-4795-b23b-b35b0dd0a294> a prov:Person ;
+    dct:identifier <https://orcid.org/0000-0003-3422-7230> ;
+    prov:actedOnBehalfOf "National Research Council" ;
+    foaf:familyName "Rosati" ;
+    foaf:mbox "ilaria.rosati@cnr.it" ;
+    foaf:name "Ilaria" .
+
+<http://semantics.lifewatchitaly.eu/resource#dcat:Contact03-61175251-1672-4795-b23b-b35b0dd0a294> a prov:Agent ;
+    prov:actedOnBehalfOf "LifeWatch Italy" ;
+    foaf:mbox "semantics@lifewatch.eu" ;
+    foaf:name "Semantic Team" .
+
+<http://semantics.lifewatchitaly.eu/resource#dcat:Policy01-61175251-1672-4795-b23b-b35b0dd0a294> a dct:Policy ;
+    dct:title "LifeWatch Italy Privacy Policy" ;
+    rdfs:seeAlso <http://www.lifewatchitaly.eu/en/privacy-policy-eng/> .
+
+<http://semantics.lifewatchitaly.eu/resource#dcat:Policy02-61175251-1672-4795-b23b-b35b0dd0a294> a dct:Policy ;
+    dct:title "LifeWatch Italy Data Policy" ;
+    rdfs:seeAlso <http://www.lifewatchitaly.eu/en/data-policy-eng/> .
+
+<http://semantics.lifewatchitaly.eu/resource#dcat:Publisher01-61175251-1672-4795-b23b-b35b0dd0a294> a foaf:Organization ;
+    dct:title "LifeWatch Italy" ;
+    rdfs:seeAlso <http://www.lifewatchitaly.eu/> .
+
+<http://semantics.lifewatchitaly.eu/resource#dcat:Service01-61175251-1672-4795-b23b-b35b0dd0a294> a dcat:DataService ;
+    dct:title "SPARQL 1.2 Protocol" ;
+    rdfs:seeAlso <http://www.w3.org/TR/sparql12-protocol/> ;
+    dcat:endpointURL <http://semantics.lifewatchitaly.eu/resource/MySystem:SparqlEndpoint> .
+
+<http://semantics.lifewatchitaly.eu/resource#dcat:Service02-61175251-1672-4795-b23b-b35b0dd0a294> a dcat:DataService ;
+    dct:description "Using Query Builder, you can search and filter database objects, select objects and columns, create relationships between objects, and view formatted query results with little or no SPARQL knowledge." ;
+    dct:title "Query Builder" ;
+    dcat:accessURL <http://semantics.lifewatchitaly.eu/resource/:TabStructuredSearch> .
+
+<http://semantics.lifewatchitaly.eu/resource#dcat:Standard01-61175251-1672-4795-b23b-b35b0dd0a294> a dct:Standard ;
+    dct:identifier dcat: ;
+    dct:title "Data Catalog Vocabulary (DCAT)" ;
+    rdfs:seeAlso <http://www.w3.org/TR/vocab-dcat/> .
+
+<http://semantics.lifewatchitaly.eu/resource#dcat:Standard02-61175251-1672-4795-b23b-b35b0dd0a294> a dct:Standard ;
+    dct:identifier <http://dublincore.org/specifications/dublin-core/dcmi-terms/2020-01-20/> ;
+    dct:title "DCMI Metadata Terms" ;
+    rdfs:seeAlso <http://www.dublincore.org/specifications/dublin-core/dcmi-terms/> .
+
+<http://semantics.lifewatchitaly.eu/resource#dcat:Standard03-61175251-1672-4795-b23b-b35b0dd0a294> a dct:Standard ;
+    dct:identifier <http://www.w3.org/TR/2013/REC-prov-o-20130430/> ;
+    dct:title "The PROV Ontology" ;
+    rdfs:seeAlso <http://www.w3.org/TR/prov-o/> .
+
+<http://semantics.lifewatchitaly.eu/resource#dcat:Standard04-61175251-1672-4795-b23b-b35b0dd0a294> a dct:Standard ;
+    dct:identifier <http://xmlns.com/foaf/spec/20140114.html> ;
+    dct:title "FOAF Vocabulary Specification" ;
+    rdfs:seeAlso <http://xmlns.com/foaf/spec/> .
+
+<http://semantics.lifewatchitaly.eu/resource#dcat:Standard05-61175251-1672-4795-b23b-b35b0dd0a294> a dct:Standard ;
+    dct:title "LifeWatch Italy Domain Ontology" ;
+    rdfs:seeAlso lw: .
+

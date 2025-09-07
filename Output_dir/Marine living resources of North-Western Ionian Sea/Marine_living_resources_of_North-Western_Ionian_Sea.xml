@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="2a247df6-e1ce-4da5-bee7-e29676c4d138" system="https://data.lifewatchitaly.eu" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd" scope="system">
+  <dataset>
+    <alternateIdentifier>https://data.lifewatchitaly.eu/handle/123456789/129590</alternateIdentifier>
+    <title>Marine living resources of North-Western Ionian Sea</title>
+    <creator>
+      <individualName>
+        <givenName>Angela</givenName>
+        <surName>Carluccio</surName>
+      </individualName>
+      <organizationName>University of Bari Aldo Moro</organizationName>
+      <positionName>Researcher assistant</positionName>
+      <electronicMailAddress>angela.carluccio@uniba.it</electronicMailAddress>
+      <userId directory="https://orcid.org/">0000-0002-4227-6377</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Porzia</givenName>
+        <surName>Maiorano</surName>
+      </individualName>
+      <organizationName>University of Bari Aldo Moro</organizationName>
+      <positionName>Associate Professor</positionName>
+      <electronicMailAddress>porzia.maiorano@uniba.it</electronicMailAddress>
+      <userId directory="https://orcid.org/">0000-0001-5737-3025</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Gianfranco</givenName>
+        <surName>D'Onghia</surName>
+      </individualName>
+      <organizationName>University of Bari Aldo Moro</organizationName>
+      <positionName>Full professor</positionName>
+      <electronicMailAddress>gianfranco.donghia@uniba.it</electronicMailAddress>
+      <userId directory="https://orcid.org/">0000-0003-0952-9472</userId>
+    </creator>
+    <metadataProvider>
+      <individualName>
+        <givenName>Angela</givenName>
+        <surName>Carluccio</surName>
+      </individualName>
+      <organizationName>University of Bari Aldo Moro</organizationName>
+      <positionName>Researcher assistant</positionName>
+      <electronicMailAddress>angela.carluccio@uniba.it</electronicMailAddress>
+      <userId directory="https://orcid.org/">0000-0002-4227-6377</userId>
+    </metadataProvider>
+    <metadataProvider>
+      <individualName>
+        <givenName>Martina</givenName>
+        <surName>Pulieri</surName>
+      </individualName>
+      <organizationName>University of Salento</organizationName>
+      <positionName>Research assistant</positionName>
+      <electronicMailAddress>martina.pulieri@unisalento.it</electronicMailAddress>
+      <userId directory="https://orcid.org/">0009-0001-9691-1989</userId>
+    </metadataProvider>
+    <associatedParty>
+      <individualName>
+        <givenName>Lucia</givenName>
+        <surName>Ciardo</surName>
+      </individualName>
+      <organizationName>LABORATORI DELLA FONDAZIONE Trend Sviluppo Holding</organizationName>
+      <positionName>Activity manager</positionName>
+      <role>Content Provider</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Ilaria</givenName>
+        <surName>Rosati</surName>
+      </individualName>
+      <organizationName>National Research Council (CNR), Institute of Research on Terrestrial Ecosystems (IRET)</organizationName>
+      <positionName>Technologist</positionName>
+      <electronicMailAddress>ilaria.rosati@cnr.it</electronicMailAddress>
+      <userId directory="https://orcid.org/">0000-0003-3422-7230</userId>
+      <role>Custodian Steward</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Martina</givenName>
+        <surName>Pulieri</surName>
+      </individualName>
+      <organizationName>University of Salento</organizationName>
+      <positionName>Research assistant</positionName>
+      <electronicMailAddress>martina.pulieri@unisalento.it</electronicMailAddress>
+      <userId directory="https://orcid.org/">0009-0001-9691-1989</userId>
+      <role>Information Manager</role>
+    </associatedParty>
+    <pubDate>2025-01-21</pubDate>
+    <language>English</language>
+    <abstract>The dataset contains information on density (expressed as N/Km2) and mean length (expressed in mm) of marine species collected in the North-Western Ionian Sea during the MEDITS surveys realized from 2012 to 2021. Data refer to 61 species (7 cephalopods, 7 crustaceans, 16 chondrichthyes, 31 osteichthyes) and contains 7181 records.</abstract>
+    <keywordSet>
+      <keyword>Marine biodiversity</keyword>
+      <keywordThesaurus>MEDIN Parameter Discipline Keywords</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Abundance</keyword>
+      <keyword>mean length</keyword>
+      <keywordThesaurus>Marisaurus Thesaurus</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>This work is licensed under the Creative Commons Attribution 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/.</intellectualRights>
+    <licensed>
+      <licenseName>cc-by</licenseName>
+      <url>https://creativecommons.org/licenses/by/4.0/</url>
+    </licensed>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>The dataset contains information collected in the North-Western Ionian Sea.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>15.252383</westBoundingCoordinate>
+          <eastBoundingCoordinate>18.940514</eastBoundingCoordinate>
+          <northBoundingCoordinate>40.411144</northBoundingCoordinate>
+          <southBoundingCoordinate>36.658347</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2012</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2021</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Class</taxonRankName>
+          <taxonRankValue>Cephalopoda</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">11707</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Class</taxonRankName>
+          <taxonRankValue>Elasmobranchii</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">10193</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Class</taxonRankName>
+          <taxonRankValue>Malacostraca</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">1071</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Class</taxonRankName>
+          <taxonRankValue>Teleostei</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">293496</taxonId>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+    </coverage>
+    <annotation>
+      <propertyURI label="keyword">http://www.w3.org/ns/dcat#keyword</propertyURI>
+      <valueURI label="Marine biodiversity">http://vocab.nerc.ac.uk/collection/P23/current/MD002/</valueURI>
+    </annotation>
+    <annotation>
+      <propertyURI label="keyword">http://www.w3.org/ns/dcat#keyword</propertyURI>
+      <valueURI label="Abundance">http://vocab.nerc.ac.uk/collection/P21/current/MS51/</valueURI>
+    </annotation>
+    <annotation>
+      <propertyURI label="keyword">http://www.w3.org/ns/dcat#keyword</propertyURI>
+      <valueURI label="mean length">http://vocab.nerc.ac.uk/collection/P21/current/MS11694/</valueURI>
+    </annotation>
+    <contact>
+      <individualName>
+        <givenName>Angela</givenName>
+        <surName>Carluccio</surName>
+      </individualName>
+      <organizationName>University of Bari Aldo Moro</organizationName>
+      <positionName>Researcher assistant</positionName>
+      <electronicMailAddress>angela.carluccio@uniba.it</electronicMailAddress>
+      <userId directory="https://orcid.org/">0000-0002-4227-6377</userId>
+    </contact>
+    <publisher>
+      <organizationName>LifeWatch Italy</organizationName>
+      <electronicMailAddress>lifewatchitalia@unisalento.it</electronicMailAddress>
+      <onlineUrl>https://www.lifewatchitaly.eu/</onlineUrl>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>The MEDITS trawl surveys are carried out in the Mediterranean from late spring to summer every year,  according to a standardised protocol that includes gear characteristics, haul duration, and sampling procedures, following a depth-stratified random design, from 10 to 800 m in depth.</description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>International Bottom Trawl Survey in the Mediterranean (MEDITS)</title>
+      <personnel>
+        <individualName>
+          <givenName>Angela</givenName>
+          <surName>Carluccio</surName>
+        </individualName>
+        <organizationName>University of Bari Aldo Moro</organizationName>
+        <positionName>Researcher assistant</positionName>
+        <electronicMailAddress>angela.carluccio@uniba.it</electronicMailAddress>
+        <userId directory="https://orcid.org/">0000-0002-4227-6377</userId>
+        <role>Point Of Contact</role>
+      </personnel>
+      <abstract>The aim of the MEDITS campaign is the evaluation of demersal resources in the Mediterranean Sea through systematic bottom trawl surveys. The MEDITS programme started in 1994 and the MEDITS surveys are carried out in the Mediterranean from late spring to summer every year, according to a standardised protocol that includes gear characteristics, haul duration, and sampling procedures, following a depth-stratified random design, from 10 to 800 m in depth.</abstract>
+    </project>
+    <dataTable>
+      <entityName>Marine_Living_Resources_20250121.csv</entityName>
+      <physical>
+        <objectName>Marine_Living_Resources_20250121.csv</objectName>
+        <size unit="byte">1341674</size>
+        <authentication>MD5:9ee451fe75d2eb31b5c0fcc7bcccaead</authentication>
+        <characterEncoding>UTF-8</characterEncoding>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>;</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>country</attributeName>
+          <attributeLabel>Country</attributeLabel>
+          <attributeDefinition>The name of the country or major administrative unit in which the dcterms:Location occurs.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Country">http://rs.tdwg.org/dwc/terms/country</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>waterBody</attributeName>
+          <attributeLabel>Water Body</attributeLabel>
+          <attributeDefinition>The name of the water body in which the dcterms:Location occurs.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Water Body">http://rs.tdwg.org/dwc/terms/waterBody</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>year</attributeName>
+          <attributeLabel>Year</attributeLabel>
+          <attributeDefinition>The four-digit year in which the dwc:Event occurred, according to the Common Era Calendar.</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY</formatString>
+            </dateTime>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Year">http://rs.tdwg.org/dwc/terms/year</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>eventID</attributeName>
+          <attributeLabel>Event ID</attributeLabel>
+          <attributeDefinition>An identifier for the set of information associated with a dwc:Event (something that occurs at a place and time). May be a global unique identifier or an identifier specific to the data set.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="hasCode">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasCode</propertyURI>
+            <valueURI label="Event ID">http://rs.tdwg.org/dwc/terms/eventID</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>depth</attributeName>
+          <attributeLabel>depth</attributeLabel>
+          <attributeDefinition>Depth is the vertical distance below the surface.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="depth">http://vocab.nerc.ac.uk/collection/P07/current/CFSN0721/</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>decimalLatitude</attributeName>
+          <attributeLabel>Decimal Latitude</attributeLabel>
+          <attributeDefinition>The geographic latitude (in decimal degrees, using the spatial reference system given in dwc:geodeticDatum) of the geographic center of a dcterms:Location. Positive values are north of the Equator, negative values are south of it. Legal values lie between -90 and 90, inclusive.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Decimal Latitude">http://rs.tdwg.org/dwc/terms/decimalLatitude</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>decimalLongitude</attributeName>
+          <attributeLabel>Decimal Longitude</attributeLabel>
+          <attributeDefinition>The geographic longitude (in decimal degrees, using the spatial reference system given in dwc:geodeticDatum) of the geographic center of a dcterms:Location. Positive values are east of the Greenwich Meridian, negative values are west of it. Legal values lie between -180 and 180, inclusive.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Decimal Longitude">http://rs.tdwg.org/dwc/terms/decimalLongitude</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>acceptedNameUsage</attributeName>
+          <attributeLabel>Accepted Name Usage</attributeLabel>
+          <attributeDefinition>The full name, with authorship and date information if known, of the currently valid (zoological) or accepted (botanical) dwc:Taxon.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Accepted Name Usage">http://rs.tdwg.org/dwc/terms/acceptedNameUsage</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>scientificNameAuthorship</attributeName>
+          <attributeLabel>Scientific Name Authorship</attributeLabel>
+          <attributeDefinition>The authorship information for the dwc:scientificName formatted according to the conventions of the applicable dwc:nomenclaturalCode.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Scientific Name Authorship">http://rs.tdwg.org/dwc/terms/scientificNameAuthorship</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>acceptedNameUsageID</attributeName>
+          <attributeLabel>Accepted Name Usage ID</attributeLabel>
+          <attributeDefinition>An identifier for the name usage (documented meaning of the name according to a source) of the currently valid (zoological) or accepted (botanical) taxon.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="hasCode">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasCode</propertyURI>
+            <valueURI label="Accepted Name Usage ID">http://rs.tdwg.org/dwc/terms/acceptedNameUsageID</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>taxonRank</attributeName>
+          <attributeLabel>Taxon Rank</attributeLabel>
+          <attributeDefinition>The taxonomic rank of the most specific name in the dwc:scientificName.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Taxon Rank">http://rs.tdwg.org/dwc/terms/taxonRank</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>phylum</attributeName>
+          <attributeLabel>Phylum</attributeLabel>
+          <attributeDefinition>The full scientific name of the phylum or division in which the dwc:Taxon is classified.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Phylum">http://rs.tdwg.org/dwc/terms/phylum</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>class</attributeName>
+          <attributeLabel>Class</attributeLabel>
+          <attributeDefinition>The full scientific name of the class in which the dwc:Taxon is classified.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Class">http://rs.tdwg.org/dwc/terms/class</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>order</attributeName>
+          <attributeLabel>Order</attributeLabel>
+          <attributeDefinition>The full scientific name of the order in which the dwc:Taxon is classified.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Order">http://rs.tdwg.org/dwc/terms/order</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>family</attributeName>
+          <attributeLabel>Family</attributeLabel>
+          <attributeDefinition>The full scientific name of the family in which the dwc:Taxon is classified.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Family">http://rs.tdwg.org/dwc/terms/family</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>genus</attributeName>
+          <attributeLabel>Genus</attributeLabel>
+          <attributeDefinition>The full scientific name of the genus in which the dwc:Taxon is classified.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Genus">http://rs.tdwg.org/dwc/terms/genus</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>specificEpithet</attributeName>
+          <attributeLabel>Specific Epithet</attributeLabel>
+          <attributeDefinition>The name of the first or species epithet of the dwc:scientificName.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Specific Epithet">http://rs.tdwg.org/dwc/terms/specificEpithet</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>density</attributeName>
+          <attributeLabel>density</attributeLabel>
+          <attributeDefinition>The number of organisms, designated by taxonomic names (e.g. species, genus, family), per unit area or per unit volume.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>numberPerKilometerSquared</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="density">http://vocabs.lter-europe.net/EnvThes/EUDIM_025</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>meanLength</attributeName>
+          <attributeLabel>mean length</attributeLabel>
+          <attributeDefinition>The mean value in a range of body length values. It is calculated as the sum of the body lenght values of all organisms divided by the number of organisms measured.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="mean length">http://vocab.nerc.ac.uk/collection/P21/current/MS11694/</valueURI>
+          </annotation>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>7181</numberOfRecords>
+    </dataTable>
+  </dataset>
+</eml:eml>

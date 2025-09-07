@@ -1,0 +1,719 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix lw: <https://kos.lifewatch.eu/ontologies/lw/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix : <http://semantics.lifewatchitaly.eu/resource#> .
+@base <http://semantics.lifewatchitaly.eu/resource#> .
+
+# Mapping for the dataset
+<#Catalog>
+    rml:logicalSource [
+        rml:source "Stage_dir/transformed_metadata_prepared_for_mapping.xml" ;
+        rml:referenceFormulation ql:XPath ;
+        rml:iterator "/eml:eml" ;
+    ] ;
+    rr:subjectMap [
+        rr:template "http://semantics.lifewatchitaly.eu/resource#dcat:Catalog-id:{@id}" ;
+        rr:class owl:NamedIndividual;
+        rr:class dcat:Catalog;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate dcterms:identifier ;
+        rr:objectMap [
+            rr:constant "61175251-1672-4795-b23b-b35b0dd0a294" ;
+            rr:termType rr:Literal ;
+            rr:datatype xsd:string
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate rdfs:label ;
+        rr:objectMap [
+            rr:constant "LifeWatch Italy Semantic Platform" ;
+            rr:termType rr:Literal ;
+            rr:language "en" ;
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate dcterms:title ;
+        rr:objectMap [
+            rr:constant "LifeWatch Italy Semantic Platform" ;
+            rr:termType rr:Literal ;
+            rr:language "en" ;
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate dcterms:description ;
+        rr:objectMap [
+            rr:constant "The LifeWatch Italy Semantic Platform allows to search and access the LifeWatch Italy resources with the help of semantically enriched queries. It is based on a main semantic model that describes different resources and their metadata, as well as meaningful links between controlled vocabularies for Biodiversity and Ecosystems domain and resources of LifeWatch Italy." ;
+            rr:termType rr:Literal ;
+            rr:datatype xsd:string ;
+            rr:language "en" ;
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate dcterms:issued ;
+        rr:objectMap [
+            rr:constant "2022-11-30" ;
+            rr:termType rr:Literal ;
+            rr:datatype xsd:date ;
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate dcterms:created ;
+        rr:objectMap [
+            rr:constant "2022-01-01" ;
+            rr:termType rr:Literal ;
+            rr:datatype xsd:date ;
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate dcat:keyword ;
+        rr:objectMap [
+            rr:constant "Semantic search" ;
+            rr:termType rr:Literal ;
+            rr:datatype xsd:string ;
+            rr:language "en" ;
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate dcat:keyword ;
+        rr:objectMap [
+            rr:constant "Knowledge base" ;
+            rr:termType rr:Literal ;
+            rr:datatype xsd:string ;
+            rr:language "en" ;
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate dcterms:rights ;
+        rr:objectMap [
+            rr:constant "Metadata records are freely available under a Public Domain License (CC0 1.0). The platform itself is licensed under a Creative Commons Attribution License (CC BY 4.0) http://creativecommons.org/licenses/by/4.0/. It is free for use by anyone, provided that LifeWatch Italy is acknowledged in any use or publication." ;
+            rr:termType rr:Literal ;
+            rr:datatype xsd:string ;
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate dcterms:accessRights ;
+        rr:objectMap [
+            rr:constant "Open access" ;
+            rr:termType rr:Literal ;
+            rr:datatype xsd:string ;
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate foaf:status ;
+        rr:objectMap [
+            rr:constant "Production" ;
+            rr:termType rr:Literal ;
+            rr:datatype xsd:string ;
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate dcat:version ;
+        rr:objectMap [
+            rr:constant "2.0" ;
+            rr:termType rr:Literal ;
+            rr:datatype xsd:string ;
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate dcat:landingPage ;
+        rr:objectMap [
+            rr:constant "http://semantics.lifewatchitaly.eu" ;
+            rr:termType rr:IRI ;
+            rr:datatype xsd:anyURI ;
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate dcterms:language ;
+        rr:objectMap [
+            rr:constant "http://id.loc.gov/vocabulary/iso639-1/en" ;
+            rr:termType rr:IRI ;
+            rr:datatype xsd:anyURI ;
+        ] ;
+    ] ;
+
+
+
+    rr:predicateObjectMap [
+        rr:predicate dcat:service ;
+        rr:objectMap [
+            rr:template "http://semantics.lifewatchitaly.eu/resource#dcat:Service01-{@id}";
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate dcat:service ;
+        rr:objectMap [
+            rr:template "http://semantics.lifewatchitaly.eu/resource#dcat:Service02-{@id}";
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate dcat:contactPoint;
+        rr:objectMap [
+            rr:template "http://semantics.lifewatchitaly.eu/resource#dcat:Contact01-{@id}";
+        ] ;
+    ];
+    rr:predicateObjectMap [
+        rr:predicate dcat:contactPoint;
+        rr:objectMap [
+            rr:template "http://semantics.lifewatchitaly.eu/resource#dcat:Contact02-{@id}";
+        ] ;
+    ];
+    rr:predicateObjectMap [
+        rr:predicate dcat:contactPoint;
+        rr:objectMap [
+            rr:template "http://semantics.lifewatchitaly.eu/resource#dcat:Contact03-{@id}";
+        ] ;
+    ];
+    rr:predicateObjectMap [
+        rr:predicate dcterms:conformsTo;
+        rr:objectMap [
+            rr:template "http://semantics.lifewatchitaly.eu/resource#dcat:Standard01-{@id}";
+        ] ;
+    ];
+    rr:predicateObjectMap [
+        rr:predicate dcterms:conformsTo;
+        rr:objectMap [
+            rr:template "http://semantics.lifewatchitaly.eu/resource#dcat:Standard02-{@id}";
+        ] ;
+    ];
+    rr:predicateObjectMap [
+        rr:predicate dcterms:conformsTo;
+        rr:objectMap [
+            rr:template "http://semantics.lifewatchitaly.eu/resource#dcat:Standard03-{@id}";
+        ] ;
+    ];
+    rr:predicateObjectMap [
+        rr:predicate dcterms:conformsTo;
+        rr:objectMap [
+            rr:template "http://semantics.lifewatchitaly.eu/resource#dcat:Standard04-{@id}";
+        ] ;
+    ];
+    rr:predicateObjectMap [
+        rr:predicate dcterms:conformsTo;
+        rr:objectMap [
+            rr:template "http://semantics.lifewatchitaly.eu/resource#dcat:Standard05-{@id}";
+        ] ;
+    ];
+    rr:predicateObjectMap [
+        rr:predicate dcterms:conformsTo;
+        rr:objectMap [
+            rr:template "http://semantics.lifewatchitaly.eu/resource#dcat:Policy01-{@id}";
+        ] ;
+    ];
+    rr:predicateObjectMap [
+        rr:predicate dcterms:conformsTo;
+        rr:objectMap [
+            rr:template "http://semantics.lifewatchitaly.eu/resource#dcat:Policy02-{@id}";
+        ] ;
+    ];
+    rr:predicateObjectMap [
+        rr:predicate dcterms:publisher;
+        rr:objectMap [
+        rr:template "http://semantics.lifewatchitaly.eu/resource#dcat:Publisher01-{@id}";
+        ] ;
+    ];
+.
+
+
+
+<#service01>
+    rml:logicalSource [
+        rml:source "Stage_dir/transformed_metadata_prepared_for_mapping.xml" ;
+        rml:referenceFormulation ql:XPath ;
+        rml:iterator "/eml:eml" ;
+    ] ;
+    rr:subjectMap [
+        rr:template "http://semantics.lifewatchitaly.eu/resource#dcat:Service01-{@id}";
+        rr:class dcat:DataService;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate dcat:endpointURL ;
+        rr:objectMap [
+            rr:constant "http://semantics.lifewatchitaly.eu/resource/MySystem:SparqlEndpoint" ;
+            rr:termType rr:IRI ;
+            rr:datatype xsd:anyURI
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate dcterms:title ;
+        rr:objectMap [
+            rr:constant "SPARQL 1.2 Protocol" ;
+            rr:termType rr:Literal ;
+            rr:datatype xsd:string ;
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate rdfs:seeAlso ;
+        rr:objectMap [
+            rr:constant "http://www.w3.org/TR/sparql12-protocol/" ;
+            rr:termType rr:IRI ;
+            rr:datatype xsd:anyURI
+        ] ;
+    ] ;
+.
+
+
+
+<#service02>
+    rml:logicalSource [
+        rml:source "Stage_dir/transformed_metadata_prepared_for_mapping.xml" ;
+        rml:referenceFormulation ql:XPath ;
+        rml:iterator "/eml:eml" ;
+    ] ;
+    rr:subjectMap [
+        rr:template "http://semantics.lifewatchitaly.eu/resource#dcat:Service02-{@id}";
+        rr:class dcat:DataService;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate dcat:accessURL ;
+        rr:objectMap [
+            rr:constant "http://semantics.lifewatchitaly.eu/resource/:TabStructuredSearch" ;
+            rr:termType rr:IRI ;
+            rr:datatype xsd:anyURI
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate dcterms:title ;
+        rr:objectMap [
+            rr:constant "Query Builder" ;
+            rr:termType rr:Literal ;
+            rr:datatype xsd:string ;
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate dcterms:description ;
+        rr:objectMap [
+            rr:constant "Using Query Builder, you can search and filter database objects, select objects and columns, create relationships between objects, and view formatted query results with little or no SPARQL knowledge." ;
+            rr:termType rr:Literal ;
+            rr:datatype xsd:string
+        ] ;
+    ] ;
+.
+
+
+
+<#contact01>
+    rml:logicalSource [
+        rml:source "Stage_dir/transformed_metadata_prepared_for_mapping.xml" ;
+        rml:referenceFormulation ql:XPath ;
+        rml:iterator "/eml:eml" ;
+    ] ;
+    rr:subjectMap [
+        rr:template "http://semantics.lifewatchitaly.eu/resource#dcat:Contact01-{@id}";
+        rr:class prov:Person;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate dcterms:identifier ;
+        rr:objectMap [
+            rr:constant "https://orcid.org/0009-0006-3432-6182" ;
+            rr:termType rr:IRI ;
+            rr:datatype xsd:anyURI
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate foaf:name ;
+        rr:objectMap [
+            rr:constant "Parham" ;
+            rr:termType rr:Literal ;
+            rr:datatype xsd:string ;
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate foaf:familyName ;
+        rr:objectMap [
+            rr:constant "Ramezani" ;
+            rr:termType rr:Literal ;
+            rr:datatype xsd:string ;
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate foaf:mbox ;
+        rr:objectMap [
+            rr:constant "parham.ramezani@lifewatch.eu";
+            rr:termType rr:Literal ;
+            rr:datatype xsd:string ;
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate prov:actedOnBehalfOf  ;
+        rr:objectMap [
+            rr:constant "LifeWatch ERIC";
+            rr:termType rr:Literal ;
+            rr:datatype xsd:string ;
+        ] ;
+    ] ;
+.
+
+
+
+<#contact02>
+    rml:logicalSource [
+        rml:source "Stage_dir/transformed_metadata_prepared_for_mapping.xml" ;
+        rml:referenceFormulation ql:XPath ;
+        rml:iterator "/eml:eml" ;
+    ] ;
+    rr:subjectMap [
+        rr:template "http://semantics.lifewatchitaly.eu/resource#dcat:Contact02-{@id}";
+        rr:class prov:Person;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate dcterms:identifier ;
+        rr:objectMap [
+            rr:constant "https://orcid.org/0000-0003-3422-7230" ;
+            rr:termType rr:IRI ;
+            rr:datatype xsd:anyURI
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate foaf:name ;
+        rr:objectMap [
+            rr:constant "Ilaria" ;
+            rr:termType rr:Literal ;
+            rr:datatype xsd:string ;
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate foaf:familyName ;
+        rr:objectMap [
+            rr:constant "Rosati" ;
+            rr:termType rr:Literal ;
+            rr:datatype xsd:string ;
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate foaf:mbox ;
+        rr:objectMap [
+            rr:constant "ilaria.rosati@cnr.it";
+            rr:termType rr:Literal ;
+            rr:datatype xsd:string ;
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate prov:actedOnBehalfOf  ;
+        rr:objectMap [
+            rr:constant "National Research Council";
+            rr:termType rr:Literal ;
+            rr:datatype xsd:string ;
+        ] ;
+    ] ;
+.
+
+
+
+<#contact03>
+    rml:logicalSource [
+        rml:source "Stage_dir/transformed_metadata_prepared_for_mapping.xml" ;
+        rml:referenceFormulation ql:XPath ;
+        rml:iterator "/eml:eml" ;
+    ] ;
+    rr:subjectMap [
+        rr:template "http://semantics.lifewatchitaly.eu/resource#dcat:Contact03-{@id}";
+        rr:class prov:Agent;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate foaf:name ;
+        rr:objectMap [
+            rr:constant "Semantic Team" ;
+            rr:termType rr:Literal ;
+            rr:datatype xsd:string ;
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate foaf:mbox ;
+        rr:objectMap [
+            rr:constant "semantics@lifewatch.eu";
+            rr:termType rr:Literal ;
+            rr:datatype xsd:string ;
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate prov:actedOnBehalfOf  ;
+        rr:objectMap [
+            rr:constant "LifeWatch Italy";
+            rr:termType rr:Literal ;
+            rr:datatype xsd:string ;
+        ] ;
+    ] ;
+.
+
+
+
+<#standard01>
+    rml:logicalSource [
+        rml:source "Stage_dir/transformed_metadata_prepared_for_mapping.xml" ;
+        rml:referenceFormulation ql:XPath ;
+        rml:iterator "/eml:eml" ;
+    ] ;
+    rr:subjectMap [
+        rr:template "http://semantics.lifewatchitaly.eu/resource#dcat:Standard01-{@id}";
+        rr:class dcterms:Standard;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate dcterms:identifier ;
+        rr:objectMap [
+            rr:constant "http://www.w3.org/ns/dcat#" ;
+            rr:termType rr:IRI ;
+            rr:datatype xsd:anyURI
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate rdfs:seeAlso ;
+        rr:objectMap [
+            rr:constant "http://www.w3.org/TR/vocab-dcat/" ;
+            rr:termType rr:IRI ;
+            rr:datatype xsd:anyURI
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate dcterms:title ;
+        rr:objectMap [
+            rr:constant "Data Catalog Vocabulary (DCAT)" ;
+            rr:termType rr:Literal ;
+            rr:datatype xsd:string ;
+        ] ;
+    ] ;
+.
+
+
+
+<#standard02>
+    rml:logicalSource [
+        rml:source "Stage_dir/transformed_metadata_prepared_for_mapping.xml" ;
+        rml:referenceFormulation ql:XPath ;
+        rml:iterator "/eml:eml" ;
+    ] ;
+    rr:subjectMap [
+        rr:template "http://semantics.lifewatchitaly.eu/resource#dcat:Standard02-{@id}";
+        rr:class dcterms:Standard;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate dcterms:identifier ;
+        rr:objectMap [
+            rr:constant "http://dublincore.org/specifications/dublin-core/dcmi-terms/2020-01-20/" ;
+            rr:termType rr:IRI ;
+            rr:datatype xsd:anyURI
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate rdfs:seeAlso ;
+        rr:objectMap [
+            rr:constant "http://www.dublincore.org/specifications/dublin-core/dcmi-terms/" ;
+            rr:termType rr:IRI ;
+            rr:datatype xsd:anyURI
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate dcterms:title ;
+        rr:objectMap [
+            rr:constant "DCMI Metadata Terms" ;
+            rr:termType rr:Literal ;
+            rr:datatype xsd:string ;
+        ] ;
+    ] ;
+.
+
+
+
+<#standard03>
+    rml:logicalSource [
+        rml:source "Stage_dir/transformed_metadata_prepared_for_mapping.xml" ;
+        rml:referenceFormulation ql:XPath ;
+        rml:iterator "/eml:eml" ;
+    ] ;
+    rr:subjectMap [
+        rr:template "http://semantics.lifewatchitaly.eu/resource#dcat:Standard03-{@id}";
+        rr:class dcterms:Standard;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate dcterms:identifier ;
+        rr:objectMap [
+            rr:constant "http://www.w3.org/TR/2013/REC-prov-o-20130430/" ;
+            rr:termType rr:IRI ;
+            rr:datatype xsd:anyURI
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate rdfs:seeAlso ;
+        rr:objectMap [
+            rr:constant "http://www.w3.org/TR/prov-o/" ;
+            rr:termType rr:IRI ;
+            rr:datatype xsd:anyURI
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate dcterms:title ;
+        rr:objectMap [
+            rr:constant "The PROV Ontology" ;
+            rr:termType rr:Literal ;
+            rr:datatype xsd:string ;
+        ] ;
+    ] ;
+.
+
+
+
+<#standard04>
+    rml:logicalSource [
+        rml:source "Stage_dir/transformed_metadata_prepared_for_mapping.xml" ;
+        rml:referenceFormulation ql:XPath ;
+        rml:iterator "/eml:eml" ;
+    ] ;
+    rr:subjectMap [
+        rr:template "http://semantics.lifewatchitaly.eu/resource#dcat:Standard04-{@id}";
+        rr:class dcterms:Standard;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate dcterms:identifier ;
+        rr:objectMap [
+            rr:constant "http://xmlns.com/foaf/spec/20140114.html" ;
+            rr:termType rr:IRI ;
+            rr:datatype xsd:anyURI
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate rdfs:seeAlso ;
+        rr:objectMap [
+            rr:constant "http://xmlns.com/foaf/spec/" ;
+            rr:termType rr:IRI ;
+            rr:datatype xsd:anyURI
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate dcterms:title ;
+        rr:objectMap [
+            rr:constant "FOAF Vocabulary Specification" ;
+            rr:termType rr:Literal ;
+            rr:datatype xsd:string ;
+        ] ;
+    ] ;
+.
+
+
+
+<#standard05>
+    rml:logicalSource [
+        rml:source "Stage_dir/transformed_metadata_prepared_for_mapping.xml" ;
+        rml:referenceFormulation ql:XPath ;
+        rml:iterator "/eml:eml" ;
+    ] ;
+    rr:subjectMap [
+        rr:template "http://semantics.lifewatchitaly.eu/resource#dcat:Standard05-{@id}";
+        rr:class dcterms:Standard;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate rdfs:seeAlso ;
+        rr:objectMap [
+            rr:constant "https://kos.lifewatch.eu/ontologies/lw/" ;
+            rr:termType rr:IRI ;
+            rr:datatype xsd:anyURI
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate dcterms:title ;
+        rr:objectMap [
+            rr:constant "LifeWatch Italy Domain Ontology" ;
+            rr:termType rr:Literal ;
+            rr:datatype xsd:string ;
+        ] ;
+    ] ;
+.
+
+
+
+<#policy01>
+    rml:logicalSource [
+        rml:source "Stage_dir/transformed_metadata_prepared_for_mapping.xml" ;
+        rml:referenceFormulation ql:XPath ;
+        rml:iterator "/eml:eml" ;
+    ] ;
+    rr:subjectMap [
+        rr:template "http://semantics.lifewatchitaly.eu/resource#dcat:Policy01-{@id}";
+        rr:class dcterms:Policy;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate rdfs:seeAlso ;
+        rr:objectMap [
+            rr:constant "http://www.lifewatchitaly.eu/en/privacy-policy-eng/" ;
+            rr:termType rr:IRI ;
+            rr:datatype xsd:anyURI
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate dcterms:title ;
+        rr:objectMap [
+            rr:constant "LifeWatch Italy Privacy Policy" ;
+            rr:termType rr:Literal ;
+            rr:datatype xsd:string ;
+        ] ;
+    ] ;
+.
+
+
+
+<#policy02>
+    rml:logicalSource [
+        rml:source "Stage_dir/transformed_metadata_prepared_for_mapping.xml" ;
+        rml:referenceFormulation ql:XPath ;
+        rml:iterator "/eml:eml" ;
+    ] ;
+    rr:subjectMap [
+        rr:template "http://semantics.lifewatchitaly.eu/resource#dcat:Policy02-{@id}";
+        rr:class dcterms:Policy;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate rdfs:seeAlso ;
+        rr:objectMap [
+            rr:constant "http://www.lifewatchitaly.eu/en/data-policy-eng/" ;
+            rr:termType rr:IRI ;
+            rr:datatype xsd:anyURI
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate dcterms:title ;
+        rr:objectMap [
+            rr:constant "LifeWatch Italy Data Policy" ;
+            rr:termType rr:Literal ;
+            rr:datatype xsd:string ;
+        ] ;
+    ] ;
+.
+
+
+
+<#publisher01>
+    rml:logicalSource [
+        rml:source "Stage_dir/transformed_metadata_prepared_for_mapping.xml" ;
+        rml:referenceFormulation ql:XPath ;
+        rml:iterator "/eml:eml" ;
+    ] ;
+    rr:subjectMap [
+        rr:template "http://semantics.lifewatchitaly.eu/resource#dcat:Publisher01-{@id}";
+        rr:class foaf:Organization;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate rdfs:seeAlso ;
+        rr:objectMap [
+            rr:constant "http://www.lifewatchitaly.eu/" ;
+            rr:termType rr:IRI ;
+            rr:datatype xsd:anyURI
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate dcterms:title ;
+        rr:objectMap [
+            rr:constant "LifeWatch Italy" ;
+            rr:termType rr:Literal ;
+            rr:datatype xsd:string ;
+        ] ;
+    ] ;
+.

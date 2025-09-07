@@ -1,0 +1,133 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix lw: <https://kos.lifewatch.eu/ontologies/lw/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://semantics.lifewatchitaly.eu/resource#dcat:Catalog-id:61175251-1672-4795-b23b-b35b0dd0a294> dcat:dataset <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:31285c34-81c5-4a28-aca7-03b004d43f89> .
+
+<http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:31285c34-81c5-4a28-aca7-03b004d43f89> a owl:NamedIndividual,
+        dcat:Dataset ;
+    dct:description "This dataset includes 148 records of nesting birds at Pomorie Lake on the Bulgarian Black Sea coast during the period from 2021 to 2023. The site is of national and regional importance for several Charadriiformes species like Sandwich term Kentish plover, Pied avocet, Little tern, Black-winged stilt and Common tern."@en ;
+    dct:identifier "31285c34-81c5-4a28-aca7-03b004d43f89" ;
+    dct:issued "2025-04-28"^^xsd:date ;
+    dct:language "English"@en ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:rights "Free for use, including sharing and adaptation, by all individuals provided that the owners are acknowledged in any use or publication."@en ;
+    dct:spatial <http://semantics.lifewatchitaly.eu/resource#dct:Spatial-id:Pomorie%20Lake%2C%20Bulgaria> ;
+    dct:temporal <http://semantics.lifewatchitaly.eu/resource#dct:Temporal-id:31285c34-81c5-4a28-aca7-03b004d43f89> ;
+    dct:title "Nesting birds at Pomorie Lake in Bulgaria from 2021 to 2023"@en ;
+    dwc:measurementMethod """Counts have been made by scanning flocks of waterbirds (usually comprising several species) with a telescope Swarovski ATX 30-70x95 and binoculars MINOX 8x40 when appropriate, counting each species one-by-one, or in ‘blocks’ for bigger numbers. To avoid extreme weather conditions (thick fog, heavy rain or gale force winds), because such conditions reduce counting efficiency, the visits have been postponed until conditions are more favorable.
+
+For waterbirds in particular, drones overcome challenges associated with surveying locations not accessible on foot and represent a useful addition to standard survey methods. During the current study in Pomorie Lake a drone was used to determine the number of the Sandwich terns’ colony and the species nesting in the reedbeds. The drone surveys were conducted in May and June, and we used DJI Mavic 2 Enterprise drone. The video and still images have been collected for follow-up counts back in the office."""@en ;
+    dwc:samplingProtocol "The site has been divided up into sub-areas that are visible from the chosen vantage points without overlap of areas counted and without missing any part of the site. Areas were divided mainly by habitat type defined by salinity and depth. These were called as follows: Marine area; Main Lake; Honyat; Malak geren; Saltpans – north; Saltpans – west."@en,
+        """The study of avifauna is based on at least two visits per month to the lake area by experienced ornithologists and collection of species’ (nesting, migratory, wintering, resident) numbers using a telescope; detour of the coastline and dikes for registration of nesting birds during the nesting period – May and June; collecting information on numbers and nests with the help of a drone. For the bird monitoring we have implemented point counts from vantage points covering all subareas of the wetland and transect counts for nests. 
+
+The counts were conducted in the period of September 2020 – August 2023, preferably in the good weather. Each count was performed by two people, one of which have been doing observations while the other was responsible for recording. Duration of each counting day was at least 6 hours. 
+
+The area was visited once every two weeks, and observations were performed in the daytime. For the monitoring of the nesting bird species the area was visited three times per month with full tour on foot of the coast and suitable nesting sites made twice to lower possible disturbance. The drone survey was carried out twice for each breeding season, so that each observation can be confirmed and validated to avoid biasing the results - once at the beginning of the breeding season and once at its peak.
+
+The collected data have been recorded in a notebook and later summed into standard data collection form separated by different subareas."""@en ;
+    dcat:distribution <http://semantics.lifewatchitaly.eu/resource#dcat:Distribution-id:https%3A%2F%2Fdata.lifewatchitaly.eu%2Fhandle%2F123456789%2F129722> ;
+    dcat:keyword <http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Feurovoc.europa.eu%2F5063>,
+        <http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FENVO_00005805>,
+        <http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Fvocabs.lter-europe.net%2Felter_cl%2F10694>,
+        <http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Fvocabs.lter-europe.net%2Felter_cl%2F10695> ;
+    prov:qualifiedAttribution <http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:6224145911>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionContact-id:0800050278>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionCreator-id:1435535817>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionMetadataProvider-id:2038642137>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionPublisher-id:1741595847> ;
+    prov:wasGeneratedBy <http://semantics.lifewatchitaly.eu/resource#foaf:Project-id:5298991919> .
+
+<http://semantics.lifewatchitaly.eu/resource#dcat:Distribution-id:https%3A%2F%2Fdata.lifewatchitaly.eu%2Fhandle%2F123456789%2F129722> a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL <https://data.lifewatchitaly.eu/handle/123456789/129722> .
+
+<http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Feurovoc.europa.eu%2F5063> a owl:NamedIndividual,
+        skos:Concept ;
+    rdfs:label "Bulgaria" ;
+    dct:type <http://eurovoc.europa.eu/5063> .
+
+<http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FENVO_00005805> a owl:NamedIndividual,
+        skos:Concept ;
+    rdfs:label "nest of bird" ;
+    dct:type <http://purl.obolibrary.org/obo/ENVO_00005805> .
+
+<http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Fvocabs.lter-europe.net%2Felter_cl%2F10694> a owl:NamedIndividual,
+        skos:Concept ;
+    rdfs:label "birds" ;
+    dct:type <http://vocabs.lter-europe.net/elter_cl/10694> .
+
+<http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Fvocabs.lter-europe.net%2Felter_cl%2F10695> a owl:NamedIndividual,
+        skos:Concept ;
+    rdfs:label "waterbirds" ;
+    dct:type <http://vocabs.lter-europe.net/elter_cl/10695> .
+
+<http://semantics.lifewatchitaly.eu/resource#dct:Spatial-id:Pomorie%20Lake%2C%20Bulgaria> a dct:Location ;
+    dct:description "Pomorie Lake, Bulgaria" ;
+    lw:eastBoundCoordinate "27.652107"^^xsd:LocationStructure ;
+    lw:northBoundCoordinate "42.632544"^^xsd:LocationStructure ;
+    lw:southBoundCoordinate "42.558239"^^xsd:LocationStructure ;
+    lw:westBoundCoordinate "27.604729"^^xsd:LocationStructure .
+
+<http://semantics.lifewatchitaly.eu/resource#dct:Temporal-id:31285c34-81c5-4a28-aca7-03b004d43f89> a dct:PeriodOfTime ;
+    dcat:endDate "2023-05-31"^^xsd:date ;
+    dcat:startDate "2021-05-15"^^xsd:date .
+
+<http://semantics.lifewatchitaly.eu/resource#foaf:Project-id:5298991919> a foaf:Project ;
+    dct:description """Pomorie Lake is part of the most important wetland complex along the Bulgarian Black Sea coast. The project targets the conservation of the priority habitat 1150* “Coastal lagoons” and some birds listed in the EU Birds Directive (Avocet, Sandwich tern, Common and Little tern). It also takes into account the conservation of the Dark Spreadwing (Lestes macrostigma), a threatened dragonfly.
+
+Recently, water management facilities were destroyed, causing a decrease in lagoon salinity and a shift in bird species composition. The low salt production and the infrastructure damages resulted in limited opportunities for investments in maintenance activities. The unfavourable economic situation increases the risk of withdrawal of private interests and future investments from salt-production companies.
+
+The project aims at improving status of 1150 Coastal lagoon habitat, restoring habitat quality for birds, and maintaining peripheral habitat condition to sustain a dragonfly assemblage of conservation value.""" ;
+    dct:title "Conservation of Pomorie Lake coastal lagoon." .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:LifeWatch%20Italy> a owl:NamedIndividual,
+        prov:Agent ;
+    foaf:mbox "lifewatchitaly@gmail.com" ;
+    foaf:name "LifeWatch Italy" .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0009-0001-9691-1989> a owl:NamedIndividual,
+        prov:Agent,
+        prov:Person ;
+    dct:identifier <https://orcid.org/0009-0001-9691-1989> ;
+    prov:actedOnBehalfOf "University of Salento" ;
+    foaf:familyName "Pulieri" ;
+    foaf:mbox "martina.pulieri@unisalento.it" ;
+    foaf:name "Martina" .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:6224145911> a prov:Attribution ;
+    dcat:hadRole "Associated Party" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0009-0001-9691-1989> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionContact-id:0800050278> a prov:Attribution ;
+    dcat:hadRole "Contact" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0003-1873-8815> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionCreator-id:1435535817> a prov:Attribution ;
+    dcat:hadRole "Creator" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0003-1873-8815> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionMetadataProvider-id:2038642137> a prov:Attribution ;
+    dcat:hadRole "Metadata Provider" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0003-1873-8815> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionPublisher-id:1741595847> a prov:Attribution ;
+    dcat:hadRole "Publisher" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:LifeWatch%20Italy> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0003-1873-8815> a owl:NamedIndividual,
+        prov:Agent,
+        prov:Person ;
+    dct:identifier <https://orcid.org/0000-0003-1873-8815> ;
+    prov:actedOnBehalfOf "Green Balkans NGO" ;
+    foaf:familyName "Popov" ;
+    foaf:mbox "dpopov@greenbalkans.org" ;
+    foaf:name "Dimitar" .
+

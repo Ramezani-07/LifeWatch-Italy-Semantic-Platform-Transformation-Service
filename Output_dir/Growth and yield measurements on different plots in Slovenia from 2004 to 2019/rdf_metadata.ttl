@@ -1,0 +1,98 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix lw: <https://kos.lifewatch.eu/ontologies/lw/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://semantics.lifewatchitaly.eu/resource#dcat:Catalog-id:61175251-1672-4795-b23b-b35b0dd0a294> dcat:dataset <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:ed79841f-a3b3-44b4-bcbd-3847c2ffc0fe> .
+
+<http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:ed79841f-a3b3-44b4-bcbd-3847c2ffc0fe> a owl:NamedIndividual,
+        dcat:Dataset ;
+    dct:description "This dataset includes growth and yield measurments from different plots in Slovenia, recorded from 2004 to 2019. The data focuses on specific trees monitored every 5 years to assess their growth, condition, and volume changes. It contains information on tree growth and measurments (height, diameter and status), volume data (volume of newly dead, remaining and removed trees) and tree count data (number of newly dead, remaining and removed trees)."@en ;
+    dct:identifier "ed79841f-a3b3-44b4-bcbd-3847c2ffc0fe" ;
+    dct:issued "2025-05-26"^^xsd:date ;
+    dct:language "English"@en ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:rights "Free for use, including sharing and adaptation, by all individuals provided that the owners are acknowledged in any use or publication."@en ;
+    dct:spatial <http://semantics.lifewatchitaly.eu/resource#dct:Spatial-id:ed79841f-a3b3-44b4-bcbd-3847c2ffc0fe> ;
+    dct:temporal <http://semantics.lifewatchitaly.eu/resource#dct:Temporal-id:ed79841f-a3b3-44b4-bcbd-3847c2ffc0fe> ;
+    dct:title "Growth and yield measurements on different plots in Slovenia from 2004 to 2019"@en ;
+    dwc:measurementMethod "An assessment is conducted on trees on different plots (size of each plot is 0,25 ha). All trees with a diameter greater than 5 cm are measured. For each tree, diameter at breast height (DBH) is measured using a standard DBH tape, tree height is recorded, and tree status is assessed. Additionally, for each plot, the total number of standing trees, newly dead trees, remaining trees, and removed trees is recorded. The stemwood volume is then calculated for the remaining, newly dead, and removed trees."@en ;
+    dcat:distribution <http://semantics.lifewatchitaly.eu/resource#dcat:Distribution-id:https%3A%2F%2Fdata.lifewatchitaly.eu%2Fhandle%2F123456789%2F129790> ;
+    dcat:keyword <http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Faims.fao.org%2Faos%2Fagrovoc%2Fc_34790>,
+        <http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Faims.fao.org%2Faos%2Fagrovoc%2Fc_34812>,
+        <http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F21673> ;
+    prov:qualifiedAttribution <http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:0975825039>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionContact-id:1781152291>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionCreator-id:7209955206>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionMetadataProvider-id:3353572452> .
+
+<http://semantics.lifewatchitaly.eu/resource#dcat:Distribution-id:https%3A%2F%2Fdata.lifewatchitaly.eu%2Fhandle%2F123456789%2F129790> a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL <https://data.lifewatchitaly.eu/handle/123456789/129790> .
+
+<http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Faims.fao.org%2Faos%2Fagrovoc%2Fc_34790> a owl:NamedIndividual,
+        skos:Concept ;
+    rdfs:label "breast height diameter" ;
+    dct:type <http://aims.fao.org/aos/agrovoc/c_34790> .
+
+<http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Faims.fao.org%2Faos%2Fagrovoc%2Fc_34812> a owl:NamedIndividual,
+        skos:Concept ;
+    rdfs:label "diameter increment" ;
+    dct:type <http://aims.fao.org/aos/agrovoc/c_34812> .
+
+<http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F21673> a owl:NamedIndividual,
+        skos:Concept ;
+    rdfs:label "biodiversity" ;
+    dct:type <http://vocabs.lter-europe.net/EnvThes/21673> .
+
+<http://semantics.lifewatchitaly.eu/resource#dct:Spatial-id:ed79841f-a3b3-44b4-bcbd-3847c2ffc0fe> a dct:Location ;
+    dct:description "Observations were done on 12 different plots across Slovenia." ;
+    lw:eastBoundCoordinate "16.628906"^^xsd:LocationStructure ;
+    lw:northBoundCoordinate "46.827127"^^xsd:LocationStructure ;
+    lw:southBoundCoordinate "45.410791"^^xsd:LocationStructure ;
+    lw:westBoundCoordinate "13.245117"^^xsd:LocationStructure .
+
+<http://semantics.lifewatchitaly.eu/resource#dct:Temporal-id:ed79841f-a3b3-44b4-bcbd-3847c2ffc0fe> a dct:PeriodOfTime ;
+    dcat:endDate "2020-02-03"^^xsd:date ;
+    dcat:startDate "2004-10-21"^^xsd:date .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0009-0001-9691-1989> a owl:NamedIndividual,
+        prov:Agent,
+        prov:Person ;
+    dct:identifier <https://orcid.org/0009-0001-9691-1989> ;
+    prov:actedOnBehalfOf "University of Salento" ;
+    foaf:familyName "Pulieri" ;
+    foaf:mbox "martina.pulieri@unisalento.it" ;
+    foaf:name "Martina" .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:0975825039> a prov:Attribution ;
+    dcat:hadRole "Associated Party" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0009-0001-9691-1989> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionContact-id:1781152291> a prov:Attribution ;
+    dcat:hadRole "Contact" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0009-0002-5813-1268> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionCreator-id:7209955206> a prov:Attribution ;
+    dcat:hadRole "Creator" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0009-0002-5813-1268> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionMetadataProvider-id:3353572452> a prov:Attribution ;
+    dcat:hadRole "Metadata Provider" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0009-0002-5813-1268> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0009-0002-5813-1268> a owl:NamedIndividual,
+        prov:Agent,
+        prov:Person ;
+    dct:identifier <https://orcid.org/0009-0002-5813-1268> ;
+    prov:actedOnBehalfOf "Slovenian Forestry Institute" ;
+    foaf:familyName "Šercer" ;
+    foaf:mbox "sasa.sercer@gozdis.si" ;
+    foaf:name "Saša" .
+

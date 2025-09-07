@@ -1,0 +1,163 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix lw: <https://kos.lifewatch.eu/ontologies/lw/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://semantics.lifewatchitaly.eu/resource#dcat:Catalog-id:61175251-1672-4795-b23b-b35b0dd0a294> dcat:dataset <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:df9571a9-1e86-40e2-b318-c801c34fd448> .
+
+<http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:df9571a9-1e86-40e2-b318-c801c34fd448> a owl:NamedIndividual,
+        dcat:Dataset ;
+    dct:description "Orchids play a key role in ecosystem functioning and offer critical insights into plant evolution, biogeography, ecological adaptation and conservation planning. Our data set is the first to produce a national orchid inventory, covering the entire Italian territory. We collected 71,693 records for 195 species of orchids occurring in Italy, number of records per species ranged from 1 (e.g., the endemic Ophrys gravinensis) to 3,163 (Dactylorhiza maculata), averaging 385±631 records per species. Out of the 195 species, 70 are endemic to Italy (36%), and 5 (2.6%) are listed within Annex II of the Habitats Directive. Nine species (4.6%) are classified as threatened (either VU or EN) by the IUCN European Red List, 11 as Near Threatened (5.6%), 3 as Data Deficient (1.5%), 76 as Least Concern (39.0%), and 95 not assessed (48.7%). Overall, orchid species showed on average 47.7± 24.0 % of records within protected areas, with 4 and 2 species featuring 100% and 0% within the network of protected areas, respectively. A total of 32 species showed <5 independent recent records. The main aim of the orchid data set was to make these occurrence data accessible for international researchers to develop ecological and macroecological studies, from local to regional scales, with focal IUCN listed species. We anticipate that the Italian orchid data set will be valuable for studies on a wide range of ecological processes, such as trophic cascades, fishery pressure, the effects of habitat loss and fragmentation, and the impacts of species invasion and climate change."@en ;
+    dct:identifier "df9571a9-1e86-40e2-b318-c801c34fd448" ;
+    dct:issued "2023-11-03"^^xsd:date ;
+    dct:language "English"@en ;
+    dct:license <http://creativecommons.org/licenses/by/4.0/> ;
+    dct:rights "Free for use, including sharing and adaptation, by all individuals provided that the owners are acknowledged in any use or publication."@en ;
+    dct:spatial <http://semantics.lifewatchitaly.eu/resource#dct:Spatial-id:The%20study%20area%20encompasses%20the%20Italian%20political%20borders.%20Italy%20is%20a%20ca.%201%2C000%20km%20long%20peninsula%20located%20between%20the%20African%20and%20Eurasian%20plates%2C%20which%20protrudes%20from%20north%20to%20south%20into%20the%20Mediterranean%20Sea%20%280%E2%80%934800%20m%20ASL%2C%20and%2035%C2%B0%20N%2029%E2%80%99%2024%E2%80%99%E2%80%99%20to%2047%C2%B0%20N%2004%E2%80%99%2022%E2%80%99%E2%80%99%29> ;
+    dct:temporal <http://semantics.lifewatchitaly.eu/resource#dct:Temporal-id:df9571a9-1e86-40e2-b318-c801c34fd448> ;
+    dct:title "Italian Orchis occurrence"@en ;
+    dwc:measurementMethod "We selected georeferenced records of all the taxa of the family Orchidaceae occurring within the political borders of Italy. Orchid occurrences were obtained from WikiplantbaseItaly (http://bot.biologia.unipi.it/wpb/italia), the GBIF (https://www.gbif.org/) and iNaturalist (www.inaturalist.org). Duplicates, as well as records with low spatial resolution (<4 degree decimals of coordinates), were discarded."@en ;
+    dcat:distribution <http://semantics.lifewatchitaly.eu/resource#dcat:Distribution-id:https%3A%2F%2Fdata.lifewatchitaly.eu%2Fhandle%2F123456789%2F129738>,
+        <http://semantics.lifewatchitaly.eu/resource#dcat:Distribution-id:https%3A%2F%2Fdoi.org%2F10.48372%2F99c7-ec64> ;
+    dcat:keyword <http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Faims.fao.org%2Faos%2Fagrovoc%2Fc_5380>,
+        <http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F21738>,
+        <http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F22287>,
+        <http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2FUSLterCV_124>,
+        <http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2Fmsa0110>,
+        <http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2Fmsa0263>,
+        <http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2Fmsa0879> ;
+    prov:qualifiedAttribution <http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:0595673981>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:1696858302>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:4035550393>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionContact-id:1130926193>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionContact-id:4901627808>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionCreator-id:4165843063>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionCreator-id:8512798372> ;
+    prov:wasGeneratedBy <http://semantics.lifewatchitaly.eu/resource#foaf:Project-id:8052182984> .
+
+<http://semantics.lifewatchitaly.eu/resource#dcat:Distribution-id:https%3A%2F%2Fdata.lifewatchitaly.eu%2Fhandle%2F123456789%2F129738> a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL <https://data.lifewatchitaly.eu/handle/123456789/129738> .
+
+<http://semantics.lifewatchitaly.eu/resource#dcat:Distribution-id:https%3A%2F%2Fdoi.org%2F10.48372%2F99c7-ec64> a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL <https://doi.org/10.48372/99c7-ec64> .
+
+<http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Faims.fao.org%2Faos%2Fagrovoc%2Fc_5380> a owl:NamedIndividual,
+        skos:Concept ;
+    rdfs:label "Orchidaceae" ;
+    dct:type <http://aims.fao.org/aos/agrovoc/c_5380> .
+
+<http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F21738> a owl:NamedIndividual,
+        skos:Concept ;
+    rdfs:label "Biogeography" ;
+    dct:type <http://vocabs.lter-europe.net/EnvThes/21738> .
+
+<http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F22287> a owl:NamedIndividual,
+        skos:Concept ;
+    rdfs:label "Species richness" ;
+    dct:type <http://vocabs.lter-europe.net/EnvThes/22287> .
+
+<http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2FUSLterCV_124> a owl:NamedIndividual,
+        skos:Concept ;
+    rdfs:label "Conservation" ;
+    dct:type <http://vocabs.lter-europe.net/EnvThes/USLterCV_124> .
+
+<http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2Fmsa0110> a owl:NamedIndividual,
+        skos:Concept ;
+    rdfs:label "Biodiversity conservation" ;
+    dct:type <http://vocabs.lter-europe.net/EnvThes/msa0110> .
+
+<http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2Fmsa0263> a owl:NamedIndividual,
+        skos:Concept ;
+    rdfs:label "Conservation planning" ;
+    dct:type <http://vocabs.lter-europe.net/EnvThes/msa0263> .
+
+<http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2Fmsa0879> a owl:NamedIndividual,
+        skos:Concept ;
+    rdfs:label "Protected area" ;
+    dct:type <http://vocabs.lter-europe.net/EnvThes/msa0879> .
+
+<http://semantics.lifewatchitaly.eu/resource#dct:Spatial-id:The%20study%20area%20encompasses%20the%20Italian%20political%20borders.%20Italy%20is%20a%20ca.%201%2C000%20km%20long%20peninsula%20located%20between%20the%20African%20and%20Eurasian%20plates%2C%20which%20protrudes%20from%20north%20to%20south%20into%20the%20Mediterranean%20Sea%20%280%E2%80%934800%20m%20ASL%2C%20and%2035%C2%B0%20N%2029%E2%80%99%2024%E2%80%99%E2%80%99%20to%2047%C2%B0%20N%2004%E2%80%99%2022%E2%80%99%E2%80%99%29> a dct:Location ;
+    dct:description "The study area encompasses the Italian political borders. Italy is a ca. 1,000 km long peninsula located between the African and Eurasian plates, which protrudes from north to south into the Mediterranean Sea (0–4800 m ASL, and 35° N 29’ 24’’ to 47° N 04’ 22’’)" ;
+    lw:eastBoundCoordinate "18.80247023"^^xsd:LocationStructure ;
+    lw:northBoundCoordinate "47.11539317"^^xsd:LocationStructure ;
+    lw:southBoundCoordinate "36.61998729"^^xsd:LocationStructure ;
+    lw:westBoundCoordinate "6.749955275"^^xsd:LocationStructure .
+
+<http://semantics.lifewatchitaly.eu/resource#dct:Temporal-id:df9571a9-1e86-40e2-b318-c801c34fd448> a dct:PeriodOfTime ;
+    dcat:endDate "2023-01-01"^^xsd:date ;
+    dcat:startDate "1789-01-01"^^xsd:date .
+
+<http://semantics.lifewatchitaly.eu/resource#foaf:Project-id:8052182984> a foaf:Project ;
+    dct:title "Italian Orchis occurrence" .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0002-2749-8588> a owl:NamedIndividual,
+        prov:Agent,
+        prov:Person ;
+    dct:identifier <https://orcid.org/0000-0002-2749-8588> ;
+    prov:actedOnBehalfOf "National Research Council (CNR), Institute of Research on Terrestrial Ecosystems (IRET)" ;
+    foaf:familyName "Tarallo" ;
+    foaf:mbox "andrea.tarallo@cnr.it" ;
+    foaf:name "Andrea" .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0003-3422-7230> a owl:NamedIndividual,
+        prov:Agent,
+        prov:Person ;
+    dct:identifier <https://orcid.org/0000-0003-3422-7230> ;
+    prov:actedOnBehalfOf "National Research Council (CNR), Institute of Research on Terrestrial Ecosystems (IRET)" ;
+    foaf:familyName "Rosati" ;
+    foaf:mbox "ilaria.rosati@cnr.it" ;
+    foaf:name "Ilaria" .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:0595673981> a prov:Attribution ;
+    dcat:hadRole "Associated Party" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0002-2749-8588> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:1696858302> a prov:Attribution ;
+    dcat:hadRole "Associated Party" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0002-1313-4732> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:4035550393> a prov:Attribution ;
+    dcat:hadRole "Associated Party" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0003-3422-7230> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionContact-id:1130926193> a prov:Attribution ;
+    dcat:hadRole "Contact" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0003-1160-235X> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionContact-id:4901627808> a prov:Attribution ;
+    dcat:hadRole "Contact" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0002-1313-4732> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionCreator-id:4165843063> a prov:Attribution ;
+    dcat:hadRole "Creator" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0002-1313-4732> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionCreator-id:8512798372> a prov:Attribution ;
+    dcat:hadRole "Creator" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0003-1160-235X> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0003-1160-235X> a owl:NamedIndividual,
+        prov:Agent,
+        prov:Person ;
+    dct:identifier <https://orcid.org/0000-0003-1160-235X> ;
+    prov:actedOnBehalfOf "Università di Bologna" ;
+    foaf:familyName "Chiarucci" ;
+    foaf:name "Alessandro" .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0002-1313-4732> a owl:NamedIndividual,
+        prov:Agent,
+        prov:Person ;
+    dct:identifier <https://orcid.org/0000-0002-1313-4732> ;
+    prov:actedOnBehalfOf "Università di Bologna" ;
+    foaf:familyName "Lussu" ;
+    foaf:mbox "michele.lussu@unibo.it" ;
+    foaf:name "Michele" .
+

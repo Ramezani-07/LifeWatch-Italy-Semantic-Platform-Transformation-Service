@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0"
+         xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         packageId="urn:uuid:9a176c05-c278-402a-9cac-95a301980628"
+         system="https://metadatacatalogue.lifewatch.eu"
+         scope="system"
+         xsi:schemaLocation="eml http://localhost:8080/geonetwork/xml/schemas/eml-gbif/schema/eml.xsd">
+  <dataset>
+      <alternateIdentifier>4e084d1e-b1ac-4649-881f-fe211f77e69b</alternateIdentifier>
+      <title>Macrozoobenthos data collected in the Flumendosa river, Sardinia, Italy</title>
+      <distribution>
+         <online>
+            <onlineDescription>DOI</onlineDescription>
+            <url>https://doi.org/10.48372/4e084d1e-b1ac-4649-881f-fe211f77e69b</url>
+         </online>
+         <online>
+            <onlineDescription>Info and download page on the LifeWatch Italy Data Portal</onlineDescription>
+            <url>https://dataportal.lifewatchitaly.eu/view/urn%3Auuid%3A4d0d4b70-2f40-45e5-a7b8-9a952b3106f6</url>
+         </online>
+         <online>
+            <onlineDescription>Download</onlineDescription>
+            <url>https://dataportal.lifewatchitaly.eu:8443/metacat/d1/mn/v2/object/urn%3Auuid%3A62574c16-d128-446f-ba32-d0693be20020</url>
+         </online>
+      </distribution>
+      <creator id="1892440521773802">
+         <individualName>
+            <givenName>Alberto</givenName>
+            <surName>Basset</surName>
+         </individualName>
+         <organizationName>University of Salento</organizationName>
+         <electronicMailAddress>alberto.basset@unisalento.it</electronicMailAddress>
+         <userId directory="https://orcid.org">https://orcid.org/0000-0002-3603-9316</userId>
+      </creator>
+      <creator id="4493355006474231">
+         <individualName>
+            <givenName>Alessio</givenName>
+            <surName>Fonnesu</surName>
+         </individualName>
+         <organizationName>Università degli Studi di Cagliari</organizationName>
+      </creator>
+      <metadataProvider id="2329697587035339">
+         <individualName>
+            <givenName>Ilaria</givenName>
+            <surName>Rosati</surName>
+         </individualName>
+         <organizationName>National Research Council - Research Institute on Terrestrial Ecosystems</organizationName>
+         <electronicMailAddress>ilaria.rosati@cnr.it</electronicMailAddress>
+         <userId directory="https://orcid.org">https://orcid.org/0000-0003-3422-7230</userId>
+      </metadataProvider>
+      <pubDate>2021-03-12</pubDate>
+      <abstract>
+         <para>The dataset contains taxonomic and body size data of the macroinvertebrates community of the benthic macroinvertebrates community of Flumendosa River (Sardinia, Italy). Data refer to 80 taxa and 14502 individuals.</para>
+      </abstract>
+      <keywordSet>
+         <keyword>Biodiversity</keyword>
+         <keyword>Invertebrate</keyword>
+         <keyword>Body size</keyword>
+         <keyword>Taxonomy</keyword>
+         <keyword>River</keyword>
+         <keyword>Flumendosa</keyword>
+         <keyword>Italy</keyword>
+         <keywordThesaurus/>
+      </keywordSet>
+      <intellectualRights>
+         <para>This work is licensed under the Creative Commons Attribution 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/.</para>
+      </intellectualRights>
+      <coverage>
+         <geographicCoverage>
+            <geographicDescription>Flumendosa is a river located in Sardinia (Italy).</geographicDescription>
+            <boundingCoordinates>
+               <westBoundingCoordinate>9.1743</westBoundingCoordinate>
+               <eastBoundingCoordinate>9.53935</eastBoundingCoordinate>
+               <northBoundingCoordinate>39.96531</northBoundingCoordinate>
+               <southBoundingCoordinate>39.47101</southBoundingCoordinate>
+            </boundingCoordinates>
+         </geographicCoverage>
+         <temporalCoverage>
+            <rangeOfDates>
+               <beginDate>
+                  <calendarDate>1997-01-06</calendarDate>
+               </beginDate>
+               <endDate>
+                  <calendarDate>1997-07-07</calendarDate>
+               </endDate>
+            </rangeOfDates>
+         </temporalCoverage>
+      </coverage>
+      <contact id="2315121112213465">
+         <individualName>
+            <givenName>Alberto</givenName>
+            <surName>Basset</surName>
+         </individualName>
+         <organizationName>University of Salento</organizationName>
+         <electronicMailAddress>alberto.basset@unisalento.it</electronicMailAddress>
+         <userId directory="https://orcid.org">https://orcid.org/0000-0002-3603-9316</userId>
+      </contact>
+      <contact id="1101150301492014">
+         <individualName>
+            <givenName>Ilaria</givenName>
+            <surName>Rosati</surName>
+         </individualName>
+         <organizationName>National Research Council - Research Institute on Terrestrial Ecosystems</organizationName>
+         <electronicMailAddress>ilaria.rosati@cnr.it</electronicMailAddress>
+         <userId directory="https://orcid.org">https://orcid.org/0000-0003-3422-7230</userId>
+      </contact>
+      <methods>
+         <methodStep>
+            <description>
+               <para>The study was performed using the leaf packs technique (Petersen and Cummins, 1974) at 17 sites distributed throughout the hydrographic basin, among varying stream branches, orders, classes of altitude and distance from the river mouth, in two seasons (Fall-Winter and Spring-Summer). Phragmites australis leaves were collected along the banks of the river Flumendosa in September, cut into 10 cm-long pieces, oven-dried at 60°C for 72 h, weighed into 5.0 ± 0.1 g lots and enclosed in nylon bags (0.5 cm mesh size). In Fall-Winter and in Spring-Summer 12 bags were distributed at each station, anchored to rocks and exposed for 30-days. After 30 days, the leaf packs were retrieved from the study sites and placed in a plastic bag, sealed and returned to the laboratory in an insulated cool box.</para>
+            </description>
+         </methodStep>
+         <methodStep>
+            <description>
+               <para>The leaf material was carefully washed in flowing water and sieved in an 800 ?m mesh size sieve in order to remove both organic and inorganic sediments and benthic macroinvertebrates. All animals were identified to the genus level, and, whenever possible, to species level, counted, measured (body length) and their body mass determined.</para>
+            </description>
+         </methodStep>
+         <sampling>
+            <studyExtent>
+               <description>
+                  <para>The sampling design was as follows: 2 seasons, 17 stations and 12 Leaf packs for station.</para>
+               </description>
+            </studyExtent>
+            <samplingDescription>
+               <para>The study was performed using the leaf packs technique at 17 sites. In Fall-Winter and in Spring-Summer 12 bags were distributed at each station, anchored to rocks and exposed for 30-days. After 30 days, the leaf packs were retrieved from the study sites and placed in a plastic bag, sealed and returned to the laboratory in an insulated cool box.</para>
+            </samplingDescription>
+         </sampling>
+      </methods>
+      <dataTable>
+         <entityName>Macrozoobenthos_Flumendosa_Italy_1997.csv</entityName>
+         <attributeList>
+            <attribute id="MVvu07UZi0It14hFTi4ggXpFGRgpTH">
+               <attributeName>eventId</attributeName>
+               <attributeLabel>Event Id</attributeLabel>
+               <attributeDefinition>An identifier for the set of information associated with an Event (something that occurs at a place and time). May be a global unique identifier or an identifier specific to the data set.</attributeDefinition>
+               <semanticAnnotation>
+                  <propertyURI>http://purl.obolibrary.org/obo/IAO_0000136</propertyURI>
+                  <valueURI>http://rs.tdwg.org/dwc/terms/eventID</valueURI>
+               </semanticAnnotation>
+            </attribute>
+            <attribute id="6ZmNrVaLsfg56R9pLzd7m3cfbz9536">
+               <attributeName>parentEventId</attributeName>
+               <attributeLabel>Parent Event Id</attributeLabel>
+               <attributeDefinition>An identifier for the broader Event that groups this and potentially other Events.</attributeDefinition>
+               <semanticAnnotation>
+                  <propertyURI>http://purl.obolibrary.org/obo/IAO_0000136</propertyURI>
+                  <valueURI>http://rs.tdwg.org/dwc/terms/parentEventID</valueURI>
+               </semanticAnnotation>
+            </attribute>
+            <attribute id="k3fqc76DGAeFxAUCTvTXSGRuEJQTfO">
+               <attributeName>eventDate</attributeName>
+               <attributeLabel>Event Date</attributeLabel>
+               <attributeDefinition>The date-time or interval during which an Event occurred. For occurrences, this is the date-time when the event was recorded.</attributeDefinition>
+               <semanticAnnotation>
+                  <propertyURI>http://purl.obolibrary.org/obo/IAO_0000136</propertyURI>
+                  <valueURI>http://rs.tdwg.org/dwc/terms/eventDate</valueURI>
+               </semanticAnnotation>
+            </attribute>
+            <attribute id="tDKr6eQVKeHfLeAssJmRXcGlbiidsN">
+               <attributeName>year</attributeName>
+               <attributeLabel>year</attributeLabel>
+               <attributeDefinition>The four-digit year in which the Event occurred, according to the Common Era Calendar.</attributeDefinition>
+               <semanticAnnotation>
+                  <propertyURI>http://purl.obolibrary.org/obo/IAO_0000136</propertyURI>
+                  <valueURI>http://rs.tdwg.org/dwc/terms/year</valueURI>
+               </semanticAnnotation>
+            </attribute>
+            <attribute id="zXk46lbC6RGULTtDFo1kS0ISKDdtNo">
+               <attributeName>month</attributeName>
+               <attributeLabel>month</attributeLabel>
+               <attributeDefinition>The integer month in which the Event occurred.</attributeDefinition>
+               <semanticAnnotation>
+                  <propertyURI>http://purl.obolibrary.org/obo/IAO_0000136</propertyURI>
+                  <valueURI>http://rs.tdwg.org/dwc/terms/month</valueURI>
+               </semanticAnnotation>
+            </attribute>
+            <attribute id="HuPvo0Orb34tLxaZGDpGbJbBsgpWGW">
+               <attributeName>samplingProtocol</attributeName>
+               <attributeLabel>Sampling Protocol</attributeLabel>
+               <attributeDefinition>The method or protocol used during an Event.</attributeDefinition>
+               <semanticAnnotation>
+                  <propertyURI>http://purl.obolibrary.org/obo/IAO_0000136</propertyURI>
+                  <valueURI>http://rs.tdwg.org/dwc/terms/samplingProtocol</valueURI>
+               </semanticAnnotation>
+            </attribute>
+            <attribute id="51492zWLkbhFl7m2J1TP7tLTpr4vgR">
+               <attributeName>locality</attributeName>
+               <attributeLabel>Locality</attributeLabel>
+               <attributeDefinition>The specific description of the place. This term may contain information modified from the original to correct perceived errors or standardize the description.</attributeDefinition>
+               <semanticAnnotation>
+                  <propertyURI>http://purl.obolibrary.org/obo/IAO_0000136</propertyURI>
+                  <valueURI>http://rs.tdwg.org/dwc/terms/locality</valueURI>
+               </semanticAnnotation>
+            </attribute>
+            <attribute id="ZHnVuLso6HWSZZhWRrPDvEQhnaqN48">
+               <attributeName>decimalLatitude</attributeName>
+               <attributeLabel>Decimal Latitude</attributeLabel>
+               <attributeDefinition>The geographic latitude of the geographic center of a Location (in decimal degrees, using the spatial reference system WGS84). Positive values are north of the Equator, negative values are south of it. Legal values lie between -90 and 90, inclusive.</attributeDefinition>
+               <attributeStandardUnit>degree</attributeStandardUnit>
+               <semanticAnnotation>
+                  <propertyURI>http://purl.obolibrary.org/obo/IAO_0000136</propertyURI>
+                  <valueURI>http://rs.tdwg.org/dwc/terms/decimalLatitude</valueURI>
+               </semanticAnnotation>
+            </attribute>
+            <attribute id="bP3cM9fFNKCrENz29zFC0BySmWwumb">
+               <attributeName>decimalLongitude</attributeName>
+               <attributeLabel>Decimal Longitude</attributeLabel>
+               <attributeDefinition>The geographic longitude of the geographic center of a Location (in decimal degrees, using the spatial reference system WGS84). Positive values are east of the Prime Meridian, and negative values are west of it. Legal values lie between -180 and 180, inclusive.</attributeDefinition>
+               <attributeStandardUnit>degree</attributeStandardUnit>
+               <semanticAnnotation>
+                  <propertyURI>http://purl.obolibrary.org/obo/IAO_0000136</propertyURI>
+                  <valueURI>http://rs.tdwg.org/dwc/terms/decimalLongitude</valueURI>
+               </semanticAnnotation>
+            </attribute>
+            <attribute id="6rxV5C02RadcCgvr4R7ITLEB751LQr">
+               <attributeName>providedScientificName</attributeName>
+               <attributeLabel>Provided Scientific Name</attributeLabel>
+               <attributeDefinition>The scientificname, with authorship and date information if known, as it originally appeared before of the taxonomic check.</attributeDefinition>
+               <semanticAnnotation>
+                  <propertyURI>http://purl.obolibrary.org/obo/IAO_0000136</propertyURI>
+                  <valueURI>http://rs.tdwg.org/dwc/terms/scientificName</valueURI>
+               </semanticAnnotation>
+            </attribute>
+            <attribute id="i9yW5S0oTDsZlrwFuZexp6bm7AgTFn">
+               <attributeName>scientificName</attributeName>
+               <attributeLabel>Scientific Name</attributeLabel>
+               <attributeDefinition>The full scientific name, with authorship and date information if known. When forming part of an Identification, this should be the name in lowest level taxonomic rank that can be determined. This term should not contain identification qualifications, which should instead be supplied in the IdentificationQualifier term.</attributeDefinition>
+               <semanticAnnotation>
+                  <propertyURI>http://purl.obolibrary.org/obo/IAO_0000136</propertyURI>
+                  <valueURI>http://rs.tdwg.org/dwc/terms/acceptedNameUsage</valueURI>
+               </semanticAnnotation>
+            </attribute>
+            <attribute id="kIiVVCGDSQ3lgamwi3KpM2KDzEKPgC">
+               <attributeName>measurementRemarks</attributeName>
+               <attributeLabel>Measurement Remarks</attributeLabel>
+               <attributeDefinition>Comments or notes accompanying the MeasurementOrFact.</attributeDefinition>
+               <semanticAnnotation>
+                  <propertyURI>http://purl.obolibrary.org/obo/IAO_0000136</propertyURI>
+                  <valueURI>http://rs.tdwg.org/dwc/terms/measurementRemarks</valueURI>
+               </semanticAnnotation>
+            </attribute>
+            <attribute id="QLhe7JzG4PA2GWEEcXdFip7oFVpa17">
+               <attributeName>bodyLength</attributeName>
+               <attributeLabel>Body Length</attributeLabel>
+               <attributeDefinition>The distance along the major axis of the body of an organism.</attributeDefinition>
+               <attributeStandardUnit>millimeter</attributeStandardUnit>
+               <semanticAnnotation>
+                  <propertyURI>http://purl.obolibrary.org/obo/IAO_0000136</propertyURI>
+                  <valueURI>https://kos.lifewatch.eu/thesauri/traits/c_d266fb02</valueURI>
+               </semanticAnnotation>
+            </attribute>
+            <attribute id="Im8LESpOHtcCc4LCfTZFs09RdANcgl">
+               <attributeName>ashFreeDryWeight</attributeName>
+               <attributeLabel>Ash Free Dry Weight</attributeLabel>
+               <attributeDefinition>The ash free dry weight is the dry weight (inorganic + organic contents) minus the weight of the ash (inorganic contents only) obtained after combustion at high temperature.</attributeDefinition>
+               <attributeStandardUnit>microgram</attributeStandardUnit>
+               <semanticAnnotation>
+                  <propertyURI>http://purl.obolibrary.org/obo/IAO_0000136</propertyURI>
+                  <valueURI>https://kos.lifewatch.eu/thesauri/traits/c_4eb7719f</valueURI>
+               </semanticAnnotation>
+            </attribute>
+            <attribute id="JuFZsNhiVNnDADDh1KFNpygt8sqIqe">
+               <attributeName>dryWeight</attributeName>
+               <attributeLabel>Dry Weight</attributeLabel>
+               <attributeDefinition>The weight obtained after prolonged oven-drying to remove the water content.</attributeDefinition>
+               <attributeStandardUnit>microgram</attributeStandardUnit>
+               <semanticAnnotation>
+                  <propertyURI>http://purl.obolibrary.org/obo/IAO_0000136</propertyURI>
+                  <valueURI>https://kos.lifewatch.eu/thesauri/traits/c_4d66d52a</valueURI>
+               </semanticAnnotation>
+            </attribute>
+            <attribute id="tbv8icIdhOgCraKThvKC4y5HXLAMy8">
+               <attributeName>eunisHabitatsTypeName</attributeName>
+               <attributeLabel>Eunis Habitats Type Name</attributeLabel>
+               <attributeDefinition>Assignment of the habitat type name based on the EUNIS habitat classification.</attributeDefinition>
+            </attribute>
+         </attributeList>
+         <entityType>text/csv</entityType>
+      </dataTable>
+  </dataset>
+</eml:eml>

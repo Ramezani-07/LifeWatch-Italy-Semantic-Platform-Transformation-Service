@@ -1,0 +1,18 @@
+{
+  "Observation": [
+    "datasetName",
+    "ECHabitatDirective",
+    "endemisms",
+    "iucnRedListSpeciesStatus",
+    "biogeographicalRegion",
+    "associatedReferences"
+
+  ],
+  "FeatureOfInterest": [
+    "acceptedNameUsage"
+  ],
+  "Location": [
+    "decimalLatitude",
+    "decimalLongitude"
+  ]
+}

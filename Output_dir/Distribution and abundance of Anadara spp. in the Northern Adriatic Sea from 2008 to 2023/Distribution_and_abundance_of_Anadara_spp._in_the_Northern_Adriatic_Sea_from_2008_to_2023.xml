@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="6b874b68-5676-4a61-a781-819d21b79d8b" system="https://data.lifewatchitaly.eu" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd" scope="system">
+  <dataset>
+    <alternateIdentifier>https://data.lifewatchitaly.eu/handle/123456789/129593</alternateIdentifier>
+    <alternateIdentifier>https://doi.org/10.48372/ZS4D-EM32</alternateIdentifier>
+    <title>Distribution and abundance of Anadara spp. in the Northern Adriatic Sea from 2008 to 2023</title>
+    <creator>
+      <individualName>
+        <givenName>Giuseppe</givenName>
+        <surName>Scarcella</surName>
+      </individualName>
+      <organizationName>National Research Council of Italy (CNR), Institute for Marine Biological Resources and Biotechnology (IRBIM)</organizationName>
+      <positionName>Researcher</positionName>
+      <userId directory="https://orcid.org/">0000-0001-6540-1997</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Marina</givenName>
+        <surName>Chiappi</surName>
+      </individualName>
+      <organizationName>National Research Council of Italy (CNR), Institute for Marine Biological Resources and Biotechnology (IRBIM)</organizationName>
+      <positionName>Researcher</positionName>
+      <userId directory="https://orcid.org/">0000-0002-9401-2509</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Francesca</givenName>
+        <surName>Luzi</surName>
+      </individualName>
+      <organizationName>National Research Council of Italy (CNR), Institute for Marine Biological Resources and Biotechnology (IRBIM)</organizationName>
+      <positionName>Research fellow</positionName>
+      <electronicMailAddress>francesca.luzi@irbim.cnr.it</electronicMailAddress>
+    </creator>
+    <metadataProvider>
+      <individualName>
+        <givenName>Giuseppe</givenName>
+        <surName>Scarcella</surName>
+      </individualName>
+      <organizationName>National Research Council of Italy (CNR), Institute for Marine Biological Resources and Biotechnology (IRBIM)</organizationName>
+      <positionName>Researcher</positionName>
+      <userId directory="https://orcid.org/">0000-0001-6540-1997</userId>
+    </metadataProvider>
+    <associatedParty>
+      <individualName>
+        <givenName>Ilaria</givenName>
+        <surName>Rosati</surName>
+      </individualName>
+      <organizationName>National Research Council (CNR), Institute of Research on Terrestrial Ecosystems (IRET)</organizationName>
+      <positionName>Technologist</positionName>
+      <electronicMailAddress>ilaria.rosati@cnr.it</electronicMailAddress>
+      <userId directory="https://orcid.org/">0000-0003-3422-7230</userId>
+      <role>Custodian Steward</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Cristina</givenName>
+        <surName>Di Muri</surName>
+      </individualName>
+      <organizationName>National Research Council (CNR), Institute of Research on Terrestrial Ecosystems (IRET)</organizationName>
+      <positionName>Technologist</positionName>
+      <electronicMailAddress>cristina.dimuri@cnr.it</electronicMailAddress>
+      <userId directory="https://orcid.org/">0000-0003-4072-0662</userId>
+      <role>Information Manager</role>
+    </associatedParty>
+    <pubDate>2024-09-24</pubDate>
+    <language>English</language>
+    <abstract>This dataset includes 1,998 records with distribution and abundance information of the invasive species Anadara kagoshimensis and A. transversa. Sample collection occurred at 66 trawling stations located in the Italian waters of the Northern Adriatic Sea within the framework of the SoleMon project (CNR-IRBIM) between 2008 and 2023. The dataset was compiled, harmonised and published within the CNR project USEit - Using operational synergies for the study and integrated management of invasive alien species in Italy.</abstract>
+    <keywordSet>
+      <keyword>Adriatic Sea</keyword>
+      <keywordThesaurus>EuroVoc Core Concepts</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>beam trawls</keyword>
+      <keywordThesaurus>SeaDataNet device categories</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Alien Species</keyword>
+      <keyword>Invasive</keyword>
+      <keywordThesaurus>Alien Species Thesaurus</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>Free for use, including sharing and adaptation, by all individuals provided that the owners are acknowledged in any use or publication.</intellectualRights>
+    <licensed>
+      <licenseName>cc-by</licenseName>
+      <url>https://creativecommons.org/licenses/by/4.0/</url>
+    </licensed>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Distribution and abundance data of Anadara spp. have been collected within Italian waters of the Northern Adriatic Sea across 66 sampling sites (trawling stations).</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>11.988281</westBoundingCoordinate>
+          <eastBoundingCoordinate>17.811035</eastBoundingCoordinate>
+          <northBoundingCoordinate>45.800556</northBoundingCoordinate>
+          <southBoundingCoordinate>42.553753</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2008-10-20</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2023-11-27</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Anadara kagoshimensis</taxonRankValue>
+          <commonName>Half-crenated ark</commonName>
+          <taxonId provider="World Register of Marine Species">504360</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Anadara transversa</taxonRankValue>
+          <commonName>Transverse Ark</commonName>
+          <taxonId provider="World Register of Marine Species">156734</taxonId>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+    </coverage>
+    <annotation>
+      <propertyURI label="keyword">http://www.w3.org/ns/dcat#keyword</propertyURI>
+      <valueURI label="Alien species">https://kos.lifewatch.eu/thesauri/alienspecies/c_1</valueURI>
+    </annotation>
+    <annotation>
+      <propertyURI label="keyword">http://www.w3.org/ns/dcat#keyword</propertyURI>
+      <valueURI label="Invasive">https://kos.lifewatch.eu/thesauri/alienspecies/c_7</valueURI>
+    </annotation>
+    <annotation>
+      <propertyURI label="keyword">http://www.w3.org/ns/dcat#keyword</propertyURI>
+      <valueURI label="beam trawls">http://vocab.nerc.ac.uk/collection/L05/current/62/</valueURI>
+    </annotation>
+    <annotation>
+      <propertyURI label="keyword">http://www.w3.org/ns/dcat#keyword</propertyURI>
+      <valueURI label="Adriatic Sea">http://eurovoc.europa.eu/5221</valueURI>
+    </annotation>
+    <acknowledgements>This work has been funded by the USEit project: https://www.lifewatchitaly.eu/en/pg-related-projects/useit/</acknowledgements>
+    <contact>
+      <individualName>
+        <givenName>Giuseppe</givenName>
+        <surName>Scarcella</surName>
+      </individualName>
+      <organizationName>National Research Council of Italy (CNR), Institute for Marine Biological Resources and Biotechnology (IRBIM)</organizationName>
+      <positionName>Researcher</positionName>
+      <userId directory="https://orcid.org/">0000-0001-6540-1997</userId>
+    </contact>
+    <publisher>
+      <organizationName>LifeWatch Italy</organizationName>
+      <electronicMailAddress>lifewatchitaly@gmail.com</electronicMailAddress>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>Distribution and abundance records of Anadara spp. were gathered during the project SoleMon by using trawl surveys with a modified beam trawl (the rapido trawl). The hauls are planned according to a depth-stratified sampling scheme with random allocation of the positions of sampling stations within each stratum. The hauls are performed yearly between October and December during the daylight.</description>
+        <protocol>
+          <title>SoleMon - Rapido trawl surveys in the Northern Adriatic Sea.</title>
+          <creator>
+            <organizationName>unknown</organizationName>
+          </creator>
+          <abstract>SoleMon Handbook Version 4. July 2019. https://dcf-italia.cnr.it/rest/uploads/SOLEMON-Handbook_2019_Ver_4</abstract>
+        </protocol>
+      </methodStep>
+    </methods>
+    <project>
+      <title>USEit: Using operational synergies for the study and integrated management of invasive alien species in Italy</title>
+      <personnel>
+        <individualName>
+          <givenName>Ernesto</givenName>
+          <surName>Azzurro</surName>
+        </individualName>
+        <organizationName>National Research Council of Italy (CNR), Institute for Marine Biological Resources and Biotechnology (IRBIM)</organizationName>
+        <positionName>Research director</positionName>
+        <userId directory="https://orcid.org/">0000-0002-9805-3164</userId>
+        <role>Point Of Contact</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Giuseppe</givenName>
+          <surName>Scarcella</surName>
+        </individualName>
+        <organizationName>National Research Council of Italy (CNR), Institute for Marine Biological Resources and Biotechnology (IRBIM)</organizationName>
+        <positionName>Researcher</positionName>
+        <userId directory="https://orcid.org/">0000-0001-6540-1997</userId>
+        <role>Point Of Contact</role>
+      </personnel>
+      <abstract>Biological invasions represent today one of the greatest threats to global biodiversity, with negative impacts on human health and the economy of our country. The USEit project addresses this problem by involving a number of marine and terrestrial institutes of the National Research Council of Italy (CNR). Our main goal is to empower the scientific research on invasive species and to transform this challenge into new opportunities and new growth strategies.</abstract>
+    </project>
+    <dataTable>
+      <entityName>USEit_Anadara_Fishery_Data_20242409.csv</entityName>
+      <physical>
+        <objectName>USEit_Anadara_Fishery_Data_20242409.csv</objectName>
+        <size unit="byte">780977</size>
+        <authentication>MD5:70178c0c576071450cd0dd291dd11e54</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>;</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>catologNumber</attributeName>
+          <attributeLabel>Catolog Number</attributeLabel>
+          <attributeDefinition>An identifier (preferably unique) for the record within the data set or collection.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Catolog Number">http://rs.tdwg.org/dwc/terms/catalogNumber</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>country</attributeName>
+          <attributeLabel>Country</attributeLabel>
+          <attributeDefinition>The name of the country or major administrative unit in which the dcterms:Location occurs.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Country">http://rs.tdwg.org/dwc/terms/country</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>locationID</attributeName>
+          <attributeLabel>Location ID</attributeLabel>
+          <attributeDefinition>An identifier for the set of dcterms:Location information. May be a global unique identifier or an identifier specific to the data set.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="hasCode">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasCode</propertyURI>
+            <valueURI label="Location ID">http://rs.tdwg.org/dwc/terms/locationID</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>decimalLatitude</attributeName>
+          <attributeLabel>Decimal Latitude</attributeLabel>
+          <attributeDefinition>The geographic latitude (in decimal degrees, using the spatial reference system given in dwc:geodeticDatum) of the geographic center of a dcterms:Location. Positive values are north of the Equator, negative values are south of it. Legal values lie between -90 and 90, inclusive.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Decimal Latitude">http://rs.tdwg.org/dwc/terms/decimalLatitude</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>decimalLongitude</attributeName>
+          <attributeLabel>Decimal Longitude</attributeLabel>
+          <attributeDefinition>The geographic longitude (in decimal degrees, using the spatial reference system given in dwc:geodeticDatum) of the geographic center of a dcterms:Location. Positive values are east of the Greenwich Meridian, negative values are west of it. Legal values lie between -180 and 180, inclusive.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Decimal Longitude">http://rs.tdwg.org/dwc/terms/decimalLongitude</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>eventDate</attributeName>
+          <attributeLabel>Event Date</attributeLabel>
+          <attributeDefinition>The date-time or interval during which a dwc:Event occurred. For occurrences, this is the date-time when the dwc:Event was recorded. Not suitable for a time in a geological context.</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Event Date">http://rs.tdwg.org/dwc/terms/eventDate</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>depth</attributeName>
+          <attributeLabel>depth</attributeLabel>
+          <attributeDefinition>The perpendicular measurement downward from a surface.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="depth">http://purl.dataone.org/odo/ECSO_00000515</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>samplingProtocol</attributeName>
+          <attributeLabel>Sampling Protocol</attributeLabel>
+          <attributeDefinition>The names of, references to, or descriptions of the methods or protocols used during a dwc:Event.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="uses protocol">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#usesProtocol</propertyURI>
+            <valueURI label="Sampling Protocol">http://rs.tdwg.org/dwc/terms/samplingProtocol</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>samplingEffort</attributeName>
+          <attributeLabel>Sampling Effort</attributeLabel>
+          <attributeDefinition>The amount of effort expended during a dwc:Event.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="usesMethod">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#usesMethod</propertyURI>
+            <valueURI label="samplingEffort">http://rs.tdwg.org/dwc/terms/samplingEffort</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>sampleSizeValue</attributeName>
+          <attributeLabel>Sample Size Value</attributeLabel>
+          <attributeDefinition>A numeric value for a measurement of the size (time duration, length, area, or volume) of a sample in a sampling dwc:Event.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>kilometerSquared</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Sample Size Value">http://rs.tdwg.org/dwc/terms/sampleSizeValue</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>sampleSizeUnit</attributeName>
+          <attributeLabel>Sample Size Unit</attributeLabel>
+          <attributeDefinition>The unit of measurement of the size (time duration, length, area, or volume) of a sample in a sampling dwc:Event.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has unit">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasUnit</propertyURI>
+            <valueURI label="Sample Size Unit">http://rs.tdwg.org/dwc/iri/sampleSizeUnit</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>taxonID</attributeName>
+          <attributeLabel>Taxon ID</attributeLabel>
+          <attributeDefinition>An identifier for the set of dwc:Taxon information. May be a global unique identifier or an identifier specific to the data set.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="hasCode">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasCode</propertyURI>
+            <valueURI label="Taxon ID">http://rs.tdwg.org/dwc/terms/taxonID</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>scientificName</attributeName>
+          <attributeLabel>Scientific Name</attributeLabel>
+          <attributeDefinition>The full scientific name, with authorship and date information if known. When forming part of a dwc:Identification, this should be the name in lowest level taxonomic rank that can be determined. This term should not contain identification qualifications, which should instead be supplied in the dwc:identificationQualifier term.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Scientific Name">http://rs.tdwg.org/dwc/terms/scientificName</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>acceptedNameUsage</attributeName>
+          <attributeLabel>Accepted Name Usage</attributeLabel>
+          <attributeDefinition>The full name, with authorship and date information if known, of the currently valid (zoological) or accepted (botanical) dwc:Taxon.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Accepted Name Usage">http://rs.tdwg.org/dwc/terms/acceptedNameUsage</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>acceptedNameUsageID</attributeName>
+          <attributeLabel>Accepted Name Usage ID</attributeLabel>
+          <attributeDefinition>An identifier for the name usage (documented meaning of the name according to a source) of the currently valid (zoological) or accepted (botanical) taxon.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                  <source>World Register of Marine Species</source>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="hasCode">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasCode</propertyURI>
+            <valueURI label="Accepted Name Usage ID">http://rs.tdwg.org/dwc/terms/acceptedNameUsageID</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>individualCount</attributeName>
+          <attributeLabel>Individual Count</attributeLabel>
+          <attributeDefinition>The number of individuals present at the time of the dwc:Occurrence.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="Individual Count">http://rs.tdwg.org/dwc/terms/individualCount</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>density</attributeName>
+          <attributeLabel>Density</attributeLabel>
+          <attributeDefinition>The number of organisms,designated by taxonomic names (e.g. species, genus, family), per unit area or per unit volume.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>numberPerKilometerSquared</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="Density">https://kos.lifewatch.eu/thesauri/traits/c_ddc0028f</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>biomass</attributeName>
+          <attributeLabel>Biomass</attributeLabel>
+          <attributeDefinition>The amount of living organic matter per unit area or per unit volume. It can be expressed in terms of biovolume, weight or carbon content and can be measured at different organisational levels.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>kilogram</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="Biomass">https://kos.lifewatch.eu/thesauri/traits/c_331cd569</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>biomassPerUnitArea</attributeName>
+          <attributeLabel>Zoobenth_tax_ww_biomass</attributeLabel>
+          <attributeDefinition>Zoobenthos wet weight biomass per unit area parameters presented at the level of taxa that may be mapped to entities in a standard taxonomy registry such as WoRMS or ITIS. Includes animals considered as planktonic if they have been returned from sediment samples.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>Kilogram Per Kilometer Squared</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="Zoobenth_tax_ww_biomass">http://vocab.nerc.ac.uk/collection/P02/current/ZWTX/</valueURI>
+          </annotation>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>1998</numberOfRecords>
+    </dataTable>
+  </dataset>
+</eml:eml>

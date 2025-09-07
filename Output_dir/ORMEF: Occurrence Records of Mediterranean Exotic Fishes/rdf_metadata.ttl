@@ -1,0 +1,261 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix lw: <https://kos.lifewatch.eu/ontologies/lw/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://semantics.lifewatchitaly.eu/resource#dcat:Catalog-id:61175251-1672-4795-b23b-b35b0dd0a294> dcat:dataset <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:e791a849-97f8-4807-a667-1858b8eac5f4> .
+
+<http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:e791a849-97f8-4807-a667-1858b8eac5f4> a owl:NamedIndividual,
+        dcat:Dataset ;
+    dct:description "The ORMEF dataset is a comprehensive, and robust compilation of exotic fish observations recorded in the entire Mediterranean region from 1896 to 2020. ORMEF is composed by 4015 georeferenced occurrences distributed in the territorial waters of 20 Mediterranean countries and extracted from 670 scientific published papers. The resultant dataset is a collection of 188 fish taxa whose 106 species entered through the Suez Canal; 256 species introduced by human activities (shipping, mariculture, aquarium release); 576 Atlantic species. The dataset has undergone a severe technical and scientific review for what concerns taxa and geographical accuracy and it consists of a CSV file of the records (observations), including information on all the bibliography from which dataset has been built."@en ;
+    dct:identifier "e791a849-97f8-4807-a667-1858b8eac5f4" ;
+    dct:issued "2025-01-22"^^xsd:date ;
+    dct:language "English"@en ;
+    dct:license <http://creativecommons.org/licenses/by/4.0/> ;
+    dct:rights "Free for use, including sharing and adaptation, by all individuals provided that the owners are acknowledged in any use or publication."@en ;
+    dct:spatial <http://semantics.lifewatchitaly.eu/resource#dct:Spatial-id:e791a849-97f8-4807-a667-1858b8eac5f4> ;
+    dct:temporal <http://semantics.lifewatchitaly.eu/resource#dct:Temporal-id:e791a849-97f8-4807-a667-1858b8eac5f4> ;
+    dct:title "ORMEF: Occurrence Records of Mediterranean Exotic Fishes"@en ;
+    dwc:measurementMethod "Occurrence records were gathered through an extensive literature search by combining multiple search criteria. Each record was associated with the name of the species, the year of detection, the presumed introduction path, and the country where the species was observed. Each georeferenced observation included in ORMEF undergone a severe quality control and checked for possible geographical and taxonomic biases."@en ;
+    dwc:samplingProtocol "Literature search was performed mainly through Google Scholar (https://scholar.google.com/), ISI Web of Science (https://www.webofscience.com/), and Scopus (https://www.scopus.com/)."@en,
+        "Multiple search criteria were used for literature search including species scientific names and a combination of terms such as exotic, non-indigenous, and alien in conjunction with the names of Mediterranean and/or Mediterranean countries. In addition, periodic checks on the main journals devoted to the publication of exotic fish records were performed to update the database with new georeferenced occurrences. Grey literature was also considered, when accessible."@en ;
+    dcat:distribution <http://semantics.lifewatchitaly.eu/resource#dcat:Distribution-id:https%3A%2F%2Fdata.lifewatchitaly.eu%2Fhandle%2F123456789%2F129615>,
+        <http://semantics.lifewatchitaly.eu/resource#dcat:Distribution-id:https%3A%2F%2Fdoi.org%2F10.17882%2F84182> ;
+    dcat:keyword <http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Feurovoc.europa.eu%2F1879>,
+        <http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F30108>,
+        <http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:https%3A%2F%2Fkos.lifewatch.eu%2Fthesauri%2Falienspecies%2Fc_1> ;
+    prov:qualifiedAttribution <http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:1019084568>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:1525420862>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:4414752006>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:4491604870>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:6117161665>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:6472707060>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:6866824758>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:7004020010>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:8119914446>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:8729421174>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:9400529440>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionContact-id:5221369916>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionCreator-id:2500997889>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionCreator-id:5282168528>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionCreator-id:6965363021>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionMetadataProvider-id:2127258951>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionPublisher-id:1249895672> ;
+    prov:wasAttributedTo "Institute for Marine Biological Resources and Biotechnology (IRBIM) of the National Research Council (CNR) of Ancona"@en ;
+    prov:wasGeneratedBy <http://semantics.lifewatchitaly.eu/resource#foaf:Project-id:2721656336> .
+
+<http://semantics.lifewatchitaly.eu/resource#dcat:Distribution-id:https%3A%2F%2Fdata.lifewatchitaly.eu%2Fhandle%2F123456789%2F129615> a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL <https://data.lifewatchitaly.eu/handle/123456789/129615> .
+
+<http://semantics.lifewatchitaly.eu/resource#dcat:Distribution-id:https%3A%2F%2Fdoi.org%2F10.17882%2F84182> a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL <https://doi.org/10.17882/84182> .
+
+<http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Feurovoc.europa.eu%2F1879> a owl:NamedIndividual,
+        skos:Concept ;
+    rdfs:label "Mediterranean Sea" ;
+    dct:type <http://eurovoc.europa.eu/1879> .
+
+<http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F30108> a owl:NamedIndividual,
+        skos:Concept ;
+    rdfs:label "fish species list" ;
+    dct:type <http://vocabs.lter-europe.net/EnvThes/30108> .
+
+<http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:https%3A%2F%2Fkos.lifewatch.eu%2Fthesauri%2Falienspecies%2Fc_1> a owl:NamedIndividual,
+        skos:Concept ;
+    rdfs:label "Alien species" ;
+    dct:type <https://kos.lifewatch.eu/thesauri/alienspecies/c_1> .
+
+<http://semantics.lifewatchitaly.eu/resource#dct:Spatial-id:e791a849-97f8-4807-a667-1858b8eac5f4> a dct:Location ;
+    dct:description "Exotic fish records are distributed in 20 different countries, all over the Mediterranean region." ;
+    lw:eastBoundCoordinate "36.175"^^xsd:LocationStructure ;
+    lw:northBoundCoordinate "45.701"^^xsd:LocationStructure ;
+    lw:southBoundCoordinate "30.3316"^^xsd:LocationStructure ;
+    lw:westBoundCoordinate "-5.3475"^^xsd:LocationStructure .
+
+<http://semantics.lifewatchitaly.eu/resource#dct:Temporal-id:e791a849-97f8-4807-a667-1858b8eac5f4> a dct:PeriodOfTime ;
+    dcat:endDate "2021-12-31"^^xsd:date ;
+    dcat:startDate "1896-01-01"^^xsd:date .
+
+<http://semantics.lifewatchitaly.eu/resource#foaf:Project-id:2721656336> a foaf:Project ;
+    dct:description "ORMEF is a free, online searchable database about Mediterranean Exotic Fishes available at https://ormef.eu. It provides updated georeferenced information for scientists, conservationists and policy makers, disseminating specialist’s knowledge and experience to a broad audience.  The ORMEF dataset was published and made accessible as a CSV file by LifeWatch Italy within the framework of the USEit project." ;
+    dct:title "1) ORMEF: Occurrence Records of Mediterranean Exotic Fishes; 2) USEit: Use of operational synergies for the study and integrated management of invasive alien species in Italy" .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:LifeWatch%20Italy> a owl:NamedIndividual,
+        prov:Agent ;
+    foaf:mbox "lifewatchitaly@gmail.com" ;
+    foaf:name "LifeWatch Italy" .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0001-9963-3315> a owl:NamedIndividual,
+        prov:Agent,
+        prov:Person ;
+    dct:identifier <https://orcid.org/0000-0001-9963-3315> ;
+    prov:actedOnBehalfOf "National Research Council of Italy (CNR), Institute for Research of Population and Social Policies (IRPPS)" ;
+    foaf:familyName "Ferri" ;
+    foaf:name "Fernando" .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0002-1947-7023> a owl:NamedIndividual,
+        prov:Agent,
+        prov:Person ;
+    dct:identifier <https://orcid.org/0000-0002-1947-7023> ;
+    prov:actedOnBehalfOf "National Research Council of Italy (CNR), Institute for Marine Biological Resources and Biotechnology (IRBIM)" ;
+    foaf:familyName "Strafella" ;
+    foaf:name "Pierluigi" .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0002-9401-2509> a owl:NamedIndividual,
+        prov:Agent,
+        prov:Person ;
+    dct:identifier <https://orcid.org/0000-0002-9401-2509> ;
+    prov:actedOnBehalfOf "National Research Council of Italy (CNR), Institute for Marine Biological Resources and Biotechnology (IRBIM)" ;
+    foaf:familyName "Chiappi" ;
+    foaf:name "Marina" .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0002-9438-4791> a owl:NamedIndividual,
+        prov:Agent,
+        prov:Person ;
+    dct:identifier <https://orcid.org/0000-0002-9438-4791> ;
+    prov:actedOnBehalfOf "National Research Council of Italy (CNR), Institute for Marine Biological Resources and Biotechnology (IRBIM)" ;
+    foaf:familyName "De Marco" ;
+    foaf:name "Rocco" .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0003-3422-7230> a owl:NamedIndividual,
+        prov:Agent,
+        prov:Person ;
+    dct:identifier <https://orcid.org/0000-0003-3422-7230> ;
+    prov:actedOnBehalfOf "National Research Council (CNR), Institute of Research on Terrestrial Ecosystems (IRET)" ;
+    foaf:familyName "Rosati" ;
+    foaf:mbox "ilaria.rosati@cnr.it" ;
+    foaf:name "Ilaria" .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0003-4072-0662> a owl:NamedIndividual,
+        prov:Agent,
+        prov:Person ;
+    dct:identifier <https://orcid.org/0000-0003-4072-0662> ;
+    prov:actedOnBehalfOf "National Research Council (CNR), Institute of Research on Terrestrial Ecosystems (IRET)" ;
+    foaf:familyName "Di Muri" ;
+    foaf:mbox "cristina.dimuri@cnr.it" ;
+    foaf:name "Cristina" .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0003-4298-5437> a owl:NamedIndividual,
+        prov:Agent,
+        prov:Person ;
+    dct:identifier <https://orcid.org/0000-0003-4298-5437> ;
+    prov:actedOnBehalfOf "National Research Council of Italy (CNR), Institute for Research on Population and Social Policies (IRPPS)" ;
+    foaf:familyName "Grifoni" ;
+    foaf:name "Patrizia" .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0003-4673-028X> a owl:NamedIndividual,
+        prov:Agent,
+        prov:Person ;
+    dct:identifier <https://orcid.org/0000-0003-4673-028X> ;
+    prov:actedOnBehalfOf "National Research Council of Italy (CNR), Institute for Research on Population and Social Policies (IRPPS)" ;
+    foaf:familyName "Biancone" ;
+    foaf:name "Noemi" .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0009-0001-8852-5252> a owl:NamedIndividual,
+        prov:Agent,
+        prov:Person ;
+    dct:identifier <https://orcid.org/0009-0001-8852-5252> ;
+    prov:actedOnBehalfOf "National Research Council of Italy (CNR), Institute for Research on Population and Social Policies (IRPPS)" ;
+    foaf:familyName "Napoli" ;
+    foaf:name "Ester" .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:1019084568> a prov:Attribution ;
+    dcat:hadRole "Associated Party" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0002-1947-7023> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:1525420862> a prov:Attribution ;
+    dcat:hadRole "Associated Party" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0002-5160-5304> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:4414752006> a prov:Attribution ;
+    dcat:hadRole "Associated Party" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0003-3422-7230> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:4491604870> a prov:Attribution ;
+    dcat:hadRole "Associated Party" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0003-4673-028X> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:6117161665> a prov:Attribution ;
+    dcat:hadRole "Associated Party" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0003-4298-5437> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:6472707060> a prov:Attribution ;
+    dcat:hadRole "Associated Party" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0002-9401-2509> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:6866824758> a prov:Attribution ;
+    dcat:hadRole "Associated Party" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0001-9963-3315> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:7004020010> a prov:Attribution ;
+    dcat:hadRole "Associated Party" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0009-0001-8852-5252> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:8119914446> a prov:Attribution ;
+    dcat:hadRole "Associated Party" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0003-4072-0662> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:8729421174> a prov:Attribution ;
+    dcat:hadRole "Associated Party" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0001-5910-4267> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:9400529440> a prov:Attribution ;
+    dcat:hadRole "Associated Party" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0002-9438-4791> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionContact-id:5221369916> a prov:Attribution ;
+    dcat:hadRole "Contact" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0002-9805-3164> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionCreator-id:2500997889> a prov:Attribution ;
+    dcat:hadRole "Creator" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0002-9805-3164> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionCreator-id:5282168528> a prov:Attribution ;
+    dcat:hadRole "Creator" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0002-5160-5304> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionCreator-id:6965363021> a prov:Attribution ;
+    dcat:hadRole "Creator" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0001-5910-4267> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionMetadataProvider-id:2127258951> a prov:Attribution ;
+    dcat:hadRole "Metadata Provider" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0002-9805-3164> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionPublisher-id:1249895672> a prov:Attribution ;
+    dcat:hadRole "Publisher" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:LifeWatch%20Italy> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0001-5910-4267> a owl:NamedIndividual,
+        prov:Agent,
+        prov:Person ;
+    dct:identifier <https://orcid.org/0000-0001-5910-4267> ;
+    prov:actedOnBehalfOf "National Research Council of Italy (CNR), Institute for Marine Biological Resources and Biotechnology (IRBIM)" ;
+    foaf:familyName "D'Amen" ;
+    foaf:name "Manuela" .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0002-5160-5304> a owl:NamedIndividual,
+        prov:Agent,
+        prov:Person ;
+    dct:identifier <https://orcid.org/0000-0002-5160-5304> ;
+    prov:actedOnBehalfOf "National Research Council of Italy (CNR), Institute for Marine Biological Resources and Biotechnology (IRBIM)" ;
+    foaf:familyName "Smeraldo" ;
+    foaf:name "Sonia" .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0002-9805-3164> a owl:NamedIndividual,
+        prov:Agent,
+        prov:Person ;
+    dct:identifier <https://orcid.org/0000-0002-9805-3164> ;
+    prov:actedOnBehalfOf "National Research Council of Italy (CNR), Institute for Marine Biological Resources and Biotechnology (IRBIM)" ;
+    foaf:familyName "Azzurro" ;
+    foaf:name "Ernesto" .
+

@@ -1,0 +1,435 @@
+{
+    "bodyLength": [
+        {
+            "label": "Body Length",
+            "type": "https://kos.lifewatch.eu/thesauri/traits/c_d266fb02",
+            "definition": "The distance along the major axis of the body of an organism.",
+            "unit": "centimeter"
+        }
+    ],
+    "meanLength": [
+        {
+            "label": "Mean Length",
+            "type": "http://vocab.nerc.ac.uk/collection/P21/current/MS11694/",
+            "definition": "The mean value in a range of body length values. It is calculated as the sum of the body lenght values of all organisms divided by the number of organisms measured.",
+            "unit": "millimeter"
+        }
+    ],
+    "dryWeight": [
+        {
+            "label": "Dry Weight",
+            "type": "https://kos.lifewatch.eu/thesauri/traits/c_4d66d52a",
+            "definition": "The weight of an organism after removal of body fluids drying at 50-70 °C (typically at 60 °C) in a drying oven for 24 hours or until constant weight is reached.",
+            "unit": "gram"
+        }
+    ],
+    "ashWeight": [
+        {
+            "label": "Ash Weight",
+            "type": "https://kos.lifewatch.eu/thesauri/traits/c_c50e466a",
+            "definition": "The weight of inorganic material obtained after muffle furnace combustion at 450-500 °C for 6/12 hours or longer for larger quantities. Ash weight is determined by subtracting the tare weight. Ash weight is often expressed as a percentage of dry weight or wet weight.",
+            "unit": "milligram"
+        }
+    ],
+    "wetWeight": [
+        {
+            "label": "Wet Weight",
+            "type": "https://kos.lifewatch.eu/thesauri/traits/c_54f8447a",
+            "definition": "The weight of a whole fresh organism.",
+            "unit": "gram"
+        }
+    ],
+    "ashFreeDryWeight": [
+        {
+            "label": "Ash Free Dry Weight",
+            "type": "https://kos.lifewatch.eu/thesauri/traits/c_4eb7719f",
+            "definition": "The ash free dry weight is the dry weight (inorganic + organic contents) minus the weight of the ash (inorganic contents only) obtained after combustion at high temperature.",
+            "unit": "milligram"
+        }
+    ],
+    "carbon13": [
+        {
+            "label": "Carbon-13",
+            "type": "http://vocab.nerc.ac.uk/collection/S27/current/CS002837",
+            "definition": "An isotope of the chemical element carbon.",
+            "unit": "permil"
+        }
+    ],
+    "percentCarbon": [
+        {
+            "label": "Percent Carbon",
+            "type": "http://vocabs.lter-europe.net/EnvThes/22181",
+            "definition": "Percentage of a sample that is carbon.",
+            "unit": "percent"
+        }
+    ],
+    "nitrogen15": [
+        {
+            "label": "Nitrogen-15",
+            "type": "http://vocab.nerc.ac.uk/collection/S27/current/CS002808",
+            "definition": "An isotope of the chemical element nitrogen.",
+            "unit": "permil"
+        }
+    ],
+    "percentNitrogen": [
+        {
+            "label": "Percent Nitrogen",
+            "type": "http://vocabs.lter-europe.net/EnvThes/22182",
+            "definition": "Percentage of a sample that is nitrogen.",
+            "unit": "percent"
+        }
+    ],
+    "sex": [
+        {
+            "label": "Sex",
+            "type": "http://rs.tdwg.org/dwc/iri/sex",
+            "definition": "The sex of the biological individual(s) represented in the dwc:Occurrence.",
+            "unit": "male/female"
+        }
+    ],
+    "male": [
+        {
+            "label": "Male",
+            "type": "http://vocab.nerc.ac.uk/collection/S10/current/S103/",
+            "definition": "The sample (which may be a single specimen) comprises specimens identified as male.",
+            "unit": "number"
+        }
+    ],
+    "female": [
+        {
+            "label": "Female",
+            "type": "http://vocab.nerc.ac.uk/collection/S10/current/S102/",
+            "definition": "The sample (which may be a single specimen) comprises specimens identified as female.",
+            "unit": "number"
+        }
+    ],
+    "calcium": [
+        {
+            "label": "Calcium",
+            "type": "http://vocabs.lter-europe.net/EnvThes/USLterCV_81",
+            "definition": "A malleable silvery-white metallic element of the alkaline hearth group; the fifth most abundant element in the earth crust, occurring especially as forms of calcium carbonate. It is an essential constituent of bones and teeth and is used as a deoxidizer in steel.",
+            "unit": "mg/kg of dry weight (ppm)"
+        }
+    ],
+    "phosphorus": [
+        {
+            "label": "Phosphorus",
+            "type": "http://vocabs.lter-europe.net/EnvThes/20854",
+            "definition": "A nonmetallic element used to manufacture phosphoric acid, in phosphor bronzes, incendiaries, pyrotechnics, matches, and rat poisons; the white or yellow allotrope is a soft waxy solid, soluble in carbon disulfide, insoluble in water and alcohol, and is poisonous and self-igniting in air; the red allotrope is an amorphous powder, insoluble in all solvents and is nonpoisonous; the black allotrope comprises lustrous crystals similar to graphite, and is insoluble in most solvents.",
+            "unit": "mg/kg of dry weight (ppm)"
+        }
+    ],
+    "cadmium": [
+        {
+            "label": "Cadmium",
+            "type": "http://vocabs.lter-europe.net/EnvThes/20803",
+            "definition": "One of the toxic heavy metal which has caused deaths and permanent illnesses in a series of major pollution incidents around the world. Cadmium has no useful biological purpose. However, it has wide industrial applications. It has been used for decades in metal plating to prevent corrosion, in rechargeable batteries and as a pigment in certain plastics and paints. Special care is taken in the industrial smelting of ores and subsequent handling of cadmium, because occupational exposure is known to have caused heart, chest and kidney disorders. Environmental health problems have come from exposure to various sources of pollution.",
+            "unit": "mg/kg of dry weight (ppm)"
+        }
+    ],
+    "copper": [
+        {
+            "label": "Copper",
+            "type": "http://vocabs.lter-europe.net/EnvThes/20822",
+            "definition": "A chemical element; one of the most important nonferrous metals; a ductile and malleable metal found in various ores and used in industry, engineering, and the arts in both pure and alloyed form.",
+            "unit": "mg/kg of dry weight (ppm)"
+        }
+    ],
+    "manganese": [
+        {
+            "label": "Manganese",
+            "type": "http://vocabs.lter-europe.net/EnvThes/20830",
+            "definition": "Also known as: Colloidal manganese, Cutaval, Magnacat, Tronamang, Mangan, Manganese fume, MANGANESE COMPOUNDS, Mangan [Polish], (52mn)manganese; A trace element with atomic symbol Mn, atomic number 25, and atomic weight 54.94. It is concentrated in cell mitochondria, mostly in the pituitary gland, liver, pancreas, kidney, and bone, influences the synthesis of mucopolysaccharides, stimulates hepatic synthesis of cholesterol and fatty acids, and is a cofactor in many enzymes, including arginase and alkaline phosphatase in the liver. (From AMA Drug Evaluations Annual 1992, p2035)",
+            "unit": "mg/kg of dry weight (ppm)"
+        }
+    ],
+    "iron": [
+        {
+            "label": "Iron",
+            "type": "http://vocabs.lter-europe.net/EnvThes/20827",
+            "definition": "A malleable ductile silvery-white ferromagnetic metallic element occurring principally in haematite and magnetite. It is widely used for structural and engineering purposes.",
+            "unit": "mg/kg of dry weight (ppm)"
+        }
+    ],
+    "chromium": [
+        {
+            "label": "Chromium",
+            "type": "http://vocabs.lter-europe.net/EnvThes/20821",
+            "definition": "A hard grey metallic element that takes a high polish, occurring principally in chromite: used in steel alloys and electroplating to increase hardness and corrosion-resistance.",
+            "unit": "mg/kg of dry weight (ppm)"
+        }
+    ],
+    "cobalt": [
+        {
+            "label": "Cobalt",
+            "type": "http://opendata.inra.fr/anaeeThes/c2_2335",
+            "definition": "A metallic element used chiefly in alloys.",
+            "unit": "mg/kg of dry weight (ppm)"
+        }
+    ],
+    "nickel": [
+        {
+            "label": "Nickel",
+            "type": "http://vocabs.lter-europe.net/EnvThes/20831",
+            "definition": "A malleable ductile silvery-white metallic element that is strong and corrosion-resistant, occurring principally in pentlandite and niccolite: used in alloys, especially in toughening steel, in electroplating, and as a catalyst in organic synthesis.",
+            "unit": "mg/kg of dry weight (ppm)"
+        }
+    ],
+    "lead": [
+        {
+            "label": "Lead",
+            "type": "http://vocabs.lter-europe.net/EnvThes/20828",
+            "definition": "A heavy toxic bluish-white metallic element that is highly malleable; occurs principally as galena and is used in alloys, accumulators, cable sheaths, paints, and as a radiation shield.",
+            "unit": "mg/kg of dry weight (ppm)"
+        }
+    ],
+    "aluminium": [
+        {
+            "label": "Aluminium",
+            "type": "http://vocabs.lter-europe.net/EnvThes/20800",
+            "definition": "Aluminium (or aluminum) is a chemical element in the boron group with symbol Al and atomic number 13. It is a silvery white, soft, ductile metal. Aluminium is the third most abundant element (after oxygen and silicon), and the most abundant metal, in the Earth's crust (occurs widely in nature in clays). It makes up about 8% by weight of the Earth's solid surface. Aluminium metal is so chemically reactive that native specimens are rare and limited to extreme reducing environments. Instead, it is found combined in over 270 different minerals. Aluminium became implicated as an environmental health hazard in the 1980s on two counts. Biomedical scientists looking for possible causes of Alzheimer's disease, the premature senility indicated by loss of memory and confusion, found a circumstantial link with aluminium. The theory is a controversial one.",
+            "unit": "mg/kg of dry weight (ppm)"
+        }
+    ],
+    "potassium": [
+        {
+            "label": "Potassium",
+            "type": "http://vocabs.lter-europe.net/EnvThes/20864",
+            "definition": "n. metallic element, an essential nutrient for living organisms. As the ion K+ it is involved in maintaining intracellular ion balance, in generating the membrane potential, and in producing electrical signals in neurons. One of the major elements required for plant growth.",
+            "unit": "mg/kg of dry weight (ppm)"
+        }
+    ],
+    "sodium": [
+        {
+            "label": "Sodium",
+            "type": "http://vocabs.lter-europe.net/EnvThes/20867",
+            "definition": "Sodium is a chemical element with the symbol Na (from Latin: natrium) and atomic number 11. It is a soft, silver-white, highly reactive metal and is a member of the alkali metals; essential macronutrient involved in generating the membrane potential in animal cells and is also required for the generation of nerve impulses.",
+            "unit": "mg/kg of dry weight (ppm)"
+        }
+    ],
+    "magnesium": [
+        {
+            "label": "Magnesium",
+            "type": "http://vocabs.lter-europe.net/EnvThes/20829",
+            "definition": "Magnesium is a chemical element with the symbol Mg and atomic number 12. Its common oxidation number is +2. It is an alkaline earth metal. Magnesium is the fourth-most-common element in the Earth as a whole (behind iron, oxygen and silicon), making up 13% of the planet's mass and a large fraction of the planet's mantle. Due to magnesium ion's high solubility in water, it is the third-most-abundant element dissolved in seawater. Magnesium is produced in stars larger than 3 solar masses by fusing helium and neon in the alpha process at temperatures above 600 megakelvins. It is important for the activity of many enzymes, especially those involved in oxidative phosphorylation.",
+            "unit": "mg/kg of dry weight (ppm)"
+        }
+    ],
+    "barium": [
+        {
+            "label": "Barium",
+            "type": "http://opendata.inra.fr/anaeeThes/c2_2364",
+            "definition": "A soft silvery-white metallic element of the alkaline earth group. It is used in bearing alloys and compounds are used as pigments.",
+            "unit": "mg/kg of dry weight (ppm)"
+        }
+    ],
+    "strontium": [
+        {
+            "label": "Strontium",
+            "type": "http://vocabs.lter-europe.net/EnvThes/20868",
+            "definition": "A soft silvery-white element of the alkaline earth group of metals, occurring chiefly as celestite and as strontianite. Its compounds burn with a crimson flame and are used in fire works.",
+            "unit": "mg/kg of dry weight (ppm)"
+        }
+    ],
+    "boron": [
+        {
+            "label": "Boron",
+            "type": "http://vocabs.lter-europe.net/EnvThes/20802",
+            "definition": "A very hard almost colourless crystalline metalloid element that in impure form exists as a brown amorphous powder. It occurs principally in borax and is used in hardening steel.",
+            "unit": "mg/kg of dry weight (ppm)"
+        }
+    ],
+    "beryllium": [
+        {
+            "label": "Beryllium",
+            "type": "http://opendata.inra.fr/anaeeThes/c2_2312",
+            "definition": "A corrosion-resistant, toxic silvery-white metallic element that occurs chiefly in beryl and is used mainly in x-ray windows and in the manufacture of alloys.",
+            "unit": "mg/kg of dry weight (ppm)"
+        }
+    ],
+    "lithium": [
+        {
+            "label": "Lithium",
+            "type": "http://eurovoc.europa.eu/c_d1c21de0",
+            "definition": "soft, silvery-white alkali metal",
+            "unit": "mg/kg of dry weight (ppm)"
+        }
+    ],
+    "selenium": [
+        {
+            "label": "Selenium",
+            "type": "http://opendata.inra.fr/anaeeThes/c2_2342",
+            "definition": "A highly toxic, nonmetallic element; used in analytical chemistry, metallurgy, and photoelectric cells.",
+            "unit": "mg/kg of dry weight (ppm)"
+        }
+    ],
+    "tellurium": [
+        {
+            "label": "Tellurium",
+            "type": "https://aims.fao.org/aos/agrovoc/c_7653",
+            "definition": "Tellurium is a chemical element; it has symbol Te and atomic number 52. It is a brittle, mildly toxic, rare, silver-white metalloid.",
+            "unit": "mg/kg of dry weight (ppm)"
+        }
+    ],
+    "thallium": [
+        {
+            "label": "Thallium",
+            "type": "http://opendata.inra.fr/anaeeThes/c2_2389",
+            "definition": "Bluish-white metal with tinlike malleability, but a little softer; used in alloys.",
+            "unit": "mg/kg of dry weight (ppm)"
+        }
+    ],
+    "arsenic": [
+        {
+            "label": "Arsenic",
+            "type": "http://opendata.inra.fr/anaeeThes/c2_2341",
+            "definition": "A toxic metalloid element, existing in several allotropic forms, that occurs principally in realgar and orpiment and as the free element. It is used in transistors, lead-based alloys, and high temperature brasses.",
+            "unit": "mg/kg of dry weight (ppm)"
+        }
+    ],
+    "zinc": [
+        {
+            "label": "Zinc",
+            "type": "http://vocabs.lter-europe.net/EnvThes/20874",
+            "definition": "A brittle bluish-white metallic element that becomes coated with a corrosion-resistant layer in moist air and occurs chiefly in sphalerite and smithsonite. It is a constituent of several alloys, especially brass and nickel-silver, and is used in die-casting, galvanizing metals, and in battery electrodes.",
+            "unit": "mg/kg of dry weight (ppm)"
+        }
+    ],
+    "mercury": [
+        {
+            "label": "Mercury",
+            "type": "http://opendata.inra.fr/anaeeThes/c2_2388",
+            "definition": "A heavy silvery-white toxic liquid metallic element occurring principally in cinnabar: used in thermometers, barometers, mercury-vapour lamps, and dental amalgams.",
+            "unit": "mg/kg of dry weight (ppm)"
+        }
+    ],
+    "waterTemperature": [
+        {
+            "label": "Water Temperature",
+            "type": "http://vocabs.lter-europe.net/EnvThes/22313",
+            "definition": "Any measurable characteristic related to the temperature of water.",
+            "unit": "celsius"
+        }
+    ],
+    "salinity": [
+        {
+            "label": "Salinity",
+            "type": "https://vocabs.lter-europe.net/EnvThes/en/page/10312",
+            "definition": "Salinity is the saltiness or dissolved salt content of a body of water (see also soil salinity). Salinity is an important factor in determining many aspects of the chemistry of natural waters and of biological processes within it, and is a thermodynamic state variable that, along with temperature and pressure, governs physical characteristics like the density and heat capacity of the water.",
+            "unit": "PSU"
+        }
+    ],
+    "uvRadiation": [
+        {
+            "label": "Ultraviolet Radiation",
+            "type": "http://purl.obolibrary.org/obo/ENVO_21001216",
+            "definition": "A radiation process during which electromagnetic waves or their quanta are emitted at wavelengths between 10 nm and 400 nm.",
+            "unit": "kilojoule per square meter"
+        }
+    ],
+    "standardMetabolicRate": [
+        {
+            "label": "Metabolic Rate",
+            "type": "http://vocabs.lter-europe.net/EnvThes/msa0652",
+            "definition": "A measure of the rate of metabolic activity in a living organism. Determined as oxygen consumption over a given period.",
+            "unit": "Milligrams of oxygen per hour"
+        }
+    ],
+    "Resid": [
+        {
+            "label": "Residual",
+            "type": "",
+            "definition": "Residuals of oxygen consumption adjusted for the body mass (wet weight) of the organism and for the water temperature. It represents the difference between the organism's observed SMR and the predicted SMR for an organism of the same body mass based on the overall experimental population-level relationship.",
+            "unit": "Milligrams of oxygen per hour"
+        }
+    ],
+    "nestCount": [
+        {
+            "label": "Nest Count",
+            "type": "",
+            "definition": "The number of identified/confirmed nests.",
+            "unit": "dimensionless"
+        }
+    ],
+    "breedingPairs": [
+        {
+            "label": "Breeding Pairs",
+            "type": "",
+            "definition": "The number of identified breeding pairs.",
+            "unit": "dimensionless"
+        }
+    ],
+    "caseStudyTotalArea": [
+        {
+            "label": "Case Study Total Area",
+            "type": "http://marineregions.org/ns/placetypes#Area",
+            "definition": "The total area of the case study.",
+            "unit": "square kilometers"
+        }
+    ],
+    "caseStudySubdivisions": [
+        {
+            "label": "Case Study Subdivisions",
+            "type": "http://inspire.ec.europa.eu/featureconcept/ProtectedSite",
+            "definition": "It refers to a spatial object designated for protection under national, European, or international legislation due to its environmental, cultural, or heritage value.",
+            "unit": ""
+        }
+    ],
+    "relativeCoverage": [
+        {
+            "label": "Relative Coverage",
+            "type": "https://vocabulary.actris.nilu.no/actris_controlled_lists/coverage",
+            "definition": "The proportion of a given geographic area (e.g., a country, biome, or region) that is covered by a particular feature type.",
+            "unit": "percent"
+        }
+    ],
+    "respirationRate": [
+        {
+            "label": "Respiration Rate",
+            "type": "https://kos.lifewatch.eu/thesauri/traits/c_3b6ce5dd",
+            "definition": "The rate between oxygen consume and carbon dioxide release through cellular respiration.",
+            "unit": "mgO2PerHour"
+        }
+    ],
+    "density": [
+        {
+            "label": "Density",
+            "type": "http://vocabs.lter-europe.net/EnvThes/EUDIM_025",
+            "definition": "The number of organisms, designated by taxonomic names (e.g. species, genus, family), per unit area or per unit volume.",
+            "unit": "numberPerKilometerSquared"
+        }
+    ],
+    "individualCount": [
+        {
+            "label": "Individual Count",
+            "type": "http://rs.tdwg.org/dwc/terms/individualCount",
+            "definition": "The number of individuals present at the time of the dwc:Occurrence.",
+            "unit": "number"
+        }
+    ],
+    "biomass": [
+        {
+            "label": "Biomass",
+            "type": "http://rs.tdwg.org/dwc/terms/individualCount",
+            "definition": "The amount of living organic matter per unit area or per unit volume. It can be expressed in terms of biovolume, weight or carbon content and can be measured at different organisational levels.",
+            "unit": "kilogram"
+        }
+    ],
+    "biomassPerUnitArea": [
+        {
+            "label": "Biomass Per Unit Area",
+            "type": "http://rs.tdwg.org/dwc/terms/individualCount",
+            "definition": "Zoobenthos wet weight biomass per unit area parameters presented at the level of taxa that may be mapped to entities in a standard taxonomy registry such as WoRMS or ITIS. Includes animals considered as planktonic if they have been returned from sediment samples.",
+            "unit": "Kilogram Per Kilometer Squared"
+        }
+    ],
+    "habitat": [
+        {
+            "label": "Habitat",
+            "type": "http://rs.tdwg.org/dwc/iri/habitat",
+            "definition": "Type of habitat in which the species preferentially occurs.",
+            "unit": ""
+        }
+    ]
+}
+

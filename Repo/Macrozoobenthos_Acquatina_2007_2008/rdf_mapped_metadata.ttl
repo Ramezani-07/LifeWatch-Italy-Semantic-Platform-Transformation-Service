@@ -1,0 +1,93 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix lw: <https://kos.lifewatch.eu/ontologies/lw/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://semantics.lifewatchitaly.eu/resource#dcat:Catalog-id:61175251-1672-4795-b23b-b35b0dd0a294> dcat:dataset <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:d4f9084a-81d3-4b18-a29d-845048addde8> .
+
+<http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:d4f9084a-81d3-4b18-a29d-845048addde8> a owl:NamedIndividual,
+        dcat:Dataset ;
+    dcterms:accrualMethod "The leaf packs were retrieved from the study sites and placed in a plastic bag, sealed and returned to the laboratory in an insulated cool box. The leaf material was carefully washed in flowing water and sieved in an 800 micrometer mesh size sieve in order to remove both organic and inorganic sediments and benthic macroinvertebrates. All animals were identified to the genus level, and, whenever possible, to species level, counted, and their body mass determined."@en,
+        "The study was performed using leaf packs of Phragmites australis and was carried out at  4 sampling sites. The fieldwork was carried out over four seasons from summer 2007 to spring 2008. Phragmites australis leaves were cut into 10-cm-long fragments and oven-dried to constant weight (60 °C for 72 h), and then lots of 3.0 ± 0.1 g dry weight were placed in 5 mm mesh bags. 5 leaf packs were submersed at each sampling station and collected after 30 days."@en ;
+    dcterms:description "The dataset contains abundance and body size data of benthic macroinvertebrate community of the Acquatina lagoon (Apulia, Italy).  Data refer to 50 taxa and 14735 individuals."@en ;
+    dcterms:identifier "d4f9084a-81d3-4b18-a29d-845048addde8" ;
+    dcterms:issued "2020-12-12"^^xsd:date ;
+    dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
+    dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rights "This work is licensed under a Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/."@en ;
+    dcterms:spatial [ a dcterms:Location ;
+            dcterms:description "Acquatina is a brackish coastal lagoon located in the south Apulia (Italy)." ;
+            lw:eastBoundCoordinate "18.247778"^^xsd:LocationStructure ;
+            lw:northBoundCoordinate "40.448167"^^xsd:LocationStructure ;
+            lw:southBoundCoordinate "40.436833"^^xsd:LocationStructure ;
+            lw:westBoundCoordinate "18.233028"^^xsd:LocationStructure ] ;
+    dcterms:temporal [ a dcterms:PeriodOfTime ;
+            dcat:endDate "2008-06-12"^^xsd:date ;
+            dcat:startDate "2007-07-23"^^xsd:date ] ;
+    dcterms:title "Macrozoobenthos data collected in the Acquatina lagoon, Apulia, Italy"@en ;
+    dcat:distribution <http://semantics.lifewatchitaly.eu/resource#dcat:Distribution-id:https%3A%2F%2Fdataportal.lifewatchitaly.eu%2Fview%2Furn%253Auuid%253A9ad8a876-7abe-430b-84a7-46bf21261a8a>,
+        <http://semantics.lifewatchitaly.eu/resource#dcat:Distribution-id:https%3A%2F%2Fdataportal.lifewatchitaly.eu%3A8443%2Fmetacat%2Fd1%2Fmn%2Fv2%2Fobject%2Furn%253Auuid%253A2bbe8d1a-7fb6-4834-9822-9c17eb3a1215>,
+        <http://semantics.lifewatchitaly.eu/resource#dcat:Distribution-id:https%3A%2F%2Fdoi.org%2F10.48372%2Fd4f9084a-81d3-4b18-a29d-845048addde8> ;
+    dcat:keyword "Acquatina"@en,
+        "Biodiversity"@en,
+        "Brackish coastal lagoon"@en,
+        "Invertebrates"@en,
+        "Italy"@en,
+        "Size"@en ;
+    prov:qualifiedAttribution [ a dcat:Attribution ;
+            dcat:hadRole "Creator" ],
+        [ a dcat:Attribution ;
+            dcat:hadRole "Contact" ;
+            prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0003-3422-7230> ],
+        [ a dcat:Attribution ;
+            dcat:hadRole "Creator" ;
+            prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0002-3603-9316> ],
+        [ a dcat:Attribution ;
+            dcat:hadRole "Contact" ;
+            prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0002-3603-9316> ],
+        [ a dcat:Attribution ;
+            dcat:hadRole "Metadata Provider" ;
+            prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0003-3422-7230> ],
+        [ a dcat:Attribution ;
+            dcat:hadRole "Creator" ;
+            prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0003-3422-7230> ] ;
+    prov:wasGeneratedBy [ a foaf:Project ;
+            dcterms:description "None" ;
+            dcterms:title "None" ] .
+
+<http://semantics.lifewatchitaly.eu/resource#dcat:Distribution-id:https%3A%2F%2Fdataportal.lifewatchitaly.eu%2Fview%2Furn%253Auuid%253A9ad8a876-7abe-430b-84a7-46bf21261a8a> a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcterms:description "Info and download page on the LifeWatch Italy Data Portal" ;
+    dcat:accessURL <https://dataportal.lifewatchitaly.eu/view/urn%3Auuid%3A9ad8a876-7abe-430b-84a7-46bf21261a8a> .
+
+<http://semantics.lifewatchitaly.eu/resource#dcat:Distribution-id:https%3A%2F%2Fdataportal.lifewatchitaly.eu%3A8443%2Fmetacat%2Fd1%2Fmn%2Fv2%2Fobject%2Furn%253Auuid%253A2bbe8d1a-7fb6-4834-9822-9c17eb3a1215> a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcterms:description "Download" ;
+    dcat:accessURL <https://dataportal.lifewatchitaly.eu:8443/metacat/d1/mn/v2/object/urn%3Auuid%3A2bbe8d1a-7fb6-4834-9822-9c17eb3a1215> .
+
+<http://semantics.lifewatchitaly.eu/resource#dcat:Distribution-id:https%3A%2F%2Fdoi.org%2F10.48372%2Fd4f9084a-81d3-4b18-a29d-845048addde8> a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcterms:description "DOI" ;
+    dcat:accessURL <https://doi.org/10.48372/d4f9084a-81d3-4b18-a29d-845048addde8> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0002-3603-9316> a owl:NamedIndividual,
+        prov:Agent,
+        prov:Person ;
+    dcterms:identifier <https://orcid.org/0000-0002-3603-9316> ;
+    prov:actedOnBehalfOf "University of Salento" ;
+    foaf:familyName "Basset" ;
+    foaf:mbox "alberto.basset@unisalento.it" ;
+    foaf:name "Alberto" .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0003-3422-7230> a owl:NamedIndividual,
+        prov:Agent,
+        prov:Person ;
+    dcterms:identifier <https://orcid.org/0000-0003-3422-7230> ;
+    prov:actedOnBehalfOf "Italian National Research Council" ;
+    foaf:familyName "Rosati" ;
+    foaf:mbox "ilaria.rosati@cnr.it" ;
+    foaf:name "Ilaria" .
+

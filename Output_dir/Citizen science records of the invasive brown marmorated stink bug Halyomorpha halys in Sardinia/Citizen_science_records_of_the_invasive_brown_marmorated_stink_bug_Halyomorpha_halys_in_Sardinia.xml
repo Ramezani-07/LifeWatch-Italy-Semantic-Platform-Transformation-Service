@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="051d3b80-1991-402e-bfc2-6ddc0c42e2d0" system="https://data.lifewatchitaly.eu" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd" scope="system">
+  <dataset>
+    <alternateIdentifier>https://data.lifewatchitaly.eu/handle/123456789/129608</alternateIdentifier>
+    <title>Citizen science records of the invasive brown marmorated stink bug Halyomorpha halys in Sardinia</title>
+    <creator>
+      <individualName>
+        <givenName>Laura</givenName>
+        <surName>Loru</surName>
+      </individualName>
+      <organizationName>National Research Council (CNR), Research Institute on Terrestrial Ecosystems (IRET)</organizationName>
+      <positionName>Researcher</positionName>
+      <electronicMailAddress>laura.loru@cnr.it</electronicMailAddress>
+      <onlineUrl>https://www.researchgate.net/profile/Laura-Loru</onlineUrl>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Piera Maria</givenName>
+        <surName>Marras</surName>
+      </individualName>
+      <organizationName>Agris Sardegna - Servizio Ricerca nell'Arboricoltura</organizationName>
+      <positionName>Researcher</positionName>
+      <electronicMailAddress>pmarras@agrisricerca.it</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Sandro</givenName>
+        <surName>Flore</surName>
+      </individualName>
+      <organizationName>National Research Council (CNR), Research Institute on Terrestrial Ecosystems (IRET)</organizationName>
+      <positionName>Researcher</positionName>
+      <electronicMailAddress>sandro.flore@iret.cnr.it</electronicMailAddress>
+      <onlineUrl>https://www.researchgate.net/profile/Sandro-Flore</onlineUrl>
+      <userId directory="https://orcid.org/">0000-0002-6666-4921</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Roberto Antonio</givenName>
+        <surName>Pantaleoni</surName>
+      </individualName>
+      <organizationName>National Research Council (CNR), Research Institute on Terrestrial Ecosystems (IRET)</organizationName>
+      <positionName>Associate</positionName>
+      <electronicMailAddress>robertoapantaleoni@gmail.com</electronicMailAddress>
+      <onlineUrl>https://www.researchgate.net/profile/Roberto-Pantaleoni</onlineUrl>
+      <userId directory="https://orcid.org/">0000-0003-0118-7244</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Anna Vittoria</givenName>
+        <surName>Taras</surName>
+      </individualName>
+      <organizationName>National Research Council (CNR), Research Institute on Terrestrial Ecosystems (IRET)</organizationName>
+      <positionName>Research fellow</positionName>
+      <electronicMailAddress>annavittoria.taras@iret.cnr.it</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Chiara</givenName>
+        <surName>Lai</surName>
+      </individualName>
+      <organizationName>National Research Council (CNR), Research Institute on Terrestrial Ecosystems (IRET)</organizationName>
+      <positionName>Research fellow</positionName>
+      <electronicMailAddress>chiara.lai@iret.cnr.it</electronicMailAddress>
+    </creator>
+    <metadataProvider>
+      <individualName>
+        <givenName>Laura</givenName>
+        <surName>Loru</surName>
+      </individualName>
+      <organizationName>National Research Council (CNR), Research Institute on Terrestrial Ecosystems (IRET)</organizationName>
+      <positionName>Researcher</positionName>
+      <electronicMailAddress>laura.loru@cnr.it</electronicMailAddress>
+      <onlineUrl>https://www.researchgate.net/profile/Laura-Loru</onlineUrl>
+    </metadataProvider>
+    <associatedParty>
+      <individualName>
+        <givenName>Ilaria</givenName>
+        <surName>Rosati</surName>
+      </individualName>
+      <organizationName>National Research Council (CNR), Institute of Research on Terrestrial Ecosystems (IRET)</organizationName>
+      <positionName>Technologist</positionName>
+      <electronicMailAddress>ilaria.rosati@cnr.it</electronicMailAddress>
+      <userId directory="https://orcid.org/">0000-0003-3422-7230</userId>
+      <role>Custodian Steward</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Cristina</givenName>
+        <surName>Di Muri</surName>
+      </individualName>
+      <organizationName>National Research Council (CNR), Institute of Research on Terrestrial Ecosystems (IRET)</organizationName>
+      <positionName>Technologist</positionName>
+      <electronicMailAddress>cristina.dimuri@cnr.it</electronicMailAddress>
+      <userId directory="https://orcid.org/">0000-0003-4072-0662</userId>
+      <role>Information Manager</role>
+    </associatedParty>
+    <pubDate>2025-01-25</pubDate>
+    <language>English</language>
+    <abstract>The dataset includes 247 occurrence records of the invasive brown marmorated stink bug Halyomorpha halys in Sardinia recorded between 2016 and 2023. Records have been compiled using citizen science observations and social media searches. Citizen science records were gathered through the Facebook group "Monitoraggio cimice asiatica in Sardegna" or from other photographic reports or specimens' collections reported to the involved scientists from CNR-IRET Sassari, Agris Sardegna - Servizio Ricerca nell'Arboricoltura and UNISS-Department of Agriculture. All observations, specimens and photographic records have been validated through taxonomic identification of entomologists belonging to the research group involved. This datasets is one of the research products of the Italian projects:  “Accordo di collaborazione tecnico-scientifica per lo studio della cimice asiatica Halyomorpha halys nell’ambito di un intervento finalizzato al potenziamento del Servizio fitosanitario regionale” and “Programma Nazionale di lotta biologica per il controllo in Italia di Halyomorpha halys mediante l’impiego del suo antagonista naturale, l’Imenottero Scelionide Trissolcus japonicus” funded by Regione Autonoma della Sardegna and “USEit - Utilizzo di sinergie operative per lo studio e la gestione integrata di specie aliene invasive in Italia” funded by CNR - National Research Council of Italy .</abstract>
+    <keywordSet>
+      <keyword>citizen science</keyword>
+      <keyword>biological invasion</keyword>
+      <keywordThesaurus>Environmental Thesaurus</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Alien species</keyword>
+      <keyword>Invasive</keyword>
+      <keywordThesaurus>Alien Species Thesaurus</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>Free for use, including sharing and adaptation, by all individuals provided that the owners are acknowledged in any use or publication.</intellectualRights>
+    <licensed>
+      <licenseName>cc-by</licenseName>
+      <url>https://creativecommons.org/licenses/by/4.0/</url>
+    </licensed>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Distribution and abundance data of Halyomorpha halys have been collected in Sardinia across over 121 localities.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>7.887085</westBoundingCoordinate>
+          <eastBoundingCoordinate>10.073364</eastBoundingCoordinate>
+          <northBoundingCoordinate>41.262331</northBoundingCoordinate>
+          <southBoundingCoordinate>38.839419</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2016-11-05</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2024-10-29</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Halyomorpha halys</taxonRankValue>
+          <commonName>Brown marmorated stink bug</commonName>
+          <taxonId provider="Global Biodiversity Information Facility">485843</taxonId>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+    </coverage>
+    <annotation>
+      <propertyURI label="keyword">http://www.w3.org/ns/dcat#keyword</propertyURI>
+      <valueURI label="citizen science">http://vocabs.lter-europe.net/EnvThes/20169</valueURI>
+    </annotation>
+    <annotation>
+      <propertyURI label="keyword">http://www.w3.org/ns/dcat#keyword</propertyURI>
+      <valueURI label="Alien species">https://kos.lifewatch.eu/thesauri/alienspecies/c_1</valueURI>
+    </annotation>
+    <annotation>
+      <propertyURI label="keyword">http://www.w3.org/ns/dcat#keyword</propertyURI>
+      <valueURI label="Invasive">https://kos.lifewatch.eu/thesauri/alienspecies/c_7</valueURI>
+    </annotation>
+    <annotation>
+      <propertyURI label="keyword">http://www.w3.org/ns/dcat#keyword</propertyURI>
+      <valueURI label="biological invasion">http://vocabs.lter-europe.net/EnvThes/20989</valueURI>
+    </annotation>
+    <maintenance>
+      <description>The collection of observations of brown marmorated stink bug in Sardinia by citizens and scientists continues, and this dataset will be updated periodically as a consequence of this growing number of information.</description>
+      <maintenanceUpdateFrequency>asNeeded</maintenanceUpdateFrequency>
+    </maintenance>
+    <contact>
+      <individualName>
+        <givenName>Laura</givenName>
+        <surName>Loru</surName>
+      </individualName>
+      <organizationName>National Research Council (CNR), Research Institute on Terrestrial Ecosystems (IRET)</organizationName>
+      <positionName>Researcher</positionName>
+      <electronicMailAddress>laura.loru@cnr.it</electronicMailAddress>
+      <onlineUrl>https://www.researchgate.net/profile/Laura-Loru</onlineUrl>
+    </contact>
+    <publisher>
+      <organizationName>LifeWatch Italy</organizationName>
+      <electronicMailAddress>lifewatchitaly@gmail.com</electronicMailAddress>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>Records of Halyomorpha halys have been compiled using citizen science observations and reports carried out between 2016 (year of first record of the species in Sardinia; see citation at the end of this description) and 2024. After its first record, occurred in 2016, the Facebook group "Monitoraggio cimice asiatica in Sardegna" was opened in 2018 to gather photo of specimens of H. halys from citizen scientists. Some of the records included in the dataset do not appear in the Facebook group as they have been collected separately thanks to citizens who communicated directly with the involved scientists. In addition, records in the datasets belonging to the years 2016-2018, were gathered from the research group involved in the project through online searches on social media. All observations, specimens and photographic records have been validated through taxonomic identification of entomologists belonging to the research groups involved. 
+Reference: Dioli P., Leo P. &amp; Maistrello L., 2016. Prime segnalazioni in Spagna e in Sardegna della specie aliena Halyomorpha halys (Stål,1855) e note sulla sua distribuzione in Europa (Hemiptera, Pentatomidae). Revista gaditana de Entomologia, 7: 539–548.</description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>1) Technical-scientific cooperation agreement for the study of the Asian bug Halyomorpha halys within the framework of an intervention aimed at strengthening the regional phytosanitary service; 2) National biological control programme for the control of Halyomorpha halys in Italy through the use of its natural antagonist, the Scelionide hymenoptera Trissolcus japonicus; 3) USEit - Use of operational synergies for the study and integrated management of invasive alien species in Italy.</title>
+      <personnel>
+        <individualName>
+          <givenName>Laura</givenName>
+          <surName>Loru</surName>
+        </individualName>
+        <organizationName>National Research Council (CNR), Research Institute on Terrestrial Ecosystems (IRET)</organizationName>
+        <positionName>Researcher</positionName>
+        <electronicMailAddress>laura.loru@cnr.it</electronicMailAddress>
+        <onlineUrl>https://www.researchgate.net/profile/Laura-Loru</onlineUrl>
+        <role>Point Of Contact</role>
+      </personnel>
+      <abstract>Monitoring the presence and spread of an Invasive Alien Species in a newly invaded area is strategic to implement appropriate and timely control measures in order to prevent damages and the indiscriminate use of insecticides.
+Project activities were conducted in Sardinia (Italy) and concerned the monitoring of the invasive brown marmorated stink bug Halyomorpha halys by means of citizen science and other traditional monitoring methods; the implementation of a Biological Control programme against H. halys using the exotic antagonist Trissolcus japonicus in the framework of the Italian Biological Control programme and the study of native parasitoids of H. halys.</abstract>
+    </project>
+    <dataTable>
+      <entityName>USEit_HalyomorphaHalys_Citizen_Science_Data_20250125.csv</entityName>
+      <physical>
+        <objectName>USEit_HalyomorphaHalys_Citizen_Science_Data_20240125.csv</objectName>
+        <size unit="byte">40408</size>
+        <authentication>MD5:b8db0ae53fbc713a8caf2231eec8124e</authentication>
+        <characterEncoding>UTF-8</characterEncoding>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>;</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>catalogNumber</attributeName>
+          <attributeLabel>Catalog Number</attributeLabel>
+          <attributeDefinition>An identifier (preferably unique) for the record within the data set or collection.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Catalog Number">http://rs.tdwg.org/dwc/terms/catalogNumber</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>eventDate</attributeName>
+          <attributeLabel>Event Date</attributeLabel>
+          <attributeDefinition>The date-time or interval during which a dwc:Event occurred. For occurrences, this is the date-time when the dwc:Event was recorded. Not suitable for a time in a geological context.</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Event Date">http://rs.tdwg.org/dwc/terms/eventDate</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>year</attributeName>
+          <attributeLabel>Year</attributeLabel>
+          <attributeDefinition>The four-digit year in which the dwc:Event occurred, according to the Common Era Calendar.</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY</formatString>
+            </dateTime>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Year">http://rs.tdwg.org/dwc/terms/year</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>locality</attributeName>
+          <attributeLabel>Locality</attributeLabel>
+          <attributeDefinition>The specific description of the place.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Locality">http://rs.tdwg.org/dwc/terms/locality</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>decimalLatitude</attributeName>
+          <attributeLabel>Decimal Latitude</attributeLabel>
+          <attributeDefinition>The geographic latitude (in decimal degrees, using the spatial reference system given in dwc:geodeticDatum) of the geographic center of a dcterms:Location. Positive values are north of the Equator, negative values are south of it. Legal values lie between -90 and 90, inclusive.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Decimal Latitude">http://rs.tdwg.org/dwc/terms/decimalLatitude</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>decimalLongitude</attributeName>
+          <attributeLabel>Decimal Longitude</attributeLabel>
+          <attributeDefinition>The geographic longitude (in decimal degrees, using the spatial reference system given in dwc:geodeticDatum) of the geographic center of a dcterms:Location. Positive values are east of the Greenwich Meridian, negative values are west of it. Legal values lie between -180 and 180, inclusive.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Decimal Longitude">http://rs.tdwg.org/dwc/terms/decimalLongitude</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>acceptedNameUsage</attributeName>
+          <attributeLabel>Accepted Name Usage</attributeLabel>
+          <attributeDefinition>The full name, with authorship and date information if known, of the currently valid (zoological) or accepted (botanical) dwc:Taxon.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Accepted Name Usage">http://rs.tdwg.org/dwc/terms/acceptedNameUsage</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>organismQuantity</attributeName>
+          <attributeLabel>Organism Quantity</attributeLabel>
+          <attributeDefinition>A number or enumeration value for the quantity of dwc:Organisms.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="Organism Quantity">http://rs.tdwg.org/dwc/terms/organismQuantity</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>organismQuantityType</attributeName>
+          <attributeLabel>Organism Quantity Type</attributeLabel>
+          <attributeDefinition>The type of quantification system used for the quantity of dwc:Organisms.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="measures entity">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#measuresEntity</propertyURI>
+            <valueURI label="Organism Quantity Type">http://rs.tdwg.org/dwc/terms/organismQuantityType</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>male</attributeName>
+          <attributeLabel>male</attributeLabel>
+          <attributeDefinition>The sample (which may be a single specimen) comprises specimens identified as male.The sample (which may be a single specimen) comprises specimens identified as male.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="male">http://vocab.nerc.ac.uk/collection/S10/current/S103/</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>female</attributeName>
+          <attributeLabel>female</attributeLabel>
+          <attributeDefinition>The sample (which may be a single specimen) comprises specimens identified as female.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="female">http://vocab.nerc.ac.uk/collection/S10/current/S102/</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>occurrenceRemarks</attributeName>
+          <attributeLabel>Occurrence Remarks</attributeLabel>
+          <attributeDefinition>Comments or notes about the dwc:Occurrence.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Occurrence Remarks">http://rs.tdwg.org/dwc/terms/occurrenceRemarks</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>recordedBy</attributeName>
+          <attributeLabel>Recorded By</attributeLabel>
+          <attributeDefinition>A list (concatenated and separated) of names of people, groups, or organizations responsible for recording the original dwc:Occurrence. The primary collector or observer, especially one who applies a personal identifier (dwc:recordNumber), should be listed first.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Recorded By">http://rs.tdwg.org/dwc/terms/recordedBy</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>associatedTaxa</attributeName>
+          <attributeLabel>Associated Taxa</attributeLabel>
+          <attributeDefinition>A list (concatenated and separated) of identifiers or names of dwc:Taxon records and the associations of this dwc:Occurrence to each of them.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="entity related">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#entityRelated</propertyURI>
+            <valueURI label="Associated Taxa">http://rs.tdwg.org/dwc/terms/associatedTaxa</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>associatedReferences</attributeName>
+          <attributeLabel>Associated References</attributeLabel>
+          <attributeDefinition>A list (concatenated and separated) of identifiers (publication, bibliographic reference, global unique identifier, URI) of literature associated with the dwc:Occurrence.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Associated References">http://rs.tdwg.org/dwc/terms/associatedReferences</valueURI>
+          </annotation>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>269</numberOfRecords>
+    </dataTable>
+  </dataset>
+</eml:eml>

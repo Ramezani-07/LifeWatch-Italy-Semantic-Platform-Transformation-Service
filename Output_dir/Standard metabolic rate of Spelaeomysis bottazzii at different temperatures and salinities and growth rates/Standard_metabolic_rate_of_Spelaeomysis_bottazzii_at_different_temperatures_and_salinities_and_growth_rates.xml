@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="52ca2aff-8eca-4b28-bad1-6358a2b0568a" system="https://data.lifewatchitaly.eu" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd" scope="system">
+  <dataset>
+    <alternateIdentifier>https://data.lifewatchitaly.eu/handle/123456789/129683</alternateIdentifier>
+    <title>Standard metabolic rate of Spelaeomysis bottazzii at different temperatures and salinities and growth rates</title>
+    <creator>
+      <individualName>
+        <givenName>Sarah</givenName>
+        <surName>Boulamail</surName>
+      </individualName>
+      <organizationName>National Research Council of Italy (CNR), Research Institute on Terrestrial Ecosystems (IRET)</organizationName>
+      <positionName>Research fellow</positionName>
+      <electronicMailAddress>sarahboulamail@cnr.it</electronicMailAddress>
+      <userId directory="https://orcid.org/">0000-0001-7105-6704</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Lara Marastella</givenName>
+        <surName>Fumarola</surName>
+      </individualName>
+      <organizationName>University of Salento</organizationName>
+      <positionName>PhD student</positionName>
+      <electronicMailAddress>laramarastella.fumarola@unisalento.it</electronicMailAddress>
+      <userId directory="https://orcid.org/">0000-0001-8148-0365</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Francesco</givenName>
+        <surName>Cozzoli</surName>
+      </individualName>
+      <organizationName>National Research Council of Italy (CNR), Research Institute on Terrestrial Ecosystems (IRET)</organizationName>
+      <positionName>Researcher</positionName>
+      <electronicMailAddress>francesco.cozzoli@cnr.it</electronicMailAddress>
+      <userId directory="https://orcid.org/">0000-0002-6413-0977</userId>
+    </creator>
+    <metadataProvider>
+      <individualName>
+        <givenName>Sarah</givenName>
+        <surName>Boulamail</surName>
+      </individualName>
+      <organizationName>National Research Council of Italy (CNR), Research Institute on Terrestrial Ecosystems (IRET)</organizationName>
+      <positionName>Research fellow</positionName>
+      <electronicMailAddress>sarahboulamail@cnr.it</electronicMailAddress>
+      <userId directory="https://orcid.org/">0000-0001-7105-6704</userId>
+    </metadataProvider>
+    <associatedParty>
+      <individualName>
+        <givenName>Cristina</givenName>
+        <surName>Di Muri</surName>
+      </individualName>
+      <organizationName>National Research Council (CNR), Institute of Research on Terrestrial Ecosystems (IRET)</organizationName>
+      <positionName>Technologist</positionName>
+      <electronicMailAddress>cristina.dimuri@cnr.it</electronicMailAddress>
+      <userId directory="https://orcid.org/">0000-0003-4072-0662</userId>
+      <role>Information Manager</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Martina</givenName>
+        <surName>Pulieri</surName>
+      </individualName>
+      <organizationName>University of Salento</organizationName>
+      <positionName>Research assistant</positionName>
+      <electronicMailAddress>martina.pulieri@unisalento.it</electronicMailAddress>
+      <userId directory="https://orcid.org/">0009-0001-9691-1989</userId>
+      <role>Information Manager</role>
+    </associatedParty>
+    <pubDate>2025-04-07</pubDate>
+    <language>English</language>
+    <abstract>This dataset describes the metabolic responses of the groundwater crustacean Spelaeomysis bottazzii to abiotic factors in experimental conditions. The dataset includes variations of oxygen consumption and Standard Metabolic Rate (SMR) of 54 individuals of S. bottazzii under different temperatures (17°C, 21°C, and 25°C) and salinity levels  (2, 4, and 6). Constant Volume Respirometry (CVR) was used to measure oxygen consumption across temperatures and salinity levels. Specimens' biomass and sex information are included in the dataset as such variables can modulate individuals' SMR. In addition, the growth rate of five different individuals of S. bottazzii was also evaluated at different time intervals over eight months.</abstract>
+    <keywordSet>
+      <keyword>stygofauna</keyword>
+      <keywordThesaurus>AGROVOC</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>abiotic factor</keyword>
+      <keyword>climate change</keyword>
+      <keywordThesaurus>Biodiversity Thesaurus</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Experiment</keyword>
+      <keywordThesaurus>The Ecosystem Ontology</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>metabolism</keyword>
+      <keyword>metabolic rate</keyword>
+      <keyword>growth rate</keyword>
+      <keywordThesaurus>Environmental Thesaurus</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>Free for use, including sharing and adaptation, by all individuals provided that the owners are acknowledged in any use or publication.</intellectualRights>
+    <licensed>
+      <licenseName>cc-by</licenseName>
+      <url>http://creativecommons.org/licenses/by/4.0/</url>
+    </licensed>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Specimens of Spelaeomysis bottazzii used in this study have been collected from a cave in the locality of Sant’Isidoro (Nardò Municipality - Apulia, Italy).</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>17.929000</westBoundingCoordinate>
+          <eastBoundingCoordinate>17.929000</eastBoundingCoordinate>
+          <northBoundingCoordinate>40.222000</northBoundingCoordinate>
+          <southBoundingCoordinate>40.222000</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2024-08-21</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2024-12-14</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Spelaeomysis bottazzii</taxonRankValue>
+          <taxonId provider="World Register of Marine Species">226308</taxonId>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+    </coverage>
+    <annotation>
+      <propertyURI label="keyword">http://www.w3.org/ns/dcat#keyword</propertyURI>
+      <valueURI label="metabolism">http://vocabs.lter-europe.net/EnvThes/21317</valueURI>
+    </annotation>
+    <annotation>
+      <propertyURI label="keyword">http://www.w3.org/ns/dcat#keyword</propertyURI>
+      <valueURI label="metabolic rate">http://vocabs.lter-europe.net/EnvThes/21316</valueURI>
+    </annotation>
+    <annotation>
+      <propertyURI label="keyword">http://www.w3.org/ns/dcat#keyword</propertyURI>
+      <valueURI label="abiotic factor">http://data.loterre.fr/ark:/67375/BLH-WNMPKQ7Z-J</valueURI>
+    </annotation>
+    <annotation>
+      <propertyURI label="keyword">http://www.w3.org/ns/dcat#keyword</propertyURI>
+      <valueURI label="Experiment">http://purl.dataone.org/odo/ECSO_00000505</valueURI>
+    </annotation>
+    <annotation>
+      <propertyURI label="keyword">http://www.w3.org/ns/dcat#keyword</propertyURI>
+      <valueURI label="stygofauna">http://aims.fao.org/aos/agrovoc/c_87e413f9</valueURI>
+    </annotation>
+    <annotation>
+      <propertyURI label="keyword">http://www.w3.org/ns/dcat#keyword</propertyURI>
+      <valueURI label="climate change">http://data.loterre.fr/ark:/67375/BLH-G57D2QQR-3</valueURI>
+    </annotation>
+    <annotation>
+      <propertyURI label="keyword">http://www.w3.org/ns/dcat#keyword</propertyURI>
+      <valueURI label="growth rate">http://vocabs.lter-europe.net/EnvThes/10060</valueURI>
+    </annotation>
+    <acknowledgements>The dataset creators thank Salvatore Inguscio for his invaluable knowledge and essential support in specimens collection, and Efrain M. Chávez Solís for sharing his expertise on stygofauna respirometry.</acknowledgements>
+    <contact>
+      <individualName>
+        <givenName>Sarah</givenName>
+        <surName>Boulamail</surName>
+      </individualName>
+      <organizationName>National Research Council of Italy (CNR), Research Institute on Terrestrial Ecosystems (IRET)</organizationName>
+      <positionName>Research fellow</positionName>
+      <electronicMailAddress>sarahboulamail@cnr.it</electronicMailAddress>
+      <userId directory="https://orcid.org/">0000-0001-7105-6704</userId>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>Francesco</givenName>
+        <surName>Cozzoli</surName>
+      </individualName>
+      <organizationName>National Research Council of Italy (CNR), Research Institute on Terrestrial Ecosystems (IRET)</organizationName>
+      <positionName>Researcher</positionName>
+      <electronicMailAddress>francesco.cozzoli@cnr.it</electronicMailAddress>
+      <userId directory="https://orcid.org/">0000-0002-6413-0977</userId>
+    </contact>
+    <publisher>
+      <organizationName>LifeWatch Italy</organizationName>
+      <electronicMailAddress>lifewatchitaly@gmail.com</electronicMailAddress>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>Plastic trays measuring 23 x 35 x 10 cm were used to house the animals throughout the experiment (ca. 18 individuals for tray), except for the specimens designated for growth rate measurements. The trays were inspected weekly to ensure both food and water were available. During the inspection, excreta and any remaining organic residues were removed using a pipette to keep the trays clean. The water level was maintained at a fixed mark, with the trays filled using a mixture of deionized and field water to contrast evaporation and keep the salinity consistently around 2. For feeding, the animals received a weekly ration consisting of 37 mg per capita of dry fish food containing 36% spirulina (Sera© Nature Micron) diluted into field water. Additionally, stones collected from the field were provided as environmental enrichment, offering natural hiding spots or resting areas.
+
+To evaluate standard aerobic metabolic rates under varying temperature and salinity conditions, Constant Volume Respirometry (CVR) assays were conducted on three groups of S. bottazzii, each consisting of 18 individuals with a similar size distribution (total: 54 specimens randomly selected from the field sample). After collection and acclimation to laboratory conditions, each group was maintained at a constant temperature of 17°C, 21°C, or 25°C for 2 weeks. After the first CVR assay at the natural salinity level (2), specimens were exposed in sequence to salinity levels of 4 and 6, each for 24 hours, and their oxygen consumption was measured at each salinity step. Thus, three repeated measurements at different salinity levels were obtained for each specimen, whereas no repeated measurements were taken across different temperatures. The specimens Respiration Rate (RR, mg h-1 ) was calculated from the slope (b) of the linear regression oxygen concentration in the respiration chamber (mg ml-1) over time (sec), so that RR = (b*V*3600). The obtained values were converted in Standard Metabolic Rate (SMR, J day-1), using an oxy-joule equivalent of 14.06 J mgO2-1. After measurements, each individual's Dry Weight (DW, mg) was determined by drying specimens at 60°C for 48 hours in an oven and weighing them using an analytical balance.</description>
+      </methodStep>
+      <methodStep>
+        <description>To measure growth rates, six of the smallest sampled individuals were isolated in separate microcosms to allow individual recognition. These specimens were maintained in darkness, in natural water at 17°C and salinity of 2, mirroring the conditions at the collection site, and were fed ad libitum. Body length was measured regularly over 262 days. The specimens were placed in a transparent plastic glass 6 cm in diameter. The bottom of the containers were transparent and placed on a sheet of graph paper. Photographs of the individuals were taken at different time intervals: once per week initially, then every two weeks. All images were taken using an iPhone SE (2022), ensuring that the device was perpendicular to the container by using the built-in level to prevent image distortion. The growth rate was assessed by measuring the body length, defined as the distance from the anterior margin of the carapace to the posterior margin of the telson without spines, in each image using ImageJ (version 1.54g), with graph paper as reference scale.</description>
+      </methodStep>
+      <sampling>
+        <studyExtent>
+          <description>Specimens of Spelaeomysis bottazzii were collected using a simple trapping method. Three weighted buckets were placed horizontally in the water with its opening facing the deeper part of the cave. Approximately 10 g of chicken liver bait was placed inside, attracting S. bottazzii to feed and remain in the bucket. By quickly lifting the buckets into a vertical position, the specimens were trapped. The trap was checked after 24 hours, and the captured animals were collected. S. bottazzii was the only species observed and collected at this site using this method. After field collection, the specimens were transported to the laboratory in an insulated thermos container and placed in plastic trays with field water to minimize potential osmoregulatory stress.</description>
+        </studyExtent>
+        <samplingDescription>The specimens of Spelaeomysis bottazzii used in this study have been collected from a cave in the locality of Sant’Isidoro, (Nardò Municipality - Apulia, Italy)  (40.222 N - 17.929 E). The site is located along the wide coastal plain of the Ionian Sea. The about 25 km-long coastal stretch ​​comprised between Torre Castiglione (Municipality of Porto Cesareo) to the north, and Serra Cicora (Municipality of Nardò) to the south, is characterized by numerous collapse dolines.</samplingDescription>
+      </sampling>
+    </methods>
+    <project>
+      <title>PRIN 2022 STIGE-CLIMAQUIFERI</title>
+      <personnel>
+        <individualName>
+          <givenName>Francesco</givenName>
+          <surName>Cozzoli</surName>
+        </individualName>
+        <organizationName>National Research Council of Italy (CNR), Research Institute on Terrestrial Ecosystems (IRET)</organizationName>
+        <positionName>Researcher</positionName>
+        <electronicMailAddress>francesco.cozzoli@cnr.it</electronicMailAddress>
+        <userId directory="https://orcid.org/">0000-0002-6413-0977</userId>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Sarah</givenName>
+          <surName>Boulamail</surName>
+        </individualName>
+        <organizationName>National Research Council of Italy (CNR), Research Institute on Terrestrial Ecosystems (IRET)</organizationName>
+        <positionName>Research fellow</positionName>
+        <electronicMailAddress>sarahboulamail@cnr.it</electronicMailAddress>
+        <userId directory="https://orcid.org/">0000-0001-7105-6704</userId>
+        <role>Content Provider</role>
+      </personnel>
+      <abstract>The PRIN 2022 project STIGE – CLIMAQUIFERI (STygofauna at the Interface between surficial and Groundwater Ecosystem: CLIMate change effects on AQUatic Invertebrates Fitness, Energy and Resource use in Italian aquifers) aims to study the energetic and behavioral patterns of mobile aquatic organisms, with a particular focus on stygofauna. STIGE – CLIMAQUIFERI integrates ecological theory, field observations, laboratory experiments, and modeling approaches. Specifically, the Pace of Life Syndrome hypothesis (POLS) posits that closely related species or populations experiencing different ecological conditions should exhibit differences in a range of energetic, physiological, and behavioral traits. Investigating the implications of POLS in organisms exposed to different levels of environmental variability (i.e., epigean vs. hypogean aquatic invertebrates) supports the understanding of ecological responses to novel environmental conditions.</abstract>
+      <funding>PRIN 2022 STIGE-CLIMAQUIFERI DTA.PN010.014 2022MM8P88_LS8_PRIN2022 - CUP:B53D23012170006</funding>
+    </project>
+    <dataTable>
+      <entityName>SpelaeomyisisBottazzii_StandardMetabolicRate_20250407.csv</entityName>
+      <entityDescription>This dataset describes oxygen consumption (Respiration Rate) and Standard Metabolic Rate (SMR) of Spelaeomysis bottazzii individuals at different temperatures and salinities.</entityDescription>
+      <physical>
+        <objectName>SpelaeomyisisBottazzii_StandardMetabolicRate_20250407.csv</objectName>
+        <size unit="byte">30715</size>
+        <authentication>MD5:29f985827bf14a03f013db87afe42aa1</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>catalogNumber</attributeName>
+          <attributeLabel>Catalog Number</attributeLabel>
+          <attributeDefinition>An identifier (preferably unique) for the record within the data set or collection.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Catalog Number">http://rs.tdwg.org/dwc/terms/catalogNumber</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>organismID</attributeName>
+          <attributeLabel>Organism ID</attributeLabel>
+          <attributeDefinition>An identifier for the dwc:Organism instance (as opposed to a particular digital record of the dwc:Organism). May be a globally unique identifier or an identifier specific to the data set.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="hasCode">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasCode</propertyURI>
+            <valueURI label="Organism ID">http://rs.tdwg.org/dwc/terms/organismID</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>acceptedNameUsage</attributeName>
+          <attributeLabel>Accepted Name Usage</attributeLabel>
+          <attributeDefinition>The full name, with authorship and date information if known, of the currently valid (zoological) or accepted (botanical) dwc:Taxon.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Accepted Name Usage">http://rs.tdwg.org/dwc/terms/acceptedNameUsage</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>scientificNameAuthorship</attributeName>
+          <attributeLabel>Scientific Name Authorship</attributeLabel>
+          <attributeDefinition>The authorship information for the dwc:scientificName formatted according to the conventions of the applicable dwc:nomenclaturalCode.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Scientific Name Authorship">http://rs.tdwg.org/dwc/terms/scientificNameAuthorship</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>acceptedNameUsageID</attributeName>
+          <attributeLabel>Accepted Name Usage ID</attributeLabel>
+          <attributeDefinition>An identifier for the name usage (documented meaning of the name according to a source) of the currently valid (zoological) or accepted (botanical) taxon.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="hasCode">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasCode</propertyURI>
+            <valueURI label="Accepted Name Usage ID">http://rs.tdwg.org/dwc/terms/acceptedNameUsageID</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>taxonRank</attributeName>
+          <attributeLabel>Taxon Rank</attributeLabel>
+          <attributeDefinition>The taxonomic rank of the most specific name in the dwc:scientificName.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Taxon Rank">http://rs.tdwg.org/dwc/terms/taxonRank</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>decimalLatitude</attributeName>
+          <attributeLabel>Decimal Latitude</attributeLabel>
+          <attributeDefinition>The geographic latitude of the sampling site (in decimal degrees, using the spatial reference system given in dwc:geodeticDatum) of the geographic center of a dcterms:Location. Positive values are north of the Equator, negative values are south of it. Legal values lie between -90 and 90, inclusive.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Decimal Latitude">http://rs.tdwg.org/dwc/terms/decimalLatitude</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>decimalLongitude</attributeName>
+          <attributeLabel>Decimal Longitude</attributeLabel>
+          <attributeDefinition>The geographic longitude of the sampling site (in decimal degrees, using the spatial reference system given in dwc:geodeticDatum) of the geographic center of a dcterms:Location. Positive values are east of the Greenwich Meridian, negative values are west of it. Legal values lie between -180 and 180, inclusive.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Decimal Longitude">http://rs.tdwg.org/dwc/terms/decimalLongitude</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>sex</attributeName>
+          <attributeLabel>Sex</attributeLabel>
+          <attributeDefinition>The sex of the biological individual(s) represented in the dwc:Occurrence.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>A biological sex quality inhering in an individual or a population whose sex organs contain only male gametes</definition>
+                    <source>http://purl.obolibrary.org/obo/PATO_0000384</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>F</code>
+                    <definition>A biological sex quality inhering in an individual or a population that only produces gametes that can be fertilised by male gametes</definition>
+                    <source>http://purl.obolibrary.org/obo/PATO_0000383</source>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="of characteristic">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#ofCharacteristic</propertyURI>
+            <valueURI label="Sex">http://rs.tdwg.org/dwc/terms/sex</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>eventDate</attributeName>
+          <attributeLabel>Event Date</attributeLabel>
+          <attributeDefinition>The date-time or interval during which a dwc:Event occurred. For occurrences, this is the date-time when the dwc:Event was recorded. Not suitable for a time in a geological context.</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Event Date">http://rs.tdwg.org/dwc/terms/eventDate</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>salinity</attributeName>
+          <attributeLabel>salinity</attributeLabel>
+          <attributeDefinition>Salinity is the saltiness or dissolved salt content of a body of water (see also soil salinity). Salinity is an important factor in determining many aspects of the chemistry of natural waters and of biological processes within it, and is a thermodynamic state variable that, along with temperature and pressure, governs physical characteristics like the density and heat capacity of the water.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>PSU</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="salinity">http://vocabs.lter-europe.net/EnvThes/10312</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>dryWeight</attributeName>
+          <attributeLabel>Dry weight</attributeLabel>
+          <attributeDefinition>The weight of an organism after removal of body fluids drying at 50-70 °C (typically at 60 °C) in a drying oven for 24 hours or until constant weight is reached.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligram</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="Dry weight">https://kos.lifewatch.eu/thesauri/traits/c_4d66d52a</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>respirationRate</attributeName>
+          <attributeLabel>Respiration rate</attributeLabel>
+          <attributeDefinition>The rate between oxygen consume and carbon dioxide release through cellular respiration.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>mgO2PerHour</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="Respiration rate">https://kos.lifewatch.eu/thesauri/traits/c_3b6ce5dd</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>waterTemperature</attributeName>
+          <attributeLabel>water temperature</attributeLabel>
+          <attributeDefinition>Any measurable characteristic related to the temperature of water</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="water temperature">http://vocabs.lter-europe.net/EnvThes/22313</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>standardMetabolicRate</attributeName>
+          <attributeLabel>Standard Metabolic Rate</attributeLabel>
+          <attributeDefinition>A measure of the rate of metabolic activity in a living organism. It is the rate at which an organism uses energy to sustain essential life processes such as respiration, growth, reproduction and, in animals, processes such as blood circulation, muscle tone and activity. It can be determined in numerous ways: (i) as the total heat produced over a given period, (ii) as oxygen consumption (and sometimes also carbon dioxide production) over a given period, which although easier to measure, only gives the contribution of aerobic metabolism, (iii) as the energy content of the food eaten over a given period, and (iv) by the fate of isotopically labelled water. see average daily metabolic rate, basal metabolic rate, energy budget, ﬁeld metabolic rate, respiratory quotient, resting metabolic rate, standard metabolic rate.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>JoulePerDay</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="metabolic rate">http://vocabs.lter-europe.net/EnvThes/msa0652</valueURI>
+          </annotation>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>158</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>SpelaeomyisisBottazzii_GrowthRate_20250407.csv</entityName>
+      <entityDescription>This dataset describes the growth rates of Spelaeomyisis bottazzii individuals in experimental conditions.</entityDescription>
+      <physical>
+        <objectName>SpelaeomyisisBottazzii_GrowthRate_20250407.csv</objectName>
+        <size unit="byte">13558</size>
+        <authentication>MD5:3ac94cbda476098822b1032ad56fe0f2</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>catalogNumber</attributeName>
+          <attributeLabel>Catalog Number</attributeLabel>
+          <attributeDefinition>An identifier (preferably unique) for the record within the data set or collection.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Catalog Number">http://rs.tdwg.org/dwc/terms/catalogNumber</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>organismID</attributeName>
+          <attributeLabel>Organism ID</attributeLabel>
+          <attributeDefinition>An identifier for the dwc:Organism instance (as opposed to a particular digital record of the dwc:Organism). May be a globally unique identifier or an identifier specific to the data set.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="hasCode">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasCode</propertyURI>
+            <valueURI label="Organism ID">http://rs.tdwg.org/dwc/terms/organismID</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>acceptedNameUsage</attributeName>
+          <attributeLabel>Accepted Name Usage</attributeLabel>
+          <attributeDefinition>The full name, with authorship and date information if known, of the currently valid (zoological) or accepted (botanical) dwc:Taxon.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Accepted Name Usage">http://rs.tdwg.org/dwc/terms/acceptedNameUsage</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>scientificNameAuthorship</attributeName>
+          <attributeLabel>Scientific Name Authorship</attributeLabel>
+          <attributeDefinition>The authorship information for the dwc:scientificName formatted according to the conventions of the applicable dwc:nomenclaturalCode.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Scientific Name Authorship">http://rs.tdwg.org/dwc/terms/scientificNameAuthorship</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>acceptedNameUsageID</attributeName>
+          <attributeLabel>Accepted Name Usage ID</attributeLabel>
+          <attributeDefinition>An identifier for the name usage (documented meaning of the name according to a source) of the currently valid (zoological) or accepted (botanical) taxon.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="hasCode">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasCode</propertyURI>
+            <valueURI label="Accepted Name Usage ID">http://rs.tdwg.org/dwc/terms/acceptedNameUsageID</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>taxonRank</attributeName>
+          <attributeLabel>Taxon Rank</attributeLabel>
+          <attributeDefinition>The taxonomic rank of the most specific name in the dwc:scientificName.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any Text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Taxon Rank">http://rs.tdwg.org/dwc/terms/taxonRank</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>decimalLatitude</attributeName>
+          <attributeLabel>Decimal Latitude</attributeLabel>
+          <attributeDefinition>The geographic latitude of the sampling site (in decimal degrees, using the spatial reference system given in dwc:geodeticDatum) of the geographic center of a dcterms:Location. Positive values are north of the Equator, negative values are south of it. Legal values lie between -90 and 90, inclusive.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Decimal Latitude">http://rs.tdwg.org/dwc/terms/decimalLatitude</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>decimalLongitude</attributeName>
+          <attributeLabel>Decimal Longitude</attributeLabel>
+          <attributeDefinition>The geographic longitude of the sampling site (in decimal degrees, using the spatial reference system given in dwc:geodeticDatum) of the geographic center of a dcterms:Location. Positive values are east of the Greenwich Meridian, negative values are west of it. Legal values lie between -180 and 180, inclusive.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Decimal Longitude">http://rs.tdwg.org/dwc/terms/decimalLongitude</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>eventDate</attributeName>
+          <attributeLabel>Event Date</attributeLabel>
+          <attributeDefinition>The date-time or interval during which a dwc:Event occurred. For occurrences, this is the date-time when the dwc:Event was recorded. Not suitable for a time in a geological context.</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has context">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasContext</propertyURI>
+            <valueURI label="Event Date">http://rs.tdwg.org/dwc/terms/eventDate</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>bodyLength</attributeName>
+          <attributeLabel>Body length</attributeLabel>
+          <attributeDefinition>The total distance from point to point along the longest axis of the body of an organism.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="Body length">https://kos.lifewatch.eu/thesauri/traits/c_d266fb02</valueURI>
+          </annotation>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>86</numberOfRecords>
+    </dataTable>
+  </dataset>
+</eml:eml>

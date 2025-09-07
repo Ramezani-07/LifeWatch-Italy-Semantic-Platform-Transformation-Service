@@ -1,0 +1,116 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix lw: <https://kos.lifewatch.eu/ontologies/lw/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://semantics.lifewatchitaly.eu/resource#dcat:Catalog-id:61175251-1672-4795-b23b-b35b0dd0a294> dcat:dataset <http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:b6c68dcc-6e24-4803-a7eb-eed2e73e06ea> .
+
+<http://semantics.lifewatchitaly.eu/resource#dcat:Dataset-id:b6c68dcc-6e24-4803-a7eb-eed2e73e06ea> a owl:NamedIndividual,
+        dcat:Dataset ;
+    dct:description "Vegetation of Slovenia – a dataset of vegetation inventories in the Turboveg programme – has been created since 2003. It contains all vegetation inventories of the Slovenian territory since 1932, most of which were compiled according to the standard Central European method (Braun-Blanquet), and covers all vegetation types from macrophytic aquatic communities to forests. The  relevés originate from published literature, grey literature (such as dissertations, studies, reports) and partly also from unpublished inventory material. The database is used for the storage of vegetation relevés, classification of vegetation and other analyses of vegetation in Slovenia and neighbouring countries. The inventory material has been geocoded. The database is actively linked to databases in the Balkan countries (Zagreb, Belgrade, Podgorica). The collection is part of the European Vegetation Archive (EVA) and S-Plot."@en ;
+    dct:identifier "b6c68dcc-6e24-4803-a7eb-eed2e73e06ea" ;
+    dct:issued "2025-07-18"^^xsd:date ;
+    dct:language "English"@en ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:rights "Free for use, including sharing and adaptation, by all individuals provided that the owners are acknowledged in any use or publication."@en ;
+    dct:spatial <http://semantics.lifewatchitaly.eu/resource#dct:Spatial-id:b6c68dcc-6e24-4803-a7eb-eed2e73e06ea> ;
+    dct:temporal <http://semantics.lifewatchitaly.eu/resource#dct:Temporal-id:b6c68dcc-6e24-4803-a7eb-eed2e73e06ea> ;
+    dct:title "Vegetation of Slovenia with relative cover abundance"@en ;
+    dwc:measurementMethod "Vegetation was sampled according to Braun-Blanquet approach (some of relevés were made according to Piskernik methodology)."@en ;
+    dcat:distribution <http://semantics.lifewatchitaly.eu/resource#dcat:Distribution-id:https%3A%2F%2Fdata.lifewatchitaly.eu%2Fhandle%2F123456789%2F208425>,
+        <http://semantics.lifewatchitaly.eu/resource#dcat:Distribution-id:https%3A%2F%2Fmetadata.izrk.zrc-sazu.si%2Fsrv%2Feng%2Fcatalog.search%23%2Fmetadata%2F89ce7bbf-cf1b-4fe8-9ef9-70c817bc3789> ;
+    dcat:keyword <http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Fpurl.dataone.org%2Fodo%2FECSO_00002379>,
+        <http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F20535>,
+        <http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F21673> ;
+    prov:qualifiedAttribution <http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:9686152684>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionContact-id:2687427380>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionCreator-id:1953739576>,
+        <http://semantics.lifewatchitaly.eu/resource#prov:attributionMetadataProvider-id:7110999759> ;
+    prov:wasGeneratedBy <http://semantics.lifewatchitaly.eu/resource#foaf:Project-id:4959395326> .
+
+<http://semantics.lifewatchitaly.eu/resource#dcat:Distribution-id:https%3A%2F%2Fdata.lifewatchitaly.eu%2Fhandle%2F123456789%2F208425> a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL <https://data.lifewatchitaly.eu/handle/123456789/208425> .
+
+<http://semantics.lifewatchitaly.eu/resource#dcat:Distribution-id:https%3A%2F%2Fmetadata.izrk.zrc-sazu.si%2Fsrv%2Feng%2Fcatalog.search%23%2Fmetadata%2F89ce7bbf-cf1b-4fe8-9ef9-70c817bc3789> a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL <https://metadata.izrk.zrc-sazu.si/srv/eng/catalog.search#/metadata/89ce7bbf-cf1b-4fe8-9ef9-70c817bc3789> .
+
+<http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Fpurl.dataone.org%2Fodo%2FECSO_00002379> a owl:NamedIndividual,
+        skos:Concept ;
+    rdfs:label "Braun-Blanquet cover abundance scale" ;
+    dct:type <http://purl.dataone.org/odo/ECSO_00002379> .
+
+<http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F20535> a owl:NamedIndividual,
+        skos:Concept ;
+    rdfs:label "vegetation" ;
+    dct:type <http://vocabs.lter-europe.net/EnvThes/20535> .
+
+<http://semantics.lifewatchitaly.eu/resource#dct:Concept-id:http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F21673> a owl:NamedIndividual,
+        skos:Concept ;
+    rdfs:label "biodiversity" ;
+    dct:type <http://vocabs.lter-europe.net/EnvThes/21673> .
+
+<http://semantics.lifewatchitaly.eu/resource#dct:Spatial-id:b6c68dcc-6e24-4803-a7eb-eed2e73e06ea> a dct:Location ;
+    dct:description "Slovenia" ;
+    lw:eastBoundCoordinate "16.5472"^^xsd:LocationStructure ;
+    lw:northBoundCoordinate "46.9148"^^xsd:LocationStructure ;
+    lw:southBoundCoordinate "45.4052"^^xsd:LocationStructure ;
+    lw:westBoundCoordinate "13.3041"^^xsd:LocationStructure .
+
+<http://semantics.lifewatchitaly.eu/resource#dct:Temporal-id:b6c68dcc-6e24-4803-a7eb-eed2e73e06ea> a dct:PeriodOfTime ;
+    dcat:endDate "2024-07-25"^^xsd:date ;
+    dcat:startDate "1933-05-30"^^xsd:date .
+
+<http://semantics.lifewatchitaly.eu/resource#foaf:Project-id:4959395326> a foaf:Project ;
+    dct:title "Biodiversity: patterns, processes, predictions and conservation" .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0001-9786-3870> a owl:NamedIndividual,
+        prov:Agent,
+        prov:Person ;
+    dct:identifier <https://orcid.org/0000-0001-9786-3870> ;
+    prov:actedOnBehalfOf "ZRC SAZU" ;
+    foaf:familyName "Pipan" ;
+    foaf:mbox "tanja.pipan@zrc-sazu.si" ;
+    foaf:name "Tanja" .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0009-0001-9691-1989> a owl:NamedIndividual,
+        prov:Agent,
+        prov:Person ;
+    dct:identifier <https://orcid.org/0009-0001-9691-1989> ;
+    prov:actedOnBehalfOf "University of Salento" ;
+    foaf:familyName "Pulieri" ;
+    foaf:mbox "martina.pulieri@unisalento.it" ;
+    foaf:name "Martina" .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionAssociatedParty-id:9686152684> a prov:Attribution ;
+    dcat:hadRole "Associated Party" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0009-0001-9691-1989> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionContact-id:2687427380> a prov:Attribution ;
+    dcat:hadRole "Contact" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0001-9786-3870> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionCreator-id:1953739576> a prov:Attribution ;
+    dcat:hadRole "Creator" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0002-3052-699X> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:attributionMetadataProvider-id:7110999759> a prov:Attribution ;
+    dcat:hadRole "Metadata Provider" ;
+    prov:agent <http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0002-3052-699X> .
+
+<http://semantics.lifewatchitaly.eu/resource#prov:Agent-id:https%3A%2F%2Forcid.org%2F0000-0002-3052-699X> a owl:NamedIndividual,
+        prov:Agent,
+        prov:Person ;
+    dct:identifier <https://orcid.org/0000-0002-3052-699X> ;
+    prov:actedOnBehalfOf "Institute of Biology" ;
+    foaf:familyName "Šilc" ;
+    foaf:mbox "urban.silc@zrc-sazu.si" ;
+    foaf:name "Urban" .
+
